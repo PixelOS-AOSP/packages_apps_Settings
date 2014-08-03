@@ -65,4 +65,10 @@
         android:summary="@string/lockscreen_enable_power_menu_summary"
         android:defaultValue="true" />
 
+    <!-- Lineage additions, available in pin/pattern/password/slide -->
+    <SwitchPreferenceCompat
+        android:key="lockscreen_scramble_pin_layout"
+        android:title="@string/unlock_scramble_pin_layout_title"
+        android:summary="@string/unlock_scramble_pin_layout_summary" />
+
 </PreferenceScreen>
