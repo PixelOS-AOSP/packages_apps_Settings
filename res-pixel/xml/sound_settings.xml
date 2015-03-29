@@ -161,6 +161,11 @@
         android:summary="%s"
         android:title="@string/emergency_tone_title" />
 
+    <!-- Screenshot sound -->
+    <SwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title" />
+
     <Preference
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:key="sound_work_settings"
