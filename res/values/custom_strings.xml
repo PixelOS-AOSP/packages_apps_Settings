@@ -390,4 +390,7 @@
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
 </resources>
