@@ -74,6 +74,10 @@
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
 
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
