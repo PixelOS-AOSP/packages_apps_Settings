@@ -230,4 +230,8 @@
     <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
