@@ -42,7 +42,7 @@ final class FontSizeData extends PreviewSizeData<Float> {
         final Resources resources = getContext().getResources();
         final ContentResolver resolver = getContext().getContentResolver();
         final List<String> strEntryValues =
-                Arrays.asList(resources.getStringArray(R.array.entryvalues_font_size));
+                Arrays.asList(resources.getStringArray(R.array.entryvalues_font_size_percent));
         setDefaultValue(FONT_SCALE_DEF_VALUE);
         final float currentScale =
                 Settings.System.getFloat(resolver, Settings.System.FONT_SCALE, getDefaultValue());
