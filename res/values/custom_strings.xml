@@ -124,9 +124,9 @@
     <string name="icon_manager_title">Status bar items</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
-    <!-- Proximity wake -->
+    <!-- Proximity wake / Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from the double tap to wake gesture</string>
 
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
