@@ -116,13 +116,6 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary"
-            android:defaultValue="false"
-            android:enabled="@*android:bool/config_pocketModeSupported" />
-
         <SwitchPreferenceCompat
             android:key="gesture_screen_off_udfps"
             android:title="@string/ambient_display_screen_off_udfps_title"
