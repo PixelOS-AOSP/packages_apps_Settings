@@ -19,4 +19,8 @@
     <!--Double Tap to Sleep Statusbar-->
     <string name="statusbar_gestures_category_title">Statusbar gestures</string>
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
 </resources>
