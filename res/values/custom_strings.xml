@@ -104,4 +104,12 @@
     <!-- Low battery light -->
     <string name="low_battery_light_title">Low battery light</string>
     <string name="low_battery_light_summary">Blink LED when battery is low</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_state_title">Enable "Network traffic indicator"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
 </resources>
