@@ -208,6 +208,13 @@
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
+        <!-- Double tap to sleep -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/status_bar_double_tap_to_sleep_title"
+            android:summary="@string/status_bar_double_tap_to_sleep_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
