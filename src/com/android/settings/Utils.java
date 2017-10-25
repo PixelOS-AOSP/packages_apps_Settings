@@ -1225,4 +1225,28 @@ public final class Utils extends com.android.settingslib.Utils {
     public static boolean isProviderModelEnabled(Context context) {
         return FeatureFlagUtils.isEnabled(context, FeatureFlagUtils.SETTINGS_PROVIDER_MODEL);
     }
+
+    /**
+     * Checks if a package is available to handle the given action.
+     */
+    public static boolean canResolveIntent(Context context, Intent intent) {
+        // check whether the target handler exist in system
+        PackageManager pm = context.getPackageManager();
+        List<ResolveInfo> results = pm.queryIntentActivitiesAsUser(intent,
+                PackageManager.MATCH_SYSTEM_ONLY,
+                UserHandle.myUserId());
+        for (ResolveInfo resolveInfo : results) {
+            // check is it installed in system.img, exclude the application
+            // installed by user
+            if ((resolveInfo.activityInfo.applicationInfo.flags &
+                    ApplicationInfo.FLAG_SYSTEM) != 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean canResolveIntent(Context context, String action) {
+        return canResolveIntent(context, new Intent(action));
+    }
 }
