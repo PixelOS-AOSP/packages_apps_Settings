@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
@@ -163,4 +164,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="others_settings_category"
+        android:title="@string/others_settings_title" >
+
+        <com.android.settings.custom.preference.RemotePreference
+            android:key="additional_buttons"
+            android:title="@string/additional_buttons_title"
+            settings:requiresAction="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
+            <intent
+                android:action="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
+        </com.android.settings.custom.preference.RemotePreference>
+
+    </PreferenceCategory>
 </PreferenceScreen>
