@@ -211,4 +211,7 @@
     <string name="qs_show_brightness_slider_show_never">Never show</string>
     <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
     <string name="qs_show_brightness_slider_show_always">Show always</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
