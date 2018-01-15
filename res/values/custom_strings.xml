@@ -123,4 +123,8 @@
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Ring volume</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
