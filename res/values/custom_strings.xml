@@ -23,4 +23,7 @@
     <!-- Display tap to wake custom summary -->
     <string name="lockscreen_tweaks_category_title">What to do</string>
     <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
