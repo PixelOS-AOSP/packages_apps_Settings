@@ -17,4 +17,7 @@
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 </resources>
