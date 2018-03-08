@@ -124,4 +124,7 @@
     <string name="icon_manager_title">Status bar items</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
 </resources>
