@@ -124,4 +124,10 @@
             settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
     </com.android.settings.custom.preference.RemotePreference>
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
