@@ -379,4 +379,11 @@
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
     <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total available RAM</string>
 </resources>
