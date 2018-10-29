@@ -89,6 +89,12 @@
         settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
 
     <Preference
+        android:key="power_button_torch_summary"
+        android:title="@string/power_button_torch_title"
+        android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
+    <Preference
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
