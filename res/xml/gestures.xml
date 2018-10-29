@@ -92,4 +92,10 @@
         android:title="@string/double_tap_sleep_title"
         android:fragment="com.android.settings.gestures.DoubleTapSleepSettings"
         settings:controller="com.android.settings.gestures.DoubleTapSleepPreferenceController" />
+
+    <Preference
+        android:key="power_button_torch_summary"
+        android:title="@string/power_button_torch_title"
+        android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
 </PreferenceScreen>
