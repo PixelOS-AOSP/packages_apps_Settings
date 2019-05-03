@@ -324,4 +324,8 @@ public class Settings extends SettingsActivity {
      * Activity for AppDashboard.
      */
     public static class AppDashboardActivity extends SettingsActivity {}
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
