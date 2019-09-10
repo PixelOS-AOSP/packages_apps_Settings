@@ -104,4 +104,15 @@
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    <PreferenceCategory
+        android:key="statusbar_gestures_category"
+        android:title="@string/statusbar_gestures_category_title">
+
+	<com.custom.settings.preferences.SystemSettingSwitchPreference
+	    android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
