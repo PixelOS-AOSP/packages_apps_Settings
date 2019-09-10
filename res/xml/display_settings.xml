@@ -156,6 +156,12 @@
             android:summary="@string/show_operator_name_summary"
             android:title="@string/show_operator_name_title" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:summary="@string/double_tap_sleep_gesture_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:fragment="com.android.settings.dream.DreamSettings"
             android:key="screensaver"
