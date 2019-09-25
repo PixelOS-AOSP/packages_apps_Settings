@@ -390,4 +390,10 @@
     <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
     <string name="enable_blurs_on_windows_title">Enable blurs</string>
     <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
