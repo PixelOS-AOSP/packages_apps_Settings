@@ -217,6 +217,13 @@
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:defaultValue="false" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false"
+            android:enabled="@*android:bool/config_pocketModeSupported" />
+
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
             android:title="@string/display_cutout_force_fullscreen_title"
