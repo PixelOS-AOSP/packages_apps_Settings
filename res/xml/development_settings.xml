@@ -192,6 +192,12 @@
             settings:keywords="@string/keywords_adb_wireless" />
 
         <SwitchPreferenceCompat
+            android:key="enable_adb_root"
+            android:title="@string/adb_enable_root"
+            android:summary="@string/adb_enable_summary_root"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
             android:key="adb_authorization_timeout"
             android:title="@string/adb_authorization_timeout_title"
             android:summary="@string/adb_authorization_timeout_summary" />
