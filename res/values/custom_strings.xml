@@ -18,4 +18,8 @@
 
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 </resources>
