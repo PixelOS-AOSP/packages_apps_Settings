@@ -23,4 +23,8 @@
 
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
 </resources>
