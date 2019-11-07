@@ -210,4 +210,8 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
 </resources>
