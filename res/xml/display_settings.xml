@@ -249,6 +249,11 @@
             android:title="@string/device_theme"
             android:summary="@string/summary_placeholder"/>
 
+        <ListPreference
+            android:key="display_cutout_emulation"
+            android:title="@string/display_cutout_emulation"
+            settings:keywords="@string/display_cutout_emulation_keywords" />
+
         <Preference
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
