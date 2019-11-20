@@ -260,4 +260,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
+    <string name="doze_on_charge_title">Always On when charging</string>
+    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
 </resources>
