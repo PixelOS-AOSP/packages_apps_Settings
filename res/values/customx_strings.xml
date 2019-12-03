@@ -223,4 +223,8 @@
     <string name="gesture_screen_category_title">Screen</string>
     <string name="gesture_power_button_category_title">Power button</string>
     <string name="gesture_volume_buttons_category_title">Volume buttons</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
