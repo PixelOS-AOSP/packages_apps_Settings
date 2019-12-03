@@ -121,4 +121,7 @@
     <string name="lockscreen_tweaks_category_title">What to do</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
 
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
