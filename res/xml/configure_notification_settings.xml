@@ -196,5 +196,13 @@
             android:summary="@string/heads_up_summary"
             android:defaultValue="false" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:dependency="heads_up_notifications_enabled"
+            android:order="26"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

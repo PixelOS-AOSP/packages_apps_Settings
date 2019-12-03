@@ -290,4 +290,8 @@
     <string name="heads_up_title">Heads up</string>
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
     <string name="heads_up_off">Heads up is disabled globally</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Saner heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
 </resources>
