@@ -48,6 +48,7 @@ android_library {
     resource_dirs: [
         "res",
         "res-pixel",
+        "TouchGestures/res"
     ],
 
     static_libs: [
