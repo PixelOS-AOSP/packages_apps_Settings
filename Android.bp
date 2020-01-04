@@ -59,6 +59,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "TouchGestures/res"
     ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
