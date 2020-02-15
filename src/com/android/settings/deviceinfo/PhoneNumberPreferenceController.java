@@ -53,13 +53,7 @@ public class PhoneNumberPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        if (!SubscriptionUtil.isSimHardwareVisible(mContext) || Utils.isWifiOnly(mContext)) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        if (!mContext.getSystemService(UserManager.class).isAdminUser()) {
-            return DISABLED_FOR_USER;
-        }
-        return AVAILABLE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
