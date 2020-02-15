@@ -51,8 +51,7 @@ public class PhoneNumberPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        return SubscriptionUtil.isSimHardwareVisible(mContext) ?
-                AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
