@@ -57,6 +57,12 @@
         settings:keywords="@string/keywords_battery_share_settings"
         settings:searchable="true" />
 
+    <!-- Battery light -->
+    <SwitchPreference
+        android:key="battery_light_enabled"
+        android:title="@string/battery_light_title"
+        settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
+
     <SwitchPreference
         android:key="battery_percentage"
         android:summary="@string/battery_percentage_description"
