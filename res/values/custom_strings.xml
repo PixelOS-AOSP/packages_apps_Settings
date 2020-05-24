@@ -238,4 +238,8 @@
     <!-- Idle Manager -->
     <string name="idle_manager_title">Aggressive Idle</string>
     <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
 </resources>
