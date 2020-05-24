@@ -32,9 +32,7 @@
             android:key="assistant_gesture_corner_swipe"
             android:title="@string/assistant_corner_gesture_title"
             android:summary="@string/assistant_corner_gesture_summary"
-            settings:controller="com.android.settings.gestures.GestureNavigationSettingsAssistController"
-        />
-
+            settings:controller="com.android.settings.gestures.GestureNavigationSettingsAssistController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -58,6 +56,12 @@
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_navbar_gesture_bar_title"
+        android:summary="@string/show_navbar_gesture_bar_summary"
+        android:defaultValue="true" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
