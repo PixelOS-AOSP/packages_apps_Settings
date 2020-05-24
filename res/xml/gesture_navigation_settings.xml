@@ -57,6 +57,16 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/navbar_category">
+
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/hide_navbar_gesture_bar_title"
+            android:summary="@string/hide_navbar_gesture_bar_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
         android:title="@string/back_sensitivity_dialog_message"
