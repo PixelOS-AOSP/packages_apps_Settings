@@ -116,6 +116,9 @@
     <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
     <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
 
+    <!-- LineageHardware -->
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
             android:theme="@style/Theme.Settings"
