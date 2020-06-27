@@ -97,6 +97,18 @@
         android:order="-133"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
+    <PreferenceCategory
+        android:key="volume_panel_stuff"
+        android:title="@string/volume_panel">
+
+        <com.pixelish.support.preferences.SystemSettingListPreference
+            android:key="systemui_plugin_volume"
+            android:title="@string/volume_panel"
+            android:entries="@array/volume_panel_entries"
+            android:entryValues="@array/volume_panel_values"
+            android:defaultValue="@string/volume_panel_aosp_val" />
+
+    </PreferenceCategory>
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
