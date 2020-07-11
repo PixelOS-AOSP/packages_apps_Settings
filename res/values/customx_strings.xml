@@ -201,4 +201,8 @@
     <string name="network_traffic_units_title">Traffic measurement units</string>
     <string name="network_traffic_units_bits" translatable="false">kbps, Mbps, Gbps</string>
     <string name="network_traffic_units_bytes" translatable="false">kB/s, MB/s, GB/s</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
 </resources>
