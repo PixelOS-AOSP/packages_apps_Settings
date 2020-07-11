@@ -312,4 +312,9 @@
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
 
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+
+
 </resources>
