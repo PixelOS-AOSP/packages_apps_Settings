@@ -68,4 +68,7 @@
     <string name="others_settings_title">Others settings</string>
     <string name="additional_buttons_title">Additional buttons</string>
 
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
