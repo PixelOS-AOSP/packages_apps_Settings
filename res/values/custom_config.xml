@@ -18,4 +18,6 @@
     <!-- Whether assist gesture settings should be enabled -->
     <bool name="config_should_enable_assist_gesture_settings">true</bool>
 
+     <!-- Screen off FOD -->
+     <bool name="config_supportScreenOffFod">false</bool>
 </resources>
