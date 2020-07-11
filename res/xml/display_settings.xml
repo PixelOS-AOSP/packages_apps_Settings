@@ -207,6 +207,13 @@
     <PreferenceCategory
         android:title="@string/customization_category_title">
 
+        <Preference
+            android:key="icon_manager"
+            android:title="@string/icon_manager_title"
+            android:summary="@string/icon_manager_summary">
+            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+        </Preference>
+
         <com.android.settings.custom.preference.SecureSettingSwitchPreference
                 android:key="qs_show_data_usage"
                 android:title="@string/qs_show_data_usage_title"
