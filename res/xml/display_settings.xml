@@ -81,6 +81,13 @@
             android:persistent="false"
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
+
+        <Preference
+            android:key="icon_manager"
+            android:title="@string/icon_manager_title"
+            android:summary="@string/icon_manager_summary">
+            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
