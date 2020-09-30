@@ -231,4 +231,8 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="qs_battery_percentage_title">QS battery percentage</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+
+    <!-- Clock style -->
+    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_summary">Customize lockscreen clock</string>
 </resources>
