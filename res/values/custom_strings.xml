@@ -51,4 +51,8 @@
 
     <!-- Battery light -->
     <string name="battery_light_title">Turn on the light when charging</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
