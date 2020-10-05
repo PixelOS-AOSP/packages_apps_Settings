@@ -57,6 +57,12 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="back_gesture_haptic"
+        android:title="@string/back_gesture_haptic_title"
+        android:summary="@string/back_gesture_haptic_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="navigation_bar_hint"
         android:title="@string/show_navbar_gesture_bar_title"

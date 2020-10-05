@@ -377,4 +377,8 @@
     <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
 </resources>
