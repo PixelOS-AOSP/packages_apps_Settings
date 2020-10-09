@@ -386,4 +386,8 @@
 
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Enable blurs</string>
+    <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
 </resources>

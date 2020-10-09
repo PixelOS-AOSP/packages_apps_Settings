@@ -281,5 +281,10 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+
+        <SwitchPreferenceCompat
+            android:key="enable_blurs_on_windows"
+            android:title="@string/enable_blurs_on_windows_title"
+            android:summary="@string/enable_blurs_on_windows_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
