@@ -58,4 +58,8 @@
 
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
 </resources>
