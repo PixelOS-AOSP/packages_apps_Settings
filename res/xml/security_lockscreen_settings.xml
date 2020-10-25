@@ -96,7 +96,7 @@
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
             settings:requiresAction="org.lineageos.settings.device.DOZE_SETTINGS"
-            settings:replacesKey="ambient_display_notification">
+            settings:replacesKey="ambient_display_always_on|ambient_display_notification">
             <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
         </com.android.settings.custom.preference.RemotePreference>
 
