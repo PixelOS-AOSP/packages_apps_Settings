@@ -78,6 +78,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     private boolean mA11yTutorialDialogShown = false;
 
+    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "com.custom.overlay.navbar.gestural";
+
     private IOverlayManager mOverlayManager;
 
     private IllustrationPreference mVideoPreference;
@@ -215,7 +217,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     @Override
     protected boolean setDefaultKey(String key) {
-        setCurrentSystemNavigationMode(mOverlayManager, key);
+        setCurrentSystemNavigationMode(mOverlayManager, key, false);
         setIllustrationVideo(mVideoPreference, key);
         setGestureNavigationTutorialDialog(key);
         return true;
@@ -228,13 +230,17 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
 
         OverlayInfo info = null;
+
+        boolean hasImmersiveNavigation = Settings.Secure.getInt(context.getContentResolver(),
+                Settings.Secure.IMMERSIVE_NAVIGATION, 0) == 1;
         try {
-            info = overlayManager.getOverlayInfo(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
+            info = overlayManager.getOverlayInfo(hasImmersiveNavigation ? NAV_MODE_IMMERSIVE_OVERLAY :
+                                                 NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
         } catch (RemoteException e) { /* Do nothing */ }
         if (info != null && !info.isEnabled()) {
             // Enable the default gesture nav overlay. Back sensitivity for left and right are
             // stored as separate settings values, and other gesture nav overlays are deprecated.
-            setCurrentSystemNavigationMode(overlayManager, KEY_SYSTEM_NAV_GESTURAL);
+            setCurrentSystemNavigationMode(overlayManager, KEY_SYSTEM_NAV_GESTURAL, hasImmersiveNavigation);
             Settings.Secure.putFloat(context.getContentResolver(),
                     Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT, 1.0f);
             Settings.Secure.putFloat(context.getContentResolver(),
@@ -254,11 +260,11 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     }
 
     @VisibleForTesting
-    static void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key) {
+    static void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key, boolean hasImmersiveNavigation) {
         String overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
-                overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
+                overlayPackage = hasImmersiveNavigation ? NAV_MODE_IMMERSIVE_OVERLAY : NAV_BAR_MODE_GESTURAL_OVERLAY;
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
                 overlayPackage = NAV_BAR_MODE_2BUTTON_OVERLAY;

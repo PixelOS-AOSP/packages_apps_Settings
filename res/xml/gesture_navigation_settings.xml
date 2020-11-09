@@ -38,6 +38,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="navbar_category"
+        android:persistent="false"
+        android:title="@string/gesture_navbar_category_title">
+
+        <SwitchPreference
+            android:key="immersive_navigation"
+            android:title="@string/immersive_navigation_title"
+            android:summary="@string/immersive_navigation_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="back_sensitivity_category"
         android:persistent="false"
         android:title="@string/back_sensitivity_dialog_title">
@@ -62,5 +73,6 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
+
 </PreferenceScreen>
 
