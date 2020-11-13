@@ -169,4 +169,7 @@
     <color name="palette_list_dark_mode_color_blue">#8AB4F8</color> <!-- Material Blue 300 -->
     <color name="palette_list_dark_mode_color_purple">#c58af9</color> <!-- Material Purple 300 -->
 
+    <!-- Panel background color -->
+    <color name="panel_background">@*android:color/background_device_default_light</color>
+
 </resources>

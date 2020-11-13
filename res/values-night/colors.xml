@@ -39,5 +39,7 @@
     <color name="palette_list_color_blue">@color/palette_list_dark_mode_color_blue</color>
     <color name="palette_list_color_purple">@color/palette_list_dark_mode_color_purple</color>
     <color name="gestures_setting_background_color">@android:color/black</color>
+    <!-- Panel background color -->
+    <color name="panel_background">@*android:color/primary_dark_device_default_settings</color>
 </resources>
 
