@@ -99,6 +99,12 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="status_bar_quick_qs_pulldown"
+        android:title="@string/quick_settings_quick_pull_down_title"
+        android:summary="@string/quick_settings_quick_pull_down_summary"
+        android:defaultValue="true" />
+
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
