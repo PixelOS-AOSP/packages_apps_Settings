@@ -104,10 +104,20 @@
             settings:keywords="@string/keywords_model_and_hardware"
             settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
 
+        <!-- 4636 -->
+        <Preference
+            android:title="@string/radio_info_title"
+            android:key="radio_info_settings"
+            android:order="32">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.phone"
+                    android:targetClass="com.android.phone.settings.RadioInfo" />
+        </Preference>
+
         <!-- IMEI -->
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
             android:key="imei_info"
-            android:order="32"
+            android:order="35"
             android:title="@string/status_imei"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_imei_info"
