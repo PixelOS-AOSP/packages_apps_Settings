@@ -43,6 +43,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
+    private static final String DEADZONE_SEEKBAR_KEY = "gesture_back_deadzone";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -74,6 +75,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
+        initDeadzoneSeekBarPreference(DEADZONE_SEEKBAR_KEY);
     }
 
     @Override
@@ -144,6 +146,26 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             mIndicatorView.setIndicatorWidth(0, key == LEFT_EDGE_SEEKBAR_KEY);
             final float scale = mBackGestureInsetScales[(int) v];
             Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
+            return true;
+        });
+    }
+
+    private void initDeadzoneSeekBarPreference(final String key) {
+        final LabeledSeekBarPreference pref = getPreferenceScreen().findPreference(key);
+        pref.setContinuousUpdates(true);
+
+        int mode = Settings.System.getInt(getContext().getContentResolver(),
+            Settings.System.EDGE_GESTURE_Y_DEAD_ZONE, 0);
+        pref.setProgress(mode);
+
+        pref.setOnPreferenceChangeListener((p, v) -> {
+            // TODO show deadzone preview setting indicator view height
+            return true;
+        });
+
+        pref.setOnPreferenceChangeStopListener((p, v) -> {
+            Settings.System.putInt(getContext().getContentResolver(),
+                    Settings.System.EDGE_GESTURE_Y_DEAD_ZONE, (int)v);
             return true;
         });
     }
