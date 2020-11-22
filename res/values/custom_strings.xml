@@ -247,4 +247,7 @@
 
     <!-- QS Header opacity slider -->
     <string name="qs_header_bg_title">Adjust header opacity</string>
+
+    <string name="show_gestures_navbar_switch_title">Show pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
 </resources>

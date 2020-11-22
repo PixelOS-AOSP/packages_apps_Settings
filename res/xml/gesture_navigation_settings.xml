@@ -59,5 +59,11 @@
         android:selectable="false"
         settings:searchable="false"
         settings:allowDividerAbove="true"/>
+    
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_gestures_navbar_switch_title"
+        android:summary="@string/show_gestures_navbar_switch_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
 
