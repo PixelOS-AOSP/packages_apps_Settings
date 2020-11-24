@@ -106,6 +106,13 @@
         settings:controller=
             "com.android.settings.sound.MediaControlsLockScreenPreferenceController" />
 
+    <!-- QSTile requires unlocking before being accessible -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:defaultValue="true"/>
+
     <!-- Privacy Service -->
     <PreferenceCategory
         android:key="privacy_services"
