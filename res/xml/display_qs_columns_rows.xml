@@ -42,6 +42,11 @@
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="1" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="qs_columns_rows_category"
         android:title="@string/qs_columns_rows_category_title" >
