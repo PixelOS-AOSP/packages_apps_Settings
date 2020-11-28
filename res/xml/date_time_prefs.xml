@@ -64,5 +64,11 @@
             android:key="24 hour"
             android:title="@string/date_time_24hour" />
     </PreferenceCategory>
+    
+    <Preference
+        android:key="clock_date_settings"
+        android:title="@string/clock_date_settings_title"
+        android:fragment="com.android.settings.datetime.ClockDateSettings"
+        settings:allowDividerAbove="true"/>
 
 </PreferenceScreen>
