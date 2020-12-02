@@ -35,7 +35,7 @@
             android:title="@string/qs_rows_portrait_title"
             android:max="5"
             android:min="1"
-            android:defaultValue="3"
+            android:defaultValue="2"
             settings:units="" />
 
         <com.android.settings.custom.preference.CustomSystemSeekBarPreference
@@ -51,7 +51,7 @@
             android:title="@string/qs_columns_portrait_title"
             android:max="7"
             android:min="1"
-            android:defaultValue="4"
+            android:defaultValue="3"
             settings:units="" />
 
         <com.android.settings.custom.preference.CustomSystemSeekBarPreference
