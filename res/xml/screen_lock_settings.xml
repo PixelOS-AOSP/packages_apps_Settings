@@ -47,4 +47,12 @@
         android:defaultValue="false"
         settings:controller="com.android.settings.security.screenlock.ScreenOffFodPreferenceController" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="fod_gesture_wake"
+        android:title="@string/fod_gesture_wake_title"
+        android:summaryOn="@string/fod_gesture_wake_summary_on"
+        android:summaryOff="@string/fod_gesture_wake_summary_off"
+        android:dependency="fod_gesture" 
+        android:defaultValue="@*android:bool/config_fodScreenOffDoze" />
+
 </PreferenceScreen>
