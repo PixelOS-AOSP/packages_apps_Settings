@@ -55,4 +55,8 @@
         android:dependency="fod_gesture" 
         android:defaultValue="@*android:bool/config_fodScreenOffDoze" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:title="@string/fidget_toggle"
+        android:summary="@string/fidget_toggle_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
