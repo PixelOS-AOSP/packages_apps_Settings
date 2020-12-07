@@ -58,6 +58,12 @@
             android:entries="@array/fod_recog_animation_entries"
             android:entryValues="@array/fod_recog_animation_values"
             android:defaultValue="0" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="ambient_battery_percent" 
+            android:title="@string/ambient_battery_percent_title" 
+            android:summary="@string/ambient_battery_percent_summary" 
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

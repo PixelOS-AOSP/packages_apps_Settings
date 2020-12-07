@@ -156,4 +156,7 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
 
+    <!-- Ambient battery -->
+    <string name="ambient_battery_percent_title">Battery level on bottom</string>
+    <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>
 </resources>
