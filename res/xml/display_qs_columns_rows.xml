@@ -46,6 +46,14 @@
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
         android:defaultValue="true" />
+    
+    <!-- QS media player -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_media_player"
+        android:title="@string/qs_media_player_title"
+        android:summaryOn="@string/qs_media_player_summary_on"
+        android:summaryOff="@string/qs_media_player_summary_off"
+        android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="qs_columns_rows_category"
