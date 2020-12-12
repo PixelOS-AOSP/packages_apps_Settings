@@ -72,4 +72,9 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:title="Build type"
+        android:summaryOn="Official"
+        android:summaryOff="Unofficial"
+        android:defaultValue="false" />
 </PreferenceScreen>
