@@ -40,7 +40,7 @@
         android:title="@string/status_bar_quick_qs_pulldown"
         android:entries="@array/quick_pulldown_entries"
         android:entryValues="@array/quick_pulldown_values"
-        android:defaultValue="1" />
+        android:defaultValue="0" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
