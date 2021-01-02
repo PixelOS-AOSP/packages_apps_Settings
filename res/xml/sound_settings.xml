@@ -227,6 +227,27 @@
           android:summary="%s"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+    
     <com.android.settings.widget.WorkOnlyCategory
         android:key="sound_work_settings_section"
         android:title="@string/sound_work_settings"
