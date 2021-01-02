@@ -55,6 +55,14 @@
         android:summaryOff="@string/qs_media_player_summary_off"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+        android:key="qs_header_bg_alpha"
+        android:title="@string/qs_header_bg_title"
+        allowEditText="true"
+        android:max="255"
+        android:min="0"
+        android:defaultValue="255" />
+
     <PreferenceCategory
         android:key="qs_columns_rows_category"
         android:title="@string/qs_columns_rows_category_title" >
@@ -89,5 +97,6 @@
             android:min="1"
             android:defaultValue="4"
             settings:units="" />
+
         </PreferenceCategory>
 </PreferenceScreen>

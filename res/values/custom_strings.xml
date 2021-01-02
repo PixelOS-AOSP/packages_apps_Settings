@@ -244,4 +244,7 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!-- QS Header opacity slider -->
+    <string name="qs_header_bg_title">Adjust header opacity</string>
 </resources>
