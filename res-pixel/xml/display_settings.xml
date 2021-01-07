@@ -141,8 +141,8 @@
 
         <SwitchPreference
             android:key="tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"
-            android:title="@string/tap_to_wake" />
+            android:summary="@string/tap_to_wake_summary_custom"/>
+	    android:title="@string/tap_to_wake"
 
         <ListPreference
             android:key="theme"
