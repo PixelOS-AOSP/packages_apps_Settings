@@ -112,11 +112,6 @@
         android:title="@string/lockscreen_tweaks_category_title"
         android:order="1001">
 
-        <com.custom.settings.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_lockscreen"
-            android:title="@string/double_tap_sleep_lockscreen_title"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
