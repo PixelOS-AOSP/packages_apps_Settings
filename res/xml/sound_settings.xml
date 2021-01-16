@@ -106,7 +106,7 @@
             android:title="@string/volume_panel"
             android:entries="@array/volume_panel_entries"
             android:entryValues="@array/volume_panel_values"
-            android:defaultValue="@string/volume_panel_aosp_val" />
+            android:defaultValue="@string/volume_panel_stock_val" />
 
     </PreferenceCategory>
     <!-- Also vibrate for calls -->
