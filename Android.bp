@@ -80,6 +80,7 @@ android_library {
         "lottie",
         "custom-preference",
         "SettingsGoogle-lib",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
