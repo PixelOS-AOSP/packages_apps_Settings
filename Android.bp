@@ -113,6 +113,7 @@ android_library {
         "telephony_flags_core_java_lib",
         "setupdesign-lottie-loading-layout",
         "custom-preference",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
