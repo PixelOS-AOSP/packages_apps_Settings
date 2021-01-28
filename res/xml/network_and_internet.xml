@@ -125,4 +125,11 @@
         android:summary="@string/summary_placeholder"
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
+
+    <Preference
+	android:key="traffic_settings"
+        android:title="@string/trafficsettings_title"
+        android:summary="@string/trafficsettings_summary"
+        android:fragment="com.android.settings.network.TrafficSettings"
+        android:icon="@drawable/ic_settings_traffic" />
 </PreferenceScreen>
