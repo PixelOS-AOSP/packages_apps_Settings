@@ -31,6 +31,8 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.android.settings.custom.buttons.ButtonSettingsUtils;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -49,6 +51,8 @@ public class SystemDashboardFragment extends DashboardFragment {
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
+        }else if(ButtonSettingsUtils.isAvailable(getContext())){
+            screen.setInitialExpandedChildrenCount(5);
         }
 
         showRestrictionDialog();
