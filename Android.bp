@@ -56,6 +56,7 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "custom-preference",
+        "faceunlock_framework",
     ],
 
     libs: [
