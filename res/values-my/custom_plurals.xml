@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="backlight_timeout_time">
+        <item quantity="other">၁ စက္ကန့်သာ ကျန်ပါသည်။
+<xliff:g id="count">%d</xliff:g> စက္ကန့်သာ ကျန်ပါသည်။</item>
+    </plurals>
+</resources>

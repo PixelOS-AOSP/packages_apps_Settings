@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Barmog\'ingizni qurilmangiz ortidagi barmoq izi skaneriga tekkizing.</string>
+    <string name="button_pref_title">Tugmalar</string>
+    <string name="hardware_keys_home_key_title">Bosh ekran tugmasi</string>
+    <string name="hardware_keys_back_key_title">Orqaga tugmasi</string>
+    <string name="hardware_keys_menu_key_title">Menyu tugmasi</string>
+    <string name="hardware_keys_camera_key_title">Kamera tugmasi</string>
+    <string name="hardware_keys_action_nothing">Amal yo‘q</string>
+    <string name="hardware_keys_action_voice_search">Ovozli qidiruv</string>
+    <string name="hardware_keys_action_launch_camera">Kamerani ochish</string>
+    <string name="hardware_keys_action_split_screen">Bo‘lingan ekran</string>
+    <string name="camera_launch_title">Kamerani ochish</string>
+</resources>

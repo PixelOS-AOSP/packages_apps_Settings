@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connected_tws_device_saved_title">បានរក្សាទុក Earbuds</string>
+    <string name="disable_navkeys_title">បើកដំណើរការអេក្រង់របារុករក</string>
+    <string name="disable_navkeys_summary">បើកដំណើរការអេក្រង់របារុករក និងបិទប៊ូតុងផ្នែករឹង</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">លុបការស្កេនផ្ទៃមុខដែលមានស្រាប់ រួចបង្កើតការស្កេនថ្មី</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ធ្វើការស្កេនមុខឡើងវិញ</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">ចាក់សោអេក្រង់ ស្នាមម្រាមដៃ ដោះសោមុខ</string>
+    <string name="face_redo_confirm_btn">ធ្វើវិញ</string>
+    <string name="face_redo_warning_msg">តើអ្នកចង់លុបការស្កេនផ្ទៃមុខដែលមានស្រាប់ចេញ រួចបង្កើតការស្កេនថ្មីដែរទេ?</string>
+</resources>

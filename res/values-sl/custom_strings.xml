@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Poiščite tipalo za prstne odtise na sprednji strani vašega telefona.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Poiščite tipalo za prstne odtise na zadnji strani vašega telefona.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Poiščite tipalo za prstne odtise na desni strani vašega telefona.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Poiščite tipalo za prstne odtise na sprednji strani vaše naprave.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Poiščite tipalo za prstne odtise na levi strani vaše naprave.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Poiščite tipalo za prstne odtise na desni strani vaše naprave.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Poiščite tipalo za prstne odtise na sprednji strani vašega tabličnega računalnika.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Poiščite tipalo za prstne odtise na levi strani vašega tabličnega računalnika.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Poiščite tipalo za prstne odtise na desni strani vašega tabličnega računalnika.</string>
+    <string name="battery_light_title">Lučka za akumulator</string>
+    <string name="refresh_rate_title">Hitrost osveževanja zaslona</string>
+    <string name="connected_tws_device_saved_title">Shranjene ušesne slušalke</string>
+    <string name="reset">Ponastavi</string>
+    <string name="button_pref_title">Gumbi</string>
+    <string name="hardware_keys_home_key_title">Gumb Domov</string>
+    <string name="hardware_keys_back_key_title">Gumb Nazaj</string>
+    <string name="hardware_keys_menu_key_title">Menijski gumb</string>
+    <string name="hardware_keys_assist_key_title">Gumb Iskanje</string>
+    <string name="hardware_keys_appswitch_key_title">Gumb Nedavno</string>
+    <string name="hardware_keys_camera_key_title">Gumb fotoaparata</string>
+    <string name="hardware_keys_short_press_title">Dejanje kratkega pritiska</string>
+    <string name="hardware_keys_long_press_title">Dejanje pridržanja</string>
+    <string name="hardware_keys_double_tap_title">Dejanje dvojnega tapa</string>
+    <string name="hardware_keys_action_nothing">Brez dejanja</string>
+    <string name="hardware_keys_action_menu">Odpri/Zapri meni</string>
+    <string name="hardware_keys_action_app_switch">Preklopnik nedavnih aplikacij</string>
+    <string name="hardware_keys_action_search">Pomočnik za iskanje</string>
+    <string name="hardware_keys_action_voice_search">Glasovno iskanje</string>
+    <string name="hardware_keys_action_in_app_search">Iskanje v aplikaciji</string>
+    <string name="hardware_keys_action_launch_camera">Zaženi fotoaparat</string>
+    <string name="hardware_keys_action_sleep">Izklopi zaslon</string>
+    <string name="hardware_keys_action_split_screen">Razdeli zaslon</string>
+    <string name="hardware_keys_swipe_right_key_title">Poteg desno</string>
+    <string name="hardware_keys_swipe_left_key_title">Poteg levo</string>
+    <string name="hardware_keys_long_tap_key_title">Dolgi tap</string>
+    <string name="hardware_keys_swipe_tap_title">Dejanje potega</string>
+    <string name="hardware_keys_long_tap_title">Dejanje dolgega tapa</string>
+    <string name="button_wake_title">Zbudi napravo</string>
+    <string name="camera_sleep_on_release_title">Predogled zaslona</string>
+    <string name="camera_sleep_on_release_summary">Polpritisk bo ohranil zaslon vklopljen samo, ko je gumb pridržan</string>
+    <string name="camera_launch_title">Zaženi fotoaparat</string>
+    <string name="camera_launch_summary">Pridržanje in izpust bo zagnalo fotoaparat</string>
+    <string name="button_backlight_title">Osvetlitev ozadja</string>
+    <string name="button_backlight_enabled">Osvetli gumbe</string>
+    <string name="button_backlight_only_when_pressed_title">Osvetli gumbe samo ob pritisku</string>
+    <string name="keyboard_backlight_enabled">Osvetli tipkovnico</string>
+    <string name="button_backlight_seekbar_title">Svetlost gumbov</string>
+    <string name="keyboard_backlight_seekbar_title">Svetlost tipkovnice</string>
+    <string name="backlight_timeout_title">Časovna omejitev osvetlitve</string>
+    <string name="backlight_timeout_unlimited">Ne izklopi</string>
+    <string name="backlight_summary_disabled">Onemogočena</string>
+    <string name="backlight_summary_enabled_with_timeout">Omogočena za <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Omogočena</string>
+    <string name="disable_navkeys_title">Omogoči vrstico za krmarjenje na zaslonu</string>
+    <string name="disable_navkeys_summary">Omogoči vrstico za krmarjenje na zaslonu in onemogoči fizične gumbe</string>
+    <string name="high_touch_sensitivity_title">Visoka občutljivost dotika</string>
+    <string name="high_touch_sensitivity_summary">Povečaj občutljivost dotika, tako da ga lahko uporabite, ko nosite rokavice</string>
+    <string name="touchscreen_hovering_title">Prehod zaslona na dotik</string>
+    <string name="touchscreen_hovering_summary">Dovoli vam prehod nad zaslonom, kot miška v spletnih brskalnikih, oddaljenih namizjih itd.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Odstranite obstoječi optično prebrani obraz in ustvarite novega</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ponovitev optičnega branja obraza</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Zaklep zaslona, prstni odtis, odklep z obrazom</string>
+    <string name="face_redo_confirm_btn">Uveljavi</string>
+    <string name="face_redo_warning_msg">Ali želite odstraniti obstoječi optično prebrani obraz in ustvariti novega?</string>
+</resources>

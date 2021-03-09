@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">আপনার ফোনের সামনের দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">আপনার ফোনের বাম দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">আপনার ফোনের ডান দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">আপনার ডিভাইসের সামনের দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">আপনার ফোনের বাম দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">আপনার ফোনের ডান দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">আপনার ট্যাবলেটের সামনের দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">আপনার ট্যাবলেটের বাম দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">আপনার ট্যাবলেটের ডান দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="refresh_rate_title">স্ক্রিন রিফ্রেশ রেট</string>
+    <string name="connected_tws_device_saved_title">ইয়ারবাডগুলো সংরক্ষণ করা হয়েছে</string>
+    <string name="reset">রিসেট করুন</string>
+    <string name="button_pref_title">বাটন</string>
+    <string name="hardware_keys_home_key_title">হোম বাটন</string>
+    <string name="hardware_keys_back_key_title">ব্যাক বাটন</string>
+    <string name="hardware_keys_menu_key_title">মেনু বাটন</string>
+    <string name="hardware_keys_assist_key_title">খোঁজার বাটন</string>
+    <string name="hardware_keys_appswitch_key_title">রিসেন্ট বাটন</string>
+    <string name="hardware_keys_camera_key_title">ক্যামেরা বাটন</string>
+    <string name="hardware_keys_short_press_title">স্বল্পসময় চাপের প্রতিক্রিয়া</string>
+    <string name="hardware_keys_long_press_title">দীর্ঘসময় চাপের প্রতিক্রিয়া</string>
+    <string name="hardware_keys_double_tap_title">দুইবার চাপের প্রতিক্রিয়া</string>
+    <string name="hardware_keys_action_nothing">কোনো প্রতিক্রিয়া নয়</string>
+    <string name="hardware_keys_action_menu">মেনু খোলা/বন্ধ করা</string>
+    <string name="hardware_keys_action_app_switch">রিসেন্ট অ্যাপ দেখানো</string>
+    <string name="hardware_keys_action_search">খোঁজায় সাহায্যকারী</string>
+    <string name="hardware_keys_action_voice_search">স্বর দিয়ে খোঁজা</string>
+    <string name="hardware_keys_action_in_app_search">অ্যাপের ভিতরে খোঁজা</string>
+    <string name="hardware_keys_action_launch_camera">ক্যামেরা চালু করুন</string>
+    <string name="hardware_keys_action_sleep">স্ক্রীন বন্ধ করুন</string>
+    <string name="hardware_keys_action_split_screen">স্ক্রীনে ভাগ করুন</string>
+    <string name="hardware_keys_swipe_right_key_title">ডানে টানুন</string>
+    <string name="hardware_keys_swipe_left_key_title">বাঁদিকে টানুন</string>
+    <string name="hardware_keys_long_tap_key_title">দীর্ঘ স্পর্শ</string>
+    <string name="hardware_keys_swipe_tap_title">টানার প্রতিক্রিয়া</string>
+    <string name="hardware_keys_long_tap_title">দীর্ঘ স্পর্শের প্রতিক্রিয়া</string>
+    <string name="button_wake_title">ডিভাইস জাগ্রত করা</string>
+    <string name="camera_sleep_on_release_title">স্ক্রীন পীক</string>
+    <string name="camera_sleep_on_release_summary">একটি অর্ধেক চাপ স্ক্রী সচল রাখবে, শুধু যখন বাটনটি চেপে রাখা হবে</string>
+    <string name="camera_launch_title">ক্যামেরা চালু করুন</string>
+    <string name="camera_launch_summary">দীর্ঘক্ষণ চেপে ছেড়ে দেয়া ক্যামেরা চালু করবে</string>
+    <string name="button_backlight_title">পেছনের আলো</string>
+    <string name="button_backlight_enabled">বাটন আলোকিত</string>
+    <string name="button_backlight_only_when_pressed_title">শুধুমাত্র বাটন চাপলেই আলোকিত হবে</string>
+    <string name="button_backlight_seekbar_title">বাটনের উজ্জ্বলতা</string>
+    <string name="backlight_timeout_title">আলো জ্বলে থাকার মেয়াদ</string>
+    <string name="backlight_timeout_unlimited">বন্ধ করবেন না</string>
+    <string name="backlight_summary_disabled">বন্ধ আছে</string>
+    <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g> এর জন্যে চালু আছে</string>
+    <string name="backlight_summary_enabled">চালু আছে</string>
+    <string name="disable_navkeys_title">স্ক্রীনে বাটন দেখানো চালু করুন</string>
+    <string name="disable_navkeys_summary">স্ক্রীনে বাটন দেখানো চালু করুন এবং মোবাইলের বাটন বন্ধ করুন</string>
+    <string name="high_touch_sensitivity_title">উচ্চ স্পর্শ সংবেদনশীলতা</string>
+    <string name="high_touch_sensitivity_summary">টাচস্ক্রীন সংবেদনশীলতা বৃদ্ধি করুন যাতে গ্লাভস পরিহিত অবস্থায় ব্যবহার করা যেতে পারে</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">বিদ্যমান মুখের স্ক্যান অপসারণ করুন এবং একটি নতুন স্ক্যান তৈরি করুন</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">পুনরায় মুখ স্ক্যান করুন</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">স্ক্রিন লক, ফিঙ্গারপ্রিন্ট, মুখ আনলক</string>
+    <string name="face_redo_confirm_btn">আবার করুন</string>
+    <string name="face_redo_warning_msg">আপনি কি বিদ্যমান মুখের স্ক্যান অপসারণ করে একটি নতুন স্ক্যান তৈরি করতে চান?</string>
+</resources>
