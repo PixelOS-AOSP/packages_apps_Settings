@@ -93,24 +93,23 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
-    <Preference
-        android:key="touchscreen_gesture_settings"
-        android:persistent="false"
-        android:title="@string/touchscreen_gesture_settings_title"
-        android:summary="@string/touchscreen_gesture_settings_summary"
-        settings:controller="com.android.settings.gestures.TouchGestureSettingsPreferenceController">
+    <com.android.settings.custom.preference.RemotePreference
+            android:key="touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
-    </Preference>
+    </com.android.settings.custom.preference.RemotePreference>
 
     <com.android.settings.custom.preference.RemotePreference
             android:key="device_touchscreen_gesture_settings"
             android:title="@string/touchscreen_gesture_settings_title"
             android:summary="@string/touchscreen_gesture_settings_summary"
             settings:replacesKey="touchscreen_gesture_settings"
-            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+            settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
     </com.android.settings.custom.preference.RemotePreference>
 </PreferenceScreen>
