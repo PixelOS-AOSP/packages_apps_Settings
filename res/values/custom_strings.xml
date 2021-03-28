@@ -126,4 +126,8 @@
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Advanced settings</string>
 
+    <!-- Others settings -->
+    <string name="others_settings_title">Others settings</string>
+    <string name="additional_buttons_title">Additional buttons</string>
+
 </resources>
