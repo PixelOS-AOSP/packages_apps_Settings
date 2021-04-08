@@ -15,7 +15,4 @@
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">false</bool>
 
-    <!-- Whether assist gesture settings should be enabled -->
-    <bool name="config_should_enable_assist_gesture_settings">true</bool>
-
 </resources>

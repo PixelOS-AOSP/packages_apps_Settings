@@ -113,10 +113,6 @@
     <!-- LineageHardware -->
     <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
 
-    <!-- Face Unlock -->
-    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
-    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
-
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
             android:theme="@style/Theme.Settings"
@@ -445,8 +441,7 @@
 
         <activity android:name="Settings$AssistGestureSettingsActivity"
             android:label="@string/assist_gesture_title"
-            android:icon="@drawable/ic_settings_gestures"
-            android:enabled="@bool/config_should_enable_assist_gesture_settings">
+            android:icon="@drawable/ic_settings_gestures">
             <intent-filter>
                 <action android:name="android.settings.ASSIST_GESTURE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -3439,16 +3434,6 @@
                 <action android:name="com.android.settings.action.LAUNCH_BLUETOOTH_PAIRING"/>
             </intent-filter>/>
         </receiver>
-
-        <!-- Face unlock -->
-        <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
-            android:permission="com.android.settings.FACE_UNLOCK"
-            android:theme="@style/Transparent">
-            <intent-filter android:priority="1">
-                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>

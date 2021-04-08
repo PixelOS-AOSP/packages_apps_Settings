@@ -32,8 +32,6 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.homepage.contextualcards.slices.FaceSetupSlice;
 
-import com.android.settings.custom.biometrics.FaceUtils;
-
 /**
  * This class is used to show a popup dialog for {@link FaceSetupSlice}.
  */
@@ -43,7 +41,6 @@ public class FaceReEnrollDialog extends AlertActivity implements
     private static final String TAG = "FaceReEnrollDialog";
 
     private static final String BIOMETRIC_ENROLL_ACTION = "android.settings.BIOMETRIC_ENROLL";
-    private static final String BIOMETRIC_ENROLL_ACTION_CUSTOM = "com.android.settings.intent.action.FACE_ENROLL";
 
     private FaceManager mFaceManager;
     /**
@@ -109,9 +106,7 @@ public class FaceReEnrollDialog extends AlertActivity implements
                     return;
                 }
                 // Send user to the enroll flow.
-                final Intent reEnroll = new Intent(
-                    FaceUtils.isFaceUnlockSupported() ?
-                    BIOMETRIC_ENROLL_ACTION_CUSTOM : BIOMETRIC_ENROLL_ACTION);
+                final Intent reEnroll = new Intent(BIOMETRIC_ENROLL_ACTION);
                 final Context context = getApplicationContext();
 
                 try {

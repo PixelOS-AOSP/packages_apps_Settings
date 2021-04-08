@@ -86,16 +86,4 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
-
-    <Preference
-        android:key="touchscreen_gesture_settings"
-        android:persistent="false"
-        android:title="@string/touchscreen_gesture_settings_title"
-        android:summary="@string/touchscreen_gesture_settings_summary"
-        settings:controller="com.android.settings.gestures.TouchGestureSettingsPreferenceController">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="com.android.touch.gestures"
-            android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
-    </Preference>
 </PreferenceScreen>

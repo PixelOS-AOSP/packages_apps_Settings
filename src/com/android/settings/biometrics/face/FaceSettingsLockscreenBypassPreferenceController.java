@@ -86,11 +86,7 @@ public class FaceSettingsLockscreenBypassPreferenceController
             return UNSUPPORTED_ON_DEVICE;
         }
 
-        boolean faceAuthOnlyOnSecurityView  = mContext.getResources().getBoolean(
-                com.android.internal.R.bool.config_faceAuthOnlyOnSecurityView);
-
-        if (mFaceManager != null && mFaceManager.isHardwareDetected() &&
-                !faceAuthOnlyOnSecurityView) {
+        if (mFaceManager != null && mFaceManager.isHardwareDetected()) {
             return mFaceManager.hasEnrolledTemplates(getUserId())
                     ? AVAILABLE : DISABLED_DEPENDENT_SETTING;
         } else {

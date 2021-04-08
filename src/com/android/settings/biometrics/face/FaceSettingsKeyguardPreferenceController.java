@@ -28,8 +28,6 @@ import com.android.settings.Utils;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedSwitchPreference;
 
-import com.android.settings.custom.biometrics.FaceUtils;
-
 /**
  * Preference controller for Face settings page controlling the ability to unlock the phone
  * with face.
@@ -72,7 +70,7 @@ public class FaceSettingsKeyguardPreferenceController extends FaceSettingsPrefer
 
     @Override
     public int getAvailabilityStatus() {
-        return FaceUtils.isFaceUnlockSupported() ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
+        return AVAILABLE;
     }
 
     @Override

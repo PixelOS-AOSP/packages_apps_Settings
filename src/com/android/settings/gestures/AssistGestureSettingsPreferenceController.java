@@ -45,23 +45,18 @@ public class AssistGestureSettingsPreferenceController extends GesturePreference
 
     private PreferenceScreen mScreen;
     private Preference mPreference;
-    private Context mContext;
 
     @VisibleForTesting
     boolean mAssistOnly;
 
     public AssistGestureSettingsPreferenceController(Context context, String key) {
         super(context, key);
-        mContext = context;
         mFeatureProvider = FeatureFactory.getFactory(context).getAssistGestureFeatureProvider();
         mWasAvailable = isAvailable();
     }
 
     @Override
     public int getAvailabilityStatus() {
-        if (!mContext.getResources().getBoolean(R.bool.config_should_enable_assist_gesture_settings)) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
         final boolean isSupported = mFeatureProvider.isSupported(mContext);
         final boolean isSensorAvailable = mFeatureProvider.isSensorAvailable(mContext);
         final boolean isAvailable = mAssistOnly ? isSupported : isSensorAvailable;
