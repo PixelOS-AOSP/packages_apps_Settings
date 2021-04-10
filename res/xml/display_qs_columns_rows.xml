@@ -20,7 +20,7 @@
     android:key="qs_column_rows_settings_screen"
     android:title="@string/qs_column_rows_settings_title">
 
-    <com.android.settings.custom.preference.SecureSettingListPreference
+    <com.pixelish.support.preferences.SecureSettingListPreference
         android:key="qs_show_brightness_slider"
         android:title="@string/qs_show_brightness_slider_title"
         android:summary="%s"
@@ -29,39 +29,39 @@
         android:entryValues="@array/qs_show_brightness_slider_values"
         android:defaultValue="1" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.pixelish.support.preferences.SecureSettingSwitchPreference
         android:key="qs_show_auto_brightness"
         android:title="@string/qs_show_auto_brightness_title"
         android:summary="@string/qs_show_auto_brightness_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.pixelish.support.preferences.SecureSettingSwitchPreference
         android:key="quick_settings_vibrate"
         android:title="@string/quick_settings_vibrate_title"
         android:summary="@string/quick_settings_vibrate_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SecureSettingListPreference
+    <com.pixelish.support.preferences.SecureSettingListPreference
         android:key="status_bar_quick_qs_pulldown"
         android:title="@string/status_bar_quick_qs_pulldown"
         android:entries="@array/quick_pulldown_entries"
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.pixelish.support.preferences.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
         android:defaultValue="true" />
     
     <!-- QS media player -->
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.pixelish.support.preferences.SystemSettingSwitchPreference
         android:key="qs_media_player"
         android:title="@string/qs_media_player_title"
         android:summaryOn="@string/qs_media_player_summary_on"
         android:summaryOff="@string/qs_media_player_summary_off"
         android:defaultValue="true" />
 
-    <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+    <com.pixelish.support.preferences.CustomSystemSeekBarPreference
         android:key="qs_header_bg_alpha"
         android:title="@string/qs_header_bg_title"
         allowEditText="true"
@@ -72,7 +72,7 @@
     <PreferenceCategory
         android:key="qs_columns_rows_category"
         android:title="@string/qs_columns_rows_category_title" >
-        <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+        <com.pixelish.support.preferences.CustomSystemSeekBarPreference
             android:key="qs_rows_portrait"
             android:title="@string/qs_rows_portrait_title"
             android:max="5"
@@ -80,7 +80,7 @@
             android:defaultValue="2"
             settings:units="" />
 
-        <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+        <com.pixelish.support.preferences.CustomSystemSeekBarPreference
             android:key="qs_rows_landscape"
             android:title="@string/qs_rows_landscape_title"
             android:max="5"
@@ -88,7 +88,7 @@
             android:defaultValue="1"
             settings:units="" />
 
-        <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+        <com.pixelish.support.preferences.CustomSystemSeekBarPreference
             android:key="qs_columns_portrait"
             android:title="@string/qs_columns_portrait_title"
             android:max="7"
@@ -96,7 +96,7 @@
             android:defaultValue="3"
             settings:units="" />
 
-        <com.android.settings.custom.preference.CustomSystemSeekBarPreference
+        <com.pixelish.support.preferences.CustomSystemSeekBarPreference
             android:key="qs_columns_landscape"
             android:title="@string/qs_columns_landscape_title"
             android:max="9"
