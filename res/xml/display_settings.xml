@@ -34,12 +34,6 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
     </PreferenceScreen>
 
-    <Preference
-        android:key="traffic"
-        android:fragment="com.android.settings.network.NetworkTraffic"
-        android:title="@string/network_traffic_settings_title"
-        android:summary="@string/network_traffic_settings_summary" />
-
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
