@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Mövcud üz skanını çıxartmaq və yenisini yaratmaq istəyirsiniz?</string>
     <string name="fast_charging_title">Sürətli enerji yığma</string>
     <string name="fast_charging_summary">Cihazın enerji yığarkən istehsal etdiyi istiliyi azaltmaq və ya batereyanın ömrünü uzatmaq üçün sıradan çıxardın</string>
+    <string name="others_settings_title">Digər tənzimləmələr</string>
+    <string name="additional_buttons_title">Əlavə düymələr</string>
+    <string name="keyboard_extras_title">Əlavələr</string>
+    <string name="advanced_keyboard_settings_title">Qabaqcıl tənzimləmələr</string>
 </resources>

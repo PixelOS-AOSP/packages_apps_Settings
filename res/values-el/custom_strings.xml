@@ -20,7 +20,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο εμπρόσθιο μέρος του τηλεφώνου σας.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στην αριστερή πλευρά του τηλεφώνου σας.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στην αριστερή πλευρά του τηλεφώνου σας.</string>
-    <string name="battery_light_title">Ένδειξη LED μπαταρίας</string>
+    <string name="battery_light_title">Ενεργοποίση φωτισμού κατά τη φόρτιση</string>
     <string name="refresh_rate_title">Συχνότητα ανανέωσης οθόνης</string>
     <string name="mobile_data_settings_summary_unavailable">Δεν υπάρχει διαθέσιμη κάρτα SIM</string>
     <string name="connected_tws_device_saved_title">Αποθηκευμένα ακουστικά</string>
@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Θέλετε να καταργήσετε την υπάρχουσα σάρωση προσώπου και να δημιουργήσετε μια νέα;</string>
     <string name="fast_charging_title">Γρήγορη φόρτιση</string>
     <string name="fast_charging_summary">Απενεργοποιήστε για να μειώσετε τη θερμότητα που παράγεται από τη συσκευή κατά τη φόρτιση ή για να παρατείνετε τη διάρκεια ζωής της μπαταρίας</string>
+    <string name="others_settings_title">Άλλες ρυθμίσεις</string>
+    <string name="additional_buttons_title">Πρόσθετα πλήκτρα</string>
+    <string name="keyboard_extras_title">Πρόσθετα</string>
+    <string name="advanced_keyboard_settings_title">Προηγμένες ρυθμίσεις</string>
 </resources>

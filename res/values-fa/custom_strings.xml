@@ -73,4 +73,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">قفل صفحه، اثر انگشت، بازگشایی قفل با صورت</string>
     <string name="face_redo_confirm_btn">انجام مجدد</string>
     <string name="face_redo_warning_msg">مایلید اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید؟</string>
+    <string name="others_settings_title">تنظیمات دیگر</string>
+    <string name="additional_buttons_title">دکمه های اضافی</string>
 </resources>

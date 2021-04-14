@@ -56,4 +56,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">screen lock, လက်ဗွေ, မကျြနှာကိုသော့ဖွင့်</string>
     <string name="face_redo_confirm_btn">ပြန်လုပ်ရန်</string>
     <string name="face_redo_warning_msg">သငျသညျတည်ဆဲမျက်နှာစကင်ကိုဖယ်ရှားအသစ်တစ်ခုဖန်တီးရန်လိုပါသလား?</string>
+    <string name="others_settings_title">အခြား ချိန်ညှိစရာများ</string>
+    <string name="additional_buttons_title">ဖြည့်စွက် ခလုတ်များ</string>
 </resources>

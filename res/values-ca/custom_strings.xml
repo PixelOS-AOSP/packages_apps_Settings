@@ -75,4 +75,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Bloqueig pantalla, empremta dactilar, desbloqueig facial</string>
     <string name="face_redo_confirm_btn">Refés</string>
     <string name="face_redo_warning_msg">Vols suprimir l\'escaneig facial actual i crear-ne un altre?</string>
+    <string name="others_settings_title">Configuració d\'altres</string>
+    <string name="additional_buttons_title">Botons addicionals</string>
 </resources>

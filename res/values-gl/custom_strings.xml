@@ -70,4 +70,6 @@
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da pantalla para poder utilizalo con luvas</string>
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permítelle utilizar o dedo coma un rato ao deslizalo en navegadores web, escritorios remotos, etc.</string>
+    <string name="others_settings_title">Outros axustes</string>
+    <string name="additional_buttons_title">Botóns adicionais</string>
 </resources>

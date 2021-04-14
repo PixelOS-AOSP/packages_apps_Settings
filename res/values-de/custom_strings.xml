@@ -20,9 +20,10 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Nutzen Sie den Fingerabdrucksensor auf der Vorderseite des Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Nutzen Sie den Fingerabdrucksensor auf der linken Seite des Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Nutzen Sie den Fingerabdrucksensor auf der rechten Seite des Tablets.</string>
-    <string name="battery_light_title">Akku-LED</string>
+    <string name="battery_light_title">Akku-LED. </string>
     <string name="refresh_rate_title">Bildwiederholrate</string>
-    <string name="connected_tws_device_saved_title">Gespeicherte Ohrhörer</string>
+    <string name="mobile_data_settings_summary_unavailable">Es wurden keine SIM Karte(n) erkannt </string>
+    <string name="connected_tws_device_saved_title">Gespeicherte Ohrhörer </string>
     <string name="reset">Zurücksetzen</string>
     <string name="button_pref_title">Tasten</string>
     <string name="hardware_keys_home_key_title">Home-Taste</string>
@@ -66,6 +67,8 @@
     <string name="backlight_summary_enabled">Aktiviert</string>
     <string name="disable_navkeys_title">Navigationsleiste aktivieren</string>
     <string name="disable_navkeys_summary">Navigationstasten deaktivieren und stattdessen eine Navigationsleiste auf dem Bildschirm anzeigen</string>
+    <string name="swap_capacitive_keys_title">Kapazitive Tasten tauschen</string>
+    <string name="swap_capacitive_keys_summary">Anordnung der Tasten für Anwendungsverlauf und Zurück tauschen</string>
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
@@ -75,4 +78,10 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Bildschirm, Fingerabdruck, Gesicht</string>
     <string name="face_redo_confirm_btn">Wiederholen</string>
     <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichtsscan löschen und einen neuen Scan erstellen?</string>
+    <string name="fast_charging_title">Schnelles Laden</string>
+    <string name="fast_charging_summary">Deaktivieren Sie diese Option, um die Wärmeerzeugung beim Laden zu reduzieren und Lebensdauer des Akku zu verlängern</string>
+    <string name="others_settings_title">Weitere Einstellungen</string>
+    <string name="additional_buttons_title">Weitere Tasten</string>
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
 </resources>

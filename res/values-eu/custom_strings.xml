@@ -68,4 +68,6 @@
     <string name="high_touch_sensitivity_summary">Areagotu pantailaren sentsibilitatea, eskularruekin erabilgarria izan dadin</string>
     <string name="touchscreen_hovering_title">Pantailaren gainetik pasatu</string>
     <string name="touchscreen_hovering_summary">Sagua bailitzan pantailaren gainetik pasatzea ahalbidetzen dizu, nabigatzaileetan, urruneko mahaigainetan, eta abar</string>
+    <string name="others_settings_title">Beste ezarpenak</string>
+    <string name="additional_buttons_title">Botoi gehigarriak</string>
 </resources>

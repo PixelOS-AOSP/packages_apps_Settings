@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
     <string name="battery_light_title">充電時保持指示燈開啟</string>
     <string name="refresh_rate_title">螢幕刷新率</string>
+    <string name="mobile_data_settings_summary_unavailable">沒有可用的 SIM 卡</string>
     <string name="connected_tws_device_saved_title">已儲存的耳塞式耳機</string>
     <string name="reset">重設</string>
     <string name="button_pref_title">按鍵</string>
@@ -56,7 +57,9 @@
     <string name="button_backlight_title">背光</string>
     <string name="button_backlight_enabled">按鈕發光</string>
     <string name="button_backlight_only_when_pressed_title">僅在按下按鍵時發光</string>
+    <string name="keyboard_backlight_enabled">鍵盤背光</string>
     <string name="button_backlight_seekbar_title">按鍵亮度</string>
+    <string name="keyboard_backlight_seekbar_title">鍵盤亮度</string>
     <string name="backlight_timeout_title">背光逾時</string>
     <string name="backlight_timeout_unlimited">不要關閉</string>
     <string name="backlight_summary_disabled">已停用</string>
@@ -64,6 +67,8 @@
     <string name="backlight_summary_enabled">已啟用</string>
     <string name="disable_navkeys_title">啓用導航欄</string>
     <string name="disable_navkeys_summary">啟用導航列並停用實體按鍵</string>
+    <string name="swap_capacitive_keys_title">交換電容式按鈕</string>
+    <string name="swap_capacitive_keys_summary">交換最近記錄和後退按鈕的順序</string>
     <string name="high_touch_sensitivity_title">高觸碰靈敏度</string>
     <string name="high_touch_sensitivity_summary">增加觸控螢幕的靈敏度，戴著手套也可以使用手機</string>
     <string name="touchscreen_hovering_title">觸控螢幕懸浮</string>
@@ -73,4 +78,10 @@
     <string name="security_dashboard_summary_face_and_fingerprint">螢幕鎖定、指紋、臉部辨識解鎖</string>
     <string name="face_redo_confirm_btn">重做</string>
     <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
+    <string name="fast_charging_title">快速充電中</string>
+    <string name="fast_charging_summary">禁用以減少裝置在充電時產生的熱量或延長電池的使用壽命</string>
+    <string name="others_settings_title">其他設置</string>
+    <string name="additional_buttons_title">附加按鍵</string>
+    <string name="keyboard_extras_title">額外功能</string>
+    <string name="advanced_keyboard_settings_title">進階設定</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Tìm cảm biến vân tay ở phía bên phải của máy tính bảng của bạn.</string>
     <string name="battery_light_title">Đèn báo pin</string>
     <string name="refresh_rate_title">Tốc độ làm tươi màn hình</string>
+    <string name="mobile_data_settings_summary_unavailable">Hiện thị không có SIM</string>
     <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
     <string name="reset">Thiết lập lại</string>
     <string name="button_pref_title">Phím</string>
@@ -66,6 +67,8 @@
     <string name="backlight_summary_enabled">Đã bật</string>
     <string name="disable_navkeys_title">Bật thanh điều hướng trên màn hình</string>
     <string name="disable_navkeys_summary">Bật thanh điều hướng trên màn hình và tắt các phím cứng</string>
+    <string name="swap_capacitive_keys_title">Hoán đổi phím</string>
+    <string name="swap_capacitive_keys_summary">Đổi thứ tự của các nút Gần đây và Quay lại</string>
     <string name="high_touch_sensitivity_title">Độ nhạy cảm ứng cao</string>
     <string name="high_touch_sensitivity_summary">Tăng độ nhạy màn hình cảm ứng để nó có thể được sử dụng trong khi đeo găng tay</string>
     <string name="touchscreen_hovering_title">Di trên màn hình cảm ứng</string>
@@ -75,4 +78,8 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Khóa màn hình, vân tay, mở khóa bằng khuôn mặt</string>
     <string name="face_redo_confirm_btn">Làm lại</string>
     <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
+    <string name="fast_charging_title">Đang sạc nhanh</string>
+    <string name="fast_charging_summary">Tắt để giảm nhiệt do thiết bị tạo ra trong khi sạc hoặc để kéo dài tuổi thọ của pin</string>
+    <string name="others_settings_title">Các cài đặt khác</string>
+    <string name="additional_buttons_title">Nút bổ sung</string>
 </resources>

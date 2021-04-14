@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Ingin menghapus pindaian wajah yang ada dan membuat pindaian baru?</string>
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
+    <string name="others_settings_title">Seting lainnya</string>
+    <string name="additional_buttons_title">Tombol tambahan</string>
+    <string name="keyboard_extras_title">Tambahan</string>
+    <string name="advanced_keyboard_settings_title">Pengaturan lanjutan</string>
 </resources>

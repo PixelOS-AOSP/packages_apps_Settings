@@ -63,4 +63,5 @@
     <string name="high_touch_sensitivity_summary">Cynyddu sensitifrwydd y sgrin gyffwrdd fel y gellir ei defnyddio wrth wisgo menig</string>
     <string name="touchscreen_hovering_title">Hofran sgrin gyffwrdd</string>
     <string name="touchscreen_hovering_summary">Mae\'n dy ganiatáu i hofran ar y sgrin fel defnyddio llygoden mewn porwyr, byrddau gwaith pell, ayyb</string>
+    <string name="additional_buttons_title">Botymau ychwanegol</string>
 </resources>
