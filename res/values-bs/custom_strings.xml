@@ -68,4 +68,6 @@
     <string name="high_touch_sensitivity_summary">Pojačaj osjetljivost ekrana da se može koristiti i sa rukavicama</string>
     <string name="touchscreen_hovering_title">Lebdenje nad zaslonom</string>
     <string name="touchscreen_hovering_summary">Dopušta vam da lebdite nad zaslonom kao kursor miša u web pretraživaču, udaljenom desktopu, itd</string>
+    <string name="others_settings_title">Ostala podešavanja</string>
+    <string name="additional_buttons_title">Dodatna dugmad</string>
 </resources>

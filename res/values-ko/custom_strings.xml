@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">태블릿 오른쪽 옆면에 있는 지문 센서를 찾으세요.</string>
     <string name="battery_light_title">배터리 표시등</string>
     <string name="refresh_rate_title">화면 재생 빈도</string>
+    <string name="mobile_data_settings_summary_unavailable">사용할 수 있는 SIM 카드 없음</string>
     <string name="connected_tws_device_saved_title">저장된 이어폰</string>
     <string name="reset">초기화</string>
     <string name="button_pref_title">버튼</string>
@@ -66,6 +67,8 @@
     <string name="backlight_summary_enabled">사용</string>
     <string name="disable_navkeys_title">온스크린 내비게이션 바 사용</string>
     <string name="disable_navkeys_summary">온스크린 내비게이션 바를 활성화하고 하드웨어 버튼을 비활성화합니다</string>
+    <string name="swap_capacitive_keys_title">터치 버튼 스왑</string>
+    <string name="swap_capacitive_keys_summary">최근 앱과 뒤로 버튼의 순서 바꾸기</string>
     <string name="high_touch_sensitivity_title">터치 감도 높이기</string>
     <string name="high_touch_sensitivity_summary">장갑을 착용해도 터치할 수 있도록 터치스크린 감도를 향상</string>
     <string name="touchscreen_hovering_title">터치스크린 호버링</string>
@@ -75,4 +78,10 @@
     <string name="security_dashboard_summary_face_and_fingerprint">화면 잠금, 지문, 얼굴인식 잠금해제</string>
     <string name="face_redo_confirm_btn">다시실행</string>
     <string name="face_redo_warning_msg">기존 얼굴 스캔을 제거하고 새 스캔을 만드시겠습니까?</string>
+    <string name="fast_charging_title">고속 충전</string>
+    <string name="fast_charging_summary">충전하는 동안 발생하는 열을 줄이거나 배터리 수명을 연장하기위해 비활성화</string>
+    <string name="others_settings_title">기타 설정</string>
+    <string name="additional_buttons_title">추가 버튼</string>
+    <string name="keyboard_extras_title">부가 기능</string>
+    <string name="advanced_keyboard_settings_title">고급 설정</string>
 </resources>

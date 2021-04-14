@@ -80,4 +80,6 @@
     <string name="face_redo_warning_msg">Wil je de bestaande gezichtsscan verwijderen en een nieuwe maken?</string>
     <string name="fast_charging_title">Snelladen</string>
     <string name="fast_charging_summary">Schakel uit om de warmteproductie van het apparaat te verminderen tijdens het opladen of om de levensduur van de batterij te verlengen</string>
+    <string name="others_settings_title">Overige instellingen</string>
+    <string name="additional_buttons_title">Extra knoppen</string>
 </resources>

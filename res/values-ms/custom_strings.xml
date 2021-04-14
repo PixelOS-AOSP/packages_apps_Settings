@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Cari pengesan cap jari di bahagian kanan telefon anda.</string>
     <string name="battery_light_title">Hidupkan lampu semasa mengecas</string>
     <string name="refresh_rate_title">Kadar segaran paparan</string>
+    <string name="mobile_data_settings_summary_unavailable">SIM Kad tidak tersedia</string>
     <string name="connected_tws_device_saved_title">Fon Telinga Disimpan</string>
     <string name="reset">Tetapkan semula</string>
     <string name="button_pref_title">Butang</string>
@@ -56,7 +57,9 @@
     <string name="button_backlight_title">Lampu latar</string>
     <string name="button_backlight_enabled">Butang iluminasi</string>
     <string name="button_backlight_only_when_pressed_title">Butang hanya akan bercahaya apabila ditekan</string>
+    <string name="keyboard_backlight_enabled">Papan kekunci iluminasi</string>
     <string name="button_backlight_seekbar_title">Kecerahan butang</string>
+    <string name="keyboard_backlight_seekbar_title">Kecerahan papan kekunci</string>
     <string name="backlight_timeout_title">Jeda masa tamat pencahayaan</string>
     <string name="backlight_timeout_unlimited">Jangan padamkan</string>
     <string name="backlight_summary_disabled">Dimatikan</string>
@@ -64,9 +67,21 @@
     <string name="backlight_summary_enabled">Dibolehkan</string>
     <string name="disable_navkeys_title">Mengaktifkan bar navigasi di atas paparan</string>
     <string name="disable_navkeys_summary">Mengaktifkan bar navigasi di atas skrin dan melumpuhkan butang perkakasan</string>
+    <string name="swap_capacitive_keys_title">Tukar butang kapasitif</string>
+    <string name="swap_capacitive_keys_summary">Tukar urutan butang terakhir dan kembali</string>
+    <string name="high_touch_sensitivity_title">Kepekaan tinggi</string>
+    <string name="high_touch_sensitivity_summary">Tingkatkan sensitiviti skrin sentuh sehingga boleh digunakan semasa memakai sarung tangan</string>
+    <string name="touchscreen_hovering_title">Skrin sentuh berlegar</string>
+    <string name="touchscreen_hovering_summary">Membolehkan anda mengarahkan skrin seperti tetikus di penyemak imbas web, desktop jauh, dll</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Alih keluar imbasan muka sedia ada dan cipta imbasan baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Buat semula imbas wajah</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Kunci skrin, cap jari, buka kunci waja</string>
     <string name="face_redo_confirm_btn">Buat semula</string>
     <string name="face_redo_warning_msg">Adakah anda ingin mengalih keluar imbasan muka sedia ada dan mencipta imbasan baru?</string>
+    <string name="fast_charging_title">Caj cepat</string>
+    <string name="fast_charging_summary">Lumpuhkan untuk mengurangkan haba yang dihasilkan oleh peranti semasa mengecas atau untuk memanjangkan jangka hayat bateri</string>
+    <string name="others_settings_title">Tetapan lain</string>
+    <string name="additional_buttons_title">Butang tambahan</string>
+    <string name="keyboard_extras_title">Tambahan</string>
+    <string name="advanced_keyboard_settings_title">Tetapan lanjutan</string>
 </resources>

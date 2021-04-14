@@ -54,4 +54,5 @@
     <string name="high_touch_sensitivity_summary">Meudaich mothalachd na sgrìn-suathaidh ach an gabh a cleachdadh le miotagan</string>
     <string name="touchscreen_hovering_title">Fantainn os cionn na sgrìn</string>
     <string name="touchscreen_hovering_summary">Bheir seo comas dhut fantainn os cionn na sgrìn, mar luchag ann am brabhsairean-lìn, desktops cèin is msaa</string>
+    <string name="additional_buttons_title">Barrachd phutan</string>
 </resources>

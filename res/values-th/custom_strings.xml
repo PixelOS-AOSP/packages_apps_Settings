@@ -75,4 +75,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">ล็อกหน้าจอ,ปลดล็อกด้วยใบหน้า,ลายนิ้วมือ</string>
     <string name="face_redo_confirm_btn">ทำซ้ำ</string>
     <string name="face_redo_warning_msg">คุณต้องการลบการสแกนใบหน้าที่มีอยู่แล้วสร้างการสแกนใหม่ใช่หรือไม่</string>
+    <string name="others_settings_title">การตั้งค่าอื่น ๆ</string>
+    <string name="additional_buttons_title">ปุ่มเพิ่มเติม</string>
 </resources>

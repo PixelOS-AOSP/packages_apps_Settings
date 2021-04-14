@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Rimuovere la scansione del viso esistente e crearne una nuova?</string>
     <string name="fast_charging_title">Carica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositvo durante la carica o per estendere il ciclo di vita della batteria</string>
+    <string name="others_settings_title">Altre impostazioni</string>
+    <string name="additional_buttons_title">Pulsanti aggiuntivi</string>
+    <string name="keyboard_extras_title">Extra</string>
+    <string name="advanced_keyboard_settings_title">Impostazioni avanzate</string>
 </resources>

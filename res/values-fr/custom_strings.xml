@@ -15,21 +15,21 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localisez le lecteur d\'empreintes digitales sur la tranche gauche de votre téléphone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localisez le lecteur d\'empreintes digitales sur la tranche droite de votre téléphone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Trouvez le capteur d\'empreintes situé à l\'arrière de votre appareil</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Trouvez le capteur d\'empreinte sur la tranche droite de votre appareil</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localisez le capteur d\'empreintes à l\'arrière de votre appareil</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localisez le capteur d\'empreinte sur la tranche droite de votre appareil</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le lecteur d\'empreintes digitales à l\'avant de votre tablette.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localisez le lecteur d\'empreintes digitales sur la tranche gauche de votre tablette.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localisez le lecteur d\'empreintes digitales sur la tranche droite de votre tablette.</string>
-    <string name="battery_light_title">Voyant batterie</string>
+    <string name="battery_light_title">Allumer la LED pendant la charge</string>
     <string name="refresh_rate_title">Taux de rafraîchissement de l\'écran </string>
-    <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM</string>
+    <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM disponible</string>
     <string name="connected_tws_device_saved_title">Écouteurs enregistrés</string>
     <string name="reset">Réinitialiser</string>
     <string name="button_pref_title">Boutons</string>
     <string name="hardware_keys_home_key_title">Bouton d\'accueil</string>
-    <string name="hardware_keys_back_key_title">Bouton de retour</string>
-    <string name="hardware_keys_menu_key_title">Bouton de menu</string>
-    <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
+    <string name="hardware_keys_back_key_title">Bouton retour</string>
+    <string name="hardware_keys_menu_key_title">Bouton menu</string>
+    <string name="hardware_keys_assist_key_title">Bouton recherche</string>
     <string name="hardware_keys_appswitch_key_title">Bouton des applications récentes</string>
     <string name="hardware_keys_camera_key_title">Bouton de l\'appareil photo</string>
     <string name="hardware_keys_short_press_title">Action lors d\'un appui court</string>
@@ -41,26 +41,26 @@
     <string name="hardware_keys_action_search">Assistant de recherche</string>
     <string name="hardware_keys_action_voice_search">Recherche vocale</string>
     <string name="hardware_keys_action_in_app_search">Recherche dans les applications</string>
-    <string name="hardware_keys_action_launch_camera">Démarrer l\'appareil photo</string>
+    <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
     <string name="hardware_keys_action_sleep">Éteindre l\'écran</string>
     <string name="hardware_keys_action_split_screen">Écran partagé</string>
     <string name="hardware_keys_swipe_right_key_title">Balayage à droite</string>
     <string name="hardware_keys_swipe_left_key_title">Balayage à gauche</string>
     <string name="hardware_keys_long_tap_key_title">Appui long</string>
-    <string name="hardware_keys_swipe_tap_title">Glissement</string>
+    <string name="hardware_keys_swipe_tap_title">Balayage</string>
     <string name="hardware_keys_long_tap_title">Appui long</string>
     <string name="button_wake_title">Réveiller l\'appareil</string>
     <string name="camera_sleep_on_release_title">Aperçu de l\'écran</string>
-    <string name="camera_sleep_on_release_summary">Appuyer à moitié pour garder l\'écran allumé tant que le bouton est maintenu enfoncé</string>
-    <string name="camera_launch_title">Démarrer l\'appareil photo</string>
-    <string name="camera_launch_summary">Une pression longue avant de relâcher active la caméra</string>
+    <string name="camera_sleep_on_release_summary">Un demi appui gardera l\'écran allumé seulement le temps de l\'appui</string>
+    <string name="camera_launch_title">Lancer l\'appareil photo</string>
+    <string name="camera_launch_summary">Appuyez longuement pour lancer l\'appareil photo</string>
     <string name="button_backlight_title">Rétroéclairage</string>
     <string name="button_backlight_enabled">Rétroéclairage des boutons</string>
-    <string name="button_backlight_only_when_pressed_title">Éclairer les boutons seulement lors de l\'appui</string>
+    <string name="button_backlight_only_when_pressed_title">Rétroéclairer les boutons seulement lors de l\'appui</string>
     <string name="keyboard_backlight_enabled">Rétroéclairage du clavier</string>
     <string name="button_backlight_seekbar_title">Luminosité des boutons</string>
     <string name="keyboard_backlight_seekbar_title">Luminosité du clavier</string>
-    <string name="backlight_timeout_title">Délai d\'extinction de l\'éclairage</string>
+    <string name="backlight_timeout_title">Durée du rétroéclairage</string>
     <string name="backlight_timeout_unlimited">Ne pas éteindre</string>
     <string name="backlight_summary_disabled">Désactivé</string>
     <string name="backlight_summary_enabled_with_timeout">Activé pendant <xliff:g id="timeout">%s</xliff:g></string>
@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Voulez-vous supprimer le visage scanné existant et en créer un nouveau ?</string>
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="others_settings_title">Autres paramètres</string>
+    <string name="additional_buttons_title">Boutons supplémentaires</string>
+    <string name="keyboard_extras_title">Paramètres supplémentaires</string>
+    <string name="advanced_keyboard_settings_title">Paramètres avancés</string>
 </resources>

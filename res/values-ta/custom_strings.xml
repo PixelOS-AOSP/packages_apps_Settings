@@ -45,4 +45,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">திரைப்பூட்டு, ரேகை, முகமறிதல்</string>
     <string name="face_redo_confirm_btn">மீண்டும்செய்</string>
     <string name="face_redo_warning_msg">ஏற்கனவே உள்ள முக ஸ்கேனை அகற்றி, புதிய ஒன்றை உருவாக்க விரும்புகிறீர்களா?</string>
+    <string name="others_settings_title">பிற அமைப்புகள்</string>
+    <string name="additional_buttons_title">கூடுதல் பொத்தான்கள்</string>
 </resources>

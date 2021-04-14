@@ -80,4 +80,7 @@
     <string name="face_redo_warning_msg">Haluatko poistaa aiemman kasvojen skannauksen ja luoda uuden?</string>
     <string name="fast_charging_title">Pikalataus</string>
     <string name="fast_charging_summary">Poista käytöstä vähentääksesi laitteen tuottamaa lämpöä latauksen aikana tai pidentääksesi akun käyttöikää</string>
+    <string name="others_settings_title">Muut asetukset</string>
+    <string name="additional_buttons_title">Lisänäppäimet</string>
+    <string name="keyboard_extras_title">Näppäimistön extra asetukset</string>
 </resources>

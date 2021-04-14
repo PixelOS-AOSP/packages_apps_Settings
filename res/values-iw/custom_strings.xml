@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">אתר את חיישן טביעת האצבע בצידו הימני של המכשיר.</string>
     <string name="battery_light_title">נורית הסוללה</string>
     <string name="refresh_rate_title">קצב רענון המסך:</string>
+    <string name="mobile_data_settings_summary_unavailable">כרטיס SIM לא זמין</string>
     <string name="connected_tws_device_saved_title">אוזניות שמורות</string>
     <string name="reset">איפוס</string>
     <string name="button_pref_title">מקשים</string>
@@ -66,6 +67,8 @@
     <string name="backlight_summary_enabled">מופעל</string>
     <string name="disable_navkeys_title">הפעל מקשי ניווט על המסך</string>
     <string name="disable_navkeys_summary">מפעיל את מקשי ניווט על המסך ומשבית מקשים פיזיים</string>
+    <string name="swap_capacitive_keys_title">החלף מיקום מקשי מגע</string>
+    <string name="swap_capacitive_keys_summary">החלף בין המקשים \"חזור\" ו-\"אפליקציות אחרונות\"</string>
     <string name="high_touch_sensitivity_title">רגישות גבוהה למגע</string>
     <string name="high_touch_sensitivity_summary">הגבר את רגישות מסך המגע, כך שניתן יהיה להשתמש בו בעת לבישת כפפות</string>
     <string name="touchscreen_hovering_title">מגע בריחוף</string>
@@ -75,4 +78,8 @@
     <string name="security_dashboard_summary_face_and_fingerprint">נעילת מסך, טביעת אצבע, זיהוי פרצוף</string>
     <string name="face_redo_confirm_btn">בצע מחדש</string>
     <string name="face_redo_warning_msg">האם ברצונך למחוק את סריקת הפנים הקיימת וליצור אחת חדשה?</string>
+    <string name="fast_charging_title">טעינה מהירה</string>
+    <string name="fast_charging_summary">השבת עבור הפחתת חימום המכשיר בזמן טעינה או כדי להאריך את חיי הסוללה</string>
+    <string name="others_settings_title">הגדרות נוספות</string>
+    <string name="additional_buttons_title">מקשים נוספים</string>
 </resources>

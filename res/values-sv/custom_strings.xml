@@ -15,8 +15,12 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Lokalisera fingeravtrycks-sensorn på vänster sidan av din mobilen.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Lokalisera fingeravtrycks-sensorn på högre sidan av din mobil.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Lokalisera fingeravtryckssensorn på din enhets framsida.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Lokalisera fingeravtrycks-sensorn på vänster sidan av din mobil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Leta reda på fingeravtryckssensorn på höger sida av mobilen.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Lokalisera fingeravtryckssensorn på din enhets framsida.</string>
     <string name="battery_light_title">Batteriljus</string>
     <string name="refresh_rate_title">Skärm uppdateringsfrekvens</string>
+    <string name="mobile_data_settings_summary_unavailable">Inget SIM-kort tillgängligt</string>
     <string name="connected_tws_device_saved_title">Sparade öronsnäckor</string>
     <string name="reset">Återställ</string>
     <string name="button_pref_title">Knappar</string>
@@ -69,4 +73,5 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Skärmlås, fingeravtryck, ansiktslås</string>
     <string name="face_redo_confirm_btn">Gör om</string>
     <string name="face_redo_warning_msg">Vill du ta du bort den befintliga ansiktsavläsningen och skapa en ny avläsning?</string>
+    <string name="additional_buttons_title">Fler knappar</string>
 </resources>

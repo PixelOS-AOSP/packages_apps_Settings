@@ -65,4 +65,6 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">I-redo ang pag-scan ng mukha</string>
     <string name="face_redo_confirm_btn">I-redo</string>
     <string name="face_redo_warning_msg">Gusto mo bang tanggalin ang umiiral na face scan at gumawa ng bago?</string>
+    <string name="others_settings_title">Ibang mga settings</string>
+    <string name="additional_buttons_title">Karagdagang pindutan</string>
 </resources>

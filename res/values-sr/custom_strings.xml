@@ -75,4 +75,8 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Закључан екран, отисак, откључавање</string>
     <string name="face_redo_confirm_btn">Понови</string>
     <string name="face_redo_warning_msg">Желите ли да уклоните постојеће скенирање лица и да направите ново?</string>
+    <string name="others_settings_title">Остала подешавања</string>
+    <string name="additional_buttons_title">Додатна дугмад</string>
+    <string name="keyboard_extras_title">Додаци</string>
+    <string name="advanced_keyboard_settings_title">Напредна подешавања</string>
 </resources>

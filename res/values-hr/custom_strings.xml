@@ -75,4 +75,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Zaključavanje, otisak, prepoznavanje lica</string>
     <string name="face_redo_confirm_btn">Ponovi</string>
     <string name="face_redo_warning_msg">Želite li izbrisati postojeći sken lica i kreirati novi?</string>
+    <string name="others_settings_title">Ostale postavke</string>
+    <string name="additional_buttons_title">Dodatne tipke</string>
 </resources>

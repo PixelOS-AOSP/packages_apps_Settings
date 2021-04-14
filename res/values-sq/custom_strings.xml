@@ -51,4 +51,5 @@
     <string name="disable_navkeys_title">Aktivizo shiritin e lundrimit në ekran</string>
     <string name="disable_navkeys_summary">Aktivizo shiritin e lundrimit në ekran dhe çaktivizo butonat fizikë</string>
     <string name="high_touch_sensitivity_title">Ndjesi e lartë e prekjes</string>
+    <string name="additional_buttons_title">Butona të tjerë</string>
 </resources>

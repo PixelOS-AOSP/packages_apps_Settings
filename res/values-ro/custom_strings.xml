@@ -22,6 +22,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Găsiți senzorul de amprentă pe partea dreaptă a tabletei.</string>
     <string name="battery_light_title">Lumină baterie</string>
     <string name="refresh_rate_title">Rata de actualizare a ecranului</string>
+    <string name="mobile_data_settings_summary_unavailable">Nicio cartelă SIM disponibilă</string>
     <string name="connected_tws_device_saved_title">Căşti intraauriculare salvate</string>
     <string name="reset">Resetați</string>
     <string name="button_pref_title">Butoane</string>
@@ -66,6 +67,8 @@
     <string name="backlight_summary_enabled">Activat</string>
     <string name="disable_navkeys_title">Activare bară de navigare pe ecran</string>
     <string name="disable_navkeys_summary">Activare bara de navigare pe ecran și dezactivează butoanele hardware</string>
+    <string name="swap_capacitive_keys_title">Schimbă butoanele capacitive</string>
+    <string name="swap_capacitive_keys_summary">Schimbă ordinea butoanelor recente și înapoi</string>
     <string name="high_touch_sensitivity_title">Sensibilitate tactilă înaltă </string>
     <string name="high_touch_sensitivity_summary">Crește sensibilitatea ecranului tactil, astfel încât acesta poate fi utilizat în timp ce se poartă mănuși</string>
     <string name="touchscreen_hovering_title">Plutire peste ecran</string>
@@ -75,4 +78,8 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Blocare ecran, amprentă, deblocare facială</string>
     <string name="face_redo_confirm_btn">Execută refacere</string>
     <string name="face_redo_warning_msg">Doriţi să ştergeţi scanarea existentă a feţei şi să creaţi una nouă?</string>
+    <string name="fast_charging_title">Încărcare rapidă</string>
+    <string name="fast_charging_summary">Dezactivează pentru a reduce căldura produsă de dispozitiv în timpul încărcări pentru a extinde durata de viață a bateriei</string>
+    <string name="others_settings_title">Alte setări</string>
+    <string name="additional_buttons_title">Butoane suplimentare</string>
 </resources>

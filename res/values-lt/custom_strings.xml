@@ -68,4 +68,6 @@
     <string name="high_touch_sensitivity_summary">Padidinti liečiamojo ekrano jautrumą tam, kad juo būtų galima naudotis dėvint pirštines</string>
     <string name="touchscreen_hovering_title">Jutiklinio ekrano slankiojimas</string>
     <string name="touchscreen_hovering_summary">Leidžia slankioti ekraną kaip pelę internetinėse naršyklėse, nuotoliniuose staliniuose kompiuteriuose ir kt.</string>
+    <string name="others_settings_title">Kiti nustatymai</string>
+    <string name="additional_buttons_title">Papildomi mygtukai</string>
 </resources>

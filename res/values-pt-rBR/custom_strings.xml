@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
+    <string name="others_settings_title">Outras configurações</string>
+    <string name="additional_buttons_title">Botões adicionais</string>
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Configurações avançadas</string>
 </resources>

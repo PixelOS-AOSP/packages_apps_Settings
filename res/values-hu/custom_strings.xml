@@ -80,4 +80,8 @@
     <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és új arcot beolvasni?</string>
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Ne engedélyezze, ha csökkentené a készülék töltés közbeni melegedését, vagy meghosszabbítaná az akkumulátor élettartamát</string>
+    <string name="others_settings_title">Egyéb beállítások</string>
+    <string name="additional_buttons_title">További gombok</string>
+    <string name="keyboard_extras_title">Extrák</string>
+    <string name="advanced_keyboard_settings_title">Haladó beállítások</string>
 </resources>

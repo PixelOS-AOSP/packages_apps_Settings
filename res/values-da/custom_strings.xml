@@ -75,4 +75,5 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Skærmlås, fingeraftryk, ansigtslås</string>
     <string name="face_redo_confirm_btn">Annuller fortryd</string>
     <string name="face_redo_warning_msg">Vil du fjerne den eksisterende ansigtsscanning og oprette en ny?</string>
+    <string name="additional_buttons_title">Yderligere knapper</string>
 </resources>

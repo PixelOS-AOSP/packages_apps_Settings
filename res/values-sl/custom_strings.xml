@@ -75,4 +75,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Zaklep zaslona, prstni odtis, odklep z obrazom</string>
     <string name="face_redo_confirm_btn">Uveljavi</string>
     <string name="face_redo_warning_msg">Ali želite odstraniti obstoječi optično prebrani obraz in ustvariti novega?</string>
+    <string name="others_settings_title">Druge nastavitve</string>
+    <string name="additional_buttons_title">Dodatni gumbi</string>
 </resources>

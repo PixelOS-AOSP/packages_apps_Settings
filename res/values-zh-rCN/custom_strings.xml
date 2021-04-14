@@ -14,23 +14,23 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">您可以在手机正面找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">您可以在手机左侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">您可以在手机右侧找到指纹传感器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您可以在手机正面找到指纹传感器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您可以在手机左侧找到指纹传感器。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您可以在手机右侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您可以在设备正面找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您可以在设备左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您可以在设备右侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板正面找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">您可以在平板左侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">您可以在平板右侧找到指纹传感器。</string>
     <string name="battery_light_title">在充电时开启指示灯</string>
     <string name="refresh_rate_title">屏幕刷新率</string>
     <string name="mobile_data_settings_summary_unavailable">无可用SIM卡</string>
-    <string name="connected_tws_device_saved_title">保存的耳机</string>
+    <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <string name="reset">重置</string>
     <string name="button_pref_title">按键</string>
     <string name="hardware_keys_home_key_title">Home 键</string>
     <string name="hardware_keys_back_key_title">返回键</string>
     <string name="hardware_keys_menu_key_title">菜单键</string>
     <string name="hardware_keys_assist_key_title">搜索键</string>
-    <string name="hardware_keys_appswitch_key_title">应用键</string>
+    <string name="hardware_keys_appswitch_key_title">最近任务键</string>
     <string name="hardware_keys_camera_key_title">相机键</string>
     <string name="hardware_keys_short_press_title">短按行为</string>
     <string name="hardware_keys_long_press_title">长按行为</string>
@@ -73,11 +73,15 @@
     <string name="high_touch_sensitivity_summary">增加触摸屏的灵敏度，以便在戴手套时使用</string>
     <string name="touchscreen_hovering_title">悬空操作</string>
     <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有面部扫描并创建新的扫描</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">重新面部扫描</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">屏幕锁定、指纹、面部解锁</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">屏幕锁定、指纹、人脸解锁</string>
     <string name="face_redo_confirm_btn">重做</string>
-    <string name="face_redo_warning_msg">是否要移除现有的面部扫描并创建新的扫描？</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
     <string name="fast_charging_title">正在快速充电</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
+    <string name="others_settings_title">其他设置</string>
+    <string name="additional_buttons_title">附加按钮</string>
+    <string name="keyboard_extras_title">附加功能</string>
+    <string name="advanced_keyboard_settings_title">高级设置</string>
 </resources>
