@@ -59,6 +59,13 @@
             android:entryValues="@array/fod_recog_animation_values"
             android:defaultValue="0" />
 
+        <!-- FOD Nightlight -->
+        <com.pixelish.support.preferences.SystemSettingSwitchPreference
+            android:key="fod_night_light"
+            android:title="@string/fod_night_light_title"
+            android:summary="@string/fod_night_light_summary"
+            android:defaultValue="@*android:bool/disable_fod_night_light"  />
+
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="ambient_battery_percent" 
             android:title="@string/ambient_battery_percent_title" 
