@@ -26,4 +26,8 @@
     <string name="navbar_length">Gesture bar length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
+
+   <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Disable night light when showing FOD</string>
+    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
 </resources>
