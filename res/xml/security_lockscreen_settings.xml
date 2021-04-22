@@ -59,6 +59,12 @@
             android:entryValues="@array/fod_recog_animation_values"
             android:defaultValue="0" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="power_menu_hide_on_secure"
+            android:title="@string/power_menu_hide_on_secure_title"
+            android:summary="@string/power_menu_hide_on_secure_summary"
+            android:defaultValue="false" />
+
         <!-- FOD Nightlight -->
         <com.pixelish.support.preferences.SystemSettingSwitchPreference
             android:key="fod_night_light"
