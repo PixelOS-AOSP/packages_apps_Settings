@@ -26,4 +26,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
 
+    <!-- Whether to show peak refresh rate in display settings -->
+    <bool name="config_show_peak_refresh_rate_switch">false</bool>
 </resources>
