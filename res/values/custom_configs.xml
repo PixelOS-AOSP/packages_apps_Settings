@@ -29,4 +29,7 @@
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+
+    <!-- Whether to show peak refresh rate in display settings -->
+    <bool name="config_show_peak_refresh_rate_switch">false</bool>
 </resources>
