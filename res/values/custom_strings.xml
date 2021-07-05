@@ -182,4 +182,8 @@
     <string name="gesture_screen_category_title">Screen</string>
     <string name="gesture_power_button_category_title">Power button</string>
     <string name="gesture_volume_buttons_category_title">Volume buttons</string>
+
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">High touch polling rate</string>
+    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
 </resources>
