@@ -61,12 +61,6 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="ambient_battery_percent" 
-            android:title="@string/ambient_battery_percent_title" 
-            android:summary="@string/ambient_battery_percent_summary" 
-            android:defaultValue="false" />
-
         <Preference
             android:key="clock_style"
             android:title="@string/clock_style_title"
