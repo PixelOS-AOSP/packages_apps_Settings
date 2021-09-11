@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Styx
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Support -->
+    <string name="ok">Oke</string>
+    <string name="edit_hint">Nilai</string>
+    <string name="seek_value_edit_label">Tetapkan nilai</string>
+
+     <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Bawaan</string>
+    <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk mengatur</string>
+    <string name="custom_seekbar_default_value_is_set">Nilai default diatur</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Panjang bilah gestur</string>
+    <string name="short_label">Pendek</string>
+    <string name="long_label">Panjang</string>
+
+    <string name="qs_bg_use_new_tint">Warnai ubin QS menggunakan warna aksen</string>
+    <string name="qs_bg_use_new_tint_summary">Aktifkan warna aksen pada ubin QS</string>
+
+   <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Face unlock memungkinkan Anda membuka kunci perangkat dengan melihatnya. Ingatlah:\n\n● Perangkat Anda dapat terbuka kuncinya kapan saja Anda melihatnya.\n● Perangkat Anda dapat dibuka kuncinya oleh orang lain jika mereka memegangnya di depan wajah Anda saat mata Anda terbuka.\n● Perangkat Anda perangkat juga dapat dibuka kuncinya oleh seseorang yang sangat mirip dengan Anda, seperti anak kecil atau saudara kandung yang identik.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Data yang direkam dengan face unlock akan dihapus secara permanen dan aman. Setelah dihapus, Anda memerlukan PIN, pola, atau kata sandi untuk membuka kunci ponsel Anda.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Kunci layar, sidik jari, buka kunci wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat yang baru?</string>
+    <string name="face_unlock_method_title">Izinkan penguncian wajah saat</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat menggesek layar kunci</string>
+
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Tekan untuk membuka</string>
+    <string name="fingerprint_power_button_press_off_summary">Sentuh tombol daya untuk membuka kunci dengan sidik jari saat layar mati</string>
+    <string name="fingerprint_power_button_press_on_summary">Tekan tombol daya dengan kuat untuk membuka kunci dengan sidik jari saat layar mati</string>
+
+</resources>
