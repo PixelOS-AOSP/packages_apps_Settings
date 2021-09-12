@@ -11,20 +11,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой грани вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой грани вашего телефона.</string>
+
+    <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней поверхности телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите датчик отпечатков пальцев на левой грани вашего устройства.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите датчик отпечатков пальцев на правой грани вашего устройства.</string>
+
+    <!-- Fingerprint location message - tablet -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите датчик отпечатков пальцев на задней поверхности вашего планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите датчик отпечатков пальцев на левой грани вашего планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой грани вашего планшета.</string>
+
+    <!-- Battery light -->
     <string name="battery_light_title">Включить световой индикатор во время зарядки</string>
+
+    <!-- Refresh rate -->
     <string name="refresh_rate_title">Частота обновления экрана</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">SIM-карта недоступна</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
+
+    <!-- Generic stuff used everywhere -->
     <string name="reset">Сброс</string>
+
+    <!-- Buttons -->
     <string name="button_pref_title">Кнопки</string>
     <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>
     <string name="hardware_keys_back_key_title">Кнопка «Назад»</string>
@@ -54,6 +72,8 @@
     <string name="camera_sleep_on_release_summary">Легкое нажатие и удержание кнопки будет пробуждать дисплей</string>
     <string name="camera_launch_title">Запуск камеры</string>
     <string name="camera_launch_summary">Длительное нажатие и удержание кнопки запустит камеру</string>
+
+    <!-- Key backlight -->
     <string name="button_backlight_title">Подсветка</string>
     <string name="button_backlight_enabled">Подсветка кнопок</string>
     <string name="button_backlight_only_when_pressed_title">Подсветка кнопок только при нажатии</string>
@@ -65,23 +85,65 @@
     <string name="backlight_summary_disabled">Выключено</string>
     <string name="backlight_summary_enabled_with_timeout">Включена <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Включена</string>
+
+    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Включение панели навигации</string>
     <string name="disable_navkeys_summary">Включить панель навигации и отключить аппаратные кнопки</string>
+
+    <!-- Buttons - Swap capacitive keys -->
     <string name="swap_capacitive_keys_title">Поменять местами сенсорные кнопки</string>
     <string name="swap_capacitive_keys_summary">Поменять местами кнопки «Недавние» и «Назад»</string>
+
+    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Режим перчаток</string>
     <string name="high_touch_sensitivity_summary">Увеличить чувствительность экрана для возможности работы в перчатках</string>
+
+    <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Наведение пальца</string>
     <string name="touchscreen_hovering_summary">Распознавать приближение пальца к экрану для событий наведения курсора в браузере или других приложениях</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка, отпечатки, фейсконтроль</string>
-    <string name="face_redo_confirm_btn">Повторить</string>
-    <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
+
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Разблокировка с помощью отпечатка пальца при выключенном экране</string>
+    <string name="fod_gesture_summary">Позволяет разблокировать устройство без необходимости сначала выводить экран из спящего режима</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвратить случайное пробуждение</string>
+    <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением экрана</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Быстрое включение фонарика</string>
+    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки включения включит фонарик</string>
+  
+    <!-- FastCharge feature -->
     <string name="fast_charging_title">Быстрая зарядка</string>
     <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
-    <string name="others_settings_title">Другие настройки</string>
-    <string name="additional_buttons_title">Дополнительные кнопки</string>
+
+    <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Дополнительно</string>
     <string name="advanced_keyboard_settings_title">Дополнительные настройки</string>
+
+    <!-- Others settings -->
+    <string name="others_settings_title">Другие настройки</string>
+    <string name="additional_buttons_title">Дополнительные кнопки</string>
+
+     <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Панель жестов</string>
+    <string name="show_navbar_gesture_bar_summary">Показывать панель жестов внизу экрана</string>
+
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Нажмите для разблокировки</string>
+    <string name="fingerprint_power_button_press_off_summary">Коснитесь кнопки питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
+    <string name="fingerprint_power_button_press_on_summary">Нажмите кнопку питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Фейсконтроль позволяет разблокировать устройство, глядя на него. Имейте ввиду:\n\n● Ваше устройство может разблокироваться в любое время, когда вы посмотрите на него.\n● Кто-то другой может разблокировать ваше устройство, если поднесет его к вашему лицу, а ваши глаза открыты.\n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком или похожим братом или сестрой.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, записанные с помощью разблокировки лица, будут безвозвратно и безопасно удалены. После удаления вам понадобится ваш PIN-код, графический ключ или пароль для разблокировки телефона.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующее сканирование лица и создать новое сканирование</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторить сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, фейсконтроль</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку по лицу, когда</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При смахивании по экрану блокировки</string>
 </resources>
