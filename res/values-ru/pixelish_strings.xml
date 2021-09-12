@@ -35,7 +35,7 @@
     <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, записанные с помощью разблокировки лица, будут безвозвратно и безопасно удалены. После удаления вам понадобится ваш PIN-код, графический ключ или пароль для разблокировки телефона.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующее сканирование лица и создать новое сканирование</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторить сканирование лица</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, фейсконтроль</string>
     <string name="face_redo_confirm_btn">Повторить</string>
     <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
     <string name="face_unlock_method_title">Разрешить разблокировку по лицу, когда</string>
