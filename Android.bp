@@ -103,6 +103,7 @@ android_library {
         "settings-logtags",
         "settings-telephony-protos-lite",
         "statslog-settings",
+        "custom-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
