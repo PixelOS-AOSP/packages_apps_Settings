@@ -104,6 +104,7 @@ android_library {
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
+        "custom-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
