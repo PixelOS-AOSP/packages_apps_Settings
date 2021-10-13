@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <integer name="gesture_assist_sensitivity_default">4</integer>
+    <integer name="gesture_assist_sensitivity_max">8</integer>
+    <integer name="haptics_level_max">2</integer>
+</resources>

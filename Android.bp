@@ -45,6 +45,10 @@ android_library {
     ],
 
     srcs: ["src/**/*.java"],
+    resource_dirs: [
+        "res",
+        "res-pixel",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -74,6 +78,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "custom-preference",
+        "SettingsGoogle-lib",
     ],
 
     libs: [

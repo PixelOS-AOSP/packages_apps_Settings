@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fingerprint_sensor_location_color1" format="color" />
+    <attr name="fingerprint_sensor_location_color2" format="color" />
+    <attr name="fingerprint_sensor_location_color3" format="color" />
+    <attr name="fingerprint_sensor_location_color4" format="color" />
+    <attr name="fingerprint_sensor_location_color5" format="color" />
+    <attr name="fingerprint_sensor_location_color6" format="color" />
+    <attr name="fingerprint_sensor_location_color7" format="color" />
+    <attr name="color_iphonecircle" format="color" />
+    <attr name="color_iphoneface" format="color" />
+    <attr name="color_iphoneoutline" format="color" />
+    <attr name="color_nexusface" format="color" />
+    <attr name="color_nexusoutline" format="color" />
+    <attr name="secureValue" format="string" />
+    <attr name="textSizeMaxDp" format="dimension" />
+</resources>

@@ -17,28 +17,27 @@
 
 <com.google.android.setupdesign.GlifLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/setup_wizard_layout"
     style="?attr/fingerprint_layout_theme"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:gravity="center_vertical"
         android:orientation="vertical"
+        android:clipChildren="false"
         android:clipToPadding="false"
-        android:clipChildren="false">
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <include
-            layout="@layout/fingerprint_enroll_find_sensor_graphic"
-            android:layout_width="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/SudContentFrame">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/illustration_lottie"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"/>
-
+            android:scaleType="centerInside"
+            app:lottie_autoPlay="true"
+            app:lottie_imageAssetsFolder="images"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/fingerprint_edu_lottie" />
     </LinearLayout>
 </com.google.android.setupdesign.GlifLayout>
