@@ -101,11 +101,8 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     private CharSequence getSummary(int simSlot) {
         final int phoneType = getPhoneType(simSlot);
-        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo)) {
-            return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
-                    : mTelephonyManager.getImei(simSlot);
-        }
-        return mContext.getString(R.string.device_info_protected_single_press);
+        return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
+                : mTelephonyManager.getImei(simSlot);
     }
 
     @Override
