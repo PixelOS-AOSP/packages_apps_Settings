@@ -89,7 +89,7 @@
         android:summary="@string/summary_placeholder"
         android:ringtoneType="ringtone"
         settings:allowDividerAbove="false"
-        android:order="-110"/>
+        android:order="-119"/>
 
     <Preference
         android:fragment="com.android.settings.sound.MediaControlsSettings"
