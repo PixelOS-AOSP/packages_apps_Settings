@@ -16,8 +16,9 @@
     <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
     <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>

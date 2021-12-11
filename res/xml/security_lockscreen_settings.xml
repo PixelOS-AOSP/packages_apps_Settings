@@ -107,12 +107,24 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_tweaks_category"
+        android:title="@string/lockscreen_tweaks_category_title"
+        android:order="1001">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
-        android:order="1001"
+        android:order="1002"
         settings:searchable="false">
 
         <com.android.settings.RestrictedListPreference
