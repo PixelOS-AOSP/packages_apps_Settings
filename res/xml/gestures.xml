@@ -39,6 +39,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
 
+     <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="torch_power_button_gesture"
+        android:dialogTitle="@string/torch_power_button_gesture_title"
+        android:title="@string/torch_power_button_gesture_title"
+        android:summary="%s"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values"
+        android:defaultValue="0" />
+
     <Preference
         android:key="gesture_double_tap_power_input_summary"
         android:title="@string/double_tap_power_for_camera_title"
