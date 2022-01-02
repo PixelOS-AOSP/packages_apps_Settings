@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-          http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Будет установлено незащищенное соединение.</string>
+     
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать 60 Гц в качестве максимальной частоты обновления для экономии энергии при включенной функции энергосбережения.</string>
 
+    <!-- Battery light -->
+    <string name="battery_light_title">Активация индикатора при зарядке</string>
+     
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Касание для сна</string>
     <string name="double_tap_sleep_gesture_summary">Дважды каснитесь строки состояния в любом месте, чтобы перевести устройство в спящий режим.</string>
-
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Дважды коснитесь экрана в любом месте, чтобы перевести или вывести устройство из спвящего режима</string>
+     
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Что делать</string>
+    <string name="double_tap_sleep_lockscreen_title">Дважды коснитесь экрана блокировки для сна</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Проведите для создания снимка экрана</string>
@@ -33,12 +31,15 @@
     <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
     <string name="global_actions_advanced_reboot_summary">Показать параметры рекавери и загрузчика в меню питания</string>
 
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
-    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
-    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
-    <string name="battery_saver_refresh_rate_summary">Использовать 60 Гц в качестве максимальной частоты обновления для экономии энергии при включенной функции энергосбережения.</string>
+         <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
 
-    <!-- Battery light -->
-    <string name="battery_light_title">Активация индикатора при зарядке</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включать фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Дважды нажмите кнопку питания (отключает функцию Быстрого открытия камеры и добавляет задержку пробуждения 170 мс)</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
 </resources>
