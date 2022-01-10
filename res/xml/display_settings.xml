@@ -36,11 +36,21 @@
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+
         <SwitchPreferenceCompat
             android:key="even_dimmer_activated"
             android:title="@string/even_dimmer_display_title"
             android:summary="@string/even_dimmer_display_summary"
             settings:controller="com.android.settings.display.EvenDimmerPreferenceController"/>
+
+        <com.android.settingslib.PrimarySwitchPreference
+            android:key="reduce_bright_colors_preference"
+            android:title="@string/reduce_bright_colors_preference_title"
+            settings:keywords="@string/keywords_reduce_bright_colors"
+            android:persistent="false"
+            android:fragment="com.android.settings.accessibility.ToggleReduceBrightColorsPreferenceFragment"
+            settings:controller="com.android.settings.accessibility.ReduceBrightColorsPreferenceController"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
