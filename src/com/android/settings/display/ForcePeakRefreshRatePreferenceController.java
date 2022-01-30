@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.display;
 
 import android.content.Context;
 import android.hardware.display.DisplayManager;
@@ -94,15 +94,6 @@ public class ForcePeakRefreshRatePreferenceController extends DeveloperOptionsPr
         } else {
             return false;
         }
-    }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        Settings.System.putFloat(mContext.getContentResolver(),
-            Settings.System.MIN_REFRESH_RATE, NO_CONFIG);
-
-        ((SwitchPreference) mPreference).setChecked(false);
     }
 
     @VisibleForTesting
