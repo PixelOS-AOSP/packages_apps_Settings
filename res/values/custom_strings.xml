@@ -185,4 +185,7 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
