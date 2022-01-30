@@ -663,7 +663,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new WaitForDebuggerPreferenceController(context));
         controllers.add(new EnableGpuDebugLayersPreferenceController(context));
         controllers.add(new GraphicsDriverEnableAngleAsSystemDriverController(context, fragment));
-        controllers.add(new ForcePeakRefreshRatePreferenceController(context));
         controllers.add(new EnableVerboseVendorLoggingPreferenceController(context));
         controllers.add(new VerifyAppsOverUsbPreferenceController(context));
         controllers.add(new ArtVerifierPreferenceController(context));
@@ -695,7 +694,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new ShowSurfaceUpdatesPreferenceController(context));
         controllers.add(new ShowLayoutBoundsPreferenceController(context));
         controllers.add(new ShowHdrSdrRatioPreferenceController(context));
-        controllers.add(new ShowRefreshRatePreferenceController(context));
         controllers.add(new RtlLayoutPreferenceController(context));
         controllers.add(new WindowAnimationScalePreferenceController(context));
         controllers.add(new TransparentNavigationBarPreferenceController(context));

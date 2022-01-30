@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.display;
 
 import static com.android.internal.display.RefreshRateSettingsUtils.DEFAULT_REFRESH_RATE;
 import static com.android.internal.display.RefreshRateSettingsUtils.findHighestRefreshRateAmongAllDisplays;
@@ -86,15 +86,6 @@ public class ForcePeakRefreshRatePreferenceController extends DeveloperOptionsPr
         } else {
             return false;
         }
-    }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        Settings.System.putFloat(mContext.getContentResolver(),
-            Settings.System.MIN_REFRESH_RATE, NO_CONFIG);
-
-        ((TwoStatePreference) mPreference).setChecked(false);
     }
 
     @VisibleForTesting

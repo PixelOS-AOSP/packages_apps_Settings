@@ -12263,6 +12263,10 @@
     <string name="category_name_color">Color</string>
     <!-- Name of Other display controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_display_controls">Other display controls</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Refresh Rate</string>
+    <!-- Others category name [CHAR LIMIT=none] -->
+    <string name="category_name_others">Others</string>
     <!-- General category name [CHAR LIMIT=none] -->
     <string name="category_name_general">General</string>
     <!-- Title for Dark theme main switch preferences. [CHAR LIMIT=50] -->
