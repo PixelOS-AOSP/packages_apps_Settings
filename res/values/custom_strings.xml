@@ -210,4 +210,7 @@
 
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Additional Settings</string>
+
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Refresh Rate</string>
 </resources>
