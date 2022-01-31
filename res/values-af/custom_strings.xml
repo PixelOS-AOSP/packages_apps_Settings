@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_light_title">Battery liggie</string>
+    <string name="reset">Stel terug</string>
+    <string name="button_pref_title">Knoppies</string>
+    <string name="hardware_keys_home_key_title">Kieslys knoppie</string>
+    <string name="hardware_keys_back_key_title">Terug knoppie</string>
+    <string name="hardware_keys_menu_key_title">Kieslys knoppie</string>
+    <string name="hardware_keys_assist_key_title">Soek-knoppie</string>
+    <string name="hardware_keys_appswitch_key_title">Onlangse knoppie</string>
+    <string name="hardware_keys_camera_key_title">Kamera knoppie</string>
+    <string name="hardware_keys_short_press_title">Aanraak aksie</string>
+    <string name="hardware_keys_long_press_title">Lang-druk aksie</string>
+    <string name="hardware_keys_double_tap_title">Dubbelle aanrak aksie</string>
+    <string name="hardware_keys_action_nothing">Geen aksie</string>
+    <string name="hardware_keys_action_menu">Kieslys oop/toemaak</string>
+    <string name="hardware_keys_action_app_switch">Onlangse toep wisselaar</string>
+    <string name="hardware_keys_action_search">Soek assistent</string>
+    <string name="hardware_keys_action_voice_search">Stem soektog</string>
+    <string name="hardware_keys_action_in_app_search">In-program soek</string>
+    <string name="hardware_keys_action_launch_camera">Begin kamera</string>
+    <string name="hardware_keys_action_sleep">Skakel skerm af</string>
+    <string name="hardware_keys_action_split_screen">Gedeelde skerm</string>
+    <string name="button_wake_title">Aktiveer foon</string>
+    <string name="camera_sleep_on_release_title">Skerm loer</string>
+    <string name="camera_sleep_on_release_summary">\'n Half druk sal die skerm aanhou slegs terwyl die knoppie ingehou word</string>
+    <string name="camera_launch_title">Begin kamera</string>
+    <string name="camera_launch_summary">\'n Lang druk en los sal kamera begin</string>
+    <string name="button_backlight_title">Agtergrondlig</string>
+    <string name="button_backlight_enabled">Verlig knoppies</string>
+    <string name="keyboard_backlight_enabled">Verlig sleutelbord</string>
+    <string name="button_backlight_seekbar_title">Knoppie helderheid</string>
+    <string name="keyboard_backlight_seekbar_title">Sleutelbord helderheid</string>
+    <string name="backlight_timeout_title">Verligting tydsduur</string>
+    <string name="backlight_timeout_unlimited">Moet nie afsit nie</string>
+    <string name="backlight_summary_disabled">Gedeaktiveer</string>
+    <string name="backlight_summary_enabled_with_timeout">Aktiveer vir <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Geaktiveer</string>
+    <string name="disable_navkeys_title">Aktiveer op-skerm navigasiebalk</string>
+    <string name="disable_navkeys_summary">Aktiveer op-skerm navigasiebalk en deaktiveer hardewareknoppies</string>
+    <string name="high_touch_sensitivity_title">Hoë raak sensitiwiteit</string>
+    <string name="high_touch_sensitivity_summary">Verhoog skerm sensitiwiteit, sodat dit kan gebruik word met die dra van handskoene</string>
+    <string name="touchscreen_hovering_title">Raakskerm swewing</string>
+    <string name="touchscreen_hovering_summary">Laat toe om bo die sekrm te sweef soos \'n muis in die web blaaiers, Remote desktops, ens</string>
+</resources>

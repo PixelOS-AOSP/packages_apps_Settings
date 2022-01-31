@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="high_touch_sensitivity_title">ଅଧିକ ସ୍ପର୍ଶ ତୀବ୍ରତା</string>
+    <string name="high_touch_sensitivity_summary">ଟଚ୍‍ସ୍କ୍ରିନ୍‍ ତୀବ୍ରତା ବଢାନ୍ତୁ ଯାହା ଫଳରେ ତାହା ଗ୍ଲୋବ୍ସ ପିଂଧିବା ସମୟରେ ବ୍ୟବହାର କରାଯାଇପାରିବ</string>
+    <string name="touchscreen_hovering_title">ଟଚ୍‍ସ୍କ୍ରିନ୍‍ ହୋଭରିଂ</string>
+    <string name="touchscreen_hovering_summary">ୱେବ୍‍ ବ୍ରାଉଜର୍‍, ରିମୋ‍ ଡେସ୍କଟପ୍ ଇତ୍ୟା୍ଦି‍ରେ ମାଉସ୍‍ ଭଳି ଆପଣଙ୍କୁ ସ୍କ୍ରିନ୍‍ରେ ହୋଭର୍‍ ପାଇଁ ଅନୁମତି ଦିଅ</string>
+</resources>

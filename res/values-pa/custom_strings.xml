@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_light_title">ਚਾਰਜ ਕਰਦੇ ਸਮੇਂ ਲਾਈਟ ਜਗਾਓ</string>
+    <string name="hardware_keys_action_launch_camera">ਕੈਮਰਾ ਲਾਂਚ ਕਰੋ</string>
+    <string name="hardware_keys_action_sleep">ਸਕਰੀਨ ਬੰਦ ਕਰੋ</string>
+    <string name="camera_launch_title">ਕੈਮਰਾ ਲਾਂਚ ਕਰੋ</string>
+    <string name="disable_navkeys_title">ਸਕ੍ਰੀਨ \'ਤੇ ਆਵਾਗੌਣ ਪੱਟੀ ਚਾਲੂ ਕਰੋ</string>
+    <string name="disable_navkeys_summary">ਸਕ੍ਰੀਨ \'ਤੇ ਆਵਾਗੌਣ ਪੱਟੀ ਚਾਲੂ ਕਰਕੇ ਮਸ਼ੀਨੀ ਹਾਰਡਵੇਅਰ ਬਟਨਾਂ ਨੂੰ ਬੰਦ ਕਰੋ</string>
+</resources>
