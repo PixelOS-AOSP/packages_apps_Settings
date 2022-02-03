@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fingerprint -->
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+</resources>
