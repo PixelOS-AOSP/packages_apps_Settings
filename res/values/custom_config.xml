@@ -26,6 +26,13 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
 
+    <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+
+    <!-- Indicates whether device has a side mounted fingerprint sensor,
+         but a dedicated one, i.e. not embedded in the power button. -->
+    <bool name="config_is_side_fps" translatable="false">false</bool>
+
     <!-- Whether to show peak refresh rate in display settings -->
     <bool name="config_show_peak_refresh_rate_switch">false</bool>
 
