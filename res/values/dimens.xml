@@ -456,4 +456,7 @@
     <dimen name="chartview_trapezoid_radius">5dp</dimen>
     <dimen name="chartview_trapezoid_margin_start">1dp</dimen>
     <dimen name="chartview_trapezoid_margin_bottom">2dp</dimen>
+
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
 </resources>
