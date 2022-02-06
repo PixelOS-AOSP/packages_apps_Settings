@@ -124,6 +124,9 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
+    <!-- Skip animation during fingerprint unlock -->
+    <string name="skip_fp_unlock_animation_title">Skip fingerprint unlock animation</string>
+
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_enabled">Use adaptive playback</string>

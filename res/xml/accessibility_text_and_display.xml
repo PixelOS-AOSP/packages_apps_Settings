@@ -82,6 +82,11 @@
         android:title="@string/accessibility_toggle_high_text_contrast_preference_title"
         settings:controller="com.android.settings.accessibility.HighTextContrastPreferenceController"/>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="skip_fp_unlock_animation"
+            android:title="@string/skip_fp_unlock_animation_title"
+            android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="experimental_category"
         android:persistent="false"
