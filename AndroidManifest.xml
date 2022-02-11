@@ -112,6 +112,10 @@
     <!-- LineageHardware -->
     <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
 
+    <!-- Face Unlock -->
+    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
+    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
+
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
             android:theme="@style/Theme.Settings"
@@ -3851,6 +3855,17 @@
                   android:label="@string/main_clear_confirm_title"
                   android:exported="false"
                   android:theme="@style/SudThemeGlif.Light">
+        </activity>
+
+        <!-- Face unlock -->
+        <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
+            android:permission="com.android.settings.FACE_UNLOCK"
+            android:theme="@style/Transparent"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
