@@ -79,6 +79,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "custom-preference",
         "google-securityhub",
+        "faceunlock_framework",
     ],
 
     libs: [
