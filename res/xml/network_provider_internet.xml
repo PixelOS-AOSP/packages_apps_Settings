@@ -64,7 +64,6 @@
         android:key="manage_mobile_plan"
         android:icon="@drawable/ic_settings_mobile_plan"
         android:title="@string/manage_mobile_plan_title"
-        android:icon="@drawable/ic_settings_mobile_plan"
         android:persistent="false"
         android:order="19"
         settings:userRestriction="no_config_mobile_networks"
@@ -124,7 +123,6 @@
         android:fragment="com.android.settings.network.AdaptiveConnectivitySettings"
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
-        android:icon="@drawable/ic_settings_adaptive_connective"
         android:summary="@string/summary_placeholder"
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
