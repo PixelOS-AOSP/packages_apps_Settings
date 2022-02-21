@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">לא הוגדר אישור. החיבור שלך לא יהיה פרטי.</string>
     <string name="min_refresh_rate_title">קצב רענון מסך מינימלי</string>
     <string name="max_refresh_rate_title">קצב רענון מקסימלי</string>
     <string name="battery_saver_refresh_rate_title">הפחת קצב רענון</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">מאפשר להעביר את האצבע מעל המסך כמו עכבר של מחשב בדפדפנים, בעמדות שליטה מרחוק וכד\'</string>
     <string name="keyboard_extras_title">תוספות</string>
     <string name="advanced_keyboard_settings_title">הגדרות מתקדמות</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">אתר את חיישן טביעת האצבע בקידמת המכשיר.</string>
+    <string name="fast_charging_title">טעינה מהירה</string>
+    <string name="fast_charging_summary">השבת עבור הפחתת חימום המכשיר בזמן טעינה או כדי להאריך את חיי הסוללה</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">מחק את סריקת הפנים הקיימת וצור סריקה חדשה</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">סרוק פנים מחדש</string>
+    <string name="face_redo_confirm_btn">בצע מחדש</string>
+    <string name="face_redo_warning_msg">האם ברצונך למחוק את סריקת הפנים הקיימת וליצור אחת חדשה?</string>
+    <string name="face_unlock_method_title">אפשר נעילת פנים במסך הנעילה</string>
+    <string name="face_unlock_method_default">כאשר המסך פועל</string>
+    <string name="face_unlock_method_swipe">בעת החלקה על מסך הנעילה</string>
 </resources>

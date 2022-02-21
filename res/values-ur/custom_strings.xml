@@ -42,4 +42,9 @@
     <string name="backlight_summary_enabled">فعال ہے</string>
     <string name="disable_navkeys_title">آن سکرین نیویگیشن بار کو فعال کریں</string>
     <string name="disable_navkeys_summary">اسکرین نیویگیشن بار کو فعال کریں اور ہارڈویئر کے بٹن کو غیر فعال کریں</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">اپنے فون کے سامنے کے حصّہ میں فنگرپرنٹ سینسر تلاش کریں.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">موجودہ چہرہ اسکین ہٹائیں اور نیا اسکین بنائیں</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ریڈو چہرہ اسکین</string>
+    <string name="face_redo_confirm_btn">دوبارہ کریں</string>
+    <string name="face_redo_warning_msg">کیا آپ موجودہ چہرہ اسکین ہٹانا اور نیا بنانا چاہتے ہیں؟</string>
 </resources>

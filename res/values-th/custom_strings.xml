@@ -58,4 +58,14 @@
     <string name="touchscreen_hovering_summary">อนุญาตให้คุณสามารถวางนิ้วเหนือจอเหมือนการวางเม้าส์เหนือปุ่มในคอมพิวเตอร์</string>
     <string name="keyboard_extras_title">เพิ่มเติม</string>
     <string name="advanced_keyboard_settings_title">การตั้งค่าขั้นสูง</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">มองหาช่องอ่านลายนิ้วมือที่ด้านหน้าเครื่อง</string>
+    <string name="fast_charging_title">ชาร์จเร็ว</string>
+    <string name="fast_charging_summary">ปิดใช้งานเพื่อลดความร้อนที่เกิดจากอุปกรณ์ขณะชาร์จ หรือเพื่อยืดอายุการใช้งานของแบตเตอรี่</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ลบการสแกนใบหน้าที่มีอยู่ออกและสร้างการสแกนใหม่</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">สแกนใบหน้าอีกครั้ง</string>
+    <string name="face_redo_confirm_btn">ทำซ้ำ</string>
+    <string name="face_redo_warning_msg">คุณต้องการลบการสแกนใบหน้าที่มีอยู่แล้วสร้างการสแกนใหม่ใช่หรือไม่</string>
+    <string name="face_unlock_method_title">ยอมให้ปลดล็อคด้วยใบหน้าในขณะที่หน้าจอถูกล็อค</string>
+    <string name="face_unlock_method_default">เมื่อเปิดหน้าจอ</string>
+    <string name="face_unlock_method_swipe">เมื่อปัดบนหน้าจอขณะล็อค</string>
 </resources>

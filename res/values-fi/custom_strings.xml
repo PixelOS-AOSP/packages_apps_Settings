@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Ei määritettyä varmennetta. Yhteytesi ei ole yksityinen.</string>
     <string name="min_refresh_rate_title">Minimi virkistystaajuus</string>
     <string name="max_refresh_rate_title">Maksimi virkistystaajuus</string>
     <string name="battery_saver_refresh_rate_title">Pienennä virkistystaajuutta</string>
@@ -59,4 +60,16 @@
     <string name="touchscreen_hovering_summary">Sallii näytön leijuttamisen kuten hiiri selaimessa, etätyöpöytäyhteyksissä, jne.</string>
     <string name="keyboard_extras_title">Näppäimistön lisäasetukset</string>
     <string name="advanced_keyboard_settings_title">Lisäasetukset</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Löydä sormenjälkitunnistin puhelimesi etuosasta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Löydä sormenjälkitunnistin puhelimesi takakannesta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Löydä sormenjälkitunnistin puhelimesi reunasta.</string>
+    <string name="fast_charging_title">Pikalataus</string>
+    <string name="fast_charging_summary">Poista käytöstä vähentääksesi laitteen tuottamaa lämpöä latauksen aikana tai pidentääksesi akun käyttöikää</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Poista aiempi kasvojen skannaus ja luo uusi</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Skannaa kasvot uudelleen</string>
+    <string name="face_redo_confirm_btn">Toista</string>
+    <string name="face_redo_warning_msg">Haluatko poistaa aiemman kasvojen skannauksen ja luoda uuden?</string>
+    <string name="face_unlock_method_title">Salli kasvojentunnistus lukitusnäytöllä</string>
+    <string name="face_unlock_method_default">Kun näyttö on päällä</string>
+    <string name="face_unlock_method_swipe">Kun pyyhitään lukitusnäyttöä</string>
 </resources>

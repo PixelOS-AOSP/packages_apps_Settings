@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="min_refresh_rate_title">Найменша частота оновлення</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Сертифікат не вказано. Ваше з\'єднання не буде приватним.</string>
+    <string name="min_refresh_rate_title">Мінімальна частота оновлень</string>
     <string name="max_refresh_rate_title">Максимальна частота оновлень</string>
     <string name="battery_saver_refresh_rate_title">Зменшити частоту оновлення</string>
     <string name="battery_saver_refresh_rate_summary">Використовувати 60 Гц, щоб зберегти заряд батареї, коли ввімкнено режим економії заряду акумулятора</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Дозволяє виділяти елементи інтерфейсу при зависанні над ними без дотику</string>
     <string name="keyboard_extras_title">Додатково</string>
     <string name="advanced_keyboard_settings_title">Додаткові налаштування</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="fast_charging_title">Швидка зарядка</string>
+    <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або для продовження терміну служби акумулятора</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Видалити зареєстроване обличчя й виконати реєстрацію заново</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Сканувати обличчя заново</string>
+    <string name="face_redo_confirm_btn">Повторити</string>
+    <string name="face_redo_warning_msg">Видалити зареєстроване обличчя та виконати реєстрацію заново?</string>
+    <string name="face_unlock_method_title">Дозволити розблокування по обличчю на заблокованому екрані</string>
+    <string name="face_unlock_method_default">Коли екран увімкнено</string>
+    <string name="face_unlock_method_swipe">Коли ви проводите пальцем на заблокованому екрані </string>
 </resources>

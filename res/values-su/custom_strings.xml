@@ -8,4 +8,5 @@
     <string name="hardware_keys_appswitch_key_title">Tumbul bieu</string>
     <string name="hardware_keys_camera_key_title">Tombol kaméra</string>
     <string name="hardware_keys_short_press_title">Peta pencét pondok</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Milarian sensor sidik dina payuneun telepon anjeun.</string>
 </resources>

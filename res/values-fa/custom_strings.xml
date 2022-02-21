@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">گواهی‌نامه‌ای مشخص نشده است. اتصال شما اختصاصی نخواهد بود.</string>
     <string name="min_refresh_rate_title">حداقل نرخ تازه سازی</string>
     <string name="max_refresh_rate_title">حداکثر نرخ تازه سازی</string>
     <string name="battery_saver_refresh_rate_title">کاهش نرخ تازه سازی</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">به شما اجازه می‌دهد مانند عملکرد ماوس در مرورگرهای وب، ریموت دسکتاپ و غیره، صفحه نمایش را به صورت شناور کنترل کنید</string>
     <string name="keyboard_extras_title">موارد اضافی</string>
     <string name="advanced_keyboard_settings_title">تنظیمات پیشرفته</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">سنسور اثر انگشت را در جلوی تلفن خود پیدا کنید.</string>
+    <string name="fast_charging_title">شارژ سریع</string>
+    <string name="fast_charging_summary">برای کاهش دمای تولید شده توسط دستگاه در هنگام شارژ یا برای افزایش طول عمر باتری غیر فعال کنید</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">اسکن مجدد صورت</string>
+    <string name="face_redo_confirm_btn">انجام مجدد</string>
+    <string name="face_redo_warning_msg">مایلید اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید؟</string>
+    <string name="face_unlock_method_title">اجازه باز کردن قفل با چهره روی صفحه قفل</string>
+    <string name="face_unlock_method_default">وقتی صفحه نمایش روشن است</string>
+    <string name="face_unlock_method_swipe">هنگام کشیدن روی قفل صفحه</string>
 </resources>

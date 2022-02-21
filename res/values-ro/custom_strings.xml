@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">Vă permite să plutiți degetul peste ecran ca un mouse în browserele web, remote desktop-uri, etc</string>
     <string name="keyboard_extras_title">Extra</string>
     <string name="advanced_keyboard_settings_title">Setări avansate</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Găsiți senzorul de amprentă pe partea din faţă a telefonului.</string>
+    <string name="fast_charging_title">Încărcare rapidă</string>
+    <string name="fast_charging_summary">Dezactivează pentru a reduce căldura produsă de dispozitiv în timpul încărcări pentru a extinde durata de viață a bateriei</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Ştergeţi scanarea existentă a feţei şi creaţi o scanare nouă</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceţi scanarea facială</string>
+    <string name="face_redo_confirm_btn">Execută refacere</string>
+    <string name="face_redo_warning_msg">Doriţi să ştergeţi scanarea existentă a feţei şi să creaţi una nouă?</string>
+    <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
+    <string name="face_unlock_method_default">Cînd ecranul este pornit</string>
+    <string name="face_unlock_method_swipe">Când glisați pe ecranul de blocare</string>
 </resources>

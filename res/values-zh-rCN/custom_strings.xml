@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">未指定任何证书。您的网络连接将不是私密连接。</string>
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
     <string name="battery_saver_refresh_rate_title">降低刷新率</string>
@@ -59,4 +60,16 @@
     <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
     <string name="keyboard_extras_title">附加功能</string>
     <string name="advanced_keyboard_settings_title">高级设置</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">您可在手机背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">在手机的一侧找到指纹传感器。</string>
+    <string name="fast_charging_title">快速充电中</string>
+    <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
+    <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁定屏幕滑动时</string>
 </resources>

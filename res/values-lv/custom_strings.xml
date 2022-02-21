@@ -4,4 +4,5 @@
     <string name="disable_navkeys_summary">Ieslēgt ekrāna navigācijas joslu un atslēgt aparatūras pogas</string>
     <string name="high_touch_sensitivity_title">Augsta pieskāriena jutība</string>
     <string name="high_touch_sensitivity_summary">Palielināt skārienekrāna jutību, lai to varētu lietot, valkājot cimdus</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Atrodiet pirkstu nospiedumu sensoru tālruņa priekšpusē.</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
     <string name="min_refresh_rate_title">最小リフレッシュレート</string>
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
     <string name="battery_saver_refresh_rate_title">リフレッシュレートを減らす</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
     <string name="keyboard_extras_title">その他</string>
     <string name="advanced_keyboard_settings_title">高度な設定</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">端末前面にある指紋認証センサーを探します</string>
+    <string name="fast_charging_title">急速充電</string>
+    <string name="fast_charging_summary">充電中の端末の発熱を減らしバッテリー寿命を伸ばすために無効にする</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存のフェイススキャンを削除して、新しいスキャンを作成します</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">フェイススキャンを再実行</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存のフェイススキャンを削除して、新しいスキャンを作成しますか?</string>
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
 </resources>

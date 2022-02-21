@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Sem certificado. A sua ligação não vai ser privada.</string>
     <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
     <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Permite que flutue o dedo sobre o ecrã como um rato nos navegadores web, áreas de trabalho remotas, etc</string>
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Definições avançadas</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressões digitais na parte frontal do seu telemóvel.</string>
+    <string name="fast_charging_title">Carregamento rápido</string>
+    <string name="fast_charging_summary">Desative para reduzir a temperatura produzida pelo dispositivo enquanto carrega ou para aumentar a duração da bateria</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remover análise de face existente e criar uma nova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Analisar face novamente</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Pretende remover a análise existente e criar um novo reconhecimento facial?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial no ecrã de bloqueio</string>
+    <string name="face_unlock_method_default">Se o ecrã estiver ligado</string>
+    <string name="face_unlock_method_swipe">Ao deslizar no ecrã de bloqueio</string>
 </resources>

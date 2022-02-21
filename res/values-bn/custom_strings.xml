@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">ওয়েব ব্রাউজার, রিমোট ডেস্কটপ ইত্যাদির ওপর আপনাকে মাউসের মতো স্ক্রীনটি হোভার করতে দেয়</string>
     <string name="keyboard_extras_title">অতিরিক্ত</string>
     <string name="advanced_keyboard_settings_title">অ্যাডভান্সড সেটিংস</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">আপনার ফোনের সামনের দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন।</string>
+    <string name="fast_charging_title">ফাস্ট চার্জিং</string>
+    <string name="fast_charging_summary">চার্জিং এর সময় ডিভাইস যাতে কম গরম হয় বা ব্যাটারির আয়ু বাড়াতে অক্ষম করুন</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">বিদ্যমান মুখের স্ক্যান অপসারণ করুন এবং একটি নতুন স্ক্যান তৈরি করুন</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">পুনরায় মুখ স্ক্যান করুন</string>
+    <string name="face_redo_confirm_btn">আবার করুন</string>
+    <string name="face_redo_warning_msg">আপনি কি বিদ্যমান মুখের স্ক্যান অপসারণ করে একটি নতুন স্ক্যান তৈরি করতে চান?</string>
+    <string name="face_unlock_method_title">ফেসলক দ্বারা লক স্ক্রিনকে আনলক করার অনুমতি</string>
+    <string name="face_unlock_method_default">কখন স্ক্রিন বন্ধ থাকবে</string>
+    <string name="face_unlock_method_swipe">কখন লক স্ক্রিন টেনে দেয়া হবে</string>
 </resources>

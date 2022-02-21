@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi anda tidak akan bersifat pribadi</string>
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
     <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Mengizinkan Anda mengambang jari di atas layar seperti menggunakan tetikus dalam peramban web, destop jarak jauh, dll</string>
     <string name="keyboard_extras_title">Tambahan</string>
     <string name="advanced_keyboard_settings_title">Pengaturan lanjutan</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Temukan pemindai sidik jari di bagian depan telepon Anda.</string>
+    <string name="fast_charging_title">Pengisian Cepat</string>
+    <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pindaian wajah yang ada dan buat pindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Ingin menghapus pindaian wajah yang ada dan membuat pindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
 </resources>

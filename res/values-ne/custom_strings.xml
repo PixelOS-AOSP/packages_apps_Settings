@@ -46,4 +46,5 @@
     <string name="disable_navkeys_title">स्क्रिनमा नेभिगेश्न बार सक्रिय </string>
     <string name="disable_navkeys_summary">स्क्रिनमा नेभिगेश्न बार सक्रिय र हार्डव्यर बट्टन निस्क्रिय</string>
     <string name="swap_capacitive_keys_title">क्पट्टाटिभ बट्टन अदल बदल</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">तपाईंको फोनको अगाडि भएको औंठाछाप सेन्सर लाई छुनुहोस ।</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">지정한 인증서가 없습니다. 비공개로 연결되지 않습니다.</string>
     <string name="min_refresh_rate_title">최소 재생률</string>
     <string name="max_refresh_rate_title">최대 화면 재생률</string>
     <string name="battery_saver_refresh_rate_title">배터리 절약 화면 재생률</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">웹 브라우저나 원격 데스크톱과 같은 앱에서 마우스처럼 화면에 호버링하여 사용할 수 있습니다.</string>
     <string name="keyboard_extras_title">부가 기능</string>
     <string name="advanced_keyboard_settings_title">고급 설정</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">휴대전화 앞면에 있는 지문 센서를 찾으세요.</string>
+    <string name="fast_charging_title">고속 충전</string>
+    <string name="fast_charging_summary">충전하는 동안 발생하는 열을 줄이거나 배터리 수명을 연장하기위해 비활성화</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">기존의 얼굴 스캔을 제거하고 새 스캔을 만듭니다.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">얼굴 스캔 취소</string>
+    <string name="face_redo_confirm_btn">다시실행</string>
+    <string name="face_redo_warning_msg">기존 얼굴 스캔을 제거하고 새 스캔을 만드시겠습니까?</string>
+    <string name="face_unlock_method_title">잠금화면에서 얼굴인식 잠금 해제 허용</string>
+    <string name="face_unlock_method_default">화면이 켜져 있을 때</string>
+    <string name="face_unlock_method_swipe">잠금 화면에서 스와이프할 때</string>
 </resources>

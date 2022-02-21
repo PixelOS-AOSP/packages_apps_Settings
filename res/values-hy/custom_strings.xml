@@ -37,4 +37,5 @@
     <string name="disable_navkeys_summary">Միացրեք կառավարման վահանակը էկրանին և անջատեք սարքի կոճակները</string>
     <string name="high_touch_sensitivity_title">Հպման բարձր զգայունություն</string>
     <string name="touchscreen_hovering_title">Մատի սահում</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Գտեք հեռախոսի հետևում գտնվող մատնահետքի սենսորը:</string>
 </resources>

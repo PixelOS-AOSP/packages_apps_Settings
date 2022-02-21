@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">სერტიფიკატი მითითებული არ არის. კავშირი არ იქნება კონფიდენციალური.</string>
     <string name="min_refresh_rate_title">განახლების უმცირესი სიჩქარე</string>
     <string name="max_refresh_rate_title">განახლების უდიდესი სიჩქარე</string>
     <string name="battery_saver_refresh_rate_title">შეამცირე განახლების სიჩქარე</string>
@@ -59,4 +60,16 @@
     <string name="touchscreen_hovering_summary">საშუალებას გაძლევთ ეკრანს შეეხოთ როგორც მაუსით ბრაუზერებში, დისტანციური სამუშაო მაგიდაზე და ა.შ.</string>
     <string name="keyboard_extras_title">დამატებითი</string>
     <string name="advanced_keyboard_settings_title">სხვა პარამეტრები</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">იპოვეთ თქვენი ტელეფონის უკანა ნაწილზე მდებარე თითის ანაბეჭდების სენსორი.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">იპოვეთ თქვენი ტელეფონის უკანა ნაწილზე მდებარე თითის ანაბეჭდების სენსორი.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">იპოვეთ თქვენი ტელეფონზე მდებარე თითის ანაბეჭდების სენსორი.</string>
+    <string name="fast_charging_title">სწრაფი დამუხტვა</string>
+    <string name="fast_charging_summary">გამორთეთ გამოყოფილი სითბოს შესამცირებლად მოწყობილობის დამუხტვისას ან ბატარეის სიცოცხლის გასახანგრძლივებლად.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">არსებული სახის ანაბეჭდის მოცილება და ახლის შექმნა</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">სახის სკანირების აღდგენა</string>
+    <string name="face_redo_confirm_btn">აღდგენა</string>
+    <string name="face_redo_warning_msg">გსურთ რომ წაიშალოს არსებული სახის ანაბეჭდი და შეიქმნას ახალი?</string>
+    <string name="face_unlock_method_title">დაბლოკვის ეკრანზე სახით განბლოკვის დაშვება</string>
+    <string name="face_unlock_method_default">როდესაც ეკრანი ჩართულია</string>
+    <string name="face_unlock_method_swipe">დაბლოკვის ეკრანზე გადაფურცვლისას</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Geen certificaat opgegeven. Je verbinding is niet privé.</string>
     <string name="min_refresh_rate_title">Minimum vernieuwingsfrequentie</string>
     <string name="max_refresh_rate_title">Maximum vernieuwingsfrequentie</string>
     <string name="battery_saver_refresh_rate_title">Verlaag vernieuwingsfrequentie</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Met uw vinger boven het zwerm zweven, zoals een muis in browsers, bureaublad op afstand, etc.</string>
     <string name="keyboard_extras_title">Extra\'s</string>
     <string name="advanced_keyboard_settings_title">Geavanceerde instellingen</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Zoek de vingerafdruksensor op de voorkant van uw telefoon.</string>
+    <string name="fast_charging_title">Snelladen</string>
+    <string name="fast_charging_summary">Schakel uit om de warmteproductie van het apparaat te verminderen tijdens het opladen of om de levensduur van de batterij te verlengen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Verwijder de bestaande gezichtsscan en maak een nieuwe scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gezicht opnieuw scannen</string>
+    <string name="face_redo_confirm_btn">Opnieuw</string>
+    <string name="face_redo_warning_msg">Wil je de bestaande gezichtsscan verwijderen en een nieuwe maken?</string>
+    <string name="face_unlock_method_title">Gezichtsherkenning toestaan op vergrendelscherm</string>
+    <string name="face_unlock_method_default">Wanneer het scherm is ingeschakeld</string>
+    <string name="face_unlock_method_swipe">Bij vegen over het vergrendelscherm</string>
 </resources>

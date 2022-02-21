@@ -33,4 +33,9 @@
     <string name="disable_navkeys_summary">မျက်နှာပြင်အတွင်း ခလုတ်များကို သုံခြင်းနှင့် ရိုးရိုးခလုတ်များကို သုံးမရစေရန် ပြုလုပ်ခြင်း</string>
     <string name="others_settings_title">အခြား ချိန်ညှိစရာများ</string>
     <string name="additional_buttons_title">ဖြည့်စွက် ခလုတ်များ</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">လက်ဗွေရာ အာရုံခံကိရိယာအား သင့်ဖုန်း၏ မျက်နှာပြင်တွင် ရှာဖွေပါ။</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">တည်ဆဲမျက်နှာစကင်ကို Remove အသစ်တစ်ခုစကင်ကိုဖန်တီး</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">မျက်နှာစကန်ကို ပြန်ဖတ်မည်</string>
+    <string name="face_redo_confirm_btn">ပြန်လုပ်ရန်</string>
+    <string name="face_redo_warning_msg">သငျသညျတည်ဆဲမျက်နှာစကင်ကိုဖယ်ရှားအသစ်တစ်ခုဖန်တီးရန်လိုပါသလား?</string>
 </resources>

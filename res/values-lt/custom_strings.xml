@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Sertifikatas nenurodytas. Jūsų ryšys nebus privatus.</string>
     <string name="min_refresh_rate_title">Mažiausias atnaujinimo dažnis</string>
     <string name="max_refresh_rate_title">Maksimalus atnaujinimo dažnis</string>
     <string name="battery_saver_refresh_rate_title">Sumažinkite atnaujinimo dažnį</string>
@@ -39,7 +40,9 @@
     <string name="button_backlight_title">Apšvietimas</string>
     <string name="button_backlight_enabled">Mygtukų apšvietimas</string>
     <string name="button_backlight_only_when_pressed_title">Mygtukus apšviesti tik kai paspaudžiama</string>
+    <string name="keyboard_backlight_enabled">Apšviesti klaviatūra</string>
     <string name="button_backlight_seekbar_title">Mygtukų ryškumas</string>
+    <string name="keyboard_backlight_seekbar_title">Klaviatūros ryškumas</string>
     <string name="backlight_timeout_title">Apšvietimo laikas</string>
     <string name="backlight_timeout_unlimited">Neišjungti</string>
     <string name="backlight_summary_disabled">Išjungta</string>
@@ -47,10 +50,18 @@
     <string name="backlight_summary_enabled">Įjungta</string>
     <string name="disable_navkeys_title">Įgalinti ekrano juostą</string>
     <string name="disable_navkeys_summary">Įjunkite naršymo juostą ekrane ir išjunkite aparatūros mygtukus</string>
+    <string name="swap_capacitive_keys_title">Pakeiskite vietomis jutiklinius mygtukus</string>
+    <string name="swap_capacitive_keys_summary">Pakeiskite naujausių ir grįžimo mygtukų tvarką</string>
     <string name="others_settings_title">Kiti nustatymai</string>
     <string name="additional_buttons_title">Papildomi mygtukai</string>
     <string name="high_touch_sensitivity_title">Didelis lietimo jautrumas</string>
     <string name="high_touch_sensitivity_summary">Padidinti liečiamojo ekrano jautrumą tam, kad juo būtų galima naudotis dėvint pirštines</string>
     <string name="touchscreen_hovering_title">Jutiklinio ekrano slankiojimas</string>
     <string name="touchscreen_hovering_summary">Leidžia slankioti ekraną kaip pelę internetinėse naršyklėse, nuotoliniuose staliniuose kompiuteriuose ir kt.</string>
+    <string name="keyboard_extras_title">Papildomai</string>
+    <string name="advanced_keyboard_settings_title">Išplėstiniai nustatymai</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Raskite pirštų atspaudų jutiklį savo telefono priekyje.</string>
+    <string name="face_unlock_method_title">Leiskite atrakinti veido atpažinimo funkcija užrakinimo ekrane</string>
+    <string name="face_unlock_method_default">Įjungus ekraną </string>
+    <string name="face_unlock_method_swipe">Perbraukus užrakto ekrane</string>
 </resources>

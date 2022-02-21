@@ -56,4 +56,11 @@
     <string name="touchscreen_hovering_summary">Lar deg hovre over skjermen som en mus på en nettleser, eksternt skrivebord osv</string>
     <string name="keyboard_extras_title">Ekstra</string>
     <string name="advanced_keyboard_settings_title">Avanserte innstillinger</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Finn fingeravtrykksleseren på fremsiden av telefonen din.</string>
+    <string name="fast_charging_title">Hurtiglading</string>
+    <string name="fast_charging_summary">Deaktiver for å redusere varmeproduksjon under lading eller for å forlenge levetiden til batteriet</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Slett eksisterende ansiktsskanning og opprett ny</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Skann ansiktet på nytt</string>
+    <string name="face_redo_confirm_btn">Gjør om</string>
+    <string name="face_redo_warning_msg">Vil du fjerne den eksisterende ansiktsskanningen og opprette en ny?</string>
 </resources>

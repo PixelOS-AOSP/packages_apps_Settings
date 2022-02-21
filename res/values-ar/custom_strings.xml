@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">يسمح لك بالمرور فوق الشاشة مثل الماوس في مستعرضات الويب، أو سطح المكتب عن بُعد، إلخ</string>
     <string name="keyboard_extras_title">إضافات</string>
     <string name="advanced_keyboard_settings_title">الإعدادات المتقدمة</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">حدد موقع مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fast_charging_title">الشحن السريع</string>
+    <string name="fast_charging_summary">قم بتعطيله لتقليل الحرارة التي ينتجها الجهاز أثناء الشحن أو لتمديد عمر البطارية</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">إزالة نسخة الوجه الممسوح ضوئيًا الحالية وإنشاء نسخة جديدة</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">إعادة مسح الوجه ضوئيًا</string>
+    <string name="face_redo_confirm_btn">إعادة</string>
+    <string name="face_redo_warning_msg">هل تريد إزالة نسخة الوجه الممسوح ضوئيًا الحالية وإنشاء نسخة جديدة؟</string>
+    <string name="face_unlock_method_title">فتح القفل باستخدام الوجه</string>
+    <string name="face_unlock_method_default">على الفور </string>
+    <string name="face_unlock_method_swipe">مع السحب </string>
 </resources>

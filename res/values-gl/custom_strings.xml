@@ -52,4 +52,5 @@
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da pantalla para poder utilizalo con luvas</string>
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permítelle utilizar o dedo coma un rato ao deslizalo en navegadores web, escritorios remotos, etc.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Localiza o sensor da pegada dixital no frontal teléfono.</string>
 </resources>

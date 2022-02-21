@@ -28,4 +28,9 @@
     <string name="high_touch_sensitivity_summary">கையுறை அணிந்தும் அதை பயன்படுத்தும்படி தொடல்திறை உணர்திறனை அதிகரிக்கவும்</string>
     <string name="touchscreen_hovering_title">தொடல்திறைக்கு மேல் நகர்தல்</string>
     <string name="touchscreen_hovering_summary">வலைதள உலாவிகள், ரிமோட்-டெஸ்க்டாப்புகள் உள்ளிட்டவற்றில் மவுஸ் போன்று நீங்கள் திரையின் மீது உலாவ உங்களை அனுமதிக்கிறது</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">உங்கள் தொலைப்பேசியின் முன்புறத்தில் இருக்கும் கைரேகை உணர்வியைக் கண்டறியுங்கள்.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ஏற்கனவே உள்ள முக ஸ்கேனை அகற்றி, புதிய ஸ்கேனை உருவாக்கவும்</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">முக ஸ்கேனை மீண்டும் செய்</string>
+    <string name="face_redo_confirm_btn">மீண்டும்செய்</string>
+    <string name="face_redo_warning_msg">ஏற்கனவே உள்ள முக ஸ்கேனை அகற்றி, புதிய ஒன்றை உருவாக்க விரும்புகிறீர்களா?</string>
 </resources>

@@ -44,4 +44,9 @@
     <string name="disable_navkeys_summary">තිරය මත nav bar සක්‍රීය කර දෘඪාංගමය යතුරු අක්‍රීය කරන්න</string>
     <string name="high_touch_sensitivity_title">ඉහළ ස්පර්ශ සංවේදිතාව</string>
     <string name="high_touch_sensitivity_summary">ස්පර්ශ තීරයේ සංවේදීතාව වැඩිකරන්න, එබැවින් අත්මේස් පළඳා ඇතිවිට එය භාවිතාකලහැකිය</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">ඔබගේ දුරකථනයේ ඉදිරිපස ඇති ඇඟිලි සලකුකු කියවනයේ තබන්න.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">පවතින මුහුණු ස්කෑනය ඉවත් කර නව ස්කෑනයක් සාදන්න</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">මුහුණ ස්කෑන් කිරීම යළි කරන්න</string>
+    <string name="face_redo_confirm_btn">යළි කරන්න</string>
+    <string name="face_redo_warning_msg">ඔබට පවතින මුහුණු ස්කෑනය ඉවත් කර නව එකක් සෑදීමට අවශ්‍යයි ද?</string>
 </resources>

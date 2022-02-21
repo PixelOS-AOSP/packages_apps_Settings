@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">Membolehkan anda mengarahkan skrin seperti tetikus di penyemak imbas web, desktop jauh, dll</string>
     <string name="keyboard_extras_title">Tambahan</string>
     <string name="advanced_keyboard_settings_title">Tetapan lanjutan</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">letak cap jari di hadapan telefon anda.</string>
+    <string name="fast_charging_title">Caj cepat</string>
+    <string name="fast_charging_summary">Lumpuhkan untuk mengurangkan haba yang dihasilkan oleh peranti semasa mengecas atau untuk memanjangkan jangka hayat bateri</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Alih keluar imbasan muka sedia ada dan cipta imbasan baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Buat semula imbas wajah</string>
+    <string name="face_redo_confirm_btn">Buat semula</string>
+    <string name="face_redo_warning_msg">Adakah anda ingin mengalih keluar imbasan muka sedia ada dan mencipta imbasan baru?</string>
+    <string name="face_unlock_method_title">izinkan buka kunci wajah di layar kunci</string>
+    <string name="face_unlock_method_default">apabila layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">bila mengusap di layar kunci</string>
 </resources>

@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">Låter dig hovra över skärmen som en mus i webbläsare, fjärrskrivbord, etc</string>
     <string name="keyboard_extras_title">Övrigt</string>
     <string name="advanced_keyboard_settings_title">Avancerade inställningar</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Hitta fingeravtryckssensorn på din telefons framsida.</string>
+    <string name="fast_charging_title">Snabbladdning</string>
+    <string name="fast_charging_summary">Deaktivera för att minska värmen som genereras när enheten laddar eller för att utöka batteriets livslängd</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Ta bort den befintliga ansiktsavläsningen och skapa en ny avläsning</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gör om ansiktsavläsning</string>
+    <string name="face_redo_confirm_btn">Gör om</string>
+    <string name="face_redo_warning_msg">Vill du ta du bort den befintliga ansiktsavläsningen och skapa en ny avläsning?</string>
+    <string name="face_unlock_method_title">Tillåt ansiktsupplåsning på låsskärmen</string>
+    <string name="face_unlock_method_default">När skärmen är på</string>
+    <string name="face_unlock_method_swipe">När du sveper på låsskärmen</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">您未指定任何憑證，因此無法為您設定私人連線。</string>
     <string name="min_refresh_rate_title">最低更新率</string>
     <string name="max_refresh_rate_title">最高螢幕刷新率</string>
     <string name="battery_saver_refresh_rate_title">降低螢幕更新率</string>
@@ -29,7 +30,7 @@
     <string name="hardware_keys_swipe_right_key_title">向右滑動</string>
     <string name="hardware_keys_swipe_left_key_title">向左滑動</string>
     <string name="hardware_keys_long_tap_key_title">長按</string>
-    <string name="hardware_keys_swipe_tap_title">滑動操作</string>
+    <string name="hardware_keys_swipe_tap_title">滑動動作</string>
     <string name="hardware_keys_long_tap_title">單擊動作</string>
     <string name="button_wake_title">喚醒裝置</string>
     <string name="camera_sleep_on_release_title">預覽螢幕</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">允許您把手指懸停在螢幕上作為瀏覽器、遠程桌面等的滑鼠</string>
     <string name="keyboard_extras_title">額外功能</string>
     <string name="advanced_keyboard_settings_title">進階設定</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">指紋感應器位於手機正面。</string>
+    <string name="fast_charging_title">快速充電中</string>
+    <string name="fast_charging_summary">禁用以減少裝置在充電時產生的熱量或延長電池的使用壽命</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新執行臉部掃描</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
+    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_default">螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
 </resources>

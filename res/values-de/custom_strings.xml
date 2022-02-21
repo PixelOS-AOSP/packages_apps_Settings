@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
     <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
     <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
     <string name="battery_saver_refresh_rate_title">Reduziere Bildwiederholrate</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
+    <string name="fast_charging_title">Schnelles Laden</string>
+    <string name="fast_charging_summary">Deaktivieren Sie diese Option, um die Wärmeerzeugung beim Laden zu reduzieren und Lebensdauer des Akku zu verlängern</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Bestehenden Gesichtsscan entfernen und einen neuen Scan erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichtsscan wiederholen</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichtsscan löschen und einen neuen Scan erstellen?</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
 </resources>

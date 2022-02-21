@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Nie je určený žiadny certifikát. Pripojenie nebude súkromné.</string>
     <string name="min_refresh_rate_title">Minimálna obnovovacia frekvencia</string>
     <string name="max_refresh_rate_title">Maximálna obnovovacia frekvencia</string>
     <string name="battery_saver_refresh_rate_title">Znížiť obnovovaciu frekvenciu</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Umožňuje pohybovať sa akoby nad obsahom obrazovky podobne, ako keď myšou nabehnete na nejaký ovládací prvok</string>
     <string name="keyboard_extras_title">Doplnky</string>
     <string name="advanced_keyboard_settings_title">Pokročilé nastavenia</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Vyhľadajte snímač odtlačkov prstov na prednej strane telefónu.</string>
+    <string name="fast_charging_title">Rýchle nabíjanie</string>
+    <string name="fast_charging_summary">Vypnutím znížite teplo produkované zariadením počas nabíjania alebo predĺžite životnosť batérie</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Odstrániť existujúci sken tváre a vytvoriť nový</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Znovu naskenovať tvár</string>
+    <string name="face_redo_confirm_btn">Opakovať</string>
+    <string name="face_redo_warning_msg">Chcete odstrániť existujúcu naskenovanú tvár a vytvoriť nový sken?</string>
+    <string name="face_unlock_method_title">Povoliť odomknutie tvárou na obrazovke uzamknutia</string>
+    <string name="face_unlock_method_default">Keď je obrazovka zapnutá</string>
+    <string name="face_unlock_method_swipe">Keď posúvate prstom na zamknutej obrazovke</string>
 </resources>

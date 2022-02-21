@@ -50,4 +50,5 @@
     <string name="high_touch_sensitivity_summary">Areagotu pantailaren sentsibilitatea, eskularruekin erabilgarria izan dadin</string>
     <string name="touchscreen_hovering_title">Pantailaren gainetik pasatu</string>
     <string name="touchscreen_hovering_summary">Sagua bailitzan pantailaren gainetik pasatzea ahalbidetzen dizu, nabigatzaileetan, urruneko mahaigainetan, eta abar</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Pantaila aurrean hatz-marka sentsorea aurkitu.</string>
 </resources>

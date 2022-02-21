@@ -54,4 +54,13 @@
     <string name="touchscreen_hovering_summary">Et permet surar per sobre la pantalla com un ratolí en els navegadors web, escriptoris remots, etc</string>
     <string name="keyboard_extras_title">Extres</string>
     <string name="advanced_keyboard_settings_title">Configuració avançada</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Localitza el sensor d\'empremta al frontal del teu telèfon.</string>
+    <string name="fast_charging_title">Carregant ràpidament</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Suprimeix l\'escaneig facial actual i crea\'n un altre</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refés l\'escaneig facial</string>
+    <string name="face_redo_confirm_btn">Refés</string>
+    <string name="face_redo_warning_msg">Vols suprimir l\'escaneig facial actual i crear-ne un altre?</string>
+    <string name="face_unlock_method_title">Permetre desbloqueig facial a la pantalla de bloqueig</string>
+    <string name="face_unlock_method_default">Quan la pantalla estigui activada.</string>
+    <string name="face_unlock_method_swipe">Quan llisquis a la pantalla de bloqueig</string>
 </resources>

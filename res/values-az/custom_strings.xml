@@ -59,4 +59,14 @@
     <string name="touchscreen_hovering_summary">Ekrana toxunmadan barmağınızı yaxınlaşdıraraq siçan (maus) kimi veb səyyahlarda, uzaq masaüstlərində və s. hərəkətinizi təmin edər</string>
     <string name="keyboard_extras_title">Əlavələr</string>
     <string name="advanced_keyboard_settings_title">Qabaqcıl tənzimləmələr</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun ön tərəfindəki barmaq izi sensorunu tapın.</string>
+    <string name="fast_charging_title">Sürətli enerji yığma</string>
+    <string name="fast_charging_summary">Cihazın enerji yığarkən istehsal etdiyi istiliyi azaltmaq və ya batereyanın ömrünü uzatmaq üçün sıradan çıxardın</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mövcud üz skanını çıxart və yeni bir skan yarat</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Üz skanını geri qaytar</string>
+    <string name="face_redo_confirm_btn">Yenidən et</string>
+    <string name="face_redo_warning_msg">Mövcud üz skanını çıxartmaq və yenisini yaratmaq istəyirsiniz?</string>
+    <string name="face_unlock_method_title">Kilid ekranında üzlə kilid açmağa icazə ver</string>
+    <string name="face_unlock_method_default">Ekran yandırılanda</string>
+    <string name="face_unlock_method_swipe">Kilid ekranında sürüşdürəndə</string>
 </resources>

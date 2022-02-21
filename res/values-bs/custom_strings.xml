@@ -50,4 +50,5 @@
     <string name="high_touch_sensitivity_summary">Pojačaj osjetljivost ekrana da se može koristiti i sa rukavicama</string>
     <string name="touchscreen_hovering_title">Lebdenje nad zaslonom</string>
     <string name="touchscreen_hovering_summary">Dopušta vam da lebdite nad zaslonom kao kursor miša u web pretraživaču, udaljenom desktopu, itd</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Pronađite senzor za otisak prsta na prednjoj strani telefona.</string>
 </resources>

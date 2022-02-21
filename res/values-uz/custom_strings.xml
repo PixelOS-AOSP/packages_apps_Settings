@@ -10,4 +10,5 @@
     <string name="hardware_keys_action_launch_camera">Kamerani ochish</string>
     <string name="hardware_keys_action_split_screen">Bo‘lingan ekran</string>
     <string name="camera_launch_title">Kamerani ochish</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Barmog\'ingizni qurilmangiz ortidagi barmoq izi skaneriga tekkizing.</string>
 </resources>

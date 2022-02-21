@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="min_refresh_rate_title">Минимална вредност освежавања</string>
+    <string name="max_refresh_rate_title">Максимална брзина освежавања</string>
+    <string name="battery_saver_refresh_rate_title">Смањи брзину освежавања</string>
+    <string name="battery_saver_refresh_rate_summary">Користи брзину освежавања од 60 Hz да би уштедели енергију када је омогућена уштеда батерије</string>
     <string name="battery_light_title">Индикатор батерије</string>
     <string name="connected_tws_device_saved_title">Сачуване слушалице</string>
     <string name="reset">Поништи</string>
@@ -46,6 +49,8 @@
     <string name="backlight_summary_enabled">Омогућено</string>
     <string name="disable_navkeys_title">Навигациона трака на екрану</string>
     <string name="disable_navkeys_summary">Омогућите навигациону траку на екрану и онемогућите хардверску дугмад.</string>
+    <string name="swap_capacitive_keys_title">Замени капацитивне тастере</string>
+    <string name="swap_capacitive_keys_summary">Замените места тастерима „Преглед“ и „Назад“</string>
     <string name="others_settings_title">Остала подешавања</string>
     <string name="additional_buttons_title">Додатна дугмад</string>
     <string name="high_touch_sensitivity_title">Велика осетљивост на додир</string>
@@ -54,4 +59,14 @@
     <string name="touchscreen_hovering_summary">Дозвољава ти да лебдиш екраном као миш у веб претраживачу, удаљеном десктопу, итд</string>
     <string name="keyboard_extras_title">Додаци</string>
     <string name="advanced_keyboard_settings_title">Напредна подешавања</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Пронађите сензор за отиске прстију са предње стране вашег телефона.</string>
+    <string name="fast_charging_title">Брзо пуњење</string>
+    <string name="fast_charging_summary">Онемогући да би смањили топлоту коју уређај производи током пуњења или продужили век трајања батерије</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Уклоните постојеће скенирање лица и направите ново</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Поновите скенирање лица</string>
+    <string name="face_redo_confirm_btn">Понови</string>
+    <string name="face_redo_warning_msg">Желите ли да уклоните постојеће скенирање лица и да направите ново?</string>
+    <string name="face_unlock_method_title">Омогући откључавање лицем у закљученом екрану</string>
+    <string name="face_unlock_method_default">Када је екран укључен</string>
+    <string name="face_unlock_method_swipe">Код превлачења преко закључаног екрана</string>
 </resources>

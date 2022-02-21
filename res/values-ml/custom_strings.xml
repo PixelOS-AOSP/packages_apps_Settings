@@ -45,4 +45,5 @@
     <string name="high_touch_sensitivity_summary">കയ്യുറകൾ ധരിച്ചിരിക്കുമ്പോള്‍ ഉപയോഗിക്കുന്നതിനായി ടച്ച്സ്ക്രീൻ സെന്‍സിറ്റിവിറ്റി വര്‍ദ്ധിപ്പിക്കുക</string>
     <string name="touchscreen_hovering_title">ടച്ച്സ്ക്രീൻ ഹോവറിംഗ്</string>
     <string name="touchscreen_hovering_summary">വെബ് ബ്രൌസറുകള്‍, റിമോട്ട് ഡെസ്ക്ടോപ്പുകള്‍ തുടങ്ങിയവയിലെ മൌസ് എന്നപോലെ സ്ക്രീന്‍ ഹോവര്‍ ചെയ്യാന്‍ നിങ്ങളെ അനുവദിക്കുന്നു.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">നിങ്ങളുടെ ഫോണിന്റെ മുൻഭാഗത്ത് ഫിംഗർപ്രിന്റ് സെൻസർ കണ്ടെത്തുക.</string>
 </resources>

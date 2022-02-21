@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Sertifikaati pole määratud. Teie ühendus ei ole privaatne.</string>
     <string name="min_refresh_rate_title">Minimaalne värskendussagedus</string>
-    <string name="max_refresh_rate_title">Miaksimaalne värskendussagedus</string>
+    <string name="max_refresh_rate_title">Maksimaalne värskendussagedus</string>
     <string name="battery_saver_refresh_rate_title">Vähendage värskendussagedust</string>
     <string name="battery_saver_refresh_rate_summary">Kui akusäästja on sisse lülitatud, kasutage maksimaalse värskendussagedusena 60 Hz</string>
     <string name="battery_light_title">Aku märgutuli</string>
@@ -22,7 +23,7 @@
     <string name="hardware_keys_action_app_switch">Hiljutiste rakenduste vahetaja</string>
     <string name="hardware_keys_action_search">Otsinguabiline</string>
     <string name="hardware_keys_action_voice_search">Häälotsing</string>
-    <string name="hardware_keys_action_in_app_search">Rakendusesisene otsing</string>
+    <string name="hardware_keys_action_in_app_search">Rakenduse sisene otsing</string>
     <string name="hardware_keys_action_launch_camera">Käivita kaamera</string>
     <string name="hardware_keys_action_sleep">Lülita ekraan välja</string>
     <string name="hardware_keys_action_split_screen">Jagatud ekraan</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Lubab hõljuda ekraani kohal nagu hiirega veebilehitsejas, kaugtöölaual jne</string>
     <string name="keyboard_extras_title">Lisad</string>
     <string name="advanced_keyboard_settings_title">Lisasätted</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
+    <string name="fast_charging_title">Kiire laadimine</string>
+    <string name="fast_charging_summary">Keelake seade laadimise ajal tekkiva soojuse vähendamiseks või aku eluea pikendamiseks </string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Eemaldage kasutatud näopilt ja looge uus</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Korduv näo skaneerimine</string>
+    <string name="face_redo_confirm_btn">Korda</string>
+    <string name="face_redo_warning_msg">Kas soovite kustutada näotuvastuse andmed ja luua uued?</string>
+    <string name="face_unlock_method_title">Luba näoga avamine lukustuskuval</string>
+    <string name="face_unlock_method_default">Kui ekraan on sisse lülitatud</string>
+    <string name="face_unlock_method_swipe">Lukustuskuval libistades</string>
 </resources>

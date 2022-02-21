@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Aucun certificat indiqué. Votre connexion ne sera pas privée.</string>
     <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="battery_saver_refresh_rate_title">Réduire le taux de rafraîchissement</string>
@@ -11,7 +12,7 @@
     <string name="hardware_keys_home_key_title">Bouton d\'accueil</string>
     <string name="hardware_keys_back_key_title">Bouton retour</string>
     <string name="hardware_keys_menu_key_title">Bouton menu</string>
-    <string name="hardware_keys_assist_key_title">Bouton recherche</string>
+    <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
     <string name="hardware_keys_appswitch_key_title">Bouton des applications récentes</string>
     <string name="hardware_keys_camera_key_title">Bouton de l\'appareil photo</string>
     <string name="hardware_keys_short_press_title">Action lors d\'un appui court</string>
@@ -23,7 +24,7 @@
     <string name="hardware_keys_action_search">Assistant de recherche</string>
     <string name="hardware_keys_action_voice_search">Recherche vocale</string>
     <string name="hardware_keys_action_in_app_search">Recherche dans les applications</string>
-    <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
+    <string name="hardware_keys_action_launch_camera">Ouvrir l\'appareil photo</string>
     <string name="hardware_keys_action_sleep">Éteindre l\'écran</string>
     <string name="hardware_keys_action_split_screen">Écran partagé</string>
     <string name="hardware_keys_swipe_right_key_title">Balayage à droite</string>
@@ -34,7 +35,7 @@
     <string name="button_wake_title">Réveiller l\'appareil</string>
     <string name="camera_sleep_on_release_title">Aperçu de l\'écran</string>
     <string name="camera_sleep_on_release_summary">Un demi appui gardera l\'écran allumé seulement le temps de l\'appui</string>
-    <string name="camera_launch_title">Lancer l\'appareil photo</string>
+    <string name="camera_launch_title">Ouvrir l\'appareil photo</string>
     <string name="camera_launch_summary">Appuyez longuement pour lancer l\'appareil photo</string>
     <string name="button_backlight_title">Rétroéclairage</string>
     <string name="button_backlight_enabled">Rétroéclairage des boutons</string>
@@ -59,4 +60,14 @@
     <string name="touchscreen_hovering_summary">Permet de survoler l\'écran comme avec une souris dans les navigateurs web, les bureaux à distance, etc.</string>
     <string name="keyboard_extras_title">Paramètres supplémentaires</string>
     <string name="advanced_keyboard_settings_title">Paramètres avancés</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="fast_charging_title">Charge rapide</string>
+    <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer le visage scanné existant et en créer un nouveau</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
+    <string name="face_redo_confirm_btn">Rétablir</string>
+    <string name="face_redo_warning_msg">Voulez-vous supprimer le visage scanné existant et en créer un nouveau ?</string>
+    <string name="face_unlock_method_title">Autoriser le déverrouillage par reconnaissance faciale lorsque</string>
+    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">En faisant glisser sur l\'écran de verrouillage</string>
 </resources>

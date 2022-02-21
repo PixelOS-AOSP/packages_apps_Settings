@@ -52,4 +52,9 @@
     <string name="high_touch_sensitivity_summary">Povečaj občutljivost dotika, tako da ga lahko uporabite, ko nosite rokavice</string>
     <string name="touchscreen_hovering_title">Prehod zaslona na dotik</string>
     <string name="touchscreen_hovering_summary">Dovoli vam prehod nad zaslonom, kot miška v spletnih brskalnikih, oddaljenih namizjih itd.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Poiščite tipalo za prstne odtise na sprednji strani vašega telefona.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Odstranite obstoječi optično prebrani obraz in ustvarite novega</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ponovitev optičnega branja obraza</string>
+    <string name="face_redo_confirm_btn">Uveljavi</string>
+    <string name="face_redo_warning_msg">Ali želite odstraniti obstoječi optično prebrani obraz in ustvariti novega?</string>
 </resources>

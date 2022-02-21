@@ -50,4 +50,9 @@
     <string name="high_touch_sensitivity_summary">Forøg berøringsfølsom skærms følsomhed, så den kan bruges med handsker på</string>
     <string name="touchscreen_hovering_title">Berøringsfølsom skærm-svævning</string>
     <string name="touchscreen_hovering_summary">Tillader dig at holde fingeren over skærmen, som en mus i netlæsere, på fjernskriveborde, osv.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Find fingeraftrykssensoren på forsiden af ​​telefonen.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fjern eksisterende ansigtsscanning, og opret en ny scanning</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Foretag ansigtsscanning igen</string>
+    <string name="face_redo_confirm_btn">Annuller fortryd</string>
+    <string name="face_redo_warning_msg">Vil du fjerne den eksisterende ansigtsscanning og oprette en ny?</string>
 </resources>

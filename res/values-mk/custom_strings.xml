@@ -39,4 +39,8 @@
     <string name="backlight_summary_enabled">Овозможено</string>
     <string name="disable_navkeys_title">Овозможи лента за навигација на екранот</string>
     <string name="disable_navkeys_summary">Овозможи лента за навигација на екранот и оневозможете ги хардверските копчиња</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Отстранете го постојното скенирано лице и создадете ново скенирање</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повтори го скенирањето на лицето</string>
+    <string name="face_redo_confirm_btn">Повтори</string>
+    <string name="face_redo_warning_msg">Дали сакате да го отстраните постојното скенирано лице и да создадете ново?</string>
 </resources>
