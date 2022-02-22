@@ -44,7 +44,7 @@ public class BatterySaverRefreshRatePreferenceController extends TogglePreferenc
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources().getBoolean(R.bool.config_show_smooth_display)
+        return mContext.getResources().getBoolean(R.bool.config_show_refresh_rate_controls)
                         ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }
