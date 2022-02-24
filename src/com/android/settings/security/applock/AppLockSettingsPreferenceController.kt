@@ -113,7 +113,7 @@ class AppLockSettingsPreferenceController(
             )
             return true
         }
-        return false
+        return super.handlePreferenceTreeClick(preference)
     }
 
     companion object {
