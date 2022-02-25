@@ -187,5 +187,8 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
 
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Stock lock options</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
 </resources>
-
