@@ -23,6 +23,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
+import com.android.settings.security.applock.AppLockTogglePreferenceController
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -43,9 +45,9 @@ class AppLockPackageProtectionPC(
     init {
         coroutineScope.launch {
             isProtected = withContext(Dispatchers.Default) {
-                appLockManager.packageData.any {
+                appLockManager.packageData.find {
                     it.packageName == packageName
-                }
+                }?.shouldProtectApp == true
             }
             preference?.let {
                 updateState(it)
@@ -61,11 +63,7 @@ class AppLockPackageProtectionPC(
         if (isProtected == checked) return false
         isProtected = checked
         coroutineScope.launch(Dispatchers.Default) {
-            if (isProtected) {
-                appLockManager.addPackage(packageName)
-            } else {
-                appLockManager.removePackage(packageName)
-            }
+            appLockManager.setShouldProtectApp(packageName, isProtected)
         }
         return true
     }

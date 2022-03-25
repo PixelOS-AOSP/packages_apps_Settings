@@ -23,19 +23,17 @@ import android.os.Bundle
 
 import androidx.lifecycle.lifecycleScope
 
-import com.android.internal.logging.nano.MetricsProto
-
 import com.android.settings.R
-import com.android.settings.dashboard.DashboardFragment
 import com.android.settings.widget.EntityHeaderController
 import com.android.settingslib.applications.ApplicationsState.AppEntry
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.widget.LayoutPreference
+import com.android.settings.custom.fragments.CustomDashboardFragment
 
 private val TAG = AppLockPackageConfigFragment::class.simpleName
 private const val KEY_HEADER = "header_view"
 
-class AppLockPackageConfigFragment : DashboardFragment() {
+class AppLockPackageConfigFragment : CustomDashboardFragment() {
 
     private lateinit var packageInfo: PackageInfo
 
@@ -71,8 +69,6 @@ class AppLockPackageConfigFragment : DashboardFragment() {
         AppLockNotificationRedactionPC(context, packageInfo.packageName, lifecycleScope),
         AppLockHideAppPC(context, packageInfo.packageName, lifecycleScope)
     )
-
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CUSTOM
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_package_config_settings
 

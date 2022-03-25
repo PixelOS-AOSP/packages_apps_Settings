@@ -22,25 +22,22 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 
-import com.android.internal.logging.nano.MetricsProto
 import androidx.lifecycle.lifecycleScope
 
 import com.android.settings.R
-import com.android.settings.dashboard.DashboardFragment
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.search.SearchIndexable
+import com.android.settings.custom.fragments.CustomDashboardFragment
 
 @SearchIndexable
-class AppLockSettingsFragment : DashboardFragment(),
+class AppLockSettingsFragment : CustomDashboardFragment(),
     MenuItem.OnMenuItemClickListener {
 
     private var debugEnabled = SystemProperties.get(DEBUG_PROPERTY, null) == LEVEL_DEBUG
     private var handledClick = false
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_settings
-
-    override fun getMetricsCategory() = MetricsProto.MetricsEvent.CUSTOM
 
     override protected fun getLogTag() = TAG
 

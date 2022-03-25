@@ -33,8 +33,8 @@ import androidx.preference.PreferenceScreen
 import com.android.internal.widget.LockPatternUtils
 import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
+import com.android.settings.dashboard.DashboardFragment
 import com.android.settings.password.ConfirmDeviceCredentialActivity
-import com.android.settings.security.SecuritySettings
 import com.android.settingslib.core.lifecycle.Lifecycle
 import com.android.settingslib.transition.SettingsTransitionHelper.TransitionType.TRANSITION_SLIDE
 import com.android.settings.core.BasePreferenceController
@@ -46,8 +46,8 @@ import com.android.settingslib.core.instrumentation.MetricsFeatureProvider
 class AppLockSettingsPreferenceController(
     context: Context,
     preferenceKey: String,
-    private val host: SecuritySettings?,
     lifecycle: Lifecycle?,
+    private val host: DashboardFragment?
 ) : BasePreferenceController(context, preferenceKey),
     LifecycleEventObserver {
 
@@ -96,7 +96,9 @@ class AppLockSettingsPreferenceController(
         preference.apply {
             if (getAvailabilityStatus() == AVAILABLE) {
                 setEnabled(true)
-                summary = getSummaryForListSize(appLockManager.packageData.size)
+                summary = getSummaryForListSize(appLockManager.packageData.filter {
+                    it.shouldProtectApp == true
+                }.size)
             } else {
                 setEnabled(false)
                 summary = mContext.getString(R.string.disabled_because_no_backup_security)

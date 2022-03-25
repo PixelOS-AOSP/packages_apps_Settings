@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.security.applock;
+package com.android.settings.security.applock
 
 import android.content.Context
 import android.widget.Switch

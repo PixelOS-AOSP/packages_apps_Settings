@@ -28,13 +28,13 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.forEach
 
-import com.android.internal.logging.nano.MetricsProto
+import com.android.internal.util.custom.CustomUtils
 
 import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
-import com.android.settings.dashboard.DashboardFragment
 import com.android.settingslib.PrimarySwitchPreference
 import com.android.settingslib.widget.TwoTargetPreference.ICON_SIZE_SMALL
+import com.android.settings.custom.fragments.CustomDashboardFragment
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -43,16 +43,18 @@ import kotlinx.coroutines.withContext
 private val TAG = AppLockPackageListFragment::class.simpleName
 internal const val PACKAGE_INFO = "package_info"
 
-class AppLockPackageListFragment : DashboardFragment() {
+class AppLockPackageListFragment : CustomDashboardFragment() {
 
     private lateinit var appLockManager: AppLockManager
     private lateinit var pm: PackageManager
     private lateinit var whiteListedPackages: Array<String>
+    private lateinit var launchablePackages: List<String>
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
         appLockManager = context.getSystemService(AppLockManager::class.java)
         pm = context.packageManager
+        launchablePackages = CustomUtils.launchablePackages(context)
         whiteListedPackages = resources.getStringArray(
             com.android.internal.R.array.config_appLockAllowedSystemApps)
     }
@@ -65,7 +67,9 @@ class AppLockPackageListFragment : DashboardFragment() {
                 pm.getInstalledPackages(
                     PackageInfoFlags.of(PackageManager.MATCH_ALL.toLong())
                 ).filter {
-                    !it.applicationInfo.isSystemApp() || whiteListedPackages.contains(it.packageName)
+                    !it.applicationInfo.isSystemApp() ||
+                        launchablePackages.contains(it.packageName) ||
+                        whiteListedPackages.contains(it.packageName)
                 }.sortedWith { first, second ->
                     getLabel(first).compareTo(getLabel(second))
                 }
@@ -94,7 +98,11 @@ class AppLockPackageListFragment : DashboardFragment() {
 
     private suspend fun getSelectedPackages(): Set<String> {
         return withContext(Dispatchers.IO) {
-            appLockManager.packageData.map { it.packageName }.toSet()
+            appLockManager.packageData.filter {
+                it.shouldProtectApp == true
+            }.map {
+                it.packageName
+            }.toSet()
         }
     }
 
@@ -111,11 +119,7 @@ class AppLockPackageListFragment : DashboardFragment() {
             isChecked = isProtected
             setOnPreferenceChangeListener { _, newValue ->
                 lifecycleScope.launch(Dispatchers.IO) {
-                    if (newValue as Boolean) {
-                        appLockManager.addPackage(packageInfo.packageName)
-                    } else {
-                        appLockManager.removePackage(packageInfo.packageName)
-                    }
+                    appLockManager.setShouldProtectApp(packageInfo.packageName, newValue as Boolean)
                 }
                 return@setOnPreferenceChangeListener true
             }
@@ -134,8 +138,6 @@ class AppLockPackageListFragment : DashboardFragment() {
             }
         }
     }
-
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CUSTOM
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_package_list_settings
 

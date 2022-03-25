@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 FlamingoOS Project
+ * Copyright (C) 2021 AOSP-Krypton Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.settings.security.applock
+package com.android.settings.custom.fragments
 
-import com.android.settings.SettingsActivity
+import com.android.internal.logging.nano.MetricsProto
+import com.android.settings.dashboard.DashboardFragment
 
-class AppLockSubSettings : SettingsActivity() {
-
-    override protected fun isValidFragment(fragmentName: String): Boolean {
-        return AppLockSettingsFragment::class.qualifiedName == fragmentName
-    }
+abstract class CustomDashboardFragment: DashboardFragment() {
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CUSTOM
 }

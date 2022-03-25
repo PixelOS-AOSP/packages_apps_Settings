@@ -18,13 +18,13 @@
 
     <!-- App lock timeout -->
     <string-array name="app_lock_timeout_entries">
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>@string/app_lock_timeout_5secs</item>
+        <item>@string/app_lock_timeout_10secs</item>
+        <item>@string/app_lock_timeout_30secs</item>
+        <item>@string/app_lock_timeout_1min</item>
+        <item>@string/app_lock_timeout_5mins</item>
+        <item>@string/app_lock_timeout_10mins</item>
+        <item>@string/app_lock_timeout_30mins</item>
     </string-array>
 
     <string-array name="app_lock_timeout_values" translatable="false">

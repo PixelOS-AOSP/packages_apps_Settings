@@ -24,6 +24,8 @@ import android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STR
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
+import com.android.settings.security.applock.AppLockTogglePreferenceController
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
