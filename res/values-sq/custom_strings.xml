@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_light_title">Drita e baterisë</string>
+    <string name="reset">Rivendos</string>
+    <string name="button_pref_title">Butonat</string>
+    <string name="hardware_keys_home_key_title">Butoni Home</string>
+    <string name="hardware_keys_back_key_title">Butoni Prapa</string>
+    <string name="hardware_keys_menu_key_title">Butoni i Menusë</string>
+    <string name="hardware_keys_assist_key_title">Butoni i kërkimit</string>
+    <string name="hardware_keys_appswitch_key_title">Butoni Të Fundit</string>
+    <string name="hardware_keys_camera_key_title">Butoni i kamerës</string>
+    <string name="hardware_keys_short_press_title">Veprimi i të shtypurit shkurtimisht</string>
+    <string name="hardware_keys_long_press_title">Veprimi kur mban një buton shtypur</string>
+    <string name="hardware_keys_double_tap_title">Veprimi i të shtypurit dy herë</string>
+    <string name="hardware_keys_action_nothing">Asnjë veprim</string>
+    <string name="hardware_keys_action_menu">Hap/mbyll menunë</string>
+    <string name="hardware_keys_action_app_switch">Zgjedhësi i aplikacioneve të përdorura së fundmi</string>
+    <string name="hardware_keys_action_search">Asistenti i kërkimit</string>
+    <string name="hardware_keys_action_voice_search">Kërkimi me zë</string>
+    <string name="hardware_keys_action_in_app_search">Kërkimi brenda aplikacionit</string>
+    <string name="hardware_keys_action_launch_camera">Hap kamerën</string>
+    <string name="hardware_keys_action_sleep">Fik ekranin</string>
+    <string name="hardware_keys_action_split_screen">Ndaj ekranin përgjysëm</string>
+    <string name="button_wake_title">Zgjo pajisjen</string>
+    <string name="camera_sleep_on_release_title">Përgjimi i ekranit</string>
+    <string name="camera_sleep_on_release_summary">Një shtypje përgjysëm e butonit do të mbajë ekranin ndezur vetëm kur butoni të jetë i shtypur</string>
+    <string name="camera_launch_title">Hap kamerën</string>
+    <string name="camera_launch_summary">Mbajtja e butonit shtypur dhe lëshimi i tij do të hapin kamerën</string>
+    <string name="button_backlight_title">Ndriçimi në sfond</string>
+    <string name="button_backlight_enabled">Ndriço butonat</string>
+    <string name="button_backlight_only_when_pressed_title">Ndriço butonat vetëm kur shtypen</string>
+    <string name="keyboard_backlight_enabled">Ndriço tastierën</string>
+    <string name="button_backlight_seekbar_title">Ndriçimi i butonave</string>
+    <string name="keyboard_backlight_seekbar_title">Ndriçimi i tastierës</string>
+    <string name="backlight_timeout_title">Kohëzgjatja e ndriçimit</string>
+    <string name="backlight_timeout_unlimited">Mos e fik</string>
+    <string name="backlight_summary_disabled">I çaktivizuar</string>
+    <string name="backlight_summary_enabled_with_timeout">I aktivizuar për <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">I aktivizuar</string>
+    <string name="disable_navkeys_title">Aktivizo shiritin e lundrimit në ekran</string>
+    <string name="disable_navkeys_summary">Aktivizo shiritin e lundrimit në ekran dhe çaktivizo butonat fizikë</string>
+    <string name="additional_buttons_title">Butona të tjerë</string>
+    <string name="high_touch_sensitivity_title">Ndjesi e lartë e prekjes</string>
+    <string name="fast_charging_summary">Ç\'aktivizojeni për të zvogëluar nxehtësinë e prodhuar nga pajisja gjatë karikimit ose për të zgjatur jetëgjatësinë e baterisë</string>
+</resources>

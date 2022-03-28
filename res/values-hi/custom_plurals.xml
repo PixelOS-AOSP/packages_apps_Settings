@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g>and</item>
+        <item quantity="other"><xliff:g id="SECONDS">%d</xliff:g> available</item>
+    </plurals>
+</resources>

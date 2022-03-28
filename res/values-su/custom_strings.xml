@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_pref_title">Tombol</string>
+    <string name="hardware_keys_home_key_title">Tumbul tepas</string>
+    <string name="hardware_keys_back_key_title">Tumbul balik</string>
+    <string name="hardware_keys_menu_key_title">Tumbul menu</string>
+    <string name="hardware_keys_assist_key_title">Tumbul paluruh</string>
+    <string name="hardware_keys_appswitch_key_title">Tumbul bieu</string>
+    <string name="hardware_keys_camera_key_title">Tombol kaméra</string>
+    <string name="hardware_keys_short_press_title">Peta pencét pondok</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Milarian sensor sidik dina payuneun telepon anjeun.</string>
+</resources>

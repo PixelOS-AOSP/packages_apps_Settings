@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_pref_title">Tugmalar</string>
+    <string name="hardware_keys_home_key_title">Bosh ekran tugmasi</string>
+    <string name="hardware_keys_back_key_title">Orqaga tugmasi</string>
+    <string name="hardware_keys_menu_key_title">Menyu tugmasi</string>
+    <string name="hardware_keys_camera_key_title">Kamera tugmasi</string>
+    <string name="hardware_keys_action_nothing">Amal yo‘q</string>
+    <string name="hardware_keys_action_voice_search">Ovozli qidiruv</string>
+    <string name="hardware_keys_action_launch_camera">Kamerani ochish</string>
+    <string name="hardware_keys_action_split_screen">Bo‘lingan ekran</string>
+    <string name="camera_launch_title">Kamerani ochish</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Barmog\'ingizni qurilmangiz ortidagi barmoq izi skaneriga tekkizing.</string>
+</resources>

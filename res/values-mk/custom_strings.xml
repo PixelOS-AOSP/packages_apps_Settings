@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_light_title">Светло на батеријата</string>
+    <string name="connected_tws_device_saved_title">Зачувани слушалки</string>
+    <string name="reset">Ресетирај</string>
+    <string name="button_pref_title">Копчиња</string>
+    <string name="hardware_keys_home_key_title">Копче за почеток</string>
+    <string name="hardware_keys_back_key_title">Копче за назад</string>
+    <string name="hardware_keys_menu_key_title">Копче за мени</string>
+    <string name="hardware_keys_assist_key_title">Копче за пребарување</string>
+    <string name="hardware_keys_appswitch_key_title">Копче за неодамнешни</string>
+    <string name="hardware_keys_camera_key_title">Копче за камера</string>
+    <string name="hardware_keys_short_press_title">Кратко притискање</string>
+    <string name="hardware_keys_long_press_title">Акција за долго притискање</string>
+    <string name="hardware_keys_double_tap_title">Акција за двојно притискање</string>
+    <string name="hardware_keys_action_nothing">Без акција</string>
+    <string name="hardware_keys_action_menu">Овори/затвори мени</string>
+    <string name="hardware_keys_action_app_switch">Приказ на неодамнешни апликации</string>
+    <string name="hardware_keys_action_search">Помошник за пребарување</string>
+    <string name="hardware_keys_action_voice_search">Гласовно пребарување</string>
+    <string name="hardware_keys_action_in_app_search">Пребарување во апликација</string>
+    <string name="hardware_keys_action_launch_camera">Стартувај камера</string>
+    <string name="hardware_keys_action_sleep">Исклучи го екранот</string>
+    <string name="hardware_keys_action_split_screen">Поделен екран</string>
+    <string name="button_wake_title">Разбуди уред</string>
+    <string name="camera_sleep_on_release_title">Ѕиркање на екранот</string>
+    <string name="camera_sleep_on_release_summary">Половина притискање ќе го задржи екранот уклучен само додека копчето се држи надолу</string>
+    <string name="camera_launch_title">Стартувај камера</string>
+    <string name="camera_launch_summary">Долго притискање и пуштање ќе ја стартува камерата</string>
+    <string name="button_backlight_title">Позадинско осветлување</string>
+    <string name="button_backlight_enabled">Осветлете ги копчињата</string>
+    <string name="keyboard_backlight_enabled">Осветлете ја тастатурата</string>
+    <string name="button_backlight_seekbar_title">Светлост на копчињата</string>
+    <string name="keyboard_backlight_seekbar_title">Светлост на тастатурата</string>
+    <string name="backlight_timeout_title">Истек на светлоста</string>
+    <string name="backlight_timeout_unlimited">Не исклучувај</string>
+    <string name="backlight_summary_disabled">Оневозможено</string>
+    <string name="backlight_summary_enabled_with_timeout">Овозможено за <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Овозможено</string>
+    <string name="disable_navkeys_title">Овозможи лента за навигација на екранот</string>
+    <string name="disable_navkeys_summary">Овозможи лента за навигација на екранот и оневозможете ги хардверските копчиња</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Отстранете го постојното скенирано лице и создадете ново скенирање</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повтори го скенирањето на лицето</string>
+    <string name="face_redo_confirm_btn">Повтори</string>
+    <string name="face_redo_warning_msg">Дали сакате да го отстраните постојното скенирано лице и да создадете ново?</string>
+</resources>

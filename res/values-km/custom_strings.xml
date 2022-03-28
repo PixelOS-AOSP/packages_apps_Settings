@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connected_tws_device_saved_title">หูฟังที่บันทึก</string>
+    <string name="disable_navkeys_title">បើកដំណើរការអេក្រង់របារុករក</string>
+    <string name="disable_navkeys_summary">បើកដំណើរការអេក្រង់របារុករក និងបិទប៊ូតុងផ្នែករឹង</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">លុបការស្កេនផ្ទៃមុខដែលមានស្រាប់ រួចបង្កើតការស្កេនថ្មី</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ធ្វើការស្កេនមុខឡើងវិញ</string>
+    <string name="face_redo_confirm_btn">ធ្វើវិញ</string>
+    <string name="face_redo_warning_msg">តើអ្នកចង់លុបការស្កេនផ្ទៃមុខដែលមានស្រាប់ចេញ រួចបង្កើតការស្កេនថ្មីដែរទេ?</string>
+</resources>

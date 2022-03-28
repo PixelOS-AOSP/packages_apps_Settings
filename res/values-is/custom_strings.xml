@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hardware_keys_double_tap_title">Aðgerð við tvíbank</string>
+    <string name="camera_sleep_on_release_title">Kíkja á skjá</string>
+    <string name="camera_sleep_on_release_summary">Ýtt til hálfs mun birta skjáinn á meðan hnappnum er haldið niðri</string>
+    <string name="camera_launch_summary">Ef ýtt er lengi og síðan sleppt mun ræsa myndavél</string>
+    <string name="disable_navkeys_title">Virkja leiðsagnarstiku á skjánum</string>
+    <string name="disable_navkeys_summary">Virkja leiðsagnarstiku á skjánum og gera vélbúnaðarhnappa tækisins óvirka</string>
+</resources>
