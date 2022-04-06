@@ -29,8 +29,6 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.android.internal.util.custom.cutout.CutoutUtils;
-
 public class NetworkTrafficSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener  {
 
@@ -40,15 +38,11 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     private SwitchPreference mNetTrafficAutohide;
     private DropDownPreference mNetTrafficUnitType;
 
-    private boolean mHasNotch;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.network_traffic_settings);
         final ContentResolver resolver = getActivity().getContentResolver();
-
-        mHasNotch = CutoutUtils.hasCutout(getActivity(), true /* ignoreCutoutMasked*/);
 
         mNetTrafficMode = findPreference(Settings.System.NETWORK_TRAFFIC_LOCATION);
         mNetTrafficMode.setOnPreferenceChangeListener(this);
@@ -65,11 +59,16 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
                 Settings.System.NETWORK_TRAFFIC_UNIT_TYPE, /* Bytes */ 0);
         mNetTrafficUnitType.setValue(String.valueOf(units));
 
-        if (mHasNotch){
-            String[] locationEntriesNotch = getResources().getStringArray(R.array.network_traffic_mode_entries_notch);
-            String[] locationEntriesNotchValues = getResources().getStringArray(R.array.network_traffic_mode_values_notch);
-            mNetTrafficMode.setEntries(locationEntriesNotch);
-            mNetTrafficMode.setEntryValues(locationEntriesNotchValues);
+        boolean allowedOnStatusBar = getResources().getBoolean(
+            com.android.internal.R.bool.config_supportsNetworkTrafficOnStatusBar);
+        if (!allowedOnStatusBar){
+            String[] locationEntriesNoStatusBar = getResources().getStringArray(R.array.network_traffic_mode_entries_no_statusbar);
+            String[] locationEntriesNoStatusBarValues = getResources().getStringArray(R.array.network_traffic_mode_values_no_statusbar);
+            mNetTrafficMode.setEntries(locationEntriesNoStatusBar);
+            mNetTrafficMode.setEntryValues(locationEntriesNoStatusBarValues);
+            if (mode == 1){
+                mNetTrafficMode.setValue("2");
+            }
         }
 
         updateEnabledStates(mode);

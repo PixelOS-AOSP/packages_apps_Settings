@@ -134,12 +134,12 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="network_traffic_mode_entries_notch" translatable="false">
+    <string-array name="network_traffic_mode_entries_no_statusbar" translatable="false">
         <item>@string/network_traffic_mode_disable</item>
         <item>@string/network_traffic_mode_qs</item>
     </string-array>
 
-    <string-array name="network_traffic_mode_values_notch" translatable="false">
+    <string-array name="network_traffic_mode_values_no_statusbar" translatable="false">
         <item>0</item>
         <item>2</item>
     </string-array>
