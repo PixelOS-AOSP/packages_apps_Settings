@@ -176,4 +176,10 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert Navigation Bar layout</string>
     <string name="navbar_invert_info">This will swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
 </resources>

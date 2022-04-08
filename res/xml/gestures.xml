@@ -40,6 +40,35 @@
         settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
 
     <Preference
+        android:key="three_finger_gesture_summary"
+        android:title="@string/three_finger_gesture"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    <PreferenceCategory
+        android:key="gesture_navigation_category"
+        android:title="@string/gesture_navigation_category_title">
+
+    <Preference
+        android:key="gesture_system_navigation_input_summary"
+        android:title="@string/system_navigation_title"
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
+        settings:keywords="@string/keywords_system_navigation" />
+
+    <Preference
+        android:key="gesture_one_handed"
+        android:title="@string/one_handed_title"
+        android:fragment="com.android.settings.gestures.OneHandedSettings"
+        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_power_button_category"
+        android:title="@string/gesture_power_button_category_title">
+
+    <Preference
         android:key="gesture_double_tap_power_input_summary"
         android:title="@string/double_tap_power_for_camera_title"
         android:fragment="com.android.settings.gestures.DoubleTapPowerSettings"
@@ -54,17 +83,49 @@
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
     <Preference
-        android:key="gesture_system_navigation_input_summary"
-        android:title="@string/system_navigation_title"
-        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
-        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
-        settings:keywords="@string/keywords_system_navigation" />
+        android:key="gesture_power_menu_summary"
+        android:title="@string/power_menu_setting_name"
+        android:fragment="com.android.settings.gestures.PowerMenuSettings"
+        settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
 
-    <Preference
-        android:key="gesture_one_handed"
-        android:title="@string/one_handed_title"
-        android:fragment="com.android.settings.gestures.OneHandedSettings"
-        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/global_actions_advanced_reboot_title"
+        android:summary="@string/global_actions_advanced_reboot_summary"
+        android:defaultValue="true" />
+
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="torch_power_button_gesture"
+        android:dialogTitle="@string/torch_power_button_gesture_title"
+        android:title="@string/torch_power_button_gesture_title"
+        android:summary="%s"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values"
+        android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_volume_buttons_category"
+        android:title="@string/gesture_volume_buttons_category_title">
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false"/>
+
+    <com.android.settings.widget.PrimarySwitchPreference
+        android:key="gesture_prevent_ringing_summary"
+        android:title="@string/gesture_prevent_ringing_screen_title"
+        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_screen_category"
+        android:title="@string/gesture_screen_category_title">
 
     <Preference
         android:key="gesture_tap_screen_input_summary"
@@ -86,33 +147,6 @@
         android:fragment="com.android.settings.gestures.PickupGestureSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
-
-    <Preference
-        android:key="gesture_power_menu_summary"
-        android:title="@string/power_menu_setting_name"
-        android:fragment="com.android.settings.gestures.PowerMenuSettings"
-        settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
-
-    <Preference
-        android:key="three_finger_gesture_summary"
-        android:title="@string/three_finger_gesture"
-        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
-        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
-
-    <com.android.settings.custom.preference.SystemSettingListPreference
-        android:key="torch_power_button_gesture"
-        android:dialogTitle="@string/torch_power_button_gesture_title"
-        android:title="@string/torch_power_button_gesture_title"
-        android:summary="%s"
-        android:entries="@array/torch_power_button_gesture_entries"
-        android:entryValues="@array/torch_power_button_gesture_values"
-        android:defaultValue="0" />
-
-    <com.android.settings.widget.PrimarySwitchPreference
-        android:key="gesture_prevent_ringing_summary"
-        android:title="@string/gesture_prevent_ringing_screen_title"
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <com.android.settings.custom.preference.RemotePreference
             android:key="touchscreen_gesture_settings"
@@ -140,15 +174,6 @@
         android:summary="@string/double_tap_sleep_gesture_summary"
         android:defaultValue="false" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="volume_button_music_control"
-        android:title="@string/volume_button_music_control_title"
-        android:summary="@string/volume_button_music_control_summary"
-        android:defaultValue="false"/>
-
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/global_actions_advanced_reboot_title"
-        android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="true" />
+    </PreferenceCategory>
+    
 </PreferenceScreen>
