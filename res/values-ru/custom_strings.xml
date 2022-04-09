@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на задней поверхности вашего телефона.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Сканер отпечатков пальцев расположен на задней части вашего телефона.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Сканер отпечатков пальцев расположен на боковой части вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора на передней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на задней панели телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на боковой стороне телефона.</string>
     <string name="fast_charging_title">Быстрая зарядка</string>
     <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>

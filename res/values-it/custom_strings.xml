@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Individua il sensore d\'impronte sul retro del tuo telefono </string>
     <string name="fingerprint_enroll_find_sensor_message_side">Individua il sensore d\'impronte sul retro del tuo telefono </string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sullo schermo del tuo dispositivo</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del telefono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del telefono.</string>
     <string name="fast_charging_title">Carica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositvo durante la carica o per estendere il ciclo di vita della batteria</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione del viso esistente e creane una nuova</string>

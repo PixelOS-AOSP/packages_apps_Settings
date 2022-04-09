@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Localisez le lecteur d\'empreintes digitales sur le coté de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Touchez le capteur à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Touchez le capteur à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Touchez le capteur sur le côté de votre téléphone.</string>
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil lors de la charge ou étendre la durée de vie de la batterie</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer le visage scanné existant et en créer un nouveau</string>

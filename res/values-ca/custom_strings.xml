@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Localitza el sensor d\'empremta al frontal del teu telèfon.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Cerca el sensor d\'empremtes a la part posterior del telèfon.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Cerca el sensor d\'empremtes als laterals del telèfon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Prem el sensor d\'empremta al frontal del teu telèfon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Prem el sensor d\'empremta al darrere del teu telèfon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Prem el sensor d\'empremta al lateral del teu telèfon.</string>
     <string name="fast_charging_title">Carregant ràpidament</string>
     <string name="fast_charging_summary">Desactiveu-lo per reduir la calor produïda pel dispositiu mentre es carrega o per ampliar la vida útil de la bateria</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Suprimeix l\'escaneig facial actual i crea\'n un altre</string>

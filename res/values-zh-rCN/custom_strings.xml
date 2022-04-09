@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">您可在手机背面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_side">在手机的一侧找到指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">轻触手机正面的指纹按键</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">轻触手机背面的指纹按键</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">轻触手机侧面的指纹按键</string>
     <string name="fast_charging_title">快速充电中</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>

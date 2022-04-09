@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">指紋感應器位於手機正面。</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">尋找手機背面的指紋感測器</string>
     <string name="fingerprint_enroll_find_sensor_message_side">尋找手機側面的指紋感測器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">輕觸位於手機正面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">輕觸位於手機背面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">輕觸位於手機側面的感應器。</string>
     <string name="fast_charging_title">快速充電中</string>
     <string name="fast_charging_summary">禁用以減少裝置在充電時產生的熱量或延長電池的使用壽命</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>

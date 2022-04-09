@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung ist nicht privat.</string>
     <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
     <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
     <string name="battery_saver_refresh_rate_title">Reduziere Bildwiederholrate</string>
@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Suchen Sie den Fingerabdrucksensor an der Rückseite Ihres Telefons.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Suchen Sie den Fingerabdrucksensor an der Seite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Berühren Sie den Sensor an der Vorderseite des Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Berühren Sie den Sensor an der Rückseite des Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Berühren Sie den Sensor an der Seite des Geräts.</string>
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren Sie diese Option, um die Wärmeerzeugung beim Laden zu reduzieren und Lebensdauer des Akku zu verlängern</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Bestehenden Gesichtsscan entfernen und einen neuen Scan erstellen</string>

@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Tìm vị trí của cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Tìm cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở mặt bên điện thoại của bạn.</string>
     <string name="fast_charging_title">Sạc nhanh</string>
     <string name="fast_charging_summary">Tắt để giảm nhiệt do thiết bị tạo ra trong khi sạc hoặc để kéo dài tuổi thọ của pin</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>

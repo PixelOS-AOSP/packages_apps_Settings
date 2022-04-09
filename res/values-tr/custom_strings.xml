@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
     <string name="fast_charging_title">Hızlı şarj</string>
     <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>

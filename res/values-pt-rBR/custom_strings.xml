@@ -4,7 +4,7 @@
     <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
-    <string name="battery_saver_refresh_rate_summary">Reduzir a taxa de atualização da tela para economizar energia quando o modo Economia de Bateria estiver ativado</string>
+    <string name="battery_saver_refresh_rate_summary">Usar 60 Hz como taxa de atualização máxima para economizar energia quando o modo Economia de Bateria estiver ativo</string>
     <string name="battery_light_title">Luz da bateria</string>
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <string name="reset">Redefinir</string>
@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na lateral do seu telefone.</string>
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>

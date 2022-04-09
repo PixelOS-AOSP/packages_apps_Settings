@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Vyhledejte snímač otisků prstů na straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotkněte se senzoru na boční straně telefonu.</string>
     <string name="fast_charging_title">Rychlé nabíjení</string>
     <string name="fast_charging_summary">Vypnutím snížíte teplo produkované zařízením během nabíjení nebo prodloužíte životnost baterie</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Odstranit stávající sken obličeje a vytvořit nový</string>

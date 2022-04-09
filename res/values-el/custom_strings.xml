@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο εμπρόσθιο μέρος του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο πίσω μέρος του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο πλάι του τηλεφώνου σας.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Αγγίξτε τον αισθητήρα στο μπροστινό μέρος του τηλεφώνου σας.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Αγγίξτε τον αισθητήρα στο πίσω μέρος του τηλεφώνου σας.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Αγγίξτε τον αισθητήρα στο πλάι του τηλεφώνου σας.</string>
     <string name="fast_charging_title">Γρήγορη φόρτιση</string>
     <string name="fast_charging_summary">Απενεργοποιήστε για να μειώσετε τη θερμότητα που παράγεται από τη συσκευή κατά τη φόρτιση ή για να παρατείνετε τη διάρκεια ζωής της μπαταρίας</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Κατάργηση υπάρχουσας σάρωσης προσώπου και δημιουργία νέας σάρωσης</string>

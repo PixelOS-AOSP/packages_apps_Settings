@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">端末前面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_side">スマートフォン左側にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチします</string>
     <string name="fast_charging_title">急速充電</string>
     <string name="fast_charging_summary">充電中の端末の発熱を減らしバッテリー寿命を伸ばすために無効にする</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成します</string>

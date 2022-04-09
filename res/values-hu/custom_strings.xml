@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort készüléke előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort készüléke hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort készüléke oldalán.</string>
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Ne engedélyezze, ha csökkentené a készülék töltés közbeni melegedését, vagy meghosszabbítaná az akkumulátor élettartamát</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>

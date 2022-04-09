@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">มองหาช่องอ่านลายนิ้วมือที่ด้านหน้าเครื่อง</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">มองหาช่องอ่านลายนิ้วมือที่ด้านหลังเครื่อง</string>
     <string name="fingerprint_enroll_find_sensor_message_side">มองหาช่องอ่านลายนิ้วมือที่ด้านข้างตัวเครื่อง</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">แตะเซนเซอร์ที่ด้านหน้าโทรศัพท์ของคุณ</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">แตะเซนเซอร์ที่ด้านหลังโทรศัพท์ของคุณ</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">แตะเซนเซอร์ที่ด้านข้างโทรศัพท์ของคุณ</string>
     <string name="fast_charging_title">ชาร์จเร็ว</string>
     <string name="fast_charging_summary">ปิดใช้งานเพื่อลดความร้อนที่เกิดจากอุปกรณ์ขณะชาร์จ หรือเพื่อยืดอายุการใช้งานของแบตเตอรี่</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">ลบการสแกนใบหน้าที่มีอยู่ออกและสร้างการสแกนใหม่</string>

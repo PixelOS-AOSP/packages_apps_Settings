@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">იპოვეთ თქვენი ტელეფონის უკანა ნაწილზე მდებარე თითის ანაბეჭდების სენსორი.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">იპოვეთ თქვენი ტელეფონის უკანა ნაწილზე მდებარე თითის ანაბეჭდების სენსორი.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">იპოვეთ თქვენი ტელეფონზე მდებარე თითის ანაბეჭდების სენსორი.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">შეეხეთ სენსორს ტელეფონის წინა მხარეს.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">შეეხეთ სენსორს ტელეფონის უკანა მხარეს.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">შეეხეთ სენსორს ტელეფონის გვერდითა მხარეს.</string>
     <string name="fast_charging_title">სწრაფი დამუხტვა</string>
     <string name="fast_charging_summary">გამორთეთ გამოყოფილი სითბოს შესამცირებლად მოწყობილობის დამუხტვისას ან ბატარეის სიცოცხლის გასახანგრძლივებლად.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">არსებული სახის ანაბეჭდის მოცილება და ახლის შექმნა</string>

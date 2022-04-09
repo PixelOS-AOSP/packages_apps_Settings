@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Temukan lokasi sensor sidik jari di bagian depan telepon Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Temukan lokasi sensor sidik jari di bagian belakang telepon Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Temukan lokasi sensor sidik jari di bagian samping telepon Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>

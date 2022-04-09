@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun ön tərəfindəki barmaq izi sensorunu tapın.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arxa tərəfindəki barmaq izi sensorunu tapın.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yan tərəfindəki barmaq izi sensorunu tapın.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun ön tərəfindəki sensora toxunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arxa tərəfindəki sensora toxunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tərəfindəki sensora toxunun.</string>
     <string name="fast_charging_title">Sürətli enerji yığma</string>
     <string name="fast_charging_summary">Cihazın enerji yığarkən istehsal etdiyi istiliyi azaltmaq və ya batereyanın ömrünü uzatmaq üçün sıradan çıxardın</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mövcud üz skanını çıxart və yeni bir skan yarat</string>

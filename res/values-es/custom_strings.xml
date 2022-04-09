@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frente del teléfono.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localice el sensor de huellas dactilares en la parte de atrás del teléfono.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Localice el sensor de huellas dactilares en el lateral del teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toque el sensor en la parte posterior de su teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toque el sensor en el costado de su teléfono.</string>
     <string name="fast_charging_title">Carga rápida</string>
     <string name="fast_charging_summary">Desactivar para reducir el sobrecalentamiento producido por el dispositivo durante la carga o para extender la vida útil de la batería</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Eliminar caras registradas y escanear nuevamente.</string>

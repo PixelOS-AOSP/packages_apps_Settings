@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Zlokalizuj czytnik linii papilarnych z tyłu Twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Zlokalizuj czytnik linii papilarnych na krawędzi Twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotknij czytnia linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czytnia linii papilarnych z tyłu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czytnia linii papilarnych po twojej stronie telefonu.</string>
     <string name="fast_charging_title">Szybkie ładowanie</string>
     <string name="fast_charging_summary">Wyłącz, aby zmniejszyć ilość ciepła wytwarzanego przez urządzenie podczas ładowania lub wydłużyć żywotność baterii</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>

@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">휴대전화 앞면에 있는 지문 센서를 찾으세요.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">기기의 뒷면에서 지문 인식 센서를 찾으세요.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">기기의 옆면에서 지문 인식 센서를 찾으세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">휴대전화 앞에 있는 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">휴대전화 뒷면에 있는 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">휴대전화 옆면에 있는 센서를 누르세요.</string>
     <string name="fast_charging_title">고속 충전</string>
     <string name="fast_charging_summary">충전하는 동안 발생하는 열을 줄이거나 배터리 수명을 연장하기위해 비활성화</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">기존의 얼굴 스캔을 제거하고 새 스캔을 만듭니다.</string>

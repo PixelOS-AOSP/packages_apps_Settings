@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">אתר את חיישן טביעת האצבע בקידמת המכשיר.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">אתר את חיישן טביעת האצבע בגב המכשיר.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">אתר את חיישן טביעת האצבע בצד הטלפון שלך.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">גע בחיישן בקדמת הטלפון שלך</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">גע בחיישן מאחורי הטלפון שלך</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">גע בחיישן בצד הטלפון שלך</string>
     <string name="fast_charging_title">טעינה מהירה</string>
     <string name="fast_charging_summary">השבת עבור הפחתת חימום המכשיר בזמן טעינה או כדי להאריך את חיי הסוללה</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">מחק את סריקת הפנים הקיימת וצור סריקה חדשה</string>

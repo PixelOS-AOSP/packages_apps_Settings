@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_do_not_validate_eap_server_warning">Walang certificate na tinukoy. Ang iyong koneksyon ay hindi magiging pribado.</string>
+    <string name="min_refresh_rate_title">Pinakamababang refresh rate</string>
+    <string name="max_refresh_rate_title">Pinaka-mataaas na refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Babaan ang refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Gamitin ang 60 Hz bilang pinaka-mataas na refresh rate para makatipid ng kuryente kapag naka-on ang Battery Saver</string>
+    <string name="battery_light_title">I-on ang ilaw kapag naka-charge</string>
     <string name="connected_tws_device_saved_title">Nakasave na Earbuds</string>
     <string name="reset">I-reset</string>
     <string name="button_pref_title">Mga pindutan</string>
@@ -31,9 +37,12 @@
     <string name="camera_sleep_on_release_summary">Ang pag pindot ng sandali ay mapapanatiling bukas ng screen habang nananatili ang daliri sa button</string>
     <string name="camera_launch_title">Buksan ang camera</string>
     <string name="camera_launch_summary">Ang mahabang pagpindut at pagbitiw ay magbubukas ng kamera</string>
+    <string name="button_backlight_title">Backlight</string>
     <string name="button_backlight_enabled">Pa-ilawin ang mga button</string>
     <string name="button_backlight_only_when_pressed_title">Pa-ilawin ang mga button kapag pinindot lamang</string>
+    <string name="keyboard_backlight_enabled">Pa-ilawin ang keyboard</string>
     <string name="button_backlight_seekbar_title">Tingkad ng button</string>
+    <string name="keyboard_backlight_seekbar_title">Liwanag ng keyboard</string>
     <string name="backlight_timeout_title">Hangganan ng pag-ilaw</string>
     <string name="backlight_timeout_unlimited">Huwag patayin</string>
     <string name="backlight_summary_disabled">Naka-disable</string>
@@ -41,11 +50,29 @@
     <string name="backlight_summary_enabled">Naka-enable</string>
     <string name="disable_navkeys_title">Paganahin ang on-screen nav bar</string>
     <string name="disable_navkeys_summary">Paganahin ang on-screen navigation bar at huwag paganahin ang mga button ng hardware</string>
+    <string name="swap_capacitive_keys_title">Pag-palitin ang capacitive buttons</string>
+    <string name="swap_capacitive_keys_summary">Pag-palitin ang recents at back buttons</string>
     <string name="others_settings_title">Ibang mga settings</string>
     <string name="additional_buttons_title">Karagdagang pindutan</string>
+    <string name="high_touch_sensitivity_title">Mataas na touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Pataasin ang touchscreen sensitivity para magamit ito habang may suot na guwantes</string>
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Pwede kang mag-hover sa screen na parang mouse sa mga web browser, remote desktop, atbp</string>
+    <string name="keyboard_extras_title">Mga extra</string>
+    <string name="advanced_keyboard_settings_title">Mga advanced na setting</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Hanapin ang fingerprint sensor sa harap ng iyong telepono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Hanapin ang fingerprint sensor sa likod ng iyong telepono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Hanapin ang fingerprint sensor sa gilid ng iyong telepono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Pindutin ang sensor sa harap ng iyong telepono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Pindutin ang sensor sa likod ng iyong telepono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Pindutin ang sensor sa gilid ng iyong telepono.</string>
+    <string name="fast_charging_title">Mabilis na pag-charge</string>
+    <string name="fast_charging_summary">I-disable para mabawasan ang init ng iyong device habang naka-charge o pahabain ang buhay ng baterya</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Tanggalin ang umiiral na face scan at gumawa ng bagong pag-scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">I-redo ang pag-scan ng mukha</string>
     <string name="face_redo_confirm_btn">I-redo</string>
     <string name="face_redo_warning_msg">Gusto mo bang tanggalin ang umiiral na face scan at gumawa ng bago?</string>
+    <string name="face_unlock_method_title">Payagan ang face unlock sa lock screen</string>
+    <string name="face_unlock_method_default">Kapag naka-on ang screen</string>
+    <string name="face_unlock_method_swipe">Kapag nag-swipe sa lock screen</string>
 </resources>

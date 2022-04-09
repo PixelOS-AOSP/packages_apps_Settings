@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Leidke telefoni tagaküljel olev sõrmejäljeandur.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Leidke enda telefoni küljel olev sõrmejäljeandur.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Puudutage telefoni esiküljel olevat andurit.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Puudutage telefoni tagaküljel olevat andurit.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Puudutage telefoni küljel olevat andurit.</string>
     <string name="fast_charging_title">Kiire laadimine</string>
     <string name="fast_charging_summary">Keelake seade laadimise ajal tekkiva soojuse vähendamiseks või aku eluea pikendamiseks </string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Eemaldage kasutatud näopilt ja looge uus</string>
