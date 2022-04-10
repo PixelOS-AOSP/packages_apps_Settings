@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">ยอมให้ปลดล็อคด้วยใบหน้าในขณะที่หน้าจอถูกล็อค</string>
     <string name="face_unlock_method_default">เมื่อเปิดหน้าจอ</string>
     <string name="face_unlock_method_swipe">เมื่อปัดบนหน้าจอขณะล็อค</string>
+    <string name="high_touch_polling_rate_title">อัตราการตอบสนองต่อการสัมผัสสูง</string>
+    <string name="high_touch_polling_rate_summary">เพิ่มอัตราการตอบสนองหน้าจอสัมผัส</string>
 </resources>

@@ -63,7 +63,7 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Löydä sormenjälkitunnistin puhelimesi etuosasta.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Löydä sormenjälkitunnistin puhelimesi takakannesta.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Löydä sormenjälkitunnistin puhelimesi reunasta.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front">Kosketa näytön ikonia</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Kosketa tunnistinta puhelimesi etupuolella.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Kosketa sormenjälkitunnistinta takaosassa.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Kosketa sivulla olevaa sormenjälkitunnistinta.</string>
     <string name="fast_charging_title">Pikalataus</string>
@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Salli kasvojentunnistus lukitusnäytöllä</string>
     <string name="face_unlock_method_default">Kun näyttö on päällä</string>
     <string name="face_unlock_method_swipe">Kun pyyhitään lukitusnäyttöä</string>
+    <string name="high_touch_polling_rate_title">Nopea kosketuksen päivitystiheys</string>
+    <string name="high_touch_polling_rate_summary">Lisää kosketusnäytön päivitysnopeutta</string>
 </resources>

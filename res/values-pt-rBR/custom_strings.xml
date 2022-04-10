@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Permitir o desbloqueio facial na tela de bloqueio</string>
     <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
     <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <string name="high_touch_polling_rate_title">Melhorar sensibilidade de toque</string>
+    <string name="high_touch_polling_rate_summary">Aumentar taxa de resposta ao tocar na tela</string>
 </resources>

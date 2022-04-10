@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Arcalapú feloldás engedélyezése a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="high_touch_polling_rate_title">Magas értékű képernyő-lekérdezés</string>
+    <string name="high_touch_polling_rate_summary">Az érintőképernyő lekérdezési értékének növelése</string>
 </resources>

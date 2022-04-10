@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
     <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+    <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
 </resources>

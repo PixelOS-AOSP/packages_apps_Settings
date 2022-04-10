@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁定屏幕滑动时</string>
+    <string name="high_touch_polling_rate_title">高触控轮询率</string>
+    <string name="high_touch_polling_rate_summary">提高触摸屏的轮询频率</string>
 </resources>

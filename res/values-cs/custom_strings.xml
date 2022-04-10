@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Povolit odemknutí obličejem na obrazovce uzamčení</string>
     <string name="face_unlock_method_default">Když je obrazovka zapnutá</string>
     <string name="face_unlock_method_swipe">Při přejetí prstem na uzamčené obrazovce</string>
+    <string name="high_touch_polling_rate_title">Vysoká vzorkovací frekvence pro dotyk</string>
+    <string name="high_touch_polling_rate_summary">Zvýšení vzorkovací frekvence dotykové obrazovky</string>
 </resources>

@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
+    <string name="high_touch_polling_rate_title">Высокая частота опроса прикосновений</string>
+    <string name="high_touch_polling_rate_summary">Увеличить скорость опроса сенсорного экрана</string>
 </resources>

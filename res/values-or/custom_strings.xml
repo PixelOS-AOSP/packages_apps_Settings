@@ -71,4 +71,6 @@
     <string name="face_unlock_method_title">ତାଲା ଚିତ୍ରପଟ୍ଟରେ ଚେହେରା ଅନଲକ୍ ଅନୁମତି ଦିଅନ୍ତୁ</string>
     <string name="face_unlock_method_default">ଚିତ୍ରପଟ୍ଟ ସଚଳ ଥିବା ବେଳେ</string>
     <string name="face_unlock_method_swipe">ତାଲା ଚିତ୍ରପଟ୍ଟରେ ସ୍ୱାଇପ୍ କରିବା ସମୟରେ</string>
+    <string name="high_touch_polling_rate_title">ଉଚ୍ଚ ସ୍ପର୍ଶ ପୋଲିଂ ହାର</string>
+    <string name="high_touch_polling_rate_summary">ଟଚସ୍କ୍ରିନ୍ ସ୍ପର୍ଶ ପୋଲିଂ ହାର ବଢ଼ାଅ</string>
 </resources>

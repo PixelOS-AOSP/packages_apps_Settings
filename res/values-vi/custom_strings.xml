@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Cho phép mở khóa bằng khuôn mặt trên màn hình khóa</string>
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <string name="high_touch_polling_rate_title">Tỷ lệ làm mới cảm ứng cao</string>
+    <string name="high_touch_polling_rate_summary">Tăng tỷ lệ làm mới trên màn hình cảm ứng</string>
 </resources>

@@ -62,6 +62,11 @@
     <string name="keyboard_extras_title">ಎಕ್ಸಟ್ರಾಸ್</string>
     <string name="advanced_keyboard_settings_title">ಹೆಚ್ಚಿನ ಸೆಟ್ಟಿಂಗ್‍ಗಳು</string>
     <string name="fingerprint_enroll_find_sensor_message_front">ನಿಮ್ಮ ಫೋನಿನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸಾರ್ ಅನ್ನು ನಿಮ್ಮ ಫೋನ್ ಹಿಂಬದಿಯಲ್ಲಿ ಕಂಡುಹಿಡಿಯಿರಿ.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸಾರ್ ಅನ್ನು ನಿಮ್ಮ ಫೋನ್ ಬದಿಯಲ್ಲಿ ಕಂಡುಹಿಡಿಯಿರಿ.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">ನಿಮ್ಮ ಫೋನಿನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">ನಿಮ್ಮ ಫೋನಿನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">ನಿಮ್ಮ ಫೋನಿನ ಬದಿಯಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ</string>
     <string name="fast_charging_title">ವೇಗದ ಚಾರ್ಜಿಂಗ್</string>
     <string name="fast_charging_summary">ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಸಾಧನದಿಂದ ಉತ್ಪತ್ತಿಯಾಗುವ ಶಾಖವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಅಥವಾ ಬ್ಯಾಟರಿಯ ಜೀವಿತಾವಧಿಯನ್ನು ವಿಸ್ತರಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮುಖದ ಗುರುತನ್ನು ತೆಗೆದು ಹೊಸದನ್ನು ಸೇರಿಸಿ</string>

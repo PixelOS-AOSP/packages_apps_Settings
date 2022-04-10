@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Επιτρέψτε το ξεκλείδωμα προσώπου στην οθόνη κλειδώματος</string>
     <string name="face_unlock_method_default">Όταν η οθόνη είναι ενεργοποιημένη</string>
     <string name="face_unlock_method_swipe">Κατά την ολίσθηση στην οθόνη κλειδώματος</string>
+    <string name="high_touch_polling_rate_title">Υψηλός ρυθμός ανάγνωσης αφής</string>
+    <string name="high_touch_polling_rate_summary">Αύξηση της ταχύτητας ανάγνωσης της αφής</string>
 </resources>

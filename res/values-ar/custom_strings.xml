@@ -72,4 +72,6 @@
     <string name="face_unlock_method_title">فتح القفل باستخدام الوجه</string>
     <string name="face_unlock_method_default">على الفور </string>
     <string name="face_unlock_method_swipe">مع السحب </string>
+    <string name="high_touch_polling_rate_title">حساسية اللمس العالية</string>
+    <string name="high_touch_polling_rate_summary">زيادة حساسية لمس الشاشة</string>
 </resources>
