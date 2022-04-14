@@ -139,16 +139,6 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
-    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_red">Red strength</string>
-    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_green">Green strength</string>
-    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
-
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon. Needs SystemUI Restart</string>

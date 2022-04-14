@@ -17,35 +17,4 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/color_mode_title">
-
-    <PreferenceCategory
-        android:key="color_balance_category"
-        android:title="@string/color_mode_balance_category"
-        android:order="100">
-
-        <SeekBarPreference
-            android:key="color_balance_red"
-            android:title="@string/color_mode_balance_red"
-            style="@style/SettingsSeekbarPreference.SettingsLib"
-            settings:keywords="@string/keywords_color_balance"
-            settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
-
-        <SeekBarPreference
-            android:key="color_balance_green"
-            android:title="@string/color_mode_balance_green"
-            style="@style/SettingsSeekbarPreference.SettingsLib"
-            settings:keywords="@string/keywords_color_balance"
-            settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
-
-        <SeekBarPreference
-            android:key="color_balance_blue"
-            android:title="@string/color_mode_balance_blue"
-            style="@style/SettingsSeekbarPreference.SettingsLib"
-            settings:keywords="@string/keywords_color_balance"
-            settings:controller="com.android.settings.display.ColorBalancePreferenceController" />
-
-    </PreferenceCategory>
-
-</PreferenceScreen>
+    android:title="@string/color_mode_title" />
