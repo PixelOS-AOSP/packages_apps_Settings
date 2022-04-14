@@ -47,6 +47,13 @@
         android:summary="@string/battery_saver_refresh_rate_summary"
         settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverRefreshRatePreferenceController" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:order="90"
+        android:key="arcane_idle_manager"
+        android:title="@string/idle_manager_title"
+        android:summary="@string/idle_manager_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:order="100"
         android:key="battery_saver_footer_preference"

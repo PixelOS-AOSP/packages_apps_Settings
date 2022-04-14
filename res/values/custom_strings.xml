@@ -234,4 +234,8 @@
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Aggressive Idle</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 </resources>
