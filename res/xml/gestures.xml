@@ -92,7 +92,7 @@
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="torch_power_button_gesture"
