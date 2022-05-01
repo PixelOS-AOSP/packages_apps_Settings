@@ -110,7 +110,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/category_name_refresh_rate_controls">
+        android:title="@string/category_name_refresh_rate_controls"
+        android:key="refreshratestuff">
 
         <SwitchPreference
             android:key="peak_refresh_rate"
@@ -123,6 +124,18 @@
             android:title="@string/force_high_refresh_rate_toggle"
             android:summary="@string/force_high_refresh_rate_desc"
             settings:controller="com.android.settings.display.ForcePeakRefreshRatePreferenceController"/>
+         
+        <ListPreference
+            android:key="max_refresh_rate"
+            android:title="@string/max_refresh_rate_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.display.PeakRefreshRateListPreferenceController" />
+
+        <ListPreference
+            android:key="min_refresh_rate"
+            android:title="@string/min_refresh_rate_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.display.MinRefreshRatePreferenceController" />
 
     </PreferenceCategory>
 
@@ -163,18 +176,6 @@
             android:title="@string/display_white_balance_title"
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
-
-        <ListPreference
-            android:key="max_refresh_rate"
-            android:title="@string/max_refresh_rate_title"
-            android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.display.PeakRefreshRateListPreferenceController" />
-
-        <ListPreference
-            android:key="min_refresh_rate"
-            android:title="@string/min_refresh_rate_title"
-            android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.display.MinRefreshRatePreferenceController" />
 
         <SwitchPreference
             android:key="show_operator_name"
