@@ -112,7 +112,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/category_name_refresh_rate_controls">
+        android:title="@string/category_name_refresh_rate_controls"
+        android:key="refreshratestuff">
 
         <SwitchPreference
             android:key="peak_refresh_rate"

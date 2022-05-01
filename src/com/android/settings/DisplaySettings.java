@@ -19,7 +19,8 @@ package com.android.settings;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
-
+import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
@@ -34,6 +35,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+import android.content.Context;
 
 import com.android.internal.custom.hardware.LineageHardwareManager;
 
@@ -46,7 +48,11 @@ public class DisplaySettings extends DashboardFragment {
 
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
+    private static final String REFRESH_RATE_CATTEGORY = "refreshratestuff";
 
+    private PreferenceCategory mRefreshRateCategory;
+    private Context mContext;
+    
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.DISPLAY;
@@ -65,6 +71,12 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        mContext = getActivity();
+        final PreferenceScreen prefSet = getPreferenceScreen();
+        mRefreshRateCategory = findPreference(REFRESH_RATE_CATTEGORY);
+        if (!mContext.getResources().getBoolean(R.bool.config_show_smooth_display)){
+           prefSet.removePreference(mRefreshRateCategory);
+        }
     }
 
     @Override
