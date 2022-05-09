@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Ningún certificado especificado. Su conexión no será privada.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reducir tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz como frecuencia de actualización máxima para ahorrar energía cuando el Ahorro de batería esté activado</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Encender el indicador LED cuando el dispositivo se esté cargando</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">Reiniciar</string>
+    <!-- Buttons -->
+    <string name="button_pref_title">Botones</string>
+    <string name="hardware_keys_home_key_title">Botón de inicio</string>
+    <string name="hardware_keys_back_key_title">Botón atrás</string>
+    <string name="hardware_keys_menu_key_title">Botón de menú</string>
+    <string name="hardware_keys_assist_key_title">Botón de búsqueda</string>
+    <string name="hardware_keys_appswitch_key_title">Botón de recientes</string>
+    <string name="hardware_keys_camera_key_title">Botón de cámara</string>
+    <string name="hardware_keys_short_press_title">Acción de pulsación corta</string>
+    <string name="hardware_keys_long_press_title">Acción de pulsación larga</string>
+    <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
+    <string name="hardware_keys_action_nothing">Sin acción</string>
+    <string name="hardware_keys_action_menu">Abrir/cerrar menú</string>
+    <string name="hardware_keys_action_app_switch">Selector de aplicaciones recientes</string>
+    <string name="hardware_keys_action_search">Asistente de búsqueda</string>
+    <string name="hardware_keys_action_voice_search">Búsqueda por voz</string>
+    <string name="hardware_keys_action_in_app_search">Búsqueda dentro de la aplicación</string>
+    <string name="hardware_keys_action_launch_camera">Abrir cámara</string>
+    <string name="hardware_keys_action_sleep">Apagar pantalla</string>
+    <string name="hardware_keys_action_split_screen">Pantalla dividida</string>
+    <string name="hardware_keys_swipe_right_key_title">Deslizar a la derecha</string>
+    <string name="hardware_keys_swipe_left_key_title">Deslizar a la izquierda</string>
+    <string name="hardware_keys_long_tap_key_title">Mantener pulsado</string>
+    <string name="hardware_keys_swipe_tap_title">Acción al deslizar</string>
+    <string name="hardware_keys_long_tap_title">Acción al mantener pulsado</string>
+    <string name="button_wake_title">Despertar dispositivo</string>
+    <string name="camera_sleep_on_release_title">Vistazo a la pantalla</string>
+    <string name="camera_sleep_on_release_summary">Una leve pulsación mantendrá la pantalla encendida hasta que este sea liberado</string>
+    <string name="camera_launch_title">Abrir cámara</string>
+    <string name="camera_launch_summary">Una pulsación larga abrirá la cámara</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Retroiluminación</string>
+    <string name="button_backlight_enabled">Iluminar botones</string>
+    <string name="button_backlight_only_when_pressed_title">Iluminar los botones únicamente cuando se presionan</string>
+    <string name="keyboard_backlight_enabled">Iluminar teclado</string>
+    <string name="button_backlight_seekbar_title">Brillo del botón</string>
+    <string name="keyboard_backlight_seekbar_title">Brillo del teclado</string>
+    <string name="backlight_timeout_title">Tiempo de iluminación</string>
+    <string name="backlight_timeout_unlimited">No apagar</string>
+    <string name="backlight_summary_disabled">Desactivado</string>
+    <string name="backlight_summary_enabled_with_timeout">Habilitado durante <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Activado</string>
+    <!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">Activar barra de navegación en pantalla</string>
+    <string name="disable_navkeys_summary">Habilitar la barra de navegación en pantalla y deshabilitar los botones físicos</string>
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">Intercambiar botones capacitivos</string>
+    <string name="swap_capacitive_keys_summary">Intercambiar el orden de los botones atrás y recientes</string>
+    <!-- Others settings -->
+    <string name="others_settings_title">Otros ajustes</string>
+    <string name="additional_buttons_title">Botones adicionales</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidad táctil</string>
+    <string name="high_touch_sensitivity_summary">Incrementar la sensibilidad del panel táctil para que pueda usarse llevando guantes</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
+    <string name="touchscreen_hovering_summary">Te permitirá deslizar por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Configuración avanzada</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huellas en la parte frontal de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Localiza el sensor de huellas en la parte lateral de tu teléfono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Toca el sensor en la parte delantera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toca el sensor en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toca el sensor en la parte lateral de tu teléfono.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactivar para reducir el sobrecalentamiento producido por el dispositivo durante la carga o para extender la vida útil de la batería</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remover el escaneo facial y crear un nuevo escaneo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Te gustaría remover el escaneo facial actual y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Desliza para capturar la pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Doble toque para dormir</string>
+    <string name="double_tap_sleep_gesture_summary">Presione dos veces en cualquier lugar de la barra de estado para dormir el dispositivo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Que hacer</string>
+    <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificaciones molestas</string>
+    <string name="notification_sound_vib_screen_on_summary">Las notificaciones suenan y vibran cuando la pantalla está encendida</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, mantener presionado los botones de volumen se saltará o retrocederá canciones</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para modo de recuperación y gestor de arranque en el menú de apagado</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Batería estimada</string>
+    <string name="qs_show_battery_estimate_summary">Mostrar duración estimada de la batería al lado del icono. Necesita reiniciar la interfaz de usuario</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gestor de iconos</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar que las aplicaciones ignoren el espacio en la muesca</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes del punto de acceso usar las conexiones VPN de este dispositivo como conectividad de subida</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Activar linterna con la pantalla apagada</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Doble pulsación del botón de encendido (Desactiva la función de cámara rápida y añade 170 ms de retraso de encendido)</string>
+    <string name="torch_power_button_gesture_lp">Pulsación prolongada del botón de encendido</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir el orden de los botones de navegación</string>
+    <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navegación</string>
+    <string name="gesture_screen_category_title">Pantalla</string>
+    <string name="gesture_power_button_category_title">Botón de encendido</string>
+    <string name="gesture_volume_buttons_category_title">Botones de volumen</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
+    <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiza tu pantalla basándose en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de pantalla</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="grados">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación bajo la luz del sol</string>
+    <string name="live_display_anti_flicker_title">Anti parpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpadeo y reduce la tensión de los ojos en condiciones de poca luz. Esto puede degradar la precisión del color y afectar la manera en la que se muestran algunos elementos.</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar pantalla para el menor consumo sin degradar</string>
+    <string name="live_display_enhance_color_title">Mejorar colores</string>
+    <string name="live_display_enhance_color_summary">Mejora la intensidad del color en tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo oscuro para preservar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usa la pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle agresivo</string>
+    <string name="idle_manager_summary">Detener todos los procesos no esenciales en segundo plano cuando el dispositivo está inactivo</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra de navegación</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos en la parte inferior de la pantalla</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular volumen de tono &amp; volumen de notificaciones</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Animación al desbloquear</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Muestra una animación al desbloquear el dispositivo con huella dactilar</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Detalles del paquete</string>
+    <string name="package_name">Nombre del paquete</string>
+    <string name="package_version">Versión del paquete</string>
+    <string name="package_version_text">Versión <xliff:g id="Version_NUM">%1$s</xliff:g></string>
+</resources>

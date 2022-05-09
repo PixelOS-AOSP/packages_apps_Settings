@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
+    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan 60 Hz sebagai kecepatan refresh maksimum untuk menghemat daya saat Penghemat Baterai aktif</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">Nyalakan lampu saat mengisi daya</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">Setel ulang</string>
+    <!-- Buttons -->
+    <string name="button_pref_title">Tombol</string>
+    <string name="hardware_keys_home_key_title">Tombol beranda</string>
+    <string name="hardware_keys_back_key_title">Tombol kembali</string>
+    <string name="hardware_keys_menu_key_title">Tombol Menu</string>
+    <string name="hardware_keys_assist_key_title">Tombol pencarian</string>
+    <string name="hardware_keys_appswitch_key_title">Tombol recents</string>
+    <string name="hardware_keys_camera_key_title">Tombol kamera</string>
+    <string name="hardware_keys_short_press_title">Tindakan tekan singkat</string>
+    <string name="hardware_keys_long_press_title">Tindakan tekan lama</string>
+    <string name="hardware_keys_double_tap_title">Tindakan ketuk dua kali</string>
+    <string name="hardware_keys_action_nothing">Tidak ada tindakan</string>
+    <string name="hardware_keys_action_menu">Buka/Tutup menu</string>
+    <string name="hardware_keys_action_app_switch">Pengganti Aplikasi Terkini</string>
+    <string name="hardware_keys_action_search">Asisten pencarian</string>
+    <string name="hardware_keys_action_voice_search">Penelusuran suara</string>
+    <string name="hardware_keys_action_in_app_search">Penelusuran dalam aplikasi</string>
+    <string name="hardware_keys_action_launch_camera">Luncurkan kamera</string>
+    <string name="hardware_keys_action_sleep">Matikan layar</string>
+    <string name="hardware_keys_action_split_screen">Layar split</string>
+    <string name="hardware_keys_swipe_right_key_title">Usap ke kanan</string>
+    <string name="hardware_keys_swipe_left_key_title">Usap ke kiri</string>
+    <string name="hardware_keys_long_tap_key_title">Tekan lama</string>
+    <string name="hardware_keys_swipe_tap_title">Tindakan mengusap</string>
+    <string name="hardware_keys_long_tap_title">Tindakan tekan tombol yang lama</string>
+    <string name="button_wake_title">Bangunkan perangkat</string>
+    <string name="camera_sleep_on_release_title">Mengintip layar</string>
+    <string name="camera_sleep_on_release_summary">Menekan sedang akan menyalakan layar hanya saat tombol tertekan</string>
+    <string name="camera_launch_title">Luncurkan kamera</string>
+    <string name="camera_launch_summary">Tekan lama dan lepas akan meluncurkan kamera</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Lampu latar</string>
+    <string name="button_backlight_enabled">Pencahayaan tombol</string>
+    <string name="button_backlight_only_when_pressed_title">Menerangi tombol hanya ketika ditekan</string>
+    <string name="keyboard_backlight_enabled">Pencahayaan keyboard</string>
+    <string name="button_backlight_seekbar_title">Tombol kecerahan</string>
+    <string name="keyboard_backlight_seekbar_title">Kecerahan keyboard</string>
+    <string name="backlight_timeout_title">Batas waktu Penerangan</string>
+    <string name="backlight_timeout_unlimited">Jangan Matikan</string>
+    <string name="backlight_summary_disabled">Dinonaktifkan</string>
+    <string name="backlight_summary_enabled_with_timeout">Diaktifkan untuk <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Diaktifkan</string>
+    <!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">Aktifkan bilah navigasi pada layar</string>
+    <string name="disable_navkeys_summary">Aktifkan bilah navigasi pada layar dan matikan tombol fisik</string>
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">Tukar tombol kapasitif</string>
+    <string name="swap_capacitive_keys_summary">Tukar urutan tombol terkini dan kembali</string>
+    <!-- Others settings -->
+    <string name="others_settings_title">Setelan lainnya</string>
+    <string name="additional_buttons_title">Tombol tambahan</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Sensitivitas sentuh tinggi</string>
+    <string name="high_touch_sensitivity_summary">Tingkatkan kepekaan layar sentuh sehingga dapat digunakan saat mengenakan sarung tangan</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Layar sentuh melayang</string>
+    <string name="touchscreen_hovering_summary">Mengizinkan Anda mengambang jari di atas layar seperti menggunakan tetikus dalam peramban web, destop jarak jauh, dll</string>
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Tambahan</string>
+    <string name="advanced_keyboard_settings_title">Setelan lanjutan</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Pengisian daya cepat</string>
+    <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang sudah ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Apa yang harus dilakukan</string>
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali untuk tidur di layar kunci</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifikasi Mengganggu</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi ketika layar hidup</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opsi getaran panggilan masuk</string>
+    <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Ketika layar mati, Tahan tombol volume untuk melewati trek musik</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Perkiraan sisa baterai</string>
+    <string name="qs_show_battery_estimate_summary">Tampilkan perkiraan masa pakai baterai yang tersisa di sebelah ikon. Membutuhkan Restart Ui Sistem</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Manajer ikon</string>
+    <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <string name="search">Cari</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Alihkan senter saat layar mati</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tekan dua kali tombol daya (Menonaktifkan buka fitur kamera dengan cepat dan tambahkan penundaan bangun 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Tekan dan tahan tombol daya</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Balikkan tata letak Bilah Navigasi</string>
+    <string name="navbar_invert_info">Ini akan menukar tombol \"Kembali\" dan \"Terbaru\" di bilah navigasi</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigasi</string>
+    <string name="gesture_screen_category_title">Layar</string>
+    <string name="gesture_power_button_category_title">Tombol power</string>
+    <string name="gesture_volume_buttons_category_title">Tombol volume</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tingkat polling sentuh tinggi</string>
+    <string name="high_touch_polling_rate_summary">Tingkatkan tingkat polling layar sentuh</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalkan layar Anda berdasarkan waktu dan kondisi sekitar untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
+    <string name="live_display_mode">Mode tampilan</string>
+    <string name="live_display_color_temperature_title">Temperatur warna</string>
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K;
+Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat di bawah sinar matahari</string>
+    <string name="live_display_anti_flicker_title">Anti berkedip</string>
+    <string name="live_display_anti_flicker_summary">Cegah kerlipan yang luas dan kurangi ketegangan mata dalam kondisi cahaya redup. Ini dapat menurunkan akurasi warna dan mempengaruhi cara beberapa item ditampilkan.</string>
+    <string name="live_display_low_power_title">Kurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Menyesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Meningkatkan vibrasi warna dari corak terang, pemandangan dan gambar lain</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna akurat dan putih terang</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Peningkatan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Dasar</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan tampilan yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna yang lebih hangat untuk mengurangi kelelahan mata</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat dengan ruang warna sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat dengan ruang warna DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode membaca</string>
+    <string name="live_display_reading_mode_summary">Mode warna abu-abu untuk pembacaan jangka panjang</string>
+    <string name="color_calibration_title">Kalibrasi warna</string>
+    <string name="color_calibration_summary">Kalibrasi warna pada layar</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Penyesuaian Gambar</string>
+    <string name="picture_adjustment_summary">Sesuaikan warna, saturasi, intensitas, dan kontras</string>
+    <string name="adj_hue_title">Warna</string>
+    <string name="adj_saturation_title">Saturasi</string>
+    <string name="adj_intensity_title">Intensitas</string>
+    <string name="adj_contrast_title">Kontras</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle Agresif</string>
+    <string name="idle_manager_summary">Hentikan semua proses latar belakang yang tidak penting saat perangkat tidak digunakan</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indikator gestur</string>
+    <string name="show_navbar_gesture_bar_summary">Tampilkan indikator gestur di bagian bawah layar</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Gabungkan volume nada dering &amp; volume notifikasi</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Rincian paket</string>
+    <string name="package_name">Nama paket</string>
+    <string name="package_version">Versi paket</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+</resources>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">未指定任何证书。您的网络连接将不是私密连接。</string>
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
     <string name="battery_saver_refresh_rate_title">降低刷新率</string>
     <string name="battery_saver_refresh_rate_summary">省电模式开启时，限制屏幕刷新率为最高 60 Hz 以节省电量</string>
+    <!-- Battery light -->
     <string name="battery_light_title">在充电时开启指示灯</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
+    <!-- Generic stuff used everywhere -->
     <string name="reset">重置</string>
+    <!-- Buttons -->
     <string name="button_pref_title">按键</string>
     <string name="hardware_keys_home_key_title">Home 键</string>
     <string name="hardware_keys_back_key_title">返回键</string>
@@ -37,6 +43,7 @@
     <string name="camera_sleep_on_release_summary">仅当按钮被按下时，半按将会保持屏幕点亮</string>
     <string name="camera_launch_title">启动相机</string>
     <string name="camera_launch_summary">长按并松开将会启动相机</string>
+    <!-- Key backlight -->
     <string name="button_backlight_title">背光</string>
     <string name="button_backlight_enabled">点亮按键</string>
     <string name="button_backlight_only_when_pressed_title">仅在按下时点亮按钮</string>
@@ -48,26 +55,36 @@
     <string name="backlight_summary_disabled">已禁用</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光灯 <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">已启用</string>
+    <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">启用虚拟按键</string>
     <string name="disable_navkeys_summary">启用虚拟按键并禁用实体按钮</string>
+    <!-- Buttons - Swap capacitive keys -->
     <string name="swap_capacitive_keys_title">交换电容按钮</string>
     <string name="swap_capacitive_keys_summary">交换最近任务与返回按键的位置</string>
+    <!-- Others settings -->
     <string name="others_settings_title">其他设置</string>
     <string name="additional_buttons_title">附加按钮</string>
+    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
     <string name="high_touch_sensitivity_summary">提高触摸灵敏度，以便在戴手套时使用</string>
+    <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">悬空操作</string>
     <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
+    <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">附加功能</string>
     <string name="advanced_keyboard_settings_title">高级设置</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">您可在手机背面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_side">在手机的一侧找到指纹传感器。</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">轻触手机正面的指纹按键</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">轻触手机背面的指纹按键</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">轻触手机侧面的指纹按键</string>
+    <!-- FastCharge feature -->
     <string name="fast_charging_title">快速充电中</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
+    <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
     <string name="face_redo_confirm_btn">重做</string>
@@ -75,6 +92,128 @@
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁定屏幕滑动时</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon. Needs SystemUI Restart</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert Navigation Bar layout</string>
+    <string name="navbar_invert_info">This will swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
+    <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">高触控轮询率</string>
     <string name="high_touch_polling_rate_summary">提高触摸屏的轮询频率</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
+    <string name="live_display_mode">Display mode</string>
+    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Day</string>
+    <string name="live_display_night">Night</string>
+    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
+    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_low_power_title">Reduce power consumption</string>
+    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
+    <string name="live_display_enhance_color_title">Enhance colors</string>
+    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
+    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
+    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
+    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_photography_title">Photography</string>
+    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
+    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
+    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
+    <string name="color_calibration_title">Color calibration</string>
+    <string name="color_calibration_summary">Calibrate on-screen colors</string>
+    <string name="color_red_title">Red</string>
+    <string name="color_green_title">Green</string>
+    <string name="color_blue_title">Blue</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Picture adjustment</string>
+    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
+    <string name="adj_hue_title">Hue</string>
+    <string name="adj_saturation_title">Saturation</string>
+    <string name="adj_intensity_title">Intensity</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Aggressive Idle</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Package details</string>
+    <string name="package_name">Package name</string>
+    <string name="package_version">Package version</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 </resources>
