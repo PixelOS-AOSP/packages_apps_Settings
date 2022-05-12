@@ -128,7 +128,7 @@
     <string name="search_apps">Поиск приложений</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства\u2019 для подключения к сети</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Включить фонарик при выключенном экране</string>
     <string name="torch_power_button_gesture_none">Отключено</string>
@@ -206,8 +206,18 @@
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Полоска жестов</string>
     <string name="show_navbar_gesture_bar_summary">Показывать полоску жестов в нижней части экрана</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке с помощью отпечатка пальца</string>
