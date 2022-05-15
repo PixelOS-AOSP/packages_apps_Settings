@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="high_touch_polling_rate_title">Yüksek dokunmatik yoklama oranı</string>
+    <string name="high_touch_polling_rate_summary">Dokunmatik ekran yoklama oranını artırın</string>
 </resources>

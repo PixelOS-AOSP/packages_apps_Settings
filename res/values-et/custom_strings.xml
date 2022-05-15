@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Luba näoga avamine lukustuskuval</string>
     <string name="face_unlock_method_default">Kui ekraan on sisse lülitatud</string>
     <string name="face_unlock_method_swipe">Lukustuskuval libistades</string>
+    <string name="high_touch_polling_rate_title">Kõrge puuteküsitluse määr</string>
+    <string name="high_touch_polling_rate_summary">Suurendage puuteekraani valimismäära</string>
 </resources>

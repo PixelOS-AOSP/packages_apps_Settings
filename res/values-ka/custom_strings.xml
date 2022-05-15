@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">დაბლოკვის ეკრანზე სახით განბლოკვის დაშვება</string>
     <string name="face_unlock_method_default">როდესაც ეკრანი ჩართულია</string>
     <string name="face_unlock_method_swipe">დაბლოკვის ეკრანზე გადაფურცვლისას</string>
+    <string name="high_touch_polling_rate_title">შეხებისას მაღალი შერჩევის სიხშირე</string>
+    <string name="high_touch_polling_rate_summary">ეკრანზე შეხების აღქმის სიხშირის გაზრდა</string>
 </resources>

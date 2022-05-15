@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage par reconnaissance faciale lorsque</string>
     <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">En faisant glisser sur l\'écran de verrouillage</string>
+    <string name="high_touch_polling_rate_title">Taux de rafraîchissement tactile élevé</string>
+    <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement tactile de l\'écran</string>
 </resources>

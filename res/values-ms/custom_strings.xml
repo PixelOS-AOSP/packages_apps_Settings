@@ -69,4 +69,6 @@
     <string name="face_unlock_method_title">izinkan buka kunci wajah di layar kunci</string>
     <string name="face_unlock_method_default">apabila layar dihidupkan</string>
     <string name="face_unlock_method_swipe">bila mengusap di layar kunci</string>
+    <string name="high_touch_polling_rate_title">Kadar pengundian sentuhan tinggi</string>
+    <string name="high_touch_polling_rate_summary">Tingkatkan kadar pengundian skrin sentuh</string>
 </resources>

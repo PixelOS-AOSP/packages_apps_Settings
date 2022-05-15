@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Zoek de vingerafdruksensor op de voorkant van uw telefoon.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Zoek de vingerafdrukscanner op de achterkant van je telefoon.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Zoek de vingerafdrukscanner op de zijkant van je telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Raak de sensor aan op de voorkant van de telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Raak de sensor aan op de achterkant van de telefoon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Raak de sensor aan op de zijkant van de telefoon.</string>
     <string name="fast_charging_title">Snelladen</string>
     <string name="fast_charging_summary">Schakel uit om de warmteproductie van het apparaat te verminderen tijdens het opladen of om de levensduur van de batterij te verlengen</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Verwijder de bestaande gezichtsscan en maak een nieuwe scan</string>

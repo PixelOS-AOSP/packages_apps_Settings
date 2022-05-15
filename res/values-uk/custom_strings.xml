@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Знайдіть датчик відбитків пальців на задній панелі телефону.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Знайдіть датчик відбитків пальців на бічній панелі телефону.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Торкніть сканер спереду телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Торкніть сканер ззаду телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Торкніть сканер збоку телефона.</string>
     <string name="fast_charging_title">Швидка зарядка</string>
     <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або для продовження терміну служби акумулятора</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Видалити зареєстроване обличчя й виконати реєстрацію заново</string>
@@ -72,4 +75,6 @@
     <string name="face_unlock_method_title">Дозволити розблокування по обличчю на заблокованому екрані</string>
     <string name="face_unlock_method_default">Коли екран увімкнено</string>
     <string name="face_unlock_method_swipe">Коли ви проводите пальцем на заблокованому екрані </string>
+    <string name="high_touch_polling_rate_title">Висока швидкість опитування на дотик</string>
+    <string name="high_touch_polling_rate_summary">Підвищити частоту опитування сенсорного екрана</string>
 </resources>

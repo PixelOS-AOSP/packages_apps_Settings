@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="min_refresh_rate_title">Minimal yangilanish tezligi</string>
+    <string name="max_refresh_rate_title">Maksimal yangilanish tezligi</string>
+    <string name="battery_saver_refresh_rate_title">Yangilanish tezligini kamaytiring</string>
+    <string name="battery_saver_refresh_rate_summary">Batareyani tejash rejimi yoqilganda quvvatni tejash uchun maksimal yangilanish tezligi sifatida 60 Gts dan foydalaning</string>
+    <string name="battery_light_title">Zaryad olayotganda chiroqni yoqing</string>
+    <string name="connected_tws_device_saved_title">Saqlangan quloqchinlar</string>
+    <string name="reset">Qayta o\'rnatish</string>
     <string name="button_pref_title">Tugmalar</string>
     <string name="hardware_keys_home_key_title">Bosh ekran tugmasi</string>
     <string name="hardware_keys_back_key_title">Orqaga tugmasi</string>
     <string name="hardware_keys_menu_key_title">Menyu tugmasi</string>
+    <string name="hardware_keys_assist_key_title">Qidiruv tugmasi</string>
+    <string name="hardware_keys_appswitch_key_title">Eng so‘nggi ilovalar tugmasi</string>
     <string name="hardware_keys_camera_key_title">Kamera tugmasi</string>
     <string name="hardware_keys_action_nothing">Amal yo‘q</string>
     <string name="hardware_keys_action_voice_search">Ovozli qidiruv</string>

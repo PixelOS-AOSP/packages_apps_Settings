@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Zezwól na odblokawanie twarzą na ekranie blokady</string>
     <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
     <string name="face_unlock_method_swipe">Kiedy przesuwasz na ekranie blokady</string>
+    <string name="high_touch_polling_rate_title">Wysoka szybkość próbkowania dotykowego</string>
+    <string name="high_touch_polling_rate_summary">Zwiększ szybkości próbkowania ekranu dotykowego</string>
 </resources>

@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <string name="high_touch_polling_rate_title">ポーリング速度の高速化</string>
+    <string name="high_touch_polling_rate_summary">タッチ画面のタッチサンプリングレートを向上させる</string>
 </resources>

@@ -5,7 +5,7 @@
     <string name="max_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
     <string name="battery_saver_refresh_rate_title">تقليل معدل تحديث الشاشة</string>
     <string name="battery_saver_refresh_rate_summary">استخدم 60 هرتز كحد اقصى لتحديث الشاشة لتوفير الطاقة عندما يكون موفر الطاقة مفعل</string>
-    <string name="battery_light_title">تشغيل ضوء التنبيهات عند توصيل الشاحن</string>
+    <string name="battery_light_title">تشغيل ضوء التنبيهات أثناء الشحن</string>
     <string name="connected_tws_device_saved_title">سماعات الأذن المسجلة</string>
     <string name="reset">إعادة تعيين</string>
     <string name="button_pref_title">الأزرار</string>
@@ -18,7 +18,7 @@
     <string name="hardware_keys_short_press_title">إجراء الضغط لفترة قصيرة</string>
     <string name="hardware_keys_long_press_title">إجراء الضغط لفترة طويلة</string>
     <string name="hardware_keys_double_tap_title">إجراء الضغط مرتين</string>
-    <string name="hardware_keys_action_nothing">بلا إجراء</string>
+    <string name="hardware_keys_action_nothing">لا يوجد إجراء</string>
     <string name="hardware_keys_action_menu">فتح/إغلاق القائمة</string>
     <string name="hardware_keys_action_app_switch">مبدل التطبيقات الأخيرة</string>
     <string name="hardware_keys_action_search">مساعد البحث</string>
@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">حدد موقع مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">حدد موقع حساس البصمة خلف هاتفك.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">حدد موقع مستشعر بصمة الإصبع على الجانب من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">المس مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">المس مستشعر البصمة على الجزء الخلفي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>
     <string name="fast_charging_title">الشحن السريع</string>
     <string name="fast_charging_summary">قم بتعطيله لتقليل الحرارة التي ينتجها الجهاز أثناء الشحن أو لتمديد عمر البطارية</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">إزالة نسخة الوجه الممسوح ضوئيًا الحالية وإنشاء نسخة جديدة</string>

@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Kilid ekranında üzlə kilid açmağa icazə ver</string>
     <string name="face_unlock_method_default">Ekran yandırılanda</string>
     <string name="face_unlock_method_swipe">Kilid ekranında sürüşdürəndə</string>
+    <string name="high_touch_polling_rate_title">Yüksək toxunuş yoxlama dərəcəsi</string>
+    <string name="high_touch_polling_rate_summary">Toxunaqlı ekran yoxlama dərəcəsini artırın</string>
 </resources>

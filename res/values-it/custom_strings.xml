@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Consenti lo sblocco facciale sulla schermata di blocco</string>
     <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
     <string name="face_unlock_method_swipe">Durante lo scorrimento sulla schermata di blocco</string>
+    <string name="high_touch_polling_rate_title">Elevato tasso di polling del touch</string>
+    <string name="high_touch_polling_rate_summary">Aumenta il tasso di polling del touchscreen</string>
 </resources>

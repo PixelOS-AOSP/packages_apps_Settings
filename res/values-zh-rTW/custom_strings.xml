@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
     <string name="face_unlock_method_default">螢幕開啟時</string>
     <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
+    <string name="high_touch_polling_rate_title">高觸控輪詢率</string>
+    <string name="high_touch_polling_rate_summary">提高觸控輪詢率</string>
 </resources>

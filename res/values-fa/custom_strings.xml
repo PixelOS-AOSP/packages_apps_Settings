@@ -63,6 +63,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">سنسور اثر انگشت را در جلوی تلفن خود پیدا کنید.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">سنسور اثر انگشت را در پشت تلفن پیدا کنید.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">سنسور اثر انگشت را در پشت تلفن پیدا کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">سنسور روی گوشی را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">سنسور پشت گوشی را لمس کنید.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">سنسور کناری گوشی را لمس کنید.</string>
     <string name="fast_charging_title">شارژ سریع</string>
     <string name="fast_charging_summary">برای کاهش دمای تولید شده توسط دستگاه در هنگام شارژ یا برای افزایش طول عمر باتری غیر فعال کنید</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید</string>
@@ -72,4 +75,6 @@
     <string name="face_unlock_method_title">اجازه باز کردن قفل با چهره روی صفحه قفل</string>
     <string name="face_unlock_method_default">وقتی صفحه نمایش روشن است</string>
     <string name="face_unlock_method_swipe">هنگام کشیدن روی قفل صفحه</string>
+    <string name="high_touch_polling_rate_title">کاهش تاخیر لمسی</string>
+    <string name="high_touch_polling_rate_summary">کاهش دادن تاخیر در لمس صفحه</string>
 </resources>

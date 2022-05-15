@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">Payagan ang face unlock sa lock screen</string>
     <string name="face_unlock_method_default">Kapag naka-on ang screen</string>
     <string name="face_unlock_method_swipe">Kapag nag-swipe sa lock screen</string>
+    <string name="high_touch_polling_rate_title">Mataas na touch polling rate</string>
+    <string name="high_touch_polling_rate_summary">Taasan ang touchscreen polling rate</string>
 </resources>
