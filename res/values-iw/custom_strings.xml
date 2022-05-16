@@ -75,4 +75,6 @@
     <string name="face_unlock_method_title">אפשר נעילת פנים במסך הנעילה</string>
     <string name="face_unlock_method_default">כאשר המסך פועל</string>
     <string name="face_unlock_method_swipe">בעת החלקה על מסך הנעילה</string>
+    <string name="high_touch_polling_rate_title">קצב רענון מגע גבוה</string>
+    <string name="high_touch_polling_rate_summary">הגברת קצב הרענון של מסך המגע </string>
 </resources>
