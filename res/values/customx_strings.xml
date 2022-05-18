@@ -188,4 +188,17 @@
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">Status bar</string>
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
+    <string name="network_traffic_mode_status_bar">Status bar</string>
+    <string name="network_traffic_mode_qs">Quick settings</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_bits" translatable="false">kbps, Mbps, Gbps</string>
+    <string name="network_traffic_units_bytes" translatable="false">kB/s, MB/s, GB/s</string>
 </resources>

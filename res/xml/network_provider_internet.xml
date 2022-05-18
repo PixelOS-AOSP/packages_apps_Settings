@@ -109,11 +109,17 @@
         settings:userRestriction="no_config_vpn"
         settings:useAdminDisabledSummary="true" />
 
+    <Preference
+        android:fragment="com.android.settings.custom.statusbar.NetworkTrafficSettings"
+        android:key="network_traffic_settings"
+        android:title="@string/network_traffic_settings_title"
+        android:order="20" />
+
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
         android:icon="@drawable/ic_settings_private_dns"
-        android:order="20"
+        android:order="25"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"
         android:dialogLayout="@layout/private_dns_mode_dialog"
         android:positiveButtonText="@string/save"
@@ -125,6 +131,6 @@
         android:title="@string/adaptive_connectivity_title"
         android:icon="@drawable/ic_settings_adaptive_connective"
         android:summary="@string/summary_placeholder"
-        android:order="25"
+        android:order="30"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
 </PreferenceScreen>
