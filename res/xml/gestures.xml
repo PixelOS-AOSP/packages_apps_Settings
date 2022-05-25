@@ -44,7 +44,8 @@
         android:title="@string/double_tap_power_for_camera_title"
         android:fragment="com.android.settings.gestures.DoubleTapPowerSettings"
         settings:searchable="false"
-        settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController" />
+        settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController"
+ 	android:defaultValue="false" />
 
     <Preference
         android:key="gesture_double_twist_input_summary"
