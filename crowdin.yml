@@ -1,0 +1,3 @@
+files:
+  - source: /**/values/customx_strings.xml
+    translation: /%original_path%-%android_code%/%original_file_name%
