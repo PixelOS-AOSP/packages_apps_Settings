@@ -217,4 +217,10 @@
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
 </resources>
