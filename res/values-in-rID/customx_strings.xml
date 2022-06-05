@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">Rincian paket</string>
+    <string name="package_name">Nama paket</string>
+    <string name="package_version">Versi paket</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang dari 1 menit</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Volume dering</string>
+    <string name="volume_link_notification_title">Hubungkan dering &amp; volume notifikasi</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Geser untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Geser kebawha dengan tiga jari untuk mengambil screenshot</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalkan layar anda berdasarkan waktu dan kondisi untuk meningkatkan keterbacaan dan menurunkan kelelahan mata</string>
+    <string name="live_display_mode">Mode layar</string>
+    <string name="live_display_color_temperature_title">Temperatur warna</string>
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K
+Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g></string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mode luar otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Otomatis meningkatkan saturasi san kecerahan layar di bawah terik matahari</string>
+    <string name="live_display_anti_flicker_title">Anti kedip</string>
+    <string name="live_display_anti_flicker_summary">Cegah kedipan yang luas dan kurangi ketegangan mata dalam kondisi cahaya redup. Ini dapat menurunkan akurasi warna dan mempengaruhi cara beberapa item ditampilkan.</string>
+    <string name="live_display_low_power_title">Mengurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Atur layar untuk penggunaan daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Meningkatkan warna vibran dari warna kulit, pemandangan, dan gambar</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna akurat dan putih terang</string>
+    <string name="live_display_color_profile_natural_title">Alami</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Tingkatkan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Basis</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan layar yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna hangat untuk mengurangi kelelahan mata</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat dengan ruang warna sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat dengan ruang warna DCPI-P3</string>
+    <string name="live_display_reading_mode_title">Mode baca</string>
+    <string name="live_display_reading_mode_summary">Abu-abu untuk membaca jangka panjang</string>
+    <string name="color_calibration_title">Kalibrasi warna</string>
+    <string name="color_calibration_summary">Kalibrasi warna pada layar</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Penyesuaian Gambar</string>
+    <string name="picture_adjustment_summary">Sesuaikan warna, saturasi, intensitas, dan kontras</string>
+    <string name="adj_hue_title">Warna</string>
+    <string name="adj_saturation_title">Saturasi</string>
+    <string name="adj_intensity_title">Intensitas</string>
+    <string name="adj_contrast_title">Kontras</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Balikkan tata letak Bilah Navigasi</string>
+    <string name="navbar_invert_info">Ini akan menukar tombol \"Kembali\" dan \"Terbaru\" di bilah navigasi</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Waktu minimum antara suara notifikasi</string>
+    <string name="app_notification_sound_timeout_summary_template">Izinkan suara atau getaran tidak lebih dari sekali setiap <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Tidak ada batasan</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 detik</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 detik</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 menit</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 menit</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 menit</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 menit</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Apa yang harus dilakukan</string>
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali di layar kunci untuk tidur</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot seluler Anda tidak akan muncul dalam daftar jaringan WiFi yang tersedia.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Jangan pernah matikan hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Perangkat yang tersambung</string>
+    <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang tersambung ke hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang tersambung ke hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Batas perangkat yang tersambung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Perangkat yang diblokir</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Perangkat yang Tersambung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokir perangkat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari perangkat ini dan menambahkannya ke daftar blokir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang tersambung dan diblokir akan dicantumkan di sini jika tersedia.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Nyalakan / matikan senter saat layar mati</string>
+    <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
+    <string name="torch_power_button_gesture_dt">Tekan dua kali tombol daya (Menonaktifkan fitur buka kamera dengan cepat dan menambahkan penundaan bangun selama 170ms)</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Satu tembak kecerahan layar</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan layar hanya akan terjadi saat layar dihidupkan</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Kunci aplikasi</string>
+    <string name="app_lock_summary_singular">1 aplikasi dilindungi</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> aplikasi dilindungi</string>
+    <string name="app_lock_authentication_dialog_title">Buka kunci untuk lanjut</string>
+    <string name="app_lock_packages_title">Aplikasi dilindungi</string>
+    <string name="app_lock_packages_summary">Pilih aplikasi yang akan dilindungi oleh biometrik atau kredensial perangkat</string>
+    <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
+    <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
+    <string name="app_lock_notifications_title">Kecilkan notifikasi</string>
+    <string name="app_lock_notifications_summary">          Konten notifikasi akan disembunyikan dan dimatikan untuk aplikasi yang dipilih saat terkunci.
+          Notifikasi mengambang akan dinonaktifkan secara otomatis.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi dahulu</string>
+    <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
+    <string name="search">Cari</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode recovery dan bootloader di menu daya</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Getaran &amp; haptik</string>
+    <string name="summary_vibration_preferences">Ubah intensitas getaran, pola, dan lainnya</string>
+    <string name="keywords_vibration_preferences">pola getaran, intensitas getaran, dalam panggilan, intensitas, haptik, ketuk, kekuatan getaran</string>
+    <string name="ringtone_vibration_pattern">Pola getaran nada dering</string>
+    <string name="vibration_intensity_ringer">Intensitas getaran nada dering</string>
+    <string name="vibration_intensity_notification">Intensitas getaran notifikasi</string>
+    <string name="haptic_feedback_intensity">Intensitas umpan balik haptik</string>
+    <string name="vibration_intensity_disabled">Dinonaktifkan</string>
+    <string name="vibration_intensity_light">Ringan</string>
+    <string name="vibration_intensity_medium">Sedang</string>
+    <string name="vibration_intensity_strong">Kuat</string>
+    <string name="vibration_intensity_custom">Kustom</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">Bilah status</string>
+    <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
+    <string name="network_traffic_mode_title">Mode tampilan</string>
+    <string name="network_traffic_mode_disable">Dinonaktifkan</string>
+    <string name="network_traffic_mode_status_bar">Bilah status</string>
+    <string name="network_traffic_mode_qs">Setelan Cepat</string>
+    <string name="network_traffic_autohide">Sembunyikan otomatis</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak ada aktivitas</string>
+    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Manajer ikon</string>
+    <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indikator gestur</string>
+    <string name="show_navbar_gesture_bar_summary">Tampilkan indikator gestur di bagian bawah layar</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
+    <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigasi</string>
+    <string name="gesture_screen_category_title">Layar</string>
+    <string name="gesture_power_button_category_title">Tombol daya</string>
+    <string name="gesture_volume_buttons_category_title">Tombol volume</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifikasi Mengganggu</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi saat layar hidup</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+</resources>

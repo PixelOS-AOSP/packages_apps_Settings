@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">Detalles del paquete</string>
+    <string name="package_name">Nombre del paquete</string>
+    <string name="package_version">Versión del paquete</string>
+    <string name="package_version_text">Versión <xliff:g id="Version_NUM">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Volumen del tono de llamada</string>
+    <string name="volume_link_notification_title">Vincular volumen de tono &amp; volumen de notificaciones</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Desliza para capturar la pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiza tu pantalla basándose en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de pantalla</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="grados">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación bajo la luz del sol</string>
+    <string name="live_display_anti_flicker_title">Anti parpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpadeo y reduce la tensión de los ojos en condiciones de poca luz. Esto puede degradar la precisión del color y afectar la manera en la que se muestran algunos elementos.</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar pantalla para el menor consumo sin degradar</string>
+    <string name="live_display_enhance_color_title">Mejorar colores</string>
+    <string name="live_display_enhance_color_summary">Mejora la intensidad del color en tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo oscuro para preservar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usa la pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir el orden de los botones de navegación</string>
+    <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tiempo mínimo entre sonidos de notificaciones</string>
+    <string name="app_notification_sound_timeout_summary_template">Permite sonidos o vibraciones no más de una vez cada <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sin restricciones</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Doble toque para dormir</string>
+    <string name="double_tap_sleep_gesture_summary">Presione dos veces en cualquier lugar de la barra de estado para dormir el dispositivo</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Que hacer</string>
+    <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, mantener presionado los botones de volumen se saltará o retrocederá canciones</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo\u2019 para conectividad de subida</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nombre de tu punto de acceso no aparecerá en la lista de redes WLAN disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca apagar el punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Lista de dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_limit_title">Límite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Dispositivo de bloques</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo añadirá a la lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Activar linterna con la pantalla apagada</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Doble pulsación del botón de encendido (Desactiva la función de cámara rápida y añade 170 ms de retraso de encendido)</string>
+    <string name="torch_power_button_gesture_lp">Pulsación prolongada del botón de encendido</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar el brillo una sola vez</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla esté encendida</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Bloqueo Aplicación</string>
+    <string name="app_lock_summary_singular">1 aplicación está protegida</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> aplicaciones están protegidas</string>
+    <string name="app_lock_authentication_dialog_title">Unlock to continue</string>
+    <string name="app_lock_packages_title">Aplicaciones protegidas</string>
+    <string name="app_lock_packages_summary">Seleccionar aplicaciones para proteger con datos biométricos o credenciales del dispositivo</string>
+    <string name="app_lock_timeout_title">Tiempo de bloqueo automático</string>
+    <string name="app_lock_timeout_summary">Duración del tiempo tras el cual una aplicación desbloqueada en segundo plano debe ser bloqueada</string>
+    <string name="app_lock_notifications_title">Contraer notificaciones</string>
+    <string name="app_lock_notifications_summary">          El contenido de las notificaciones se ocultará y contraerá para las aplicaciones seleccionadas cuando estén bloqueadas.
+          Las notificaciones emergentes se desactivarán automáticamente.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Proteger primero una aplicación</string>
+    <string name="app_lock_footer_text">Las burbujas se descartarán automáticamente después del tiempo de espera</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para modo de recuperación y gestor de arranque en el menú de apagado</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Intensidad de la respuesta táctil &amp; vibración</string>
+    <string name="summary_vibration_preferences">Cambiar intensidades, patrones y más</string>
+    <string name="keywords_vibration_preferences">patrón, intensidad, respuesta háptica, fuerza de vibración</string>
+    <string name="ringtone_vibration_pattern">Patrón de vibración de tono de llamada</string>
+    <string name="vibration_intensity_ringer">Intensidad de vibración de tono de llamada</string>
+    <string name="vibration_intensity_notification">Intensidad de vibración de notificación</string>
+    <string name="haptic_feedback_intensity">Intensidad de retroalimentación háptica</string>
+    <string name="vibration_intensity_disabled">Desactivado</string>
+    <string name="vibration_intensity_light">Ligero</string>
+    <string name="vibration_intensity_medium">Mediana</string>
+    <string name="vibration_intensity_strong">Fuerte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">Barra de estado</string>
+    <string name="network_traffic_settings_title">Monitor de tráfico de redes</string>
+    <string name="network_traffic_mode_title">Modo de pantalla</string>
+    <string name="network_traffic_mode_disable">Desactivado</string>
+    <string name="network_traffic_mode_status_bar">Barra de estado</string>
+    <string name="network_traffic_mode_qs">Ajustes rápidos</string>
+    <string name="network_traffic_autohide">Ocultar automáticamente</string>
+    <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad</string>
+    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gestor de iconos</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar que las apps ignoren el espacio del notch</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra de navegación</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos en la parte inferior de la pantalla</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Animación al desbloquear</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Muestra una animación al desbloquear el dispositivo con huella dactilar</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navegación</string>
+    <string name="gesture_screen_category_title">Pantalla</string>
+    <string name="gesture_power_button_category_title">Botón de encendido</string>
+    <string name="gesture_volume_buttons_category_title">Botones de volumen</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificaciones molestas</string>
+    <string name="notification_sound_vib_screen_on_summary">Las notificaciones suenan y vibran cuando la pantalla está encendida</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Retroalimentación háptica</string>
+    <string name="back_gesture_haptic_summary">Activar efecto vibración en el gesto atrás</string>
+</resources>

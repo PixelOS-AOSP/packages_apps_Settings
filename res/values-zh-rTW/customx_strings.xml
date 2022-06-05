@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">套件詳細資料</string>
+    <string name="package_name">套件名稱</string>
+    <string name="package_version">套件版本</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">不到 1 分鐘</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天使用 %1$s</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">鈴聲音量</string>
+    <string name="volume_link_notification_title">同步鈴聲 &amp; 與通知音量</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動以擷取螢幕畫面</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑動以擷取螢幕畫面</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，可改善可讀性和減少眼睛疲勞</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">日間： <xliff:g id="day_temperature">%1$d</xliff:g>K  夜間： <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">日間</string>
+    <string name="live_display_night">夜間</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">在陽光下自動提高螢幕亮度和飽和度</string>
+    <string name="live_display_anti_flicker_title">防閃爍</string>
+    <string name="live_display_anti_flicker_summary">在弱光環境下，可減少螢幕閃爍及眼睛疲勞。這可能會降低色彩準確性，並影響某些情況的顯示方式。</string>
+    <string name="live_display_low_power_title">節約耗電量</string>
+    <string name="live_display_low_power_summary">在不降低顯示亮度的情況下調整顯示以節約耗電量</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">提高膚色、風景和其他影像的色彩鮮豔度</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">現實的色彩和自然的膚色</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">增強的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">電影</string>
+    <string name="live_display_color_profile_cinema_summary">完美呈現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">使用深紅色濾鏡保護夜間視力</string>
+    <string name="live_display_color_profile_photography_title">攝影</string>
+    <string name="live_display_color_profile_photography_summary">完美呈現照片色彩</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示模式</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整</string>
+    <string name="live_display_color_profile_adaptive_summary">依照環境自動調整螢幕色彩</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
+    <string name="live_display_color_profile_reading_summary">將色溫調暖以減少眼睛疲勞</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">使用 sRGB 色域校準螢幕顏色</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色域校準螢幕顏色</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">用於長期閱讀的灰階模式</string>
+    <string name="color_calibration_title">顏色校正</string>
+    <string name="color_calibration_summary">校正螢幕的顯示色彩</string>
+    <string name="color_red_title">紅</string>
+    <string name="color_green_title">綠</string>
+    <string name="color_blue_title">蓝</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">影像調整</string>
+    <string name="picture_adjustment_summary">調整色相、飽和度、色彩強度和對比度</string>
+    <string name="adj_hue_title">色相</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">色彩強度</string>
+    <string name="adj_contrast_title">對比度</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反轉導覽列佈局</string>
+    <string name="navbar_invert_info">對換導覽列上的返回及總覽按鈕</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 只允許一次音效或震動</string>
+    <string name="app_notification_sound_timeout_value_none">無限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">輕觸兩下關閉螢幕</string>
+    <string name="double_tap_sleep_gesture_summary">輕觸兩下狀態列的任何位置即可使裝置進入睡眠狀態</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">要做什麼</string>
+    <string name="double_tap_sleep_lockscreen_title">在鎖定畫面輕觸兩下以關閉螢幕</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">媒體播放控制</string>
+    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量按鈕即可切換音樂媒體</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許無線基地台的連線裝置使用此裝置\u2019的 VPN 連接到上游</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的無線基地台名稱不會出現在WiFi列表中。</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">永不自動關閉無線基地台</string>
+    <string name="wifi_hotspot_client_manager_title">已連線的裝置</string>
+    <string name="wifi_hotspot_client_manager_summary">列出和管理已連線到無線基地台的裝置</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已連線到無線基地台的裝置</string>
+    <string name="wifi_hotspot_client_limit_title">連接裝置的數量限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已封鎖的裝置</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已連接裝置</string>
+    <string name="wifi_hotspot_block_client_dialog_title">封鎖裝置</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作將斷開 \"<xliff:g id="device_name">%1$s</xliff:g>\" 與本裝置的連線並加入封鎖清單中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">取消封鎖裝置</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" 設備將允許連接到本裝置的無線基地台</string>
+    <string name="wifi_hotspot_client_manager_footer_text">目前沒有連線的裝置。已連線與被封鎖的裝置將會顯示在此處。</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">關閉螢幕時切換手電筒</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
+    <string name="torch_power_button_gesture_dt">按兩下電源按鈕（將停用快速開啟相機功能並使螢幕開啟延遲 170 毫秒）</string>
+    <string name="torch_power_button_gesture_lp">長按電源按鈕</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">單次自動亮度</string>
+    <string name="auto_brightness_one_shot_summary">亮度只會在螢幕開啟時自動調整一次</string>
+    <!-- App lock -->
+    <string name="app_lock_title">應用程式鎖</string>
+    <string name="app_lock_summary_singular">一個應用程式受到保護</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> 個應用程式受到保護</string>
+    <string name="app_lock_authentication_dialog_title">解鎖以繼續</string>
+    <string name="app_lock_packages_title">受保護的應用程式</string>
+    <string name="app_lock_packages_summary">選擇使用生物辨識或設備憑證來保護應用程式</string>
+    <string name="app_lock_timeout_title">自動鎖定時間</string>
+    <string name="app_lock_timeout_summary">後台已解鎖的應用程式在一段時間後會被重新鎖定</string>
+    <string name="app_lock_notifications_title">通知合併</string>
+    <string name="app_lock_notifications_summary">          鎖定應用程式的通知將被合併及隱藏內容。
+          彈出通知將被自動關閉。
+     </string>
+    <string name="app_lock_notifications_disabled_summary">優先保護的應用程序</string>
+    <string name="app_lock_footer_text">超過時間後通知氣泡會自動消失</string>
+    <string name="search">搜尋</string>
+    <string name="search_apps">搜尋應用程式</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">有插撥電話時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">啟用進階重啟選單</string>
+    <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">振動 &amp; 觸覺回饋</string>
+    <string name="summary_vibration_preferences">更改震動強度、模式等</string>
+    <string name="keywords_vibration_preferences">震動模式，震動強度，撥號震動，觸摸震動，點、按等操作的觸覺回饋</string>
+    <string name="ringtone_vibration_pattern">來電震動模式</string>
+    <string name="vibration_intensity_ringer">來電震動模式</string>
+    <string name="vibration_intensity_notification">通知振動強度</string>
+    <string name="haptic_feedback_intensity">震動回饋強度</string>
+    <string name="vibration_intensity_disabled">已停用</string>
+    <string name="vibration_intensity_light">輕</string>
+    <string name="vibration_intensity_medium">中等</string>
+    <string name="vibration_intensity_strong">強</string>
+    <string name="vibration_intensity_custom">自訂</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">擷取螢幕音效</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">狀態列</string>
+    <string name="network_traffic_settings_title">網路流量監視器</string>
+    <string name="network_traffic_mode_title">顯示模式</string>
+    <string name="network_traffic_mode_disable">已停用</string>
+    <string name="network_traffic_mode_status_bar">狀態列</string>
+    <string name="network_traffic_mode_qs">快速設定面板</string>
+    <string name="network_traffic_autohide">自動隱藏</string>
+    <string name="network_traffic_autohide_summary">沒有網路活動時隱藏網路流量監視器</string>
+    <string name="network_traffic_units_title">網路流量單位</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">狀態列圖示管理</string>
+    <string name="icon_manager_summary">狀態列圖示的顯示開關</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式使用瀏海區域</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">手勢提示線</string>
+    <string name="show_navbar_gesture_bar_summary">在螢幕底部顯示手勢指示線</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">波紋效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">以指紋解鎖時顯示波紋效果</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">輕觸兩下</string>
+    <string name="doze_double_tap_title">輕觸兩下來查看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下查看 AOD 上顯示的通知</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">導覽列</string>
+    <string name="gesture_screen_category_title">螢幕</string>
+    <string name="gesture_power_button_category_title">電源按鈕</string>
+    <string name="gesture_volume_buttons_category_title">音量按鈕</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">煩人的通知</string>
+    <string name="notification_sound_vib_screen_on_summary">當螢幕開啟時也啟用通知的聲音和震動</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">震動回饋</string>
+    <string name="back_gesture_haptic_summary">啟用返回手勢的震動回饋</string>
+</resources>

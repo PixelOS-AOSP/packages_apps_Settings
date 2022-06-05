@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">പാക്കേജ് വിശദാംശങ്ങൾ</string>
+    <string name="package_name">പാക്കേജിന്റെ പേര്</string>
+    <string name="package_version">പാക്കേജ് വേർഷൻ</string>
+    <string name="package_version_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">ഒരു മിനിറ്റിൽ താഴെ</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">ഇന്ന് %1$s</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">റിംഗ് വോളിയം</string>
+    <string name="volume_link_notification_title">റിംഗ് &amp; അറിയിപ്പ് വോളിയങ്ങൾ ബന്ധിപ്പിക്കുക</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">സ്‌ക്രീൻഷോട്ട് എഡ്യൂക്കൻ മുകളിലേക്ക് സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="three_finger_gesture_summary">സ്ക്രീൻഷോട്ട് എടുക്കാൻ മൂന്ന് വിരലുകൾ ഉപയോഗിച്ച് താഴേക്ക് സ്വൈപ്പുചെയ്യുക</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">വായനാക്ഷമത മെച്ചപ്പെടുത്തുന്നതിനും കണ്ണുകളുടെ സമ്മര്‍ദ്ദം കുറയ്ക്കാനും സമയത്തിന്‍റെയും ചുറ്റുപാടിന്റെ സാഹചര്യത്തിന്റെയും അടിസ്ഥാനത്തില്‍ നിങ്ങളുടെ സ്ക്രീന്‍ ഒപ്റ്റിമൈസ് ചെയ്യുക</string>
+    <string name="live_display_mode">ഡിസ്പ്ലേ മോഡ്</string>
+    <string name="live_display_color_temperature_title">വർണ്ണ താപനില</string>
+    <string name="live_display_color_temperature_summary">പകൽ: <xliff:g id="day_temperature">%1$d</xliff:g>K  രാത്രി: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">പകൽ</string>
+    <string name="live_display_night">രാത്രി</string>
+    <string name="live_display_outdoor_mode_title">ഓട്ടോമാറ്റിക് ഔട്ട്‌ഡോര്‍ മോഡ്</string>
+    <string name="live_display_outdoor_mode_summary">തെളിഞ്ഞ സൂര്യപ്രകാശത്തില്‍ തെളിച്ചവും സാച്ചുറേഷനും സ്വപ്രേരിതമായി വർദ്ധിപ്പിക്കുക</string>
+    <string name="live_display_anti_flicker_title">മങ്ങലില്ലാതാക്കുക</string>
+    <string name="live_display_anti_flicker_summary">വെളിച്ചം കുറയുമ്പോൾ മങ്ങൽ ഇല്ലാതാക്കുന്നത് കണ്ണ് വേദന വരുന്നത് കുറക്കും. ഇത് സ്ക്രീനിൻ്റെ നിറ വ്യക്തത കുറച്ചേക്കാം.</string>
+    <string name="live_display_low_power_title">വൈദ്യുതി ഉപഭോഗം കുറയ്ക്കുക</string>
+    <string name="live_display_low_power_summary">കുറഞ്ഞ ഊര്‍ജ്ജ ഉപഭോഗത്തിനായി ഡീഗ്രഡേഷന്‍ ഇല്ലാതെ പ്രദര്‍ശനം ക്രമീകരിക്കുക</string>
+    <string name="live_display_enhance_color_title">നിറങ്ങൾ കൂട്ടുക</string>
+    <string name="live_display_enhance_color_summary">തൊലിയുടെ നിറം, ദൃശ്യം, മറ്റ് ചിത്രങ്ങള്‍ എന്നിവയുടെ നിറങ്ങള്‍ മെച്ചപ്പെടുത്തുക</string>
+    <string name="live_display_color_profile_title">കളര്‍ പ്രൊഫൈൽ</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
+    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
+    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_photography_title">Photography</string>
+    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
+    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
+    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
+    <string name="color_calibration_title">Color calibration</string>
+    <string name="color_calibration_summary">Calibrate on-screen colors</string>
+    <string name="color_red_title">Red</string>
+    <string name="color_green_title">Green</string>
+    <string name="color_blue_title">Blue</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Picture adjustment</string>
+    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
+    <string name="adj_hue_title">Hue</string>
+    <string name="adj_saturation_title">Saturation</string>
+    <string name="adj_intensity_title">Intensity</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert Navigation Bar layout</string>
+    <string name="navbar_invert_info">This will swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">പ്ലേബാക്ക് നിയന്ത്രണം</string>
+    <string name="volume_button_music_control_summary">സ്‌ക്രീൻ ഓഫായിരിക്കുമ്പോൾ, വോളിയം കീകൾ ദീർഘനേരം അമർത്തുന്നത് സംഗീത ട്രാക്കുകൾ ഒഴിവാക്കും</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">VPN-കൾ ഉപയോഗിക്കാൻ ക്ലയന്റുകളെ അനുവദിക്കുക</string>
+    <string name="tethering_allow_vpn_upstreams_summary">അപ്‌സ്ട്രീം കണക്റ്റിവിറ്റിക്കായി ഈ ഉപകരണത്തിന്റെ VPN കണക്ഷനുകൾ ഉപയോഗിക്കാൻ ഹോട്ട്‌സ്‌പോട്ട് ക്ലയന്റുകളെ അനുവദിക്കുക</string>
+    <string name="wifi_hotspot_hidden_ssid_title">മറച്ച നെറ്റ്‌വർക്ക്</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">ലഭ്യമായ WLAN നെറ്റ്‌വർക്കുകളുടെ പട്ടികയിൽ നിങ്ങളുടെ മൊബൈൽ ഹോട്ട്‌സ്‌പോട്ടിന്റെ പേര് ദൃശ്യമാകില്ല.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">ഹോട്ട്‌സ്‌പോട്ട് ഒരിക്കലും ഓഫ് ചെയ്യരുത്</string>
+    <string name="wifi_hotspot_client_manager_title">ബന്ധിപ്പിച്ചിട്ടുള്ള ഉപകരണങ്ങൾ</string>
+    <string name="wifi_hotspot_client_manager_summary">ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്ന ഉപകരണങ്ങൾ ലിസ്റ്റുചെയ്‌ത് നിയന്ത്രിക്കുക</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്ന ഉപകരണങ്ങൾ ലിസ്റ്റ് ചെയ്യുക</string>
+    <string name="wifi_hotspot_client_limit_title">കണക്റ്റുചെയ്ത ഉപകരണങ്ങളുടെ പരിധി</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">തടഞ്ഞ ഉപകരണങ്ങൾ</string>
+    <string name="wifi_hotspot_connected_clients_list_title">ബന്ധിപ്പിച്ചിട്ടുള്ള ഉപകരണങ്ങൾ</string>
+    <string name="wifi_hotspot_block_client_dialog_title">തടഞ്ഞ ഉപകരണങ്ങൾ</string>
+    <string name="wifi_hotspot_block_client_dialog_text">ഈ പ്രവർത്തനം ഈ ഉപകരണത്തിൽ നിന്ന് \"<xliff:g id="device_name">%1$s</xliff:g>\" വിച്ഛേദിക്കുകയും ബ്ലോക്ക്‌ലിസ്റ്റിലേക്ക് ചേർക്കുകയും ചെയ്യും</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">ഉപകരണം അൺബ്ലോക്കുചെയ്യുക</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" എന്ന ഉപകരണത്തിന് ഈ ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് കണക്റ്റുചെയ്യാനാകും</string>
+    <string name="wifi_hotspot_client_manager_footer_text">നിലവിൽ ക്ലയന്റുകളൊന്നും ലഭ്യമല്ല. കണക്റ്റുചെയ്‌തതും ബ്ലോക്ക് ചെയ്‌തതുമായ ഉപകരണങ്ങൾ ലഭ്യമാകുമ്പോൾ ഇവിടെ ലിസ്‌റ്റ് ചെയ്യും.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">സ്‌ക്രീൻ ഓഫായിരിക്കുമ്പോൾ ടോർച്ച് ടോഗിൾ ചെയ്യുക</string>
+    <string name="torch_power_button_gesture_none">അപ്രാപ്തമാക്കി</string>
+    <string name="torch_power_button_gesture_dt">പവർ ബട്ടൺ രണ്ടുതവണ അമർത്തുക (അപ്രാപ്‌തമാക്കി ക്യാമറ ഫീച്ചറുകൾ പെട്ടെന്ന് തുറക്കുകയും 170മി. എസ് വേക്കപ്പ് കാലതാമസം ചേർക്കുകയും ചെയ്യുന്നു)</string>
+    <string name="torch_power_button_gesture_lp">പവർ ബട്ടൺ ദീർഘ നേരം അമർത്തുക</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">ഒറ്റ ഷോട്ട് യാന്ത്രിക തെളിച്ചം</string>
+    <string name="auto_brightness_one_shot_summary">സ്‌ക്രീൻ ഓണാകുന്ന നിമിഷത്തിൽ മാത്രമേ തെളിച്ച ക്രമീകരണം സംഭവിക്കൂ</string>
+    <!-- App lock -->
+    <string name="app_lock_title">ആപ്പ് ലോക്ക്</string>
+    <string name="app_lock_summary_singular">1 ആപ്ലിക്കേഷൻ പരിരക്ഷിതമാണ്</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> ആപ്ലിക്കേഷനുകൾ പരിരക്ഷിക്കപ്പെട്ടിരിക്കുന്നു</string>
+    <string name="app_lock_authentication_dialog_title">തുടരാൻ അൺലോക്ക് ചെയ്യുക</string>
+    <string name="app_lock_packages_title">സംരക്ഷിത ആപ്ലിക്കേഷനുകൾ</string>
+    <string name="app_lock_packages_summary">ബയോമെട്രിക്സ് അല്ലെങ്കിൽ ഉപകരണ ക്രെഡൻഷ്യലുകൾ ഉപയോഗിച്ച് പരിരക്ഷിക്കാൻ ആപ്പുകൾ തിരഞ്ഞെടുക്കുക</string>
+    <string name="app_lock_timeout_title">യാന്ത്രിക ലോക്ക് കാലഹരണപ്പെട്ടു</string>
+    <string name="app_lock_timeout_summary">പശ്ചാത്തലത്തിൽ അൺലോക്ക് ചെയ്‌ത ആപ്പ് ലോക്ക് ചെയ്യേണ്ട സമയദൈർഘ്യം</string>
+    <string name="app_lock_notifications_title">അറിയിപ്പുകൾ ചുരുക്കുക</string>
+    <string name="app_lock_notifications_summary">തിരഞ്ഞെടുത്ത ആപ്പുകൾ ലോക്കായിരിക്കുമ്പോൾ അറിയിപ്പ് ഉള്ളടക്കം മറയ്ക്കുകയും ചുരുക്കുകയും ചെയ്യും.
+           മുന്നറിയിപ്പ് അറിയിപ്പുകൾ സ്വയമേവ പ്രവർത്തനരഹിതമാക്കും.     </string>
+    <string name="app_lock_notifications_disabled_summary">ആദ്യം ഒരു ആപ്ലിക്കേഷൻ പരിരക്ഷിക്കുക</string>
+    <string name="app_lock_footer_text">കാലഹരണപ്പെട്ടതിന് ശേഷം ബബിളുകൾ സ്വയമേവ ഡിസ്മിസ് ചെയ്യപ്പെടും</string>
+    <string name="search">തിരയുക</string>
+    <string name="search_apps">ആപ്പുകൾ തിരയുക</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">ഇൻ-കോൾ വൈബ്രേഷൻ ഓപ്ഷനുകൾ</string>
+    <string name="incall_vibrate_connect_title">കണക്റ്റുചെയ്യുമ്പോൾ വൈബ്രേറ്റ് ചെയ്യുക</string>
+    <string name="incall_vibrate_call_wait_title">കോൾ കാത്തിരിപ്പിൽ വൈബ്രേറ്റ് ചെയ്യുക</string>
+    <string name="incall_vibrate_disconnect_title">വിച്ഛേദിക്കുമ്പോൾ വൈബ്രേറ്റ് ചെയ്യുക</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">ആധുനിക സജ്ജീകരണം പ്രാപ്തമാക്കുക</string>
+    <string name="global_actions_advanced_reboot_summary">പവർ മെനുവിൽ വീണ്ടെടുക്കലിനും ബൂട്ട്ലോഡറിനുമുള്ള ഓപ്ഷനുകൾ കാണിക്കുക</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">വൈബ്രേഷനും &amp; സ്പർശനാനുഭവവും</string>
+    <string name="summary_vibration_preferences">തീവ്രത, ക്രമം മുതലായവ ക്രമീകരിക്കുക</string>
+    <string name="keywords_vibration_preferences">വൈബ്രേഷൻ പാറ്റേൺ, വൈബ്രേഷൻ തീവ്രത, ഇൻകാൾ, തീവ്രത, ഹാപ്റ്റിക്സ്, ടാപ്പ്, വൈബ്രേഷൻ ശക്തി</string>
+    <string name="ringtone_vibration_pattern">റിംഗ്ടോൺ വൈബ്രേഷൻ പാറ്റേൺ</string>
+    <string name="vibration_intensity_ringer">അറിയിപ്പ് വൈബ്രേഷൻ തീവ്രത</string>
+    <string name="vibration_intensity_notification">അറിയിപ്പ് വൈബ്രേഷൻ തീവ്രത</string>
+    <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
+    <string name="vibration_intensity_disabled">Disabled</string>
+    <string name="vibration_intensity_light">Light</string>
+    <string name="vibration_intensity_medium">Medium</string>
+    <string name="vibration_intensity_strong">Strong</string>
+    <string name="vibration_intensity_custom">Custom</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">Status bar</string>
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
+    <string name="network_traffic_mode_status_bar">Status bar</string>
+    <string name="network_traffic_mode_qs">Quick settings</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+</resources>

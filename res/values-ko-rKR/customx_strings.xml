@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">패키지 세부 정보</string>
+    <string name="package_name">패키지 이름</string>
+    <string name="package_version">패키지 버전</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1분 미만</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">오늘 %1$s</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">벨소리 음량</string>
+    <string name="volume_link_notification_title">벨소리 &amp; 알림 음량 동기화</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">스와이프하여 캡처</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">가독성을 향상시키고 눈의 피로를 줄이기 위해 주변 환경과 시간에 따라 화면을 최적화합니다</string>
+    <string name="live_display_mode">디스플레이 모드</string>
+    <string name="live_display_color_temperature_title">색 온도</string>
+    <string name="live_display_color_temperature_summary">주간: <xliff:g id="day_temperature">%1$d</xliff:g>K  야간: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">주간</string>
+    <string name="live_display_night">야간</string>
+    <string name="live_display_outdoor_mode_title">자동 야외 모드</string>
+    <string name="live_display_outdoor_mode_summary">밝은 햇빛 아래에서 자동으로 밝기와 채도를 증가</string>
+    <string name="live_display_anti_flicker_title">플리커링 방지</string>
+    <string name="live_display_anti_flicker_summary">낮은 밝기의 환경에서 플리커링을 방지하고 눈의 피로를 줄입니다. 색 정확도가 저하되고 일부 항목이 표시되는 방식에 영향을 미칠 수 있습니다.</string>
+    <string name="live_display_low_power_title">전력 소모 줄이기</string>
+    <string name="live_display_low_power_summary">화면을 조정하여 화질 저하 없이 전력 소모를 감소</string>
+    <string name="live_display_enhance_color_title">색상 향상</string>
+    <string name="live_display_enhance_color_summary">피부 톤, 풍경 및 기타 이미지에서 색의 생동감을 향상</string>
+    <string name="live_display_color_profile_title">색상 프로필</string>
+    <string name="live_display_color_profile_standard_title">표준</string>
+    <string name="live_display_color_profile_standard_summary">정확한 색상 및 밝은 흰색</string>
+    <string name="live_display_color_profile_natural_title">자연스러운 색상</string>
+    <string name="live_display_color_profile_natural_summary">사실적인 색상 및 피부 톤</string>
+    <string name="live_display_color_profile_dynamic_title">선명하게</string>
+    <string name="live_display_color_profile_dynamic_summary">색상을 향상시키고 흰색을 밝게 표현</string>
+    <string name="live_display_color_profile_cinema_title">영화</string>
+    <string name="live_display_color_profile_cinema_summary">영상의 색을 완벽하게 재현</string>
+    <string name="live_display_color_profile_astronomy_title">천체 관측</string>
+    <string name="live_display_color_profile_astronomy_summary">야간 시야 확보를 위한 붉은 색상</string>
+    <string name="live_display_color_profile_photography_title">사진</string>
+    <string name="live_display_color_profile_photography_summary">사진의 색상을 완벽하게 재현</string>
+    <string name="live_display_color_profile_basic_title">기본</string>
+    <string name="live_display_color_profile_basic_summary">디스플레이를 보정하지 않은 상태로 사용</string>
+    <string name="live_display_color_profile_adaptive_title">적응형</string>
+    <string name="live_display_color_profile_adaptive_summary">주변 상황에 따라 색 조절</string>
+    <string name="live_display_color_profile_reading_title">독서</string>
+    <string name="live_display_color_profile_reading_summary">눈의 피로를 줄이기 위해 따뜻한 색상 사용</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB 색 영역에 맞게 색상 표현</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 색 영역에 맞게 색상 표현</string>
+    <string name="live_display_reading_mode_title">독서 모드</string>
+    <string name="live_display_reading_mode_summary">긴 시간 독서를 위한 그레이스케일 모드</string>
+    <string name="color_calibration_title">색상 보정</string>
+    <string name="color_calibration_summary">화면 색상 보정</string>
+    <string name="color_red_title">적</string>
+    <string name="color_green_title">녹</string>
+    <string name="color_blue_title">청</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">사진 조정</string>
+    <string name="picture_adjustment_summary">색조, 채도, 농도 및 대비 조정</string>
+    <string name="adj_hue_title">색조</string>
+    <string name="adj_saturation_title">채도</string>
+    <string name="adj_intensity_title">명도</string>
+    <string name="adj_contrast_title">대비</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">내비게이션 바 레이아웃 반전</string>
+    <string name="navbar_invert_info">뒤로가기 버튼과 최근 앱 버튼의 기능을 서로 바꿀 것입니다.</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">알림음 최소 시간 간격</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>에 한 번만 알림음 또는 진동을 허용</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10분</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">두 번 탭하여 화면 끄기</string>
+    <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두 번 탭하여 화면 끄기</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">실행할 동작</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 두 번 탭하여 화면 끄기</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">재생 컨트롤</string>
+    <string name="volume_button_music_control_summary">화면이 꺼져있을 때 볼륨 버튼을 길게 눌러 음악 탐색</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
+    <string name="tethering_allow_vpn_upstreams_summary">핫스팟 클라이언트가 연결성 향상을 위해 이 기기\u2019의 VPN 연결을 사용하도록 허용</string>
+    <string name="wifi_hotspot_hidden_ssid_title">숨겨진 네트워크</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">내 모바일 핫스팟의 이름이 사용 가능한 무선랜 목록에 표시되 않도록 합니다.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">핫스팟 끄지 않기</string>
+    <string name="wifi_hotspot_client_manager_title">연결된 기기</string>
+    <string name="wifi_hotspot_client_manager_summary">핫스팟에 연결된 기기 목록 및 관리</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">핫스팟에 연결된 기기 목록</string>
+    <string name="wifi_hotspot_client_limit_title">기기 연결 제한</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">차단된 기기</string>
+    <string name="wifi_hotspot_connected_clients_list_title">연결된 기기</string>
+    <string name="wifi_hotspot_block_client_dialog_title">기기 차단</string>
+    <string name="wifi_hotspot_block_client_dialog_text">이 기기와 \"<xliff:g id="device_name">%1$s</xliff:g>\"의 연결을 끊고 기기를 차단 목록에 추가합니다</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">기기 차단 해제</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" 기기가 이 핫스팟에 연결할 수 있게 됩니다</string>
+    <string name="wifi_hotspot_client_manager_footer_text">표시할 클라이언트가 없습니다. 연결된 기기와 차단한 기기가 여기에 표시됩니다.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">화면이 꺼질 때 손전등 끔</string>
+    <string name="torch_power_button_gesture_none">비활성화됨</string>
+    <string name="torch_power_button_gesture_dt">전원 버튼 두 번 누르기 (카메라 빠른 실행 옵션이 꺼지고 화면이 170ms 느리게 켜짐)</string>
+    <string name="torch_power_button_gesture_lp">전원 버튼 길게 누르기</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">한 번에 자동 밝기 조절</string>
+    <string name="auto_brightness_one_shot_summary">자동 밝기 조절을 화면이 켜질 때 단 한 번만 실행합니다.</string>
+    <!-- App lock -->
+    <string name="app_lock_title">앱 잠금</string>
+    <string name="app_lock_summary_singular">앱 1개가 보호되고 있습니다</string>
+    <string name="app_lock_summary_plural">앱 <xliff:g example="2" id="Number of applications">%1$d</xliff:g>개가 보호되고 있습니다</string>
+    <string name="app_lock_authentication_dialog_title">잠금 해제하여 계속</string>
+    <string name="app_lock_packages_title">보호 중인 앱</string>
+    <string name="app_lock_packages_summary">생체 인식 또는 기기 보안으로 보호할 앱을 선택</string>
+    <string name="app_lock_timeout_title">자동 잠금 시간</string>
+    <string name="app_lock_timeout_summary">백그라운드에서 잠금 해제된 앱을 잠글 때까지의 시간</string>
+    <string name="app_lock_notifications_title">알림 창 닫기</string>
+    <string name="app_lock_notifications_summary">          선택된 앱이 잠기면 알림 내용이 숨겨집니다.
+          화면 상담 알림은 자동적으로 비활성화됩니다.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">먼저 애플리케이션을 보호하십시오</string>
+    <string name="app_lock_footer_text">시간이 지난 이후 버블은 자동적으로 사라집니다.</string>
+    <string name="search">검색</string>
+    <string name="search_apps">앱 검색</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 시 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드 및 부트로더로 다시 시작 옵션 표시</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">진동 &amp; 햅틱</string>
+    <string name="summary_vibration_preferences">진동 강도 및 패턴 변경</string>
+    <string name="keywords_vibration_preferences">진동 패턴, 진동 강도, 호출, 강도, 햅틱, 탭, 진동 강도</string>
+    <string name="ringtone_vibration_pattern">벨소리 진동 패턴</string>
+    <string name="vibration_intensity_ringer">벨소리 진동 강도</string>
+    <string name="vibration_intensity_notification">알림 진동 강도</string>
+    <string name="haptic_feedback_intensity">햅틱 피드백 강도</string>
+    <string name="vibration_intensity_disabled">비활성화됨</string>
+    <string name="vibration_intensity_light">약함</string>
+    <string name="vibration_intensity_medium">보통</string>
+    <string name="vibration_intensity_strong">강함</string>
+    <string name="vibration_intensity_custom">사용자 정의</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">스크린샷 효과음</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">상태 표시줄</string>
+    <string name="network_traffic_settings_title">네트워크 트래픽 모니터</string>
+    <string name="network_traffic_mode_title">디스플레이 모드</string>
+    <string name="network_traffic_mode_disable">비활성화됨</string>
+    <string name="network_traffic_mode_status_bar">상태 표시줄</string>
+    <string name="network_traffic_mode_qs">빠른 설정</string>
+    <string name="network_traffic_autohide">자동으로 숨기기</string>
+    <string name="network_traffic_autohide_summary">아무런 활동이 없을 때 트래픽 모니터 숨기기</string>
+    <string name="network_traffic_units_title">트래픽 측정 단위</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">아이콘 관리자</string>
+    <string name="icon_manager_summary">상태 표시줄 아이콘의 표시 여부 설정</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">전체 화면으로 표시할 앱</string>
+    <string name="display_cutout_force_fullscreen_summary">앱이 노치 공간을 무시하도록 하기</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">제스처 힌트</string>
+    <string name="show_navbar_gesture_bar_summary">화면 아래에 제스처 힌트를 표시</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">물결 효과</string>
+    <string name="enable_fingerprint_ripple_effect_summary">지문으로 잠금 해제 시 물결 효과 표시</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">두 번 탭하기</string>
+    <string name="doze_double_tap_title">두 번 탭하여 기기 확인</string>
+    <string name="doze_double_tap_summary">두 번 탭하여 알림 확인</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">내비게이션</string>
+    <string name="gesture_screen_category_title">화면</string>
+    <string name="gesture_power_button_category_title">전원 버튼</string>
+    <string name="gesture_volume_buttons_category_title">볼륨 버튼</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">소리나는 알림</string>
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져있을 때 소리 및 진동으로 알림</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">햅틱 피드백</string>
+    <string name="back_gesture_haptic_summary">뒤로가기 제스처 사용 시 햅틱 피드백 사용</string>
+</resources>

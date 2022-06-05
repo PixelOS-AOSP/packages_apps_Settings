@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package details -->
+    <string name="package_details_group_title">Podrobnosti o balíčku</string>
+    <string name="package_name">Názov balíčku</string>
+    <string name="package_version">Verzia balíčku</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menej ako 1 minúta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Hlasitosť zvonenia</string>
+    <string name="volume_link_notification_title">Spojiť hlasitosť zvonenia a upozornení</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Potiahnutím urobiť snímku obrazovky</string>
+    <string name="three_finger_gesture_summary">Potiahnutím nadol troma prstami urobiť snímku obrazovky</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalizovať vašu obrazovku na základe dennej doby a podmienok okolia na zlepšenie čitateľnosti a zníženia únavy očí</string>
+    <string name="live_display_mode">Režim zobrazenia</string>
+    <string name="live_display_color_temperature_title">Teplota farieb</string>
+    <string name="live_display_color_temperature_summary">Deň: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Deň</string>
+    <string name="live_display_night">Noc</string>
+    <string name="live_display_outdoor_mode_title">Automatický režim vonku</string>
+    <string name="live_display_outdoor_mode_summary">Automaticky zvýšiť jas a sýtosť za jasného slnečného svetla</string>
+    <string name="live_display_anti_flicker_title">Eliminácia blikania</string>
+    <string name="live_display_anti_flicker_summary">Zabrániť rozsiahlemu blikaniu a znížiť námahu očí v slabých svetelných podmienkach. Môže degradovať presnosť farieb a ovplyvniť zobrazenie niektorých položiek.</string>
+    <string name="live_display_low_power_title">Znížiť spotrebu energie</string>
+    <string name="live_display_low_power_summary">Nastaviť zobrazenie pre najnižšiu spotrebu energie bez zhoršenia čitateľnosti</string>
+    <string name="live_display_enhance_color_title">Vylepšiť farby</string>
+    <string name="live_display_enhance_color_summary">Zlepšiť živosť farieb pleťových odtieňov, scenérie a ďalších obrázkov</string>
+    <string name="live_display_color_profile_title">Farebný profil</string>
+    <string name="live_display_color_profile_standard_title">Štandardný</string>
+    <string name="live_display_color_profile_standard_summary">Presné farby a jasná biela</string>
+    <string name="live_display_color_profile_natural_title">Prirodzený</string>
+    <string name="live_display_color_profile_natural_summary">Realistické farby a telové tóny</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamický</string>
+    <string name="live_display_color_profile_dynamic_summary">Vylepšené farby a jasná biela</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Dokonalá farebná reprodukcia pre video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronómia</string>
+    <string name="live_display_color_profile_astronomy_summary">Tmavo červená pre zachovanie nočného videnia</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Dokonalá farebná reprodukcia pre fotografie</string>
+    <string name="live_display_color_profile_basic_title">Základný</string>
+    <string name="live_display_color_profile_basic_summary">Použiť nekalibrovaný displej</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptívny</string>
+    <string name="live_display_color_profile_adaptive_summary">Prispôsobiť farby okolitým podmienkam</string>
+    <string name="live_display_color_profile_reading_title">Čítanie</string>
+    <string name="live_display_color_profile_reading_summary">Teplejšie farby pre menšie namáhanie očí</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farby sú identické s farebným priestorom sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farby sú identické s farebným priestorom DCI-P3</string>
+    <string name="live_display_reading_mode_title">Režim čítania</string>
+    <string name="live_display_reading_mode_summary">Režim odtieňov šedej pre dlhodobé čítanie</string>
+    <string name="color_calibration_title">Kalibrácia farieb</string>
+    <string name="color_calibration_summary">Kalibrovať farby na obrazovke</string>
+    <string name="color_red_title">Červená</string>
+    <string name="color_green_title">Zelená</string>
+    <string name="color_blue_title">Modrá</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Prispôsobenie obrazu</string>
+    <string name="picture_adjustment_summary">Upraviť odtieň, sýtosť, intenzitu a kontrast</string>
+    <string name="adj_hue_title">Odtieň</string>
+    <string name="adj_saturation_title">Saturácia</string>
+    <string name="adj_intensity_title">Intenzita</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
+    <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimálny čas medzi zvukmi upozornenia</string>
+    <string name="app_notification_sound_timeout_summary_template">Povoliť zvuky alebo vibrácie nie viac ako raz za <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez obmedzení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minúta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minút</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Klepnutím uspať</string>
+    <string name="double_tap_sleep_gesture_summary">Uspať zariadene dvojitým poklepaním kdekoľvek na stavový riadok</string>
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Čo robiť</string>
+    <string name="double_tap_sleep_lockscreen_title">Uspať dvojklikom na obrazovke uzamknutia</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
+    <string name="volume_button_music_control_summary">Keď je vypnutá obrazovka, dlhým stlačením tlačidiel pre ovládanie hlasitosti možno prepínať skladby</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Povoliť klientom používanie VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povoliť klientom hotspotu používať pripojenie VPN tohto zariadenia pre všetku konektivitu</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Skrytá sieť</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Názov vášho mobilného hotspotu sa nezobrazí v zozname dostupných sietí WLAN.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nikdy nevypínať hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_limit_title">Limit pripojených zariadení</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokované zariadenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokovať zariadenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Táto akcia odpojí zariadenie <xliff:g id="device_name">%1$s</xliff:g> od tohto zariadenia a pridá ho do zoznamu blokovaných</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovať zariadenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Toto zariadenie \"<xliff:g id="device_name">%1$s</xliff:g>\" sa bude môcť pripojiť k tomuto hotspotu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Momentálne nie sú k dispozícii žiadni klienti. Tu budú uvedené pripojené a blokované zariadenia, keď budú k dispozícii.</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Prepnutie svietidla pri vypnutej obrazovke</string>
+    <string name="torch_power_button_gesture_none">Vypnuté</string>
+    <string name="torch_power_button_gesture_dt">Dvojité stlačenie tlačidla napájania (vypne funkciu rýchleho otvorenia fotoaparátu a pridá 170ms oneskorenie)</string>
+    <string name="torch_power_button_gesture_lp">Dlhé stlačenie tlačidla Napájania</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorázový automatický jas</string>
+    <string name="auto_brightness_one_shot_summary">Úprava jasu sa vykoná iba vo chvíli, keď sa zapne obrazovka</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Zámok aplikácií</string>
+    <string name="app_lock_summary_singular">1 aplikácia je chránená</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> aplikácií je chránených</string>
+    <string name="app_lock_authentication_dialog_title">Pokračovať odomknutím</string>
+    <string name="app_lock_packages_title">Chránené aplikácie</string>
+    <string name="app_lock_packages_summary">Vyberte aplikácie, ktoré chcete chrániť pomocou biometrických údajov alebo poverení zariadenia</string>
+    <string name="app_lock_timeout_title">Časovač aut. zámku</string>
+    <string name="app_lock_timeout_summary">Doba, po ktorej by mala byť aplikácia na pozadí uzamknutá</string>
+    <string name="app_lock_notifications_title">Zbaliť upozornenia</string>
+    <string name="app_lock_notifications_summary">          Obsah upozornení bude skrytý a zbalený pre vybrané aplikácie, keď sú uzamknuté.
+          Upozornenia na  budú automaticky vypnuté.
+     </string>
+    <string name="app_lock_notifications_disabled_summary">Najprv chráňte aplikáciu</string>
+    <string name="app_lock_footer_text">Bubliny budú po uplynutí časového limitu automaticky zrušené</string>
+    <string name="search">Hľadať</string>
+    <string name="search_apps">Hľadať aplikácie</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Povoliť rozšírený reštart</string>
+    <string name="global_actions_advanced_reboot_summary">V ponuke napájania zobrazte možnosti režimu recovery a bootloadera</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibrácie a hmatová odozva</string>
+    <string name="summary_vibration_preferences">Zmeniť intenzitu vibrácií, vzory a ďalšie</string>
+    <string name="keywords_vibration_preferences">vzor vibrácií, intenzita vibrácií, počas hovoru, intenzita, reakcia na dotyk, klepnutia, sila vibrácií</string>
+    <string name="ringtone_vibration_pattern">Vzor vibrácií vyzváňania</string>
+    <string name="vibration_intensity_ringer">Intezita vibrácií vyzváňania</string>
+    <string name="vibration_intensity_notification">Intezita vibrácií upozornení</string>
+    <string name="haptic_feedback_intensity">Intenzita hmatovej odozvy</string>
+    <string name="vibration_intensity_disabled">Vypnuté</string>
+    <string name="vibration_intensity_light">Slabé</string>
+    <string name="vibration_intensity_medium">Stredné</string>
+    <string name="vibration_intensity_strong">Silné</string>
+    <string name="vibration_intensity_custom">Vlastné</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Zvuk snímky obrazovky</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="status_bar_title">Stavový riadok</string>
+    <string name="network_traffic_settings_title">Monitor sieťovej prevádzky</string>
+    <string name="network_traffic_mode_title">Režim zobrazenia</string>
+    <string name="network_traffic_mode_disable">Vypnuté</string>
+    <string name="network_traffic_mode_status_bar">Stavový riadok</string>
+    <string name="network_traffic_mode_qs">Rýchle nastavenia</string>
+    <string name="network_traffic_autohide">Automaticky skrývať</string>
+    <string name="network_traffic_autohide_summary">Skryť indikátor sieťovej prevádzky, pokiaľ nie je žiadna aktivita</string>
+    <string name="network_traffic_units_title">Jednotky merania sieťovej prevádzky</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Správca ikon</string>
+    <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikácie na celú obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Prinútiť aplikácie ignorovať výrez</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Indikátor giest</string>
+    <string name="show_navbar_gesture_bar_summary">Zobraziť indikátor navigácie na spodku obrazovky</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnenia</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Zobraziť efekt zvlnenia pri odomknutí zariadenia pomocou odtlačku prsta</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dvojité poklepanie</string>
+    <string name="doze_double_tap_title">Kontrola telefónu dvojitým klepnutím</string>
+    <string name="doze_double_tap_summary">Pulzovať upozornenia dvojitým klepnutím</string>
+    <!-- Gesture settings categories -->
+    <string name="gesture_navigation_category_title">Navigácia</string>
+    <string name="gesture_screen_category_title">Obrazovka</string>
+    <string name="gesture_power_button_category_title">Tlačidlo napájania</string>
+    <string name="gesture_volume_buttons_category_title">Tlačidlá hlasitosti</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Otravné oznámenia</string>
+    <string name="notification_sound_vib_screen_on_summary">Prehrať zvuk a vibrácie pre upozornenia, keď je obrazovka zapnutá</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Hmatová odozva</string>
+    <string name="back_gesture_haptic_summary">Povoliť efekt krátkeho zavibrovanie pri použití gestá \"Späť\"</string>
+</resources>
