@@ -203,4 +203,15 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+                android:key="qs_show_data_usage"
+                android:title="@string/qs_show_data_usage_title"
+                android:summary="@string/qs_show_data_usage_summary"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
