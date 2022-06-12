@@ -370,4 +370,8 @@
     <string name="package_name">Package name</string>
     <string name="package_version">Package version</string>
     <string name="package_version_text" translatable="false"><xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 </resources>

@@ -109,6 +109,12 @@
             android:summary="@string/icon_manager_summary">
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
+
+	<com.android.settings.custom.preference.SecureSettingSwitchPreference
+                android:key="qs_show_data_usage"
+                android:title="@string/qs_show_data_usage_title"
+                android:summary="@string/qs_show_data_usage_summary"
+                android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory

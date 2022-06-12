@@ -263,4 +263,8 @@
     <string name="display_rotation_90_title">90°</string>
     <string name="display_rotation_180_title">180°</string>
     <string name="display_rotation_270_title">270°</string>
+
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">数据使用情况</string>
+    <string name="qs_show_data_usage_summary">在 QS 页脚中显示移动网络/WiFi 数据使用情况</string>
 </resources>
