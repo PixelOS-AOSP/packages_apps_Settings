@@ -85,75 +85,79 @@
     <string name="double_tap_sleep_gesture_title">双击休眠</string>
     <string name="double_tap_sleep_gesture_summary">双击状态栏的任何位置来使屏幕休眠</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="lockscreen_tweaks_category_title">您想要什么？</string>
     <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕以休眠</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">播放控制</string>
     <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换不同曲目</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
     <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
     <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称将不会出现在可用的 WLAN 网络列表中</string>
     <string name="wifi_hotspot_auto_off_timeout_never">始终不关闭热点</string>
     <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">已连接设备限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻止的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与该设备的连接，并将其添加到阻止列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解封设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到该热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double press power button (Disables Quickly open camera feature and adds 170ms wakeup delay)</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">锁屏下开启手电筒</string>
+    <string name="torch_power_button_gesture_none">已关闭</string>
+    <string name="torch_power_button_gesture_dt">双击电源键 (禁用快速打开相机功能并添加 170 毫秒唤醒延迟)</string>
+    <string name="torch_power_button_gesture_lp">长按电源键</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">一键自动调节亮度</string>
+    <string name="auto_brightness_one_shot_summary">亮度调整仅在亮屏时生效</string>
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
-    <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
+    <string name="app_lock_summary_singular">1 个应用程序受到保护</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> 个应用程序受到保护</string>
     <string name="app_lock_authentication_dialog_title">Unlock to continue</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">自动锁屏超时</string>
+    <string name="app_lock_timeout_summary">已解锁的应用在后台重新上锁的时间</string>
+    <string name="app_lock_notifications_title">折叠通知</string>
     <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
           Heads up notifications will be automatically disabled.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="app_lock_notifications_disabled_summary">先选择一个应用保护</string>
+    <string name="app_lock_footer_text">气泡将在超时后自动关闭</string>
+    <string name="search">搜索</string>
+    <string name="search_apps">搜索应用程序</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Stock lock options</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">来电振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">启用高级重启选项</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复模式和引导模式选项</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Vibration &amp; haptics</string>
-    <string name="summary_vibration_preferences">Change vibration intensities, pattern and more</string>
-    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, intensity, haptics, tap, vibration strength</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Light</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">Strong</string>
-    <string name="vibration_intensity_custom">Custom</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="vibration_preferences">振动 &amp; 反馈</string>
+    <string name="summary_vibration_preferences">改变振动强度、模式等</string>
+    <string name="keywords_vibration_preferences">振动模式、振动触感、通话、强度、触觉、点按、振动强度</string>
+    <string name="ringtone_vibration_pattern">铃声振动模式</string>
+    <string name="vibration_intensity_ringer">铃声振动强度</string>
+    <string name="vibration_intensity_notification">通知振动强度</string>
+    <string name="haptic_feedback_intensity">触觉振动强度</string>
+    <string name="vibration_intensity_disabled">已关闭</string>
+    <string name="vibration_intensity_light">轻微</string>
+    <string name="vibration_intensity_medium">中等</string>
+    <string name="vibration_intensity_strong">强力</string>
+    <string name="vibration_intensity_custom">自定义</string>
+    <string name="pattern_dzzz_dzzz">嗒滋滋滋-嗒滋滋滋</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
@@ -197,4 +201,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">震动反馈</string>
     <string name="back_gesture_haptic_summary">启用返回手势的震动效果</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
 </resources>
