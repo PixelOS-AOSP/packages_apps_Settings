@@ -91,6 +91,13 @@
         android:summary="@string/summary_placeholder"
         settings:searchable="false"/>
 
+    <!-- Ignore secure window feature  -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
     <!-- Privacy Service -->
     <PreferenceCategory
         android:key="privacy_services"
