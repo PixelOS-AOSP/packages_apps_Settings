@@ -132,6 +132,10 @@
     <string name="app_lock_footer_text">Бульбашки будуть автоматично відхилені після тайм-ауту</string>
     <string name="search">Пошук</string>
     <string name="search_apps">Пошук додатків</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Налаштування блокування екрана</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Настройка блокування додатків, Блокування SIM-картки, Блокування зберігання облікових даних</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
     <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
@@ -175,7 +179,7 @@
     <string name="icon_manager_summary">Налаштування видимості значків рядка стану</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Повноекранні додатки</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити додатки ігнорувати виріз</string>
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Індикатор жестів</string>
     <string name="show_navbar_gesture_bar_summary">Показувати індикатор жестів внизу екрану</string>
@@ -192,9 +196,16 @@
     <string name="gesture_power_button_category_title">Кнопка живлення</string>
     <string name="gesture_volume_buttons_category_title">Кнопки регулювання гучності</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Набридливі сповіщення</string>
+    <string name="notification_sound_vib_screen_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Вібровідгук</string>
+    <string name="back_gesture_haptic_summary">Увімкнути тактильний ефект від жесту назад</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Гучність додатків</string>
+    <string name="app_volume_title">Налаштування гучності додатків</string>
+    <string name="app_volume_summary">Встановлення різних рівнів гучності для кожної програми</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
 </resources>

@@ -132,6 +132,10 @@
     <string name="app_lock_footer_text">Balões de notificações serão automaticamente dispersos após o tempo limite</string>
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Opções de bloqueio</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Definir bloqueio de aplicativo, bloqueio do chip, criptografia e credenciais</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opções de vibrações em chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
@@ -197,4 +201,11 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Resposta tátil</string>
     <string name="back_gesture_haptic_summary">Ativar o efeito tátil no gesto de voltar</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume de aplicativos</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
+    <string name="ignore_window_secure_summary">Isso remove as restrições de captura de tela e gravação de tela para todos os aplicativos. Normalmente, aplicativos protegidos não permitem e emitem uma tela preta nos registros. Remover essa restrição pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. Após alterar este botão, você pode precisar reiniciar o aplicativo para que a alteração tenha efeito.</string>
 </resources>
