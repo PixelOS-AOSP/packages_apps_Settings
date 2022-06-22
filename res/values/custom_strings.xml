@@ -38,4 +38,9 @@
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
     <string name="preferred_refresh_rate_info">Preferred refresh rate will be used as the default refresh rate for user interactions, as long as it\'s not lower than the minimum refresh rate and not higher than the maximum refresh rate.</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>
