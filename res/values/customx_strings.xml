@@ -109,7 +109,7 @@
     <string name="wifi_band_24ghz_and_5ghz" translatable="false">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz" translatable="false">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
     <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
