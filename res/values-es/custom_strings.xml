@@ -77,4 +77,6 @@
     <string name="face_unlock_method_swipe">Cuando deslizas en la pantalla de bloqueo</string>
     <string name="high_touch_polling_rate_title">Tasa de muestreo táctil alta</string>
     <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
+    <string name="screen_off_fod_title">Pantalla apagada FOD</string>
+    <string name="screen_off_fod_summary">Dejar FOD activado cuando la pantalla está apagada</string>
 </resources>

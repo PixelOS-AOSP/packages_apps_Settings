@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La tua connessione non sarà privata.</string>
     <string name="min_refresh_rate_title">Frequenza d\'aggiornamento minima</string>
-    <string name="max_refresh_rate_title">Refresh rate massimo</string>
+    <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
     <string name="battery_saver_refresh_rate_title">Riduci refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Usa il refresh rate a 60 Hz per risparmiare energia quando il Risparmio Energetico è attivo</string>
     <string name="battery_light_title">Indicatore batteria</string>
