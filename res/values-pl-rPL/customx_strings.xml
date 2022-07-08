@@ -95,7 +95,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom podłączonym do udostępnionej sieci na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
     <string name="wifi_hotspot_hidden_ssid_title">Ukryta sieć</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Nazwa Twojego mobilnego punktu dostępu nie pojawi się na liście dostępnych sieci WLAN.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj punktu dostępu</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Podłączone urządzenia</string>
     <string name="wifi_hotspot_client_manager_summary">Pokaż i zarządzaj urządzeniami podłączonymi do punktu dostępu</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Pokaż urządzenia podłączone do punktu dostępu</string>
@@ -132,9 +132,9 @@
     <string name="search">Szukaj</string>
     <string name="search_apps">Szukaj aplikacji</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">Opcje blokady ekranu</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">Ustaw blokadę aplikacji, blokadę karty SIM, blokadę magazynu danych</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Wibracja podczas połączenia</string>
     <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
@@ -201,10 +201,13 @@
     <string name="back_gesture_haptic_title">Wibracje haptyczne</string>
     <string name="back_gesture_haptic_summary">Włącz efekt haptyczny stuknięcia przy geście wstecz</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">Głośność aplikacji</string>
+    <string name="app_volume_title">Regulacja głośnoći dla konkretnej aplikacji</string>
+    <string name="app_volume_summary">Zezwalaj na ustawienie różnych poziomów głośności dla każdej aplikacji</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Ignoruj bezpieczne flagi okna</string>
+    <string name="ignore_window_secure_summary">Usuwa to limity zrzutów ekranu i ekranów dla wszystkich aplikacji. Zazwyczaj aplikacje specjalne są zastępowane czarnymi obszarami w rekordach. W niektórych przypadkach może to być wygodne, ale może prowadzić do wycieku prywatności. Po zmianie tego przełącznika może być konieczne ponowne uruchomienie aplikacji, aby zmiany zaczęły obowiązywać.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Dzienne użycie danych w stopce QS</string>
+    <string name="qs_footer_datausage_summary">Wyświetl dzienne podsumowanie użycia danych w stopce szybkich ustawień</string>
 </resources>

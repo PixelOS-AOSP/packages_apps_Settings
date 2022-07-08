@@ -208,4 +208,7 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorar la restricción de captura de pantalla</string>
     <string name="ignore_window_secure_summary">Esto elimina la limitación de captura y grabación de pantalla en todas las aplicaciones. Normalmente, determinadas aplicaciones son reemplazadas por áreas negras en las capturas. Esto puede ser útil en algunos casos pero puede conducir a filtraciones de datos. Tras cambiar esta opción, quizás necesites reiniciar las aplicaciones para que el cambio tenga efecto.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Uso diario de datos en ajustes rápidos</string>
+    <string name="qs_footer_datausage_summary">Mostrar resumen de uso de datos en el pie de página de ajustes rápidos</string>
 </resources>

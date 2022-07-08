@@ -133,9 +133,9 @@
     <string name="search">Hľadať</string>
     <string name="search_apps">Hľadať aplikácie</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">Možnosti predvoleného zámku</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">Nastavte zámok aplikácie, zámok karty SIM, zámok úložiska poverení</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
     <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
@@ -202,10 +202,13 @@
     <string name="back_gesture_haptic_title">Hmatová odozva</string>
     <string name="back_gesture_haptic_summary">Povoliť efekt krátkeho zavibrovanie pri použití gestá \"Späť\"</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">Hlasitosť aplikácie</string>
+    <string name="app_volume_title">Ovládanie hlasitosti podľa aplikácie</string>
+    <string name="app_volume_summary">Umožňuje nastaviť rôzne úrovne hlasitosti pre každú aplikáciu</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Ignorovať príznaky zabezpečenia okien</string>
+    <string name="ignore_window_secure_summary">Týmto sa odstránia obmedzenia snímok obrazovky a záznamov obrazovky pre všetky aplikácie. Normálne sú špeciálne aplikácie nahradené čiernymi oblasťami v záznamoch. V niektorých prípadoch to môže byť výhodné, ale môže to viesť k úniku súkromia. Po zmene tohto prepínača bude možno potrebné reštartovať aplikácie, aby sa zmena prejavila.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Denné využitie dát v päte QS</string>
+    <string name="qs_footer_datausage_summary">Zobraziť denné využitie dát v paneli rýchlych nastavení</string>
 </resources>

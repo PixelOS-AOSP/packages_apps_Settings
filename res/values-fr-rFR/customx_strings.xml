@@ -133,9 +133,9 @@
     <string name="search">Rechercher</string>
     <string name="search_apps">Rechercher des applications</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">Options de verrouillage par défaut</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">Verrouillage de l\'application, verrouillage de la carte SIM, verrouillage du stockage des identifiants</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Options de vibration appel entrant</string>
     <string name="incall_vibrate_connect_title">Vibrer lorsque la connexion est établie</string>
@@ -202,10 +202,13 @@
     <string name="back_gesture_haptic_title">Retour tactile</string>
     <string name="back_gesture_haptic_summary">Activer le retour tactile lors d\'un geste de retour</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">Volume par application</string>
+    <string name="app_volume_title">Contrôle du volume par application</string>
+    <string name="app_volume_summary">Permettre de définir différents niveaux de volume pour chaque application</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
+    <string name="ignore_window_secure_summary">Cela supprime les captures d\'écran et les limites des enregistrements d\'écran pour toutes les applications. Normalement, les applications spéciales sont remplacées par des zones noires dans les enregistrements. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Utilisation quotidienne des données dans le pied de page des réglages rapides</string>
+    <string name="qs_footer_datausage_summary">Afficher le résumé quotidien de l\'utilisation des données dans le pied de page des réglages rapides</string>
 </resources>

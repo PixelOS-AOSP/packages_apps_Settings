@@ -95,7 +95,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">അപ്‌സ്ട്രീം കണക്റ്റിവിറ്റിക്കായി ഈ ഉപകരണത്തിന്റെ VPN കണക്ഷനുകൾ ഉപയോഗിക്കാൻ ഹോട്ട്‌സ്‌പോട്ട് ക്ലയന്റുകളെ അനുവദിക്കുക</string>
     <string name="wifi_hotspot_hidden_ssid_title">മറച്ച നെറ്റ്‌വർക്ക്</string>
     <string name="wifi_hotspot_hidden_ssid_summary">ലഭ്യമായ WLAN നെറ്റ്‌വർക്കുകളുടെ പട്ടികയിൽ നിങ്ങളുടെ മൊബൈൽ ഹോട്ട്‌സ്‌പോട്ടിന്റെ പേര് ദൃശ്യമാകില്ല.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">ഹോട്ട്‌സ്‌പോട്ട് ഒരിക്കലും ഓഫ് ചെയ്യരുത്</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">ബന്ധിപ്പിച്ചിട്ടുള്ള ഉപകരണങ്ങൾ</string>
     <string name="wifi_hotspot_client_manager_summary">ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്ന ഉപകരണങ്ങൾ ലിസ്റ്റുചെയ്‌ത് നിയന്ത്രിക്കുക</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്ന ഉപകരണങ്ങൾ ലിസ്റ്റ് ചെയ്യുക</string>
@@ -207,4 +207,7 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
+    <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
 </resources>

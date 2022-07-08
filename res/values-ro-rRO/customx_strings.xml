@@ -85,7 +85,7 @@
     <string name="double_tap_sleep_gesture_title">Apăsare dublă pentru a opri ecranul</string>
     <string name="double_tap_sleep_gesture_summary">Atingeți de două ori oriunde pe bara de stare pentru a opri ecranul</string>
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="lockscreen_tweaks_category_title">Ce trebuie făcut</string>
+    <string name="lockscreen_tweaks_category_title">Ce se poate face</string>
     <string name="double_tap_sleep_lockscreen_title">Dublă atingere a ecranului de blocare pentru oprirea ecranului</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Control redare</string>
@@ -133,9 +133,9 @@
     <string name="search">Căutare</string>
     <string name="search_apps">Căutare aplicații</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">Opțiuni de blocare stoc</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">Setați Blocarea aplicațiilor, blocarea cartelei SIM, blocarea stocării acreditărilor</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opțiuni de vibrație în apel</string>
     <string name="incall_vibrate_connect_title">Vibrare la conectare apel</string>
@@ -202,10 +202,13 @@
     <string name="back_gesture_haptic_title">Vibrații la atingere</string>
     <string name="back_gesture_haptic_summary">Activare vibrație pentru gestul Înapoi</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">Volum aplicație</string>
+    <string name="app_volume_title">Control volum per-aplicație</string>
+    <string name="app_volume_summary">Permite setarea nivelelor de volum diferite pentru fiecare aplicație</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Ignoră semnalările sigure ale ferestrelor</string>
+    <string name="ignore_window_secure_summary">Acest lucru elimină limitările pentru capturile de ecran și înregistrările de ecran pentru toate aplicațiile. În mod normal, aplicațiile speciale sunt înlocuite cu zone negre în înregistrări. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate. După ce ați schimbat această opțiune, poate fi necesar să reporniți aplicațiile pentru ca modificarea să intre în vigoare.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Utilizarea zilnică a datelor în subsolul setărilor rapide</string>
+    <string name="qs_footer_datausage_summary">Afișează sumarul zilnic al utilizării datelor în subsolul setărilor rapide</string>
 </resources>

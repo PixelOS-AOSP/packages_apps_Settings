@@ -11,7 +11,7 @@
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <!-- Volume link notification -->
     <string name="ring_only_volume_option_title">Volume do toque</string>
-    <string name="volume_link_notification_title">Vincular volumes de toque &amp; e notificação</string>
+    <string name="volume_link_notification_title">Unir volumes do toque e notificação</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para capturar a tela</string>
@@ -54,7 +54,7 @@
     <string name="live_display_color_profile_srgb_summary">Cores correspondentes ao espaço de cores sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Cores correspondentes ao espaço de cores DCI-P3</string>
-    <string name="live_display_reading_mode_title">Modo de leitura</string>
+    <string name="live_display_reading_mode_title">Modo leitura</string>
     <string name="live_display_reading_mode_summary">Modo de tons de cinza para longos períodos de leitura</string>
     <string name="color_calibration_title">Calibração de cores</string>
     <string name="color_calibration_summary">Calibra as cores da tela</string>
@@ -108,12 +108,12 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível. Dispositivos conectados e bloqueados aparecerão quando disponíveis.</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver desligada</string>
+    <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver apagada</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
     <string name="torch_power_button_gesture_dt">Pressione o botão liga/desliga duas vezes (Desativa o recurso de câmera aberta rapidamente e adiciona 170ms atraso)</string>
-    <string name="torch_power_button_gesture_lp">Segurar botão Liga/Desliga</string>
+    <string name="torch_power_button_gesture_lp">Toque longo no botão Liga/Desliga</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">Brilho automático de captura única</string>
+    <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
     <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueio de apps</string>
@@ -133,7 +133,7 @@
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Opções de bloqueio</string>
+    <string name="aosp_security_settings_title">Opções de bloqueio e segurança</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Definir bloqueio de aplicativo, bloqueio do chip, criptografia e credenciais</string>
     <!-- Incall vibrate options -->
@@ -142,10 +142,10 @@
     <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Habilitar reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_title">Opções de reinício avançado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar as opções de recuperação e bootloader no menu de energia</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Intensidade da vibração &amp; da resposta tátil</string>
+    <string name="vibration_preferences">Intensidade da vibração e resposta tátil</string>
     <string name="summary_vibration_preferences">Mudar intensidade da vibração, padrão e mais</string>
     <string name="keywords_vibration_preferences">intensidade, padrão, vibração para chamadas, retorno tátil</string>
     <string name="ringtone_vibration_pattern">Vibração padrão do toque</string>
@@ -167,7 +167,7 @@
     <!-- Status bar - Network Traffic -->
     <string name="status_bar_title">Barra de Status</string>
     <string name="network_traffic_settings_title">Monitor de tráfego de rede</string>
-    <string name="network_traffic_mode_title">Modo da tela</string>
+    <string name="network_traffic_mode_title">Onde mostrar</string>
     <string name="network_traffic_mode_disable">Desativado</string>
     <string name="network_traffic_mode_status_bar">Barra de Status</string>
     <string name="network_traffic_mode_qs">Configurações rápidas</string>
@@ -208,4 +208,7 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
     <string name="ignore_window_secure_summary">Isso remove as restrições de captura de tela e gravação de tela para todos os aplicativos. Normalmente, aplicativos protegidos não permitem e emitem uma tela preta nos registros. Remover essa restrição pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. Após alterar este botão, você pode precisar reiniciar o aplicativo para que a alteração tenha efeito.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Uso diário de dados no rodapé das configurações rápidas</string>
+    <string name="qs_footer_datausage_summary">Exibir resumo de uso de dados diário no rodapé das configurações rápidas</string>
 </resources>

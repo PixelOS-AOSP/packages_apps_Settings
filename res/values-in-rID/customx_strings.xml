@@ -96,7 +96,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
     <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot seluler Anda tidak akan muncul dalam daftar jaringan WiFi yang tersedia.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Jangan pernah matikan hotspot</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Jangan pernah mematikan hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Perangkat yang tersambung</string>
     <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang tersambung ke hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang tersambung ke hotspot</string>
@@ -209,4 +209,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Abaikan bendera pengaman jendela</string>
     <string name="ignore_window_secure_summary">Ini menghapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Biasanya, aplikasi khusus diganti dengan area hitam dalam rekaman. Ini bisa nyaman dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi. Setelah mengubah sakelar ini, Anda mungkin perlu memulai ulang aplikasi agar perubahan diterapkan.</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Penggunaan data harian di setelan cepat bagian bawah</string>
+    <string name="qs_footer_datausage_summary">Tampilkan ringkasan penggunaan data di setelan cepat bagian bawah</string>
 </resources>
