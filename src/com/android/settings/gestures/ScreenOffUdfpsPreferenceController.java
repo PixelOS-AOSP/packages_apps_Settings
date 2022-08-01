@@ -49,25 +49,22 @@ public class ScreenOffUdfpsPreferenceController extends GesturePreferenceControl
         return this;
     }
 
-    private static boolean screenOffUdfpsAvailable(AmbientDisplayConfiguration config) {
-        return !TextUtils.isEmpty(config.udfpsLongPressSensorType());
-    }
-
-    public static boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
-        return isSuggestionComplete(new AmbientDisplayConfiguration(context), prefs);
+    private static boolean screenOffUdfpsAvailable(Context context, AmbientDisplayConfiguration config) {
+        return context.getResources().getBoolean(
+                com.android.internal.R.bool.config_supportsScreenOffUdfps) ||
+                    !TextUtils.isEmpty(config.udfpsLongPressSensorType());
     }
 
     @VisibleForTesting
-    static boolean isSuggestionComplete(AmbientDisplayConfiguration config,
-            SharedPreferences prefs) {
-        return !screenOffUdfpsAvailable(config)
+    static boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
+        return !screenOffUdfpsAvailable(context, new AmbientDisplayConfiguration(context))
                 || prefs.getBoolean(ScreenOffUdfpsSettings.PREF_KEY_SUGGESTION_COMPLETE, false);
     }
 
     @Override
     public int getAvailabilityStatus() {
         // No hardware support for Screen-Off UDFPS
-        if (!screenOffUdfpsAvailable(mAmbientConfig)) {
+        if (!screenOffUdfpsAvailable(mContext, mAmbientConfig)) {
             return UNSUPPORTED_ON_DEVICE;
         }
 
