@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="connected_tws_device_saved_title">Պահված ականջակալներ</string>
-    <string name="reset">Վերակայել</string>
+    <string name="reset">Վերականգնել</string>
     <string name="button_pref_title">Կոճակներ</string>
-    <string name="hardware_keys_home_key_title">Գլխավոր կոճակ</string>
+    <string name="hardware_keys_home_key_title">\"Տան\" կոճակ</string>
     <string name="hardware_keys_back_key_title">Կոճակ «վերադառնալ»</string>
     <string name="hardware_keys_menu_key_title">Կոճակ «Մենյու»</string>
     <string name="hardware_keys_assist_key_title">Կոճակ «Որոնել»</string>

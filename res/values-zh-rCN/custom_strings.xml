@@ -77,6 +77,4 @@
     <string name="face_unlock_method_swipe">在锁定屏幕上滑动时</string>
     <string name="high_touch_polling_rate_title">高触控采样率</string>
     <string name="high_touch_polling_rate_summary">提高屏幕的触控采样率</string>
-    <string name="screen_off_fod_title">息屏指纹</string>
-    <string name="screen_off_fod_summary">当屏幕关闭时，保持屏下指纹启用</string>
 </resources>

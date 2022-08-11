@@ -61,9 +61,17 @@
     <string name="keyboard_extras_title">Papildomai</string>
     <string name="advanced_keyboard_settings_title">Išplėstiniai nustatymai</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Raskite pirštų atspaudų jutiklį savo telefono priekyje.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Raskite pirštų atspaudų jutiklį savo telefono gale.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Raskite pirštų atspaudų jutiklį telefono šone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Palieskite jutiklį telefono priekyje.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Palieskite jutiklį telefono gale.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Palieskite jutiklį telefono šone.</string>
+    <string name="fast_charging_title">Greitasis įkrovimas</string>
+    <string name="fast_charging_summary">Išjungti, kad būtų sumažinta įrenginio skleidžiama šiluma kraunant ir prailgintas akumuliatoriaus veikimo laikas</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Pašalinti esamą veido nuskaitymą ir sukurti naują nuskaitymą</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Perdaryti veido nuskaitymą</string>
+    <string name="face_redo_confirm_btn">Perdaryti</string>
+    <string name="face_redo_warning_msg">Ar norite pašalinti esamą veido nuskaitymą ir sukurti naują?</string>
     <string name="face_unlock_method_title">Leiskite atrakinti veido atpažinimo funkcija užrakinimo ekrane</string>
     <string name="face_unlock_method_default">Įjungus ekraną </string>
     <string name="face_unlock_method_swipe">Perbraukus užrakto ekrane</string>

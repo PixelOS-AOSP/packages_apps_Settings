@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung ist nicht privat.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
     <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
     <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
     <string name="battery_saver_refresh_rate_title">Bildwiederholrate reduzieren</string>
@@ -34,7 +34,7 @@
     <string name="hardware_keys_long_tap_title">Aktion bei langem Drücken</string>
     <string name="button_wake_title">Gerät aufwecken</string>
     <string name="camera_sleep_on_release_title">Bilschirm-Vorschau</string>
-    <string name="camera_sleep_on_release_summary">Der Bildschirm bleibt aktiviert, solange die Kamera-Taste halb durchgedrückt gehalten wird.</string>
+    <string name="camera_sleep_on_release_summary">Bei halbem Drücken bleibt der Bildschirm nur so lange an, wie die Taste gedrückt wird.</string>
     <string name="camera_launch_title">Kamera starten</string>
     <string name="camera_launch_summary">Langes Drücken und Loslassen startet die Kamera</string>
     <string name="button_backlight_title">Hintergrundbeleuchtung</string>
@@ -57,15 +57,15 @@
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
-    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
+    <string name="touchscreen_hovering_summary">Ermöglicht es Ihnen, den Bildschirm in Webbrowsern, Remote-Desktops usw. wie eine Maus zu bewegen</string>
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Suchen Sie den Fingerabdrucksensor an der Rückseite Ihres Telefons.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Suchen Sie den Fingerabdrucksensor an der Seite Ihres Telefons.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front">Berühren Sie den Sensor an der Vorderseite des Geräts.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Berühren Sie den Sensor an der Rückseite des Geräts.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Berühren Sie den Sensor an der Seite des Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Fingerabdrucksensor auf der Rückseite Ihres Telefons suchen.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Fingerabdrucksensor an der Seite Ihres Telefons suchen.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sensor auf der Vorderseite Ihres Telefons berühren.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sensor auf der Rückseite Ihres Telefons berühren.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sensor an der Seite Ihres Telefons berühren.</string>
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren Sie diese Option, um die Wärmeerzeugung beim Laden zu reduzieren und Lebensdauer des Akku zu verlängern</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Bestehenden Gesichtsscan entfernen und einen neuen Scan erstellen</string>

@@ -76,4 +76,6 @@
     <string name="face_unlock_method_title">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಅನುಮತಿಸಿ</string>
     <string name="face_unlock_method_default">ಸ್ಕ್ರೀನ್ ಆನ್ ಮಾಡಿದಾಗ</string>
     <string name="face_unlock_method_swipe">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಸ್ವೈಪ್ ಮಾಡುವಾಗ</string>
+    <string name="high_touch_polling_rate_title">ಹೆಚ್ಚಿನ ಸ್ಪರ್ಶ ಪೋಲ್ಲಿಂಗ್ ಪ್ರಮಾಣ</string>
+    <string name="high_touch_polling_rate_summary">ಟಚ್‌ಸ್ಕ್ರೀನ್ ಪೋಲ್ಲಿಂಗ್ ದರವನ್ನು ಹೆಚ್ಚಿಸಿ</string>
 </resources>

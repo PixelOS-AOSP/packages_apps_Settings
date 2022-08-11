@@ -67,6 +67,4 @@
     <string name="face_redo_warning_msg">Želite li izbrisati postojeći sken lica i kreirati novi?</string>
     <string name="high_touch_polling_rate_title">Visoka stopa prozivanja dodirom</string>
     <string name="high_touch_polling_rate_summary">Povećaj stopu prozivanja zaslona osjetljivog na dodir</string>
-    <string name="screen_off_fod_title">Isklj. zaslon FOD</string>
-    <string name="screen_off_fod_summary">Neka FOD bude uključen kada je zaslon isključen</string>
 </resources>
