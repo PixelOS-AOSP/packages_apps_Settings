@@ -110,7 +110,7 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver apagada</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
-    <string name="torch_power_button_gesture_dt">Pressione o botão liga/desliga duas vezes (Desativa o recurso de câmera aberta rapidamente e adiciona 170ms atraso)</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo no botão Liga/Desliga (O toque duplo para a câmera ficará indisponível)</string>
     <string name="torch_power_button_gesture_lp">Toque longo no botão Liga/Desliga</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
@@ -207,8 +207,17 @@
     <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
-    <string name="ignore_window_secure_summary">Isso remove as restrições de captura de tela e gravação de tela para todos os aplicativos. Normalmente, aplicativos protegidos não permitem e emitem uma tela preta nos registros. Remover essa restrição pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. Após alterar este botão, você pode precisar reiniciar o aplicativo para que a alteração tenha efeito.</string>
+    <string name="ignore_window_secure_summary">Remova as restrições de captura e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos , mas pode facilitar o furto de dados. (Use com cautela)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Uso diário de dados no rodapé das configurações rápidas</string>
     <string name="qs_footer_datausage_summary">Exibir resumo de uso de dados diário no rodapé das configurações rápidas</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar o PIN ao desbloquear o dispositivo</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha for inserido corretamente</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

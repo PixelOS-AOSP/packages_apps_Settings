@@ -83,10 +83,10 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Appuyer pour mettre en veille</string>
-    <string name="double_tap_sleep_gesture_summary">Double appui n\'importe où sur la barre d\'état pour mettre l\'appareil en veille</string>
+    <string name="double_tap_sleep_gesture_summary">Appuyez deux fois n\'importe où sur la barre d\'état pour mettre l\'appareil en veille</string>
     <!--Double Tap to Sleep Lockscreen-->
     <string name="lockscreen_tweaks_category_title">Que faire</string>
-    <string name="double_tap_sleep_lockscreen_title">Double appui pour mettre en veille sur l\'écran de verrouillage</string>
+    <string name="double_tap_sleep_lockscreen_title">Appuyez deux fois pour mettre en veille sur l\'écran de verrouillage</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de passer des pistes musicales</string>
@@ -187,9 +187,9 @@
     <string name="enable_fingerprint_ripple_effect_title">Effet d\'ondulation</string>
     <string name="enable_fingerprint_ripple_effect_summary">Afficher l\'effet d\'ondulation en déverrouillant avec l\'empreinte digitale</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double appui</string>
-    <string name="doze_double_tap_title">Double appui pour vérifier le téléphone</string>
-    <string name="doze_double_tap_summary">Notification par impulsion lumineuse lors d\'un double appui</string>
+    <string name="double_tap_title">Appui double</string>
+    <string name="doze_double_tap_title">Appuyez deux fois pour vérifier le téléphone</string>
+    <string name="doze_double_tap_summary">Notification par impulsion lumineuse lors d\'un appui double</string>
     <!-- Gesture settings categories -->
     <string name="gesture_navigation_category_title">Navigation</string>
     <string name="gesture_screen_category_title">Écran</string>
@@ -207,8 +207,17 @@
     <string name="app_volume_summary">Permettre de définir différents niveaux de volume pour chaque application</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
-    <string name="ignore_window_secure_summary">Cela supprime les captures d\'écran et les limites des enregistrements d\'écran pour toutes les applications. Normalement, les applications spéciales sont remplacées par des zones noires dans les enregistrements. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
+    <string name="ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité.</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilisation quotidienne des données dans le pied de page des réglages rapides</string>
     <string name="qs_footer_datausage_summary">Afficher le résumé quotidien de l\'utilisation des données dans le pied de page des réglages rapides</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
+    <string name="unlock_scramble_pin_layout_summary">Mélanger la disposition des chiffres de saisie du code PIN lors du déverrouillage</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'appareil lorsque le bon code PIN/mot de passe est saisi</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

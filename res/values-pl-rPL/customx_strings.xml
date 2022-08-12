@@ -206,8 +206,17 @@
     <string name="app_volume_summary">Zezwalaj na ustawienie różnych poziomów głośności dla każdej aplikacji</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignoruj bezpieczne flagi okna</string>
-    <string name="ignore_window_secure_summary">Usuwa to limity zrzutów ekranu i ekranów dla wszystkich aplikacji. Zazwyczaj aplikacje specjalne są zastępowane czarnymi obszarami w rekordach. W niektórych przypadkach może to być wygodne, ale może prowadzić do wycieku prywatności. Po zmianie tego przełącznika może być konieczne ponowne uruchomienie aplikacji, aby zmiany zaczęły obowiązywać.</string>
+    <string name="ignore_window_secure_summary">Usuń limity zrzutów ekranu i ekranu dla wszystkich aplikacji. Może to być wygodne w niektórych przypadkach, ale może prowadzić do wycieków prywatności.</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Dzienne użycie danych w stopce QS</string>
     <string name="qs_footer_datausage_summary">Wyświetl dzienne podsumowanie użycia danych w stopce szybkich ustawień</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Układ mieszany</string>
+    <string name="unlock_scramble_pin_layout_summary">Wymieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

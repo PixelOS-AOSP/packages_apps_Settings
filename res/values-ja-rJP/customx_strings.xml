@@ -207,8 +207,17 @@
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">ウィンドウのセキュアフラグを無視</string>
-    <string name="ignore_window_secure_summary">全てのアプリへのスクリーンショットや画面録画の制限を解除します。基本的に録画では特別なアプリは黒く領域が塗り潰されます。いくつかの場合で便利になることがありますが、プライバシー保護が脆弱になる可能性があります。この設定切り替えの後、効果を反映させるにはアプリの再起動が必要になる可能性があります。</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">クイック設定フッターのデータ使用量</string>
     <string name="qs_footer_datausage_summary">クイック設定のフッターにデータ使用量を表示する</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

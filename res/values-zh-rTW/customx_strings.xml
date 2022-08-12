@@ -95,7 +95,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">允許無線基地台的連線裝置使用此裝置\u2019的 VPN 連接到上游</string>
     <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
     <string name="wifi_hotspot_hidden_ssid_summary">您的無線基地台名稱不會出現在WiFi列表中。</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">永不自動關閉無線基地台</string>
     <string name="wifi_hotspot_client_manager_title">已連線的裝置</string>
     <string name="wifi_hotspot_client_manager_summary">列出和管理已連線到無線基地台的裝置</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">列出已連線到無線基地台的裝置</string>
@@ -133,9 +133,9 @@
     <string name="search">搜尋</string>
     <string name="search_apps">搜尋應用程式</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">預設鎖定設定</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">設定應用程式鎖、SIM卡鎖定、憑證儲存區鎖</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">通話中震動選項</string>
     <string name="incall_vibrate_connect_title">接通時震動</string>
@@ -202,13 +202,22 @@
     <string name="back_gesture_haptic_title">震動回饋</string>
     <string name="back_gesture_haptic_summary">啟用返回手勢的震動回饋</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">應用程式音量</string>
+    <string name="app_volume_title">個別應用音量控制</string>
+    <string name="app_volume_summary">允許針對個別應用程式設定音量</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">忽略某些應用禁止用戶擷取螢幕的標示</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
-    <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
+    <string name="qs_footer_datausage_title">快速設定面板底部的每日行動數據用量</string>
+    <string name="qs_footer_datausage_summary">在快速設定面板的底部顯示當天的行動數據使用情況</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

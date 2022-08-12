@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Package details -->
-    <string name="package_details_group_title">Package details</string>
-    <string name="package_name">Package name</string>
-    <string name="package_version">Package version</string>
+    <string name="package_details_group_title">Detalhes do pacote</string>
+    <string name="package_name">Nome do pacote</string>
+    <string name="package_version">Versão do pacote</string>
     <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">Ring volume</string>
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="ring_only_volume_option_title">Volume de toque</string>
+    <string name="volume_link_notification_title">Associar volumes de toque &amp; notificação</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Deslizar para capturar o ecrã</string>
+    <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para tirar uma captura de ecrã</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Otimiza o ecrã com base na hora do dia e condições do ambiente para melhorar a legibilidade e reduzir a fadiga ocular</string>
+    <string name="live_display_mode">Modo de exibição</string>
+    <string name="live_display_color_temperature_title">Temperatura de cor</string>
+    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar o brilho e saturação automaticamente sob luz solar intensa</string>
+    <string name="live_display_anti_flicker_title">Anti-oscilação</string>
     <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
@@ -207,8 +207,17 @@
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
     <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>

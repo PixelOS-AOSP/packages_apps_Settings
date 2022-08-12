@@ -207,8 +207,17 @@
     <string name="app_volume_summary">Permite setarea nivelelor de volum diferite pentru fiecare aplicație</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignoră semnalările sigure ale ferestrelor</string>
-    <string name="ignore_window_secure_summary">Acest lucru elimină limitările pentru capturile de ecran și înregistrările de ecran pentru toate aplicațiile. În mod normal, aplicațiile speciale sunt înlocuite cu zone negre în înregistrări. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate. După ce ați schimbat această opțiune, poate fi necesar să reporniți aplicațiile pentru ca modificarea să intre în vigoare.</string>
+    <string name="ignore_window_secure_summary">Elimină limitarea capturilor de ecran și înregistrărilor de ecran pentru toate aplicațiile. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate.</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilizarea zilnică a datelor în subsolul setărilor rapide</string>
     <string name="qs_footer_datausage_summary">Afișează sumarul zilnic al utilizării datelor în subsolul setărilor rapide</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Amestecă așezarea tastelor</string>
+    <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a ecranului de PIN atunci când se deblochează dispozitivul</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce codul PIN/parola corectă</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">This will hide the power menu only on a secure lock screen</string>
 </resources>
