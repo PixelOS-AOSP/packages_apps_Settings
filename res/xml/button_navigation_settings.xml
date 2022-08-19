@@ -37,5 +37,11 @@
         settings:controller="com.android.settings.gestures.ButtonNavigationSettingsAssistController"
     />
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navbar_invert_layout_title"
+        android:summary="@string/navbar_invert_info"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
 
