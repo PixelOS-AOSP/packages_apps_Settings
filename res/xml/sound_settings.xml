@@ -168,6 +168,13 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="false"
+        android:order="-11" />
+
     <Preference
         android:key="sound_settings_advanced"
         android:title="@string/sound_settings_advanced_title"
