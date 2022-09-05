@@ -35,6 +35,7 @@ import com.android.settings.homepage.contextualcards.slices.DarkThemeSlice;
 import com.android.settings.homepage.contextualcards.slices.FaceSetupSlice;
 import com.android.settings.homepage.contextualcards.slices.LowStorageSlice;
 import com.android.settings.location.LocationSlice;
+import com.android.settings.media.AppVolumeSlice;
 import com.android.settings.media.MediaOutputIndicatorSlice;
 import com.android.settings.media.RemoteMediaSlice;
 import com.android.settings.network.ProviderModelSlice;
@@ -293,6 +294,16 @@ public class CustomSliceRegistry {
             .appendPath("always_on_display")
             .build();
 
+    /**
+     * Backing Uri for the App Volume Slice.
+     */
+    public static Uri APP_VOLUME_SLICE_URI = new Uri.Builder()
+            .scheme(ContentResolver.SCHEME_CONTENT)
+            .authority(SettingsSliceProvider.SLICE_AUTHORITY)
+            .appendPath(SettingsSlicesContract.PATH_SETTING_ACTION)
+            .appendPath("app_volume")
+            .build();
+
     @VisibleForTesting
     static final Map<Uri, Class<? extends CustomSliceable>> sUriToSlice;
 
@@ -313,6 +324,7 @@ public class CustomSliceRegistry {
         sUriToSlice.put(CONTEXTUAL_ADAPTIVE_SLEEP_URI, ContextualAdaptiveSleepSlice.class);
         sUriToSlice.put(LOW_STORAGE_SLICE_URI, LowStorageSlice.class);
         sUriToSlice.put(BLUETOOTH_DEVICES_SLICE_URI, BluetoothDevicesSlice.class);
+        sUriToSlice.put(APP_VOLUME_SLICE_URI, AppVolumeSlice.class);
     }
 
     public static Class<? extends CustomSliceable> getSliceClassByUri(Uri uri) {
