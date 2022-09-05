@@ -209,6 +209,13 @@
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="high_touch_sensitivity_enable"
+            android:title="@string/high_touch_sensitivity_title"
+            android:summary="@string/high_touch_sensitivity_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.custom.touch.HighTouchSensitivitySettingsPreferenceController" />
+
         <!-- Double tap to sleep -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
