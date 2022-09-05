@@ -38,6 +38,5 @@
               <include layout = "@layout/storage_wizard_init_internal" />
           </ViewFlipper>
       </LinearLayout>
-
   </com.google.android.setupdesign.GlifLayout>
 </RelativeLayout>
