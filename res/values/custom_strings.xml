@@ -49,4 +49,8 @@
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
     <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
     <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
