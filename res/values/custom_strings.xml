@@ -308,4 +308,8 @@
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
 </resources>
