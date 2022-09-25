@@ -201,12 +201,6 @@ x
         android:defaultValue="false"
         android:order="-28" />
 
-    <!-- Show vibrate icon in status bar -->
-    <SwitchPreference
-        android:key="vibrate_icon"
-        android:title="@string/vibrate_icon_title"
-        android:order="-27"/>
-
     <!-- Dock speaker plays -->
     <DropDownPreference
         android:key="dock_audio_media"
