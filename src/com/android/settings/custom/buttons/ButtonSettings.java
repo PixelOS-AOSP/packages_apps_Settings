@@ -284,44 +284,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mCameraSleepOnRelease.setDependency(Settings.System.CAMERA_WAKE_SCREEN);
             }
         }
-
-        // Override key actions on Go devices in order to hide any unsupported features
-        if (ActivityManager.isLowRamDeviceStatic()) {
-            String[] actionEntriesGo = res.getStringArray(R.array.hardware_keys_action_entries_go);
-            String[] actionValuesGo = res.getStringArray(R.array.hardware_keys_action_values_go);
-
-            if (hasHomeKey) {
-                mHomeLongPressAction.setEntries(actionEntriesGo);
-                mHomeLongPressAction.setEntryValues(actionValuesGo);
-
-                mHomeDoubleTapAction.setEntries(actionEntriesGo);
-                mHomeDoubleTapAction.setEntryValues(actionValuesGo);
-            }
-
-            if (hasMenuKey) {
-                mMenuPressAction.setEntries(actionEntriesGo);
-                mMenuPressAction.setEntryValues(actionValuesGo);
-
-                mMenuLongPressAction.setEntries(actionEntriesGo);
-                mMenuLongPressAction.setEntryValues(actionValuesGo);
-            }
-
-            if (hasAssistKey) {
-                mAssistPressAction.setEntries(actionEntriesGo);
-                mAssistPressAction.setEntryValues(actionValuesGo);
-
-                mAssistLongPressAction.setEntries(actionEntriesGo);
-                mAssistLongPressAction.setEntryValues(actionValuesGo);
-            }
-
-            if (hasAppSwitchKey) {
-                mAppSwitchPressAction.setEntries(actionEntriesGo);
-                mAppSwitchPressAction.setEntryValues(actionValuesGo);
-
-                mAppSwitchLongPressAction.setEntries(actionEntriesGo);
-                mAppSwitchLongPressAction.setEntryValues(actionValuesGo);
-            }
-        }
     }
 
     private static boolean isKeySwapperSupported(Context context) {
