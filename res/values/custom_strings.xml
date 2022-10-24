@@ -310,4 +310,8 @@
 
     <!-- Battery light -->
     <string name="battery_light_title">Turn on the light when charging</string>
+
+    <!-- Black background -->
+    <string name="black_bg_title">Black background</string>
+    <string name="black_bg_summary">Use an absolute black background when dark mode is on</string>
 </resources>
