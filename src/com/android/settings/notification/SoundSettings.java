@@ -259,51 +259,6 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         controllers.add(new AlarmRingtonePreferenceController(context));
         controllers.add(new NotificationRingtonePreferenceController(context));
 
-        // === Other Sound Settings ===
-        final DialPadTonePreferenceController dialPadTonePreferenceController =
-                new DialPadTonePreferenceController(context, fragment, lifecycle);
-        final ScreenLockSoundPreferenceController screenLockSoundPreferenceController =
-                new ScreenLockSoundPreferenceController(context, fragment, lifecycle);
-        final ChargingSoundPreferenceController chargingSoundPreferenceController =
-                new ChargingSoundPreferenceController(context, fragment, lifecycle);
-        final DockingSoundPreferenceController dockingSoundPreferenceController =
-                new DockingSoundPreferenceController(context, fragment, lifecycle);
-        final TouchSoundPreferenceController touchSoundPreferenceController =
-                new TouchSoundPreferenceController(context, fragment, lifecycle);
-        final DockAudioMediaPreferenceController dockAudioMediaPreferenceController =
-                new DockAudioMediaPreferenceController(context, fragment, lifecycle);
-        final BootSoundPreferenceController bootSoundPreferenceController =
-                new BootSoundPreferenceController(context);
-        final EmergencyTonePreferenceController emergencyTonePreferenceController =
-                new EmergencyTonePreferenceController(context, fragment, lifecycle);
-        final VibrateIconPreferenceController vibrateIconPreferenceController =
-                new VibrateIconPreferenceController(context, fragment, lifecycle);
-        final ScreenshotSoundPreferenceController screenshotSoundPreferenceController =
-                new ScreenshotSoundPreferenceController(context, fragment, lifecycle);
-
-        controllers.add(dialPadTonePreferenceController);
-        controllers.add(screenLockSoundPreferenceController);
-        controllers.add(chargingSoundPreferenceController);
-        controllers.add(dockingSoundPreferenceController);
-        controllers.add(touchSoundPreferenceController);
-        controllers.add(vibrateIconPreferenceController);
-        controllers.add(dockAudioMediaPreferenceController);
-        controllers.add(bootSoundPreferenceController);
-        controllers.add(emergencyTonePreferenceController);
-        controllers.add(screenshotSoundPreferenceController);
-        controllers.add(new PreferenceCategoryController(context,
-                "other_sounds_and_vibrations_category").setChildren(
-                Arrays.asList(dialPadTonePreferenceController,
-                        screenLockSoundPreferenceController,
-                        chargingSoundPreferenceController,
-                        dockingSoundPreferenceController,
-                        touchSoundPreferenceController,
-                        vibrateIconPreferenceController,
-                        dockAudioMediaPreferenceController,
-                        bootSoundPreferenceController,
-                        emergencyTonePreferenceController,
-                        screenshotSoundPreferenceController)));
-
         return controllers;
     }
 
