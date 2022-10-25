@@ -96,7 +96,7 @@ x
         android:title="@string/app_volume_title"
         android:summary="@string/app_volume_summary"
         android:defaultValue="false"
-        android:order="-5"/>
+        android:order="-15"/>
 
     <!-- TODO(b/174964721): make this a PrimarySwitchPreference -->
     <!-- Interruptions -->
@@ -190,42 +190,6 @@ x
         android:ringtoneType="alarm"
         android:order="-60"/>
 
-    <!-- Dial pad tones -->
-    <SwitchPreference
-        android:key="dial_pad_tones"
-        android:title="@string/dial_pad_tones_title"
-        android:order="-50"/>
-
-    <!-- Screen locking sounds -->
-    <SwitchPreference
-        android:key="screen_locking_sounds"
-        android:title="@string/screen_locking_sounds_title"
-        android:order="-45"/>
-
-    <!-- Screenshot sound -->
-    <SwitchPreference
-        android:key="screenshot_shutter_sound"
-        android:title="@string/screenshot_shutter_sound_title"
-        android:order="-43"/>
-
-    <!-- Charging sounds -->
-    <SwitchPreference
-        android:key="charging_sounds"
-        android:title="@string/charging_sounds_title"
-        android:order="-40"/>
-
-    <!-- Docking sounds -->
-    <SwitchPreference
-        android:key="docking_sounds"
-        android:title="@string/docking_sounds_title"
-        android:order="-35"/>
-
-    <!-- Touch sounds -->
-    <SwitchPreference
-        android:key="touch_sounds"
-        android:title="@string/touch_sounds_title"
-        android:order="-30"/>
-
     <!-- Volume panel to left -->
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="volume_panel_on_left"
@@ -234,31 +198,17 @@ x
         android:defaultValue="false"
         android:order="-28" />
 
-    <!-- Dock speaker plays -->
-    <DropDownPreference
-        android:key="dock_audio_media"
-        android:title="@string/dock_audio_media_title"
-        android:summary="%s"
-        android:order="-20"/>
-
-    <!-- Boot sounds -->
-    <SwitchPreference
-        android:key="boot_sounds"
-        android:title="@string/boot_sounds_title"
-        android:order="-15"/>
-
-    <!-- Emergency tone -->
-    <DropDownPreference
-        android:key="emergency_tone"
-        android:title="@string/emergency_tone_title"
-        android:summary="%s"
-        android:order="-10"/>
-
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
+
+    <Preference
+        android:key="sound_settings_advanced"
+        android:title="@string/sound_settings_advanced_title"
+        android:fragment="com.android.settings.notification.AdvancedSoundSettings"
+        android:order="-10" />
 
 </PreferenceScreen>
