@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-22 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">انقر لعرض المعلومات</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">لا توجد شهادة محددة. الاتصال الخاص بك لن يكون خاصاً.</string>
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">مرر لالتقاط صورة للشاشة</string>
+    <string name="swipe_to_screenshot_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">إدارة الأيقونات</string>
+    <string name="icon_manager_summary">التحكم في ظهور أيقونات شريط الحالة</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">اضغط مطولا على مستشعر البصمة لفتح الهاتف</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">لإيقاظ الشاشة وفتح القفل، اضغط مطولاً على مستشعر بصمة الإصبع تحت الشاشة.</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">المس البصمة لالغاء القفل</string>
+    <string name="fingerprint_wake_unlock_touch">استمع للاحداث فى حاله الشاشه مغلقه</string>
+    <string name="fingerprint_wake_unlock_press">استمع للاحداث فى حاله الشاشه مضائه</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">قم بتشغيل الضوء عند الشحن</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">تطبيقات الشاشة الكاملة</string>
+    <string name="display_cutout_force_fullscreen_summary">إجبار التطبيقات على تجاهل مساحة النوتش</string>
+    <string name="search">بحث</string>
+    <string name="search_apps">البحث عن التطبيقات</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">انقر للإطفاء</string>
+    <string name="double_tap_sleep_gesture_summary">الضغط مرتين على شريط الحالة لقفل الجهاز</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">الإضاءه السريعه</string>
+    <string name="power_button_torch_summary">عندما تكون الشاشة متوقفة، الضغط المطول على زر الطاقة لتشغيل الفلاش</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">أقل من دقيقة</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">الاشعارات المزعجة</string>
+    <string name="notification_sound_vib_screen_on_summary">تشغيل الصوت والاهتزاز للإشعارات عندما تكون الشاشة قيد التشغيل</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">خيارات الاهتزاز أثناء المكالمة</string>
+    <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
+    <string name="incall_vibrate_call_wait_title">إهتزاز أثناء انتظار المكالمة</string>
+    <string name="incall_vibrate_disconnect_title">إهتزاز عند قطع الاتصال</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ربط مستوى الرنين &amp; مع الاشعارات</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">حساسية لمس عالي</string>
+    <string name="high_touch_sensitivity_summary">زيادة حساسية شاشة اللمس حتى يمكن استخدامها أثناء ارتداء القفازات</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">تحلق الشاشة</string>
+    <string name="touchscreen_hovering_summary">يسمح لك بتمرير الشاشة مثل الماوس في متصفحات الويب، سطح المكتب عن بعد، إلخ</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">معدل تصويت عالي اللمس</string>
+    <string name="high_touch_polling_rate_summary">زيادة معدل التصويت لشاشة اللمس</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">تحسين الشاشة بناء على الوقت من اليوم والظروف المحيطة لتحسين قابلية القراءة وتقليل إجهاد العين</string>
+    <string name="live_display_mode">وضع العرض</string>
+    <string name="live_display_color_temperature_title">درجة حرارة الألوان</string>
+    <string name="live_display_color_temperature_summary">اليوم: <xliff:g id="day_temperature">%1$d</xliff:g>K الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">يوم</string>
+    <string name="live_display_night">الليل</string>
+    <string name="live_display_outdoor_mode_title">الوضع التلقائي للخارج</string>
+    <string name="live_display_outdoor_mode_summary">زيادة السطوع والتشبع تلقائياً تحت أشعة الشمس المشرقة</string>
+    <string name="live_display_anti_flicker_title">مانع التردد</string>
+    <string name="live_display_anti_flicker_summary">منع التشويش المكثف وتقليل ضغط العين في ظروف الضوء المنخفضة. قد يؤدي إلى تدهور دقة الألوان والتأثير على طريقة عرض بعض العناصر.</string>
+    <string name="live_display_low_power_title">تقليل استهلاك الطاقة</string>
+    <string name="live_display_low_power_summary">ضبط شاشه العرض لاستهلاك طاقة اقل بدون تنازل</string>
+    <string name="live_display_enhance_color_title">تحسين الألوان</string>
+    <string name="live_display_enhance_color_summary">تحسين حيوية لون والمناظر الطبيعية والصور الأخرى</string>
+    <string name="live_display_color_profile_title">ملف الألوان</string>
+    <string name="live_display_color_profile_standard_title">قياسي</string>
+    <string name="live_display_color_profile_standard_summary">ألوان دقيقة وبياض مشرق</string>
+    <string name="live_display_color_profile_natural_title">طبيعي</string>
+    <string name="live_display_color_profile_natural_summary">الألوان الواقعية</string>
+    <string name="live_display_color_profile_dynamic_title">حيوي</string>
+    <string name="live_display_color_profile_dynamic_summary">ألوان محسنة وبياض مشرق</string>
+    <string name="live_display_color_profile_cinema_title">سينما</string>
+    <string name="live_display_color_profile_cinema_summary">إعادة إنتاج لون مثالي للفيديو</string>
+    <string name="live_display_color_profile_astronomy_title">الفلك</string>
+    <string name="live_display_color_profile_astronomy_summary">أحمر عميق للحفاظ على الرؤية الليلية</string>
+    <string name="live_display_color_profile_photography_title">التصويري</string>
+    <string name="live_display_color_profile_photography_summary">إعادة إنتاج لون مثالي الصور</string>
+    <string name="live_display_color_profile_basic_title">اساسي</string>
+    <string name="live_display_color_profile_basic_summary">استخدام العرض غير معايرة</string>
+    <string name="live_display_color_profile_adaptive_title">متكيف</string>
+    <string name="live_display_color_profile_adaptive_summary">تتكيف الألوان مع الظروف المحيطة</string>
+    <string name="live_display_color_profile_reading_title">قراءة</string>
+    <string name="live_display_color_profile_reading_summary">ألوان أكثر دفئاً لتقليل إجهاد العين</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">ألوان دقيقة للون المساحة sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">ألوان دقيقة في مساحة الألوان DCI-P3</string>
+    <string name="live_display_reading_mode_title">وضع القراءة</string>
+    <string name="live_display_reading_mode_summary">وضع القياس الرمادي للقراءة الطويلة الأجل</string>
+    <string name="color_calibration_title">معايرة الألوان</string>
+    <string name="color_calibration_summary">معايرة الألوان على الشاشة</string>
+    <string name="color_red_title">أحمر</string>
+    <string name="color_green_title">أخضر</string>
+    <string name="color_blue_title">ازرق</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">تعديل الصورة</string>
+    <string name="picture_adjustment_summary">ضبط درجة اللون والتشبع والكثافة والتباين</string>
+    <string name="adj_hue_title">درجة اللون</string>
+    <string name="adj_saturation_title">التشبع</string>
+    <string name="adj_intensity_title">الكثافة</string>
+    <string name="adj_contrast_title">التباين</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">النقر المزدوج</string>
+    <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
+    <string name="doze_double_tap_summary">اظهار الاشعارات بالنقر مرتين</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">التحكم في الموسيقى</string>
+    <string name="volume_button_music_control_summary">عند إيقاف تشغيل الشاشة، الضغط المطول على مفاتيح الصوت سيتخطى مسارات الموسيقى</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">تفعيل إعادة التشغيل المتقدمة</string>
+    <string name="global_actions_advanced_reboot_summary">إظهار خيارات الاسترداد والبوتلودر في قائمة التشغيل</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">ترتيب عشوائي</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب أزرار رمز PIN بصورة عشوائية عند فك قفل الجهاز</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">السماح للمتصلين باستخدام VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح للمتصلين بنقطة الاتصال النقالة باستخدام اتصالات VPN لجهاز\u2019 من أجل الإرسال</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">تجاهل أعلام النافذة الآمنة</string>
+    <string name="ignore_window_secure_summary">ازاله الحظر لاخذ لقطه او تسجيل للشاشه من كل التطبيقات. غير مرشح وقد يؤدى لتسريبات الخصوصيه.</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">الفتح السريع</string>
+    <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عند إدخال رمز PIN/كلمة المرور الصحيحة</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">مستوى صوت التطبيق</string>
+    <string name="app_volume_title">التحكم في الصوت لكل تطبيق</string>
+    <string name="app_volume_summary">السماح بتعيين مستويات صوت مختلفة لكل تطبيق</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">تأثير الموجة</string>
+    <string name="enable_fingerprint_ripple_effect_summary">إظهار تأثير تموّج عند إلغاء القُفل باستخدام بصمة الإصبع</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">الحد الاقصى لمعدل تحديث الشاشه</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">الحد الادنى لمعدل تحديث الشاشه</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">الحد الأدنى من الوقت بين أصوات الإشعارات</string>
+    <string name="app_notification_sound_timeout_summary_template">السماح بالصوت أو الاهتزاز ليس لأكثر من مرة واحدة كل <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">لا توجد قيود</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">١٠ ثواني</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">٣٠ ثانية</string>
+    <string name="app_notification_sound_timeout_value_1_minute">دقيقة واحدة</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">٥ دقائق</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">١٠ دقائق</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">٣٠ دقيقة</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">شريط التنقل</string>
+    <string name="immersive_navigation_title">التنقل الغامر</string>
+    <string name="immersive_navigation_summary">إخفاء شريط الإيماءات وحواجز شريط التنقل.</string>
+    <!-- Black background -->
+    <string name="black_bg_title">خلفية سوداء</string>
+    <string name="black_bg_summary">استخدام خلفية سوداء مطلقة عندما يكون الوضع المظلم قيد التشغيل</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="longpress_to_clipboard">اضغط مطولاً للنسخ</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">إعدادات إضافية</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">معدل التحديث</string>
+</resources>
