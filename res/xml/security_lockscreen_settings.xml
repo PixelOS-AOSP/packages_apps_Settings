@@ -39,6 +39,12 @@
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
 
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="power_menu_hide_on_secure"
+            android:title="@string/power_menu_hide_on_secure_title"
+            android:summary="@string/power_menu_hide_on_secure_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="security_display_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
