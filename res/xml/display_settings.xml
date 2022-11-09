@@ -219,6 +219,7 @@
                 android:title="@string/qs_show_data_usage_title"
                 android:summary="@string/qs_show_data_usage_summary"
                 android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
