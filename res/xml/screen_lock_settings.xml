@@ -52,4 +52,10 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_enable_power_menu"
+        android:title="@string/lockscreen_enable_power_menu_title"
+        android:summary="@string/lockscreen_enable_power_menu_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
