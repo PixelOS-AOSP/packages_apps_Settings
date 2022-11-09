@@ -219,6 +219,13 @@
                 android:title="@string/qs_show_data_usage_title"
                 android:summary="@string/qs_show_data_usage_summary"
                 android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+               android:key="window_ignore_secure"
+               android:title="@string/ignore_window_secure_title"
+               android:summary="@string/ignore_window_secure_summary"
+               android:defaultValue="false"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
