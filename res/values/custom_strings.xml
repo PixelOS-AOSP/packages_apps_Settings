@@ -236,4 +236,8 @@
     <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
     <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+
 </resources>
