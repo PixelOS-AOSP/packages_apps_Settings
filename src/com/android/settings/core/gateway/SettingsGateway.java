@@ -181,8 +181,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
-import com.google.android.settings.security.SecurityHubDashboard;
-
 public class SettingsGateway {
 
     /**
@@ -350,8 +348,7 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            LiveDisplaySettings.class.getName(),
-            SecurityHubDashboard.class.getName()
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
