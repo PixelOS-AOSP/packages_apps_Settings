@@ -127,9 +127,6 @@
     <string name="double_tap_title">Appui double</string>
     <string name="doze_double_tap_title">Appuyez deux fois pour vérifier le téléphone</string>
     <string name="doze_double_tap_summary">Notification par impulsion lumineuse lors d\'un appui double</string>
-    <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
-    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de passer des pistes musicales</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Activer le redémarrage avancé</string>
     <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
@@ -166,13 +163,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Barre de navigation</string>
-    <string name="immersive_navigation_title">Navigation Immersive</string>
-    <string name="immersive_navigation_summary">Masquer la pilule gestuelle et le remplissage de la barre de navigation.</string>
     <!-- Black background -->
-    <string name="black_bg_title">Black background</string>
-    <string name="black_bg_summary">Use an absolute black background when dark mode is on</string>
+    <string name="black_bg_title">Arrière-plan noir</string>
+    <string name="black_bg_summary">Utiliser un arrière-plan noir absolu lorsque le mode sombre est activé</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="longpress_to_clipboard">Appui long pour copier</string>
@@ -180,4 +173,45 @@
     <string name="sound_settings_advanced_title">Paramètres supplémentaires</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Taux de raffraichissement</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Retour tactile</string>
+    <string name="back_gesture_haptic_summary">Activer le retour tactile lors d\'un geste de retour</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosité automatique rapide</string>
+    <string name="auto_brightness_one_shot_summary">La luminosité ne s\'ajustera qu\'au moment où l\'écran s\'allume</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer l\'analyse faciale existante et créer une nouvelle analyse</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Recommencer l\'analyse faciale</string>
+    <string name="face_redo_confirm_btn">Recommencer</string>
+    <string name="face_redo_warning_msg">Voulez-vous supprimer l\'analyse faciale existante et en créer une nouvelle ?</string>
+    <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de passer des pistes musicales</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Pause intelligente</string>
+    <string name="adaptive_playback_enabled">Utiliser la pause intelligente</string>
+    <string name="adaptive_playback_disabled_summary">Arrêt</string>
+    <string name="adaptive_playback_intro_text">Met automatiquement les médias en pause lorsque le volume est mis en sourdine et reprend lorsque le volume est restauré dans le délai défini.</string>
+    <string name="adaptive_playback_timeout_title">Utiliser un délai d\'expiration de</string>
+    <string name="adaptive_playback_timeout_none">Aucun délai d\'expiration</string>
+    <string name="adaptive_playback_timeout_none_summary">Activé (sans délai d\'expiration)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondes</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activé (30 secondes)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activé (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activé (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activé (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activé (10 minutes)</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverser la disposition de la barre de navigation</string>
+    <string name="navbar_invert_info">Intervertir les boutons \"Back\" et \"Recents\" de la barre de navigation</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barre de navigation</string>
+    <string name="show_navbar_gesture_bar_summary">Afficher la barre de navigation en bas de l\'écran</string>
 </resources>

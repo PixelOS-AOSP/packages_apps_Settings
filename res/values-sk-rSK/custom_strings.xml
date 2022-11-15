@@ -127,9 +127,6 @@
     <string name="double_tap_title">Dvojité poklepanie</string>
     <string name="doze_double_tap_title">Kontrola telefónu dvojitým klepnutím</string>
     <string name="doze_double_tap_summary">Pulzovať upozornenia dvojitým klepnutím</string>
-    <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
-    <string name="volume_button_music_control_summary">Keď je vypnutá obrazovka, dlhým stlačením tlačidiel pre ovládanie hlasitosti možno prepínať skladby</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Povoliť rozšírený reštart</string>
     <string name="global_actions_advanced_reboot_summary">V ponuke napájania zobrazte možnosti režimu recovery a bootloadera</string>
@@ -166,10 +163,6 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minút</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minút</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minút</string>
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Navigačný panel</string>
-    <string name="immersive_navigation_title">Immersive Navigation</string>
-    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
     <!-- Black background -->
     <string name="black_bg_title">Čierne pozadie</string>
     <string name="black_bg_summary">Použiť úplne čierne pozadie, keď je zapnutý tmavý režim</string>
@@ -180,4 +173,45 @@
     <string name="sound_settings_advanced_title">Ďalšie nastavenia</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Obnovovacia frekvencia</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Hmatová odozva</string>
+    <string name="back_gesture_haptic_summary">Povoliť efekt krátkeho zavibrovanie pri použití gestá \"Späť\"</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorázový automatický jas</string>
+    <string name="auto_brightness_one_shot_summary">Úprava jasu sa vykoná iba vo chvíli, keď sa zapne obrazovka</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Odstrániť existujúcu naskenovanú tvár a vytvoriť nový sken</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Znovu naskenovať tvár</string>
+    <string name="face_redo_confirm_btn">Znova</string>
+    <string name="face_redo_warning_msg">Chcete odstrániť existujúci sken tváre a vytvoriť nový?</string>
+    <string name="face_unlock_method_title">Povoliť odomknutie tvárou na obrazovke uzamknutia</string>
+    <string name="face_unlock_method_default">Keď je obrazovka zapnutá</string>
+    <string name="face_unlock_method_swipe">Keď posúvate prstom na zamknutej obrazovke</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
+    <string name="volume_button_music_control_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidiel na ovládanie hlasitosti môžete prepínať skladby</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Inteligentné Pozastavenie</string>
+    <string name="adaptive_playback_enabled">Použiť Inteligentné Pozastavenie</string>
+    <string name="adaptive_playback_disabled_summary">Vypnuté</string>
+    <string name="adaptive_playback_intro_text">Automaticky pozastaví médiá, keď je hlasitosť stlmená a automaticky ich obnoví pri obnove hlasitosti v zadanom čase.</string>
+    <string name="adaptive_playback_timeout_title">Použít časový limit</string>
+    <string name="adaptive_playback_timeout_none">Bez časového limitu</string>
+    <string name="adaptive_playback_timeout_none_summary">Zap. (bez časového limitu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekúnd</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Zapnuté (30 sekúnd)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minúta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Zapnuté (1 minúta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minúty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Zapnuté (2 minúty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Zapnuté (5 minút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Zapnuté (10 minút)</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
+    <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Panel gest</string>
+    <string name="show_navbar_gesture_bar_summary">Zobraziť panel gest v dolnej časti obrazovky</string>
 </resources>

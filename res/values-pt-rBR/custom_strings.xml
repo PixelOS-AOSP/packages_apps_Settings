@@ -60,7 +60,7 @@
     <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Associar volumes de toque &amp; e notificação</string>
+    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Toque de alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da tela para poder ser usada com luvas</string>
@@ -127,9 +127,6 @@
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Tocar duas vezes na tela para verificar o smartphone</string>
     <string name="doze_double_tap_summary">Tocar duas vezes na tela para verificar o smartphone</string>
-    <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Controle de reprodução</string>
-    <string name="volume_button_music_control_summary">Com a tela desligada, pressione e segure as teclas de volume para pular faixas de música</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Habilitar opções de reinício avançado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar as opções de recuperação e bootloader no menu de energia</string>
@@ -166,10 +163,6 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Barra de navegação</string>
-    <string name="immersive_navigation_title">Navegação imersiva</string>
-    <string name="immersive_navigation_summary">Ocultar a pílula de gestos e barra de navegação.</string>
     <!-- Black background -->
     <string name="black_bg_title">Plano de fundo preto</string>
     <string name="black_bg_summary">Use um fundo preto absoluto quando o modo escuro estiver ligado</string>
@@ -180,4 +173,45 @@
     <string name="sound_settings_advanced_title">Configurações Adicionais</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Taxa de atualização</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Feedback tátil</string>
+    <string name="back_gesture_haptic_summary">Habilitar o feedback tátil no gesto de voltar</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remover escaneamento facial existente e criar um novo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
+    <string name="face_unlock_method_title">Permitir o desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
+    <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
+    <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ativado (sem tempo limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter o layout da barra de navegação</string>
+    <string name="navbar_invert_info">Inverter os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos na parte inferior da tela</string>
 </resources>

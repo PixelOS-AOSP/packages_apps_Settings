@@ -127,9 +127,6 @@
     <string name="double_tap_title">Двойное касание</string>
     <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
     <string name="doze_double_tap_summary">Пульсирующие уведомления двойным касанием</string>
-    <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Управление воспроизведением</string>
-    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш громкости переключает музыкальные треки</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
     <string name="global_actions_advanced_reboot_summary">Показать опции для режима восстановления и загрузчика в меню кнопки питания</string>
@@ -166,13 +163,9 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Панель навигации</string>
-    <string name="immersive_navigation_title">Иммерсивная панель навигации</string>
-    <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации</string>
     <!-- Black background -->
-    <string name="black_bg_title">Black background</string>
-    <string name="black_bg_summary">Use an absolute black background when dark mode is on</string>
+    <string name="black_bg_title">Черный фон</string>
+    <string name="black_bg_summary">Использовать полностью черный фон при включённом темном режиме</string>
     <!-- General -->
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
     <string name="longpress_to_clipboard">Длительное нажатие для копирования</string>
@@ -180,4 +173,45 @@
     <string name="sound_settings_advanced_title">Дополнительные настройки</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Частота обновления</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Виброотклик</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста \"Назад\"</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Автоматическая яркость</string>
+    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в момент включения экрана</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующий снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При проведении пальцем на экране блокировки</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Умная пауза</string>
+    <string name="adaptive_playback_enabled">Использовать умную паузу</string>
+    <string name="adaptive_playback_disabled_summary">Выкл.</string>
+    <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение медиа при отключении громкости и автоматически возобновляет его при увеличении громкости в течение заданного времени</string>
+    <string name="adaptive_playback_timeout_title">Время ожидания воспроизведения</string>
+    <string name="adaptive_playback_timeout_none">Без времени ожидания</string>
+    <string name="adaptive_playback_timeout_none_summary">Вкл. (без ожидания)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Вкл. (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Вкл. (1 минута)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Вкл. (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл. (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл. (10 минут)</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
+    <string name="navbar_invert_info">Поменять местами кнопки \"Назад\" и \"Недавние\" на панели навигации</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Панель жестов</string>
+    <string name="show_navbar_gesture_bar_summary">Показывать панель жестов в нижней части экрана</string>
 </resources>
