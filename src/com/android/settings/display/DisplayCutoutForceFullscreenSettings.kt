@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2021 AOSP-Krypton Project
- * Copyright (C) 2022 Nameless-AOSP Project
+ *           (C) 2022 Nameless-AOSP Project
+ *           (C) 2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,6 +27,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
@@ -33,6 +35,7 @@ import android.widget.ImageView
 import android.widget.SearchView
 import android.widget.TextView
 
+import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -43,6 +46,8 @@ import com.android.internal.util.custom.cutout.CutoutFullscreenController
 
 import com.android.settings.R
 
+import com.google.android.material.appbar.AppBarLayout
+
 class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fullscreen_layout) {
 
     private lateinit var activityManager: ActivityManager
@@ -51,6 +56,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private lateinit var adapter: AppListAdapter
     private lateinit var packageList: List<PackageInfo>
     private lateinit var cutoutForceFullscreenSettings: CutoutFullscreenController
+    private lateinit var appBarLayout: AppBarLayout
 
     private var searchText = ""
     private var category: Int = CATEGORY_USER_ONLY
@@ -62,6 +68,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         requireActivity().setTitle(getTitle())
+        appBarLayout = requireActivity().findViewById(R.id.app_bar)
         activityManager = requireContext().getSystemService(ActivityManager::class.java)
         packageManager = requireContext().packageManager
         packageList = packageManager.getInstalledPackages(0)
@@ -95,7 +102,24 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.cutout_force_fullscreen_menu, menu)
-        val searchView = menu.findItem(R.id.search).actionView as SearchView
+        val searchMenuItem = menu.findItem(R.id.search) as MenuItem
+        searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
+            override fun onMenuItemActionExpand(item: MenuItem): Boolean {
+                // To prevent a large space on tool bar.
+                appBarLayout.setExpanded(false /*expanded*/, false /*animate*/)
+                // To prevent user can expand the collapsing tool bar view.
+                ViewCompat.setNestedScrollingEnabled(recyclerView, false)
+                return true
+            }
+
+            override fun onMenuItemActionCollapse(item: MenuItem): Boolean {
+                // We keep the collapsed status after user cancel the search function.
+                appBarLayout.setExpanded(false /*expanded*/, false /*animate*/)
+                ViewCompat.setNestedScrollingEnabled(recyclerView, true)
+                return true
+            }
+        })
+        val searchView = searchMenuItem.actionView as SearchView
         searchView.queryHint = getString(R.string.search_apps)
         searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String) = false
@@ -122,7 +146,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         }
         try {
             activityManager.forceStopPackage(packageName);
-        } catch(ignored: Exception){
+        } catch (ignored: Exception) {
         }
     }
 
@@ -165,7 +189,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
     private inner class AppListAdapter: ListAdapter<AppInfo, AppListViewHolder>(itemCallback) {
         private val selectedIndices = mutableSetOf<Int>()
-        private val initialList = getInitialCheckedList().toMutableList()
+        private var initialList = getInitialCheckedList().toMutableList()
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
             AppListViewHolder(layoutInflater.inflate(
@@ -195,16 +219,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         }
 
         override fun submitList(list: List<AppInfo>?) {
+            initialList = getInitialCheckedList().toMutableList()
             selectedIndices.clear()
             super.submitList(list)
         }
-
-        private fun getSelectedPackages(): List<String> =
-            selectedIndices.map {
-                getItem(it)
-            }.map {
-                it.packageName
-            }.toList()
     }
 
     private class AppListViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
