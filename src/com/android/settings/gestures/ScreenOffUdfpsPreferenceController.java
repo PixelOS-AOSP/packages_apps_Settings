@@ -18,7 +18,6 @@ package com.android.settings.gestures;
 
 import android.annotation.UserIdInt;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -26,12 +25,13 @@ import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
 
-public class ScreenOffUdfpsPreferenceController extends GesturePreferenceController {
+import com.android.settings.core.TogglePreferenceController;
+import com.android.settings.R;
+
+public class ScreenOffUdfpsPreferenceController extends TogglePreferenceController {
 
     private final int ON = 1;
     private final int OFF = 0;
-
-    private static final String PREF_KEY_VIDEO = "gesture_screen_off_udfps_video";
 
     private static final String SECURE_KEY = "screen_off_udfps_enabled";
 
@@ -51,17 +51,6 @@ public class ScreenOffUdfpsPreferenceController extends GesturePreferenceControl
 
     private static boolean screenOffUdfpsAvailable(AmbientDisplayConfiguration config) {
         return !TextUtils.isEmpty(config.udfpsLongPressSensorType());
-    }
-
-    public static boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
-        return isSuggestionComplete(new AmbientDisplayConfiguration(context), prefs);
-    }
-
-    @VisibleForTesting
-    static boolean isSuggestionComplete(AmbientDisplayConfiguration config,
-            SharedPreferences prefs) {
-        return !screenOffUdfpsAvailable(config)
-                || prefs.getBoolean(ScreenOffUdfpsSettings.PREF_KEY_SUGGESTION_COMPLETE, false);
     }
 
     @Override
@@ -91,13 +80,13 @@ public class ScreenOffUdfpsPreferenceController extends GesturePreferenceControl
     }
 
     @Override
-    protected String getVideoPrefKey() {
-        return PREF_KEY_VIDEO;
+    public boolean isChecked() {
+        return getAmbientConfig().screenOffUdfpsEnabled(mUserId);
     }
 
     @Override
-    public boolean isChecked() {
-        return getAmbientConfig().screenOffUdfpsEnabled(mUserId);
+    public int getSliceHighlightMenuRes() {
+        return NO_RES;
     }
 
     private AmbientDisplayConfiguration getAmbientConfig() {
