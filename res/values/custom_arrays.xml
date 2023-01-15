@@ -92,4 +92,23 @@
         <item>1800</item>
         <item>3600</item>
     </string-array>
+
+    <!-- Lockscreen bottom shortcuts -->
+    <string-array name="lockscreen_shortcut_entries">
+        <item>@string/lockscreen_shortcut_home</item>
+        <item>@string/lockscreen_shortcut_wallet</item>
+        <item>@string/lockscreen_shortcut_flashlight</item>
+        <item>@string/lockscreen_shortcut_qr</item>
+        <item>@string/lockscreen_shortcut_camera</item>
+        <item>@string/lockscreen_shortcut_none</item>
+    </string-array>
+
+    <string-array name="lockscreen_shortcut_values" translatable="false">
+        <item>home</item>
+        <item>wallet</item>
+        <item>flashlight</item>
+        <item>qr</item>
+        <item>camera</item>
+        <item>none</item>
+    </string-array>
 </resources>
