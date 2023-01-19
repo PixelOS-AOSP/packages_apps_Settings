@@ -20,7 +20,6 @@ import android.content.Context;
 import android.provider.Settings;
 
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.R;
 
 /** Controller that shows the color inversion summary. */
 public class ColorInversionPreferenceController extends BasePreferenceController {
@@ -39,8 +38,6 @@ public class ColorInversionPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        final boolean available = mContext.getResources()
-                .getBoolean(R.bool.config_displayInversionAvailable);
-        return available ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 }
