@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">지정된 인증서가 없습니다. 비공개로 연결되지 않습니다.</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">최대 화면 재생률</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">최소 화면 재생률</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">일부 콘텐츠의 새로고침 빈도를 자동으로 60Hz에서 %1$dHz로 늘립니다. 이렇게 하면 배터리 사용량이 증가합니다.</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">화면 재생률</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">스와이프하여 캡처</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">아이콘 관리자</string>
+    <string name="icon_manager_summary">상태 표시줄 아이콘의 표시 여부 설정</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">지문 인식 센서를 길게 눌러 휴대 전화 잠금 해제</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">화면을 켜고 잠금을 해제하려면, 화면 아래에 있는 지문 인식 센서를 길게 누르세요.</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">지문 센서를 터치해 잠금 해제</string>
+    <string name="fingerprint_wake_unlock_touch">화면이 꺼져도 이벤트 수신</string>
+    <string name="fingerprint_wake_unlock_press">화면이 켜진 경우에만 이벤트 수신</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">전체 화면으로 표시할 앱</string>
+    <string name="display_cutout_force_fullscreen_summary">앱이 노치 공간을 무시하도록 하기</string>
+    <string name="search">검색</string>
+    <string name="search_apps">앱 검색</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">두 번 탭하여 화면 끄기</string>
+    <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두 번 탭하여 화면 끄기</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">빠른 손전등</string>
+    <string name="power_button_torch_summary">화면이 꺼져있을 때 전원 버튼을 길게 눌러 손전등 켜기</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1분 미만</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">오늘 %1$s</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">거슬리는 알림</string>
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져있을 때 소리 및 진동으로 알림</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 시 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">벨소리 &amp; 알림 음량 동기화</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드 및 부트로더로 다시 시작 옵션 표시</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">창 보안 플래그 무시</string>
+    <string name="ignore_window_secure_summary">모든 앱들의 스크린샷 및 화면녹화 제한을 제거
+이 기능은 몇몇 경우에 편리하지만 개인정보 유출로 이어질 수 있습니다.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">앱 볼륨</string>
+    <string name="app_volume_title">앱 별로 볼륨 조절</string>
+    <string name="app_volume_summary">앱 별로 다른 볼륨 레벨을 사용할 수 있도록 허용</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">알림음 최소 시간 간격</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>에 한 번만 알림음 또는 진동을 허용</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10분</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="longpress_to_clipboard">길게 눌러 복사</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">추가 설정</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">적응형 재생</string>
+    <string name="adaptive_playback_enabled">적응형 재생 사용</string>
+    <string name="adaptive_playback_disabled_summary">끔</string>
+    <string name="adaptive_playback_intro_text">적응형 재생은 볼륨이 음소거되면 자동으로 미디어 재생을 중지하고, 설정한 시간 내에 음소거 해제 시 자동으로 다시 미디어를 재생합니다.</string>
+    <string name="adaptive_playback_timeout_title">제한 시간</string>
+    <string name="adaptive_playback_timeout_none">제한 없음</string>
+    <string name="adaptive_playback_timeout_none_summary">사용 (시간 제한 없음)</string>
+    <string name="adaptive_playback_timeout_30_secs">30초</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">사용 (30초)</string>
+    <string name="adaptive_playback_timeout_1_min">1분</string>
+    <string name="adaptive_playback_timeout_1_min_summary">사용 (1분)</string>
+    <string name="adaptive_playback_timeout_2_min">2분</string>
+    <string name="adaptive_playback_timeout_2_min_summary">사용 (2분)</string>
+    <string name="adaptive_playback_timeout_5_min">5분</string>
+    <string name="adaptive_playback_timeout_5_min_summary">사용 (5분)</string>
+    <string name="adaptive_playback_timeout_10_min">10분</string>
+    <string name="adaptive_playback_timeout_10_min_summary">사용 (10분)</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">내비게이션 바 레이아웃 반전</string>
+    <string name="navbar_invert_info">네비게이션 바의 뒤로가기 버튼과 최근 앱 버튼의 위치 바꾸기</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">제스처 바</string>
+    <string name="show_navbar_gesture_bar_summary">화면 아래에 제스처 바를 표시</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">두 번 탭하기</string>
+    <string name="doze_double_tap_title">두 번 탭하여 기기 확인</string>
+    <string name="doze_double_tap_summary">두 번 탭하여 알림 확인</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">클라이언트가 VPN을 사용하도록 허용</string>
+    <string name="tethering_allow_vpn_upstreams_summary">핫스팟 클라이언트가 연결성 향상을 위해 이 기기\u2019의 VPN 연결을 사용하도록 허용</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">태블릿 앞면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">기기 앞면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">휴대전화 앞면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">태블릿 뒷면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">기기 뒷면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">휴대전화 뒷면에 지문 센서가 있습니다.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">태블릿 앞면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">기기 앞면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">휴대전화 앞면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">태블릿 뒷면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">기기 뒷면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">휴대전화 뒷면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">태블릿 옆면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">기기 옆면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">기기의 옆면에 있는 센서를 누르세요.</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">경고: 이 옵션은 제대로 작동하지 않거나 데이터 손실이 일어날 가능성이 있으므로 권장하지 않습니다!</string>
+    <!-- Generic stuff used everywhere -->
+    <string name="reset">초기화</string>
+    <!-- Buttons -->
+    <string name="button_pref_title">버튼</string>
+    <string name="hardware_keys_home_key_title">홈 버튼</string>
+    <string name="hardware_keys_back_key_title">뒤로가기 버튼</string>
+    <string name="hardware_keys_menu_key_title">메뉴 버튼</string>
+    <string name="hardware_keys_assist_key_title">검색 버튼</string>
+    <string name="hardware_keys_appswitch_key_title">최근 앱 버튼</string>
+    <string name="hardware_keys_camera_key_title">카메라 버튼</string>
+    <string name="hardware_keys_short_press_title">짧게 누를 시 동작</string>
+    <string name="hardware_keys_long_press_title">길게 누를 시 동작</string>
+    <string name="hardware_keys_double_tap_title">더블 탭 동작</string>
+    <string name="hardware_keys_action_nothing">동작 없음</string>
+    <string name="hardware_keys_action_menu">메뉴 열기/닫기</string>
+    <string name="hardware_keys_action_app_switch">최근 앱 전환</string>
+    <string name="hardware_keys_action_search">어시스턴트</string>
+    <string name="hardware_keys_action_voice_search">음성 검색</string>
+    <string name="hardware_keys_action_in_app_search">앱 내 검색</string>
+    <string name="hardware_keys_action_launch_camera">카메라 실행</string>
+    <string name="hardware_keys_action_sleep">화면 끄기</string>
+    <string name="hardware_keys_action_split_screen">화면 분할</string>
+    <string name="hardware_keys_swipe_right_key_title">오른쪽으로 스와이프</string>
+    <string name="hardware_keys_swipe_left_key_title">왼쪽으로 스와이프</string>
+    <string name="hardware_keys_long_tap_key_title">길게 누르기</string>
+    <string name="hardware_keys_swipe_tap_title">스와이프할 때 동작</string>
+    <string name="hardware_keys_long_tap_title">길게 누를 때 동작</string>
+    <string name="button_wake_title">기기 깨우기</string>
+    <string name="camera_sleep_on_release_title">화면 엿보기</string>
+    <string name="camera_sleep_on_release_summary">버튼을 반만 누르고 있으면 화면이 켜진 상태로 유지됩니다</string>
+    <string name="camera_launch_title">카메라 실행</string>
+    <string name="camera_launch_summary">길게 눌렀다 떼어 카메라 실행</string>
+    <!-- Key backlight -->
+    <string name="button_backlight_title">버튼 조명</string>
+    <string name="button_backlight_enabled">버튼 조명 사용</string>
+    <string name="button_backlight_only_when_pressed_title">버튼이 눌렸을 때만 조명 켜기</string>
+    <string name="keyboard_backlight_enabled">키보드 조명 사용</string>
+    <string name="button_backlight_seekbar_title">버튼 조명 밝기</string>
+    <string name="keyboard_backlight_seekbar_title">키보드 조명 밝기</string>
+    <string name="backlight_timeout_title">조명 시간 제한</string>
+    <string name="backlight_timeout_unlimited">끄지 않음</string>
+    <string name="backlight_summary_disabled">사용 안 함</string>
+    <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g>동안 켬</string>
+    <string name="backlight_summary_enabled">켜짐</string>
+    <!-- Buttons - Enable navbar -->
+    <string name="disable_navkeys_title">온스크린 내비게이션 바 사용</string>
+    <string name="disable_navkeys_summary">온스크린 내비게이션 바를 활성화하고 하드웨어 버튼을 비활성화</string>
+    <!-- Buttons - Swap capacitive keys -->
+    <string name="swap_capacitive_keys_title">터치 버튼 서로 바꾸기</string>
+    <string name="swap_capacitive_keys_summary">최근 앱 버튼과 뒤로가기 버튼의 위치를 바꾸기</string>
+    <!-- Others settings -->
+    <string name="others_settings_title">기타 설정</string>
+    <string name="additional_buttons_title">추가 버튼</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">터치 민감도 향상</string>
+    <string name="high_touch_sensitivity_summary">장갑을 착용하더라도 사용할 수 있도록 터치 민감도 향상</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">터치스크린 호버링</string>
+    <string name="touchscreen_hovering_summary">웹 브라우저, 원격 데스크톱 등의 앱에서 마우스처럼 화면에 호버링하여 사용할 수 있습니다.</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">높은 터치 응답 속도 사용</string>
+    <string name="high_touch_polling_rate_summary">터치 응답 속도 높이기</string>
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">기타</string>
+    <string name="advanced_keyboard_settings_title">고급 설정</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">기존의 얼굴 스캔을 제거하고 새 스캔을 만듭니다.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">얼굴 스캔 다시 하기</string>
+    <string name="face_redo_confirm_btn">재시도</string>
+    <string name="face_redo_warning_msg">기존 얼굴 스캔을 제거하고 새 스캔을 만드시겠습니까?</string>
+    <string name="face_unlock_method_title">잠금 화면에서 얼굴 인식 잠금 해제 허용</string>
+    <string name="face_unlock_method_default">화면이 켜져 있을 때</string>
+    <string name="face_unlock_method_swipe">잠금 화면에서 스와이프할 때</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">가독성을 향상시키고 눈의 피로를 줄이기 위해 주변 환경과 시간에 따라 화면을 최적화합니다</string>
+    <string name="live_display_mode">디스플레이 모드</string>
+    <string name="live_display_color_temperature_title">색 온도</string>
+    <string name="live_display_color_temperature_summary">주간: <xliff:g id="day_temperature">%1$d</xliff:g>K  야간: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">주간</string>
+    <string name="live_display_night">야간</string>
+    <string name="live_display_outdoor_mode_title">자동 야외 모드</string>
+    <string name="live_display_outdoor_mode_summary">밝은 햇빛 아래에서 자동으로 밝기와 채도를 증가</string>
+    <string name="live_display_anti_flicker_title">플리커링 방지</string>
+    <string name="live_display_anti_flicker_summary">낮은 밝기의 환경에서 플리커링을 방지하고 눈의 피로를 줄입니다. 색 정확도가 저하되고 일부 항목이 표시되는 방식에 영향을 미칠 수 있습니다.</string>
+    <string name="live_display_low_power_title">전력 소모 줄이기</string>
+    <string name="live_display_low_power_summary">화면을 조정하여 화질 저하 없이 전력 소모를 감소</string>
+    <string name="live_display_enhance_color_title">색상 향상</string>
+    <string name="live_display_enhance_color_summary">피부 톤, 풍경 및 기타 이미지에서 색의 생동감을 향상</string>
+    <string name="live_display_color_profile_title">색상 프로필</string>
+    <string name="live_display_color_profile_standard_title">표준</string>
+    <string name="live_display_color_profile_standard_summary">정확한 색상 및 밝은 흰색</string>
+    <string name="live_display_color_profile_natural_title">자연스러운 색상</string>
+    <string name="live_display_color_profile_natural_summary">사실적인 색상 및 피부 톤</string>
+    <string name="live_display_color_profile_dynamic_title">다이나믹</string>
+    <string name="live_display_color_profile_dynamic_summary">색상을 향상시키고 흰색을 밝게 표현</string>
+    <string name="live_display_color_profile_cinema_title">영화</string>
+    <string name="live_display_color_profile_cinema_summary">영상의 색을 완벽하게 재현</string>
+    <string name="live_display_color_profile_astronomy_title">천체</string>
+    <string name="live_display_color_profile_astronomy_summary">야간 시야 확보를 위한 붉은 색상</string>
+    <string name="live_display_color_profile_photography_title">사진</string>
+    <string name="live_display_color_profile_photography_summary">사진의 색상을 완벽하게 재현</string>
+    <string name="live_display_color_profile_basic_title">기본</string>
+    <string name="live_display_color_profile_basic_summary">디스플레이를 보정하지 않은 상태로 사용</string>
+    <string name="live_display_color_profile_adaptive_title">적응형</string>
+    <string name="live_display_color_profile_adaptive_summary">주변 상황에 따라 색 조절</string>
+    <string name="live_display_color_profile_reading_title">독서</string>
+    <string name="live_display_color_profile_reading_summary">눈의 피로를 줄이기 위해 따뜻한 색상 사용</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB 색 영역에 맞게 색상 표현</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 색 영역에 맞게 색상 표현</string>
+    <string name="live_display_reading_mode_title">독서 모드</string>
+    <string name="live_display_reading_mode_summary">긴 시간 독서를 위한 그레이스케일 모드</string>
+    <string name="color_calibration_title">색상 보정</string>
+    <string name="color_calibration_summary">화면 색상을 보정</string>
+    <string name="color_red_title">적</string>
+    <string name="color_green_title">녹</string>
+    <string name="color_blue_title">청</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">사진 조정</string>
+    <string name="picture_adjustment_summary">색조, 채도, 농도 및 대비 조정</string>
+    <string name="adj_hue_title">색조</string>
+    <string name="adj_saturation_title">채도</string>
+    <string name="adj_intensity_title">명도</string>
+    <string name="adj_contrast_title">대비</string>
+    <!-- Battery light -->
+    <string name="battery_light_title">충전시 화면 켜기</string>
+    <!-- Black background -->
+    <string name="black_bg_title">검은 배경</string>
+    <string name="black_bg_summary">다크 모드가 켜졌을 때 완전한 검정 배경 사용</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">데이터 사용량 표시</string>
+    <string name="qs_show_data_usage_summary">빠른 설정 하단에 일일 모바일 데이터/Wi-Fi 사용량 표시</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">물결 효과</string>
+    <string name="enable_fingerprint_ripple_effect_summary">지문으로 잠금 해제 시 물결 효과 표시</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">화면 회전 설정</string>
+    <string name="display_rotation_enabled">자동 회전 켜짐</string>
+    <string name="display_rotation_disabled">자동 회전 꺼짐</string>
+    <string name="display_rotation_unit">도</string>
+    <string name="display_rotation_category_title">회전 모드</string>
+    <string name="display_rotation_0_title">0 도</string>
+    <string name="display_rotation_90_title">90 도</string>
+    <string name="display_rotation_180_title">180 도</string>
+    <string name="display_rotation_270_title">270 도</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">전파 정보</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">실수로 화면 켜짐 방지</string>
+    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">레이아웃 섞기</string>
+    <string name="unlock_scramble_pin_layout_summary">장치를 잠금 해제할 때 PIN 레이아웃 섞기</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">빠른 잠금 해제</string>
+    <string name="unlock_quick_unlock_control_summary">정확한 PIN/비밀번호를 입력하면 자동으로 잠금 해제</string>
+</resources>
