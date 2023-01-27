@@ -71,3 +71,6 @@
 -keep class androidx.window.extensions.** { *; }
 -dontwarn androidx.window.extensions.**
 -keep class androidx.window.** { *; }
+
+# Keep google misc
+-keep class com.google.** { *; }
