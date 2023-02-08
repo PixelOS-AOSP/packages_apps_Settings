@@ -194,7 +194,7 @@ public final class DatabaseUtils {
         if (scale == 0) {
             return -1;
         }
-        return Math.round((level / scale) * 100.0f);
+        return Math.round((float) level / (float) scale * 100.0f);
     }
 
     private static SharedPreferences getSharedPreferences(Context context) {
