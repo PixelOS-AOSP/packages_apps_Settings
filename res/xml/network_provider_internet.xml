@@ -113,6 +113,7 @@
         android:fragment="com.android.settings.custom.statusbar.NetworkTrafficSettings"
         android:key="network_traffic_settings"
         android:title="@string/network_traffic_settings_title"
+        android:icon="@drawable/ic_network_traffic"
         android:order="20" />
 
     <com.android.settings.network.PrivateDnsModeDialogPreference
