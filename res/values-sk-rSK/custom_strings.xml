@@ -32,9 +32,9 @@
     <string name="icon_manager_title">Správca ikon</string>
     <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Dlhým stlačením snímača odtlačkov prstov odomknúť zariadenie</string>
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Ak chcete prebudiť obrazovku a odomknúť, dlho stlačte snímač odtlačkov prstov v displeji.</string>
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Odomknúť použitím odtlačku prstu</string>
     <string name="fingerprint_wake_unlock_touch">Načúva udalostiam keď je obrazovka vypnutá</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
     <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Panel gest</string>
-    <string name="show_navbar_gesture_bar_summary">Zobraziť panel gest v dolnej časti obrazovky</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dvojité poklepanie</string>
     <string name="doze_double_tap_title">Kontrola telefónu dvojitým klepnutím</string>
@@ -297,4 +294,65 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Rýchle odomknutie</string>
     <string name="unlock_quick_unlock_control_summary">Odomknúť automaticky po zadaní správneho PIN kódu alebo hesla</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorázový automatický jas</string>
+    <string name="auto_brightness_one_shot_summary">Úprava jasu sa vykoná iba vo chvíli, keď sa zapne obrazovka</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigačný panel</string>
+    <string name="immersive_navigation_title">Imersívna navigácia</string>
+    <string name="immersive_navigation_summary">Skryť navigačnú pilulku a výplň navigačného panelu.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Podrobnosti o balíčku</string>
+    <string name="package_name">Názov balíčku</string>
+    <string name="package_version">Verzia balíčku</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Skrytá sieť</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Názov vášho mobilného hotspotu sa nezobrazí v zozname dostupných sietí WLAN.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nikdy nevypínať hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_limit_title">Limit pripojených zariadení</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokované zariadenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokovať zariadenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Táto akcia odpojí zariadenie <xliff:g id="device_name">%1$s</xliff:g> od tohto zariadenia a pridá ho do zoznamu blokovaných</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovať zariadenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Toto zariadenie \"<xliff:g id="device_name">%1$s</xliff:g>\" sa bude môcť pripojiť k tomuto hotspotu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Momentálne nie sú k dispozícii žiadni klienti. Tu budú uvedené pripojené a blokované zariadenia, keď budú k dispozícii.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Nikdy</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 sekúnd</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minúta</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minút</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minút</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minút</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 hodina</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
+    <string name="volume_button_music_control_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidiel na ovládanie hlasitosti môžete prepínať skladby</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Skryť na obrazovke uzamknutia</string>
+    <string name="power_menu_hide_on_secure_summary">Skryť ponuku napájania na zabezpečenej uzamknutej obrazovke</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Zvuk snímky obrazovky</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Skratky na obrazovke uzamknutia</string>
+    <string name="lockscreen_shortcuts_summary">Konfigurácia skratiek na uzamknutej obrazovke</string>
+    <string name="lockscreen_shortcut_start_title">Ľavá skratka</string>
+    <string name="lockscreen_shortcut_end_title">Pravá skratka</string>
+    <string name="lockscreen_shortcut_home">Ovládanie domácnosti</string>
+    <string name="lockscreen_shortcut_wallet">Peňaženka</string>
+    <string name="lockscreen_shortcut_flashlight">Baterka</string>
+    <string name="lockscreen_shortcut_qr">Skener QR kódov</string>
+    <string name="lockscreen_shortcut_camera">Fotoaparát</string>
+    <string name="lockscreen_shortcut_none">Žiadna</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor sieťovej prevádzky</string>
+    <string name="network_traffic_mode_title">Režim zobrazenia</string>
+    <string name="network_traffic_mode_disable">Vypnuté</string>
+    <string name="network_traffic_mode_status_bar">Stavový riadok</string>
+    <string name="network_traffic_mode_qs">Rýchle nastavenia</string>
+    <string name="network_traffic_autohide">Automaticky skrývať</string>
+    <string name="network_traffic_autohide_summary">Skryť indikátor sieťovej prevádzky, pokiaľ nie je žiadna aktivita</string>
+    <string name="network_traffic_units_title">Jednotky merania sieťovej prevádzky</string>
 </resources>

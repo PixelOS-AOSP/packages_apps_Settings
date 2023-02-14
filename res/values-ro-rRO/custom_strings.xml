@@ -22,21 +22,21 @@
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Rata minimă de împrospătare</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <string name="peak_refresh_rate_summary_custom">Crește automat rata de împrospătare de la 60 la %1$d Hz pentru anumite conținuturi. Crește consumul bateriei.</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Rată de reîmprospătare</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Glisare pentru captură de ecran</string>
+    <string name="three_finger_gesture_summary">Glisează în jos cu trei degete pentru a realiza o captură de ecran</string>
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Gestionare pictograme</string>
     <string name="icon_manager_summary">Controlează vizibilitatea pictogramelor din bara de stare</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Apăsați lung pe senzorul de amprentă pentru a debloca dispozitivul</string>
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Pentru a porni și debloca ecranul, țineți apăsat senzorul de amprentă de sub ecran.</string>
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Atingeți amprenta pentru a debloca</string>
+    <string name="fingerprint_wake_unlock_title">Atinge amprenta pentru a debloca</string>
     <string name="fingerprint_wake_unlock_touch">Ascultă evenimente în timp ce ecranul este oprit</string>
     <string name="fingerprint_wake_unlock_press">Ascultă evenimente numai după ce ecranul este pornit</string>
     <!-- Notch: Full screen apps -->
@@ -45,8 +45,8 @@
     <string name="search">Căutare</string>
     <string name="search_apps">Căutare aplicații</string>
     <!-- DT2S on statusbar-->
-    <string name="double_tap_sleep_gesture_title">Apăsare dublă pentru a opri ecranul</string>
-    <string name="double_tap_sleep_gesture_summary">Atingeți de două ori oriunde pe bara de stare pentru a opri ecranul</string>
+    <string name="double_tap_sleep_gesture_title">Dublă atingere pe bara de stare pentru oprire ecran</string>
+    <string name="double_tap_sleep_gesture_summary">Atinge de două ori oriunde pe bara de stare pentru a opri ecranul</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Lanternă rapidă</string>
     <string name="power_button_torch_summary">Când ecranul este oprit, apăsarea lungă a butonului de pornire va activa lanterna</string>
@@ -55,15 +55,15 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s astăzi</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Notificări enervante</string>
+    <string name="notification_sound_vib_screen_on_title">Notificare sonoră dacă este activ</string>
     <string name="notification_sound_vib_screen_on_summary">Redă sunete și vibrații pentru notificări când ecranul este pornit</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opțiuni de vibrație în apel</string>
+    <string name="incall_vibration_category">Opţiuni de vibraţie în apel</string>
     <string name="incall_vibrate_connect_title">Vibrare la conectare apel</string>
     <string name="incall_vibrate_call_wait_title">Vibrare la apel în așteptare</string>
-    <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
+    <string name="incall_vibrate_disconnect_title">Vibrează la deconectare apel</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Se leagă volumele de apel și notificare</string>
+    <string name="volume_link_notification_title">Leagă volumele de apel și notificare</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Activare repornire avansată</string>
     <string name="global_actions_advanced_reboot_summary">Arată opțiuni pentru modul recuperare și bootloader în meniul de alimentare</string>
@@ -92,7 +92,7 @@
     <!-- Smart Pause -->
     <string name="adaptive_playback_screen_title">Redare adaptivă</string>
     <string name="adaptive_playback_enabled">Folosește redare adaptivă</string>
-    <string name="adaptive_playback_disabled_summary">Oprit</string>
+    <string name="adaptive_playback_disabled_summary">Oprită</string>
     <string name="adaptive_playback_intro_text">Întrerupe automat media când volumul este oprit și va relua automat când volumul este restabilit în timpul setat.</string>
     <string name="adaptive_playback_timeout_title">Folosește un timp expirare de</string>
     <string name="adaptive_playback_timeout_none">Fără expirare</string>
@@ -109,111 +109,108 @@
     <string name="adaptive_playback_timeout_10_min_summary">Pornit (10 minute)</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inversează aspectul barei de navigare</string>
-    <string name="navbar_invert_info">Schimbați butoanele \"Înapoi\" și \"Recente\" din bara de navigare</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Bara de gesturi</string>
-    <string name="show_navbar_gesture_bar_summary">Afișare bară de gesturi în partea de jos a ecranului</string>
+    <string name="navbar_invert_info">Schimbă butoanele \"Înapoi\" și \"Recente\" pe bara de navigare</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Apăsare dublă</string>
-    <string name="doze_double_tap_title">Atingeți de două ori pentru a verifica telefonul</string>
+    <string name="doze_double_tap_title">Atinge de două ori pentru a verifica telefonul</string>
     <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Permite clienților să utilizeze VPN-uri</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permite clienților hotspot-ului să utilizeze conexiunile VPN ale acestui dispozitiv pentru conexiunea upstream</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Găsește senzorul de amprentă pe partea din față a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Găsește senzorul de amprentă pe partea din față a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Găsește senzorul de amprentă pe partea din față a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Găsește senzorul de amprentă pe partea din spate a tabletei.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Găsește senzorul de amprentă pe partea din spate a dispozitivului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Găsește senzorul de amprentă pe partea din spate a telefonului.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Atinge senzorul de pe partea din față a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Atinge senzorul de pe partea din față a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Atinge senzorul de pe partea frontală a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Atinge senzorul de pe partea din spate a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Atinge senzorul de pe partea din spate a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Atinge senzorul din partea din spate a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Atinge senzorul de pe partea laterală a tabletei.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Atinge senzorul de pe partea laterală a dispozitivului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Atinge senzorul de pe partea laterală a telefonului.</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Atenție: Este posibil ca această opțiune să nu funcționeze corect sau să ducă la pierderea datelor și, prin urmare, nu este recomandată!</string>
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Reset</string>
+    <string name="reset">Resetare</string>
     <!-- Buttons -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Recents button</string>
-    <string name="hardware_keys_camera_key_title">Camera button</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="hardware_keys_action_split_screen">Split screen</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="button_pref_title">Butoane</string>
+    <string name="hardware_keys_home_key_title">Butonul Acasă</string>
+    <string name="hardware_keys_back_key_title">Butonul Înapoi</string>
+    <string name="hardware_keys_menu_key_title">Butonul Meniu</string>
+    <string name="hardware_keys_assist_key_title">Butonul Căutare</string>
+    <string name="hardware_keys_appswitch_key_title">Butonul Recente</string>
+    <string name="hardware_keys_camera_key_title">Butonul Cameră</string>
+    <string name="hardware_keys_short_press_title">Acțiune apăsare scurtă</string>
+    <string name="hardware_keys_long_press_title">Acțiune apăsare lungă</string>
+    <string name="hardware_keys_double_tap_title">Acțiune la apăsare dublă</string>
+    <string name="hardware_keys_action_nothing">Nicio acțiune</string>
+    <string name="hardware_keys_action_menu">Deschide/închide Meniul</string>
+    <string name="hardware_keys_action_app_switch">Afișare aplicații recente</string>
+    <string name="hardware_keys_action_search">Asistent căutare</string>
+    <string name="hardware_keys_action_voice_search">Căutare vocală</string>
+    <string name="hardware_keys_action_in_app_search">Căutare în aplicație</string>
+    <string name="hardware_keys_action_launch_camera">Lansare cameră foto</string>
+    <string name="hardware_keys_action_sleep">Oprește ecranul</string>
+    <string name="hardware_keys_action_split_screen">Ecran divizat</string>
+    <string name="hardware_keys_swipe_right_key_title">Glisare spre dreapta</string>
+    <string name="hardware_keys_swipe_left_key_title">Glisare spre stânga</string>
+    <string name="hardware_keys_long_tap_key_title">Apăsare lungă</string>
+    <string name="hardware_keys_swipe_tap_title">Acțiune la glisare</string>
+    <string name="hardware_keys_long_tap_title">Acțiune apăsare lungă</string>
+    <string name="button_wake_title">Trezește dispozitivul</string>
+    <string name="camera_sleep_on_release_title">Privire la ecran</string>
+    <string name="camera_sleep_on_release_summary">O jumătate de apăsare va ține ecranul pornit doar atât timp cât butonul este apăsat</string>
+    <string name="camera_launch_title">Lansare cameră foto</string>
+    <string name="camera_launch_summary">O apăsare lungă a butonului va lansa camera foto</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Iluminare</string>
+    <string name="button_backlight_enabled">Iluminare butoane</string>
+    <string name="button_backlight_only_when_pressed_title">Iluminare butoane numai când au fost apăsate</string>
+    <string name="keyboard_backlight_enabled">Iluminare tastatură</string>
+    <string name="button_backlight_seekbar_title">Luminozitate butoane</string>
+    <string name="keyboard_backlight_seekbar_title">Luminozitate tastatură</string>
+    <string name="backlight_timeout_title">Expirare iluminare</string>
+    <string name="backlight_timeout_unlimited">Nu se oprește</string>
+    <string name="backlight_summary_disabled">Dezactivat</string>
+    <string name="backlight_summary_enabled_with_timeout">Activat pentru <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Activat</string>
     <!-- Buttons - Enable navbar -->
-    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
-    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Activare bară de navigare pe ecran</string>
+    <string name="disable_navkeys_summary">Activare bară de navigare pe ecran și dezactivare butoane hardware</string>
     <!-- Buttons - Swap capacitive keys -->
-    <string name="swap_capacitive_keys_title">Swap capacitive buttons</string>
-    <string name="swap_capacitive_keys_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_capacitive_keys_title">Schimbă butoanele capacitive</string>
+    <string name="swap_capacitive_keys_summary">Inversează ordinea butoanelor recente și înapoi</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">Alte setări</string>
+    <string name="additional_buttons_title">Butoane suplimentare</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Sensibilitate crescută la atingere</string>
     <string name="high_touch_sensitivity_summary">Crește sensibilitatea ecranului tactil astfel încât acesta poate fi utilizat în timp ce se poartă mănuși</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Plutire peste ecran</string>
-    <string name="touchscreen_hovering_summary">Vă permite să plutiți degetul peste ecran ca un mouse în browserele web, remote desktop-uri, etc</string>
+    <string name="touchscreen_hovering_summary">Permite plutirea degetului peste ecran ca un mouse în browserele web, desktop-uri la distanță, etc</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Rată ridicată de sondare la atingere</string>
     <string name="high_touch_polling_rate_summary">Crește rata de interogare a ecranului tactil</string>
     <!-- Advanced keyboard settings -->
-    <string name="keyboard_extras_title">Extras</string>
-    <string name="advanced_keyboard_settings_title">Advanced settings</string>
+    <string name="keyboard_extras_title">Suplimentar</string>
+    <string name="advanced_keyboard_settings_title">Setări avansate</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Ștergeți scanarea existentă a feței și creați o scanare nouă</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceți scanarea facială</string>
-    <string name="face_redo_confirm_btn">Refacere</string>
-    <string name="face_redo_warning_msg">Doriți să eliminați scanarea feței existente și să creați una nouă?</string>
-    <string name="face_unlock_method_title">Permiteți deblocarea facială pe ecranul de blocare</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimină scanarea feței existente și creează una nouă</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refă scanarea feței</string>
+    <string name="face_redo_confirm_btn">Refă</string>
+    <string name="face_redo_warning_msg">Dorești să elimini scanarea feței existente și să creezi una nouă?</string>
+    <string name="face_unlock_method_title">Permite deblocarea facială pe ecranul de blocare</string>
     <string name="face_unlock_method_default">Când ecranul este pornit</string>
-    <string name="face_unlock_method_swipe">Când glisați ecranul de blocare</string>
+    <string name="face_unlock_method_swipe">Când glisezi ecranul de blocare</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Se optimizează ecranul bazat pe timpul zilei şi condiţiile mediului ambient pentru a îmbunătăţi lizibilitatea şi a reduce oboseala ochilor</string>
+    <string name="live_display_summary">Se optimizează ecranul bazat pe timpul zilei și condițiile mediului ambient pentru a îmbunătăți lizibilitatea și a reduce oboseala ochilor</string>
     <string name="live_display_mode">Mod de afișare</string>
     <string name="live_display_color_temperature_title">Temperatura culorii</string>
     <string name="live_display_color_temperature_summary">Zi: %1$dK Noapte: %2$dK</string>
@@ -242,7 +239,7 @@
     <string name="live_display_color_profile_photography_title">Fotografie</string>
     <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
     <string name="live_display_color_profile_basic_title">De bază</string>
-    <string name="live_display_color_profile_basic_summary">Utilizați ecranul necalibrat</string>
+    <string name="live_display_color_profile_basic_summary">Utilizare ecran necalibrat</string>
     <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
     <string name="live_display_color_profile_adaptive_summary">Culorile se adaptează la condițiile ambientale</string>
     <string name="live_display_color_profile_reading_title">Citire</string>
@@ -269,32 +266,93 @@
     <string name="battery_light_title">Pornește lumina în timpul încărcării</string>
     <!-- Black background -->
     <string name="black_bg_title">Fundal negru</string>
-    <string name="black_bg_summary">Utilizați un fundal absolut negru atunci când este pornit modul întunecat</string>
+    <string name="black_bg_summary">Folosește un fundal absolut negru când modul întunecat este pornit</string>
     <!-- QS footer data usage -->
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="qs_show_data_usage_title">Afișare utilizare date</string>
+    <string name="qs_show_data_usage_summary">Afișare utilizare zilnică a datelor celulare/Wi-Fi în subsolul setărilor rapide</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efect ondulare</string>
     <string name="enable_fingerprint_ripple_effect_summary">Arată efectul de undă la deblocare cu amprenta</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Setări de rotație</string>
+    <string name="display_rotation_enabled">Rotire automată activată</string>
+    <string name="display_rotation_disabled">Rotire automată dezactivată</string>
+    <string name="display_rotation_unit">grade</string>
+    <string name="display_rotation_category_title">Mod de rotație</string>
+    <string name="display_rotation_0_title">0 grade</string>
+    <string name="display_rotation_90_title">90 de grade</string>
+    <string name="display_rotation_180_title">180 de grade</string>
+    <string name="display_rotation_270_title">270 de grade</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informații radio</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Prevenire trezire accidentală</string>
+    <string name="proximity_wake_summary">Verifică senzorul de proximitate înainte de trezirea ecranului</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
+    <string name="unlock_scramble_pin_layout_summary">Amestecă aspectul ecranului de PIN atunci când se deblochează dispozitivul</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce codul PIN/parola corectă</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminozitate automată instantă</string>
+    <string name="auto_brightness_one_shot_summary">Ajustarea luminozității va avea loc doar în momentul în care ecranul este pornit</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Bară de navigare</string>
+    <string name="immersive_navigation_title">Navigare imersivă</string>
+    <string name="immersive_navigation_summary">Ascunde gesturile de îmbinare și bară de navigare.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Detalii aplicație</string>
+    <string name="package_name">Nume pachet</string>
+    <string name="package_version">Versiune aplicație</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rețea ascunsă</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Numele hotspot-ului mobil nu va apărea în lista rețelelor WiFi disponibile.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nu se dezactivează niciodată hotspot-ul</string>
+    <string name="wifi_hotspot_client_manager_title">Dispozitive conectate</string>
+    <string name="wifi_hotspot_client_manager_summary">Listează și gestionează dispozitivele conectate la hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listează dispozitivele conectate la hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limita de dispozitive conectate</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispozitive blocate</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispozitive conectate</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocare dispozitiv</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Această acțiune va deconecta \"<xliff:g id="device_name">%1$s</xliff:g>\" de la acest dispozitiv și-l va adăuga în lista blocărilor</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Deblocare dispozitiv</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Dispozitivul \"<xliff:g id="device_name">%1$s</xliff:g>\" se va putea conecta la acest hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nu sunt clienți disponibili momentan. Dispozitivele conectate și blocate vor fi listate aici atunci când sunt disponibile.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Niciodată</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 de secunde</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minut</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minute</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minute</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 de minute</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 oră</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control redare</string>
+    <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ascunde pe ecranul de blocare</string>
+    <string name="power_menu_hide_on_secure_summary">Dezactivare meniu de alimentare pe ecranul de blocare protejat</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sunet captură de ecran</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Comenzi rapide ale ecranului de blocare</string>
+    <string name="lockscreen_shortcuts_summary">Configurare comenzi rapide pe ecranul de blocare</string>
+    <string name="lockscreen_shortcut_start_title">Comanda rapidă din stânga</string>
+    <string name="lockscreen_shortcut_end_title">Comanda rapidă din dreapta</string>
+    <string name="lockscreen_shortcut_home">Comenzi Google Home</string>
+    <string name="lockscreen_shortcut_wallet">Portofel</string>
+    <string name="lockscreen_shortcut_flashlight">Lanternă</string>
+    <string name="lockscreen_shortcut_qr">Scaner cod QR</string>
+    <string name="lockscreen_shortcut_camera">Cameră</string>
+    <string name="lockscreen_shortcut_none">Nimic</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
+    <string name="network_traffic_mode_title">Mod de afișare</string>
+    <string name="network_traffic_mode_disable">Dezactivat</string>
+    <string name="network_traffic_mode_status_bar">Bară de stare</string>
+    <string name="network_traffic_mode_qs">Setări rapide</string>
+    <string name="network_traffic_autohide">Ascundere automată</string>
+    <string name="network_traffic_autohide_summary">Ascunde monitorizarea traficului de rețea în lipsa activității</string>
+    <string name="network_traffic_units_title">Unităţi de măsură trafic</string>
 </resources>

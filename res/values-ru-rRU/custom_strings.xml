@@ -32,9 +32,9 @@
     <string name="icon_manager_title">Настройка значков</string>
     <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Длительное нажатие на сканер отпечатков пальцев для разблокировки устройства</string>
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Чтобы включить экран и разблокировать его, удерживайте палец на сканере отпечатков пальцев под дисплеем</string>
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Коснитесь сканера отпечатков пальцев для разблокировки</string>
     <string name="fingerprint_wake_unlock_touch">Считывать при выключенном экране</string>
@@ -48,7 +48,7 @@
     <string name="double_tap_sleep_gesture_title">Двойное касание для сна</string>
     <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарь</string>
+    <string name="power_button_torch_title">Быстрое включение фонарика</string>
     <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие на кнопку питания активирует фонарик</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менее минуты</string>
@@ -108,14 +108,11 @@
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Включено (10 минут)</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
+    <string name="navbar_invert_layout_title">Инвертировать раскладку панели навигации</string>
     <string name="navbar_invert_info">Поменять местами кнопки \"Назад\" и \"Недавние\" на панели навигации</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Панель жестов</string>
-    <string name="show_navbar_gesture_bar_summary">Показывать панель жестов в нижней части экрана</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Двойное касание</string>
-    <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
+    <string name="double_tap_title">Двойное нажатие</string>
+    <string name="doze_double_tap_title">Двойное нажатие для проверки уведомлений</string>
     <string name="doze_double_tap_summary">Пульсирующие уведомления двойным касанием</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
@@ -197,10 +194,10 @@
     <string name="high_touch_sensitivity_summary">Увеличивает чувствительность экрана для возможности работы в перчатках</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Управление сенсорным экраном</string>
-    <string name="touchscreen_hovering_summary">Позволяет вам водить экраном как мышью в веб-браузерах, удаленных настольных компьютерах и т. д.</string>
+    <string name="touchscreen_hovering_summary">Позволяет вам водить экраном как мышью в браузерах, удаленных настольных компьютерах и т. д.</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">Высокая частота опроса касаний</string>
-    <string name="high_touch_polling_rate_summary">Увеличить частоту опроса экрана</string>
+    <string name="high_touch_polling_rate_title">Высокая частота отклика</string>
+    <string name="high_touch_polling_rate_summary">Увеличить частоту отклика экрана</string>
     <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Дополнительно</string>
     <string name="advanced_keyboard_settings_title">Расширенные настройки</string>
@@ -213,7 +210,7 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При проведении пальцем на экране блокировки</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
+    <string name="live_display_summary">Оптимизировать экран на основе времени суток и освещения, чтобы повысить читабельность и снизить нагрузку на глаза</string>
     <string name="live_display_mode">Режим отображения</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
     <string name="live_display_color_temperature_summary">Днём: <xliff:g id="day_temperature">%1$d</xliff:g>K Ночью: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -297,4 +294,65 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Однократная автоматическая яркость</string>
+    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в тот момент, когда экран включен</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Панель навигации</string>
+    <string name="immersive_navigation_title">Инвертировать навигацию</string>
+    <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Информация о пакете</string>
+    <string name="package_name">Имя пакета</string>
+    <string name="package_version">Версия пакета</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей мобильной точки доступа не появится в списке доступных сетей WLAN.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Никогда не выключать точку доступа</string>
+    <string name="wifi_hotspot_client_manager_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_client_manager_summary">Список и управление устройствами, подключенными к точке доступа</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Список устройств, подключенных к точке доступа</string>
+    <string name="wifi_hotspot_client_limit_title">Лимит подключенных устройств</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в список блокировки</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
+    <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут отображены здесь, когда они станут доступны.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Никогда</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 минута</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 минут</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 минут</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 минут</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 час</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Скрывать на экране блокировки</string>
+    <string name="power_menu_hide_on_secure_summary">Меню питания будет скрыто только на защищенном экране блокировки</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Ярлыки экрана блокировки</string>
+    <string name="lockscreen_shortcuts_summary">Настройка ярлыков экрана блокировки</string>
+    <string name="lockscreen_shortcut_start_title">Ярлык слева</string>
+    <string name="lockscreen_shortcut_end_title">Ярлык справа</string>
+    <string name="lockscreen_shortcut_home">Главный элемент управления</string>
+    <string name="lockscreen_shortcut_wallet">Кошелёк</string>
+    <string name="lockscreen_shortcut_flashlight">Фонарик</string>
+    <string name="lockscreen_shortcut_qr">QR сканер</string>
+    <string name="lockscreen_shortcut_camera">Камера</string>
+    <string name="lockscreen_shortcut_none">Нет</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_mode_disable">Отключено</string>
+    <string name="network_traffic_mode_status_bar">Строка состояния</string>
+    <string name="network_traffic_mode_qs">Быстрые настройки</string>
+    <string name="network_traffic_autohide">Скрывать автоматически</string>
+    <string name="network_traffic_autohide_summary">Скрывать сетевой трафик, когда передача данных не осуществляется</string>
+    <string name="network_traffic_units_title">Единицы измерения трафика</string>
 </resources>

@@ -32,9 +32,9 @@
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title">Az ujjlenyomat-olvasó hosszannyomása feloldja a készüléket</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">A képernyő felébresztéséhez és feloldásához nyomja meg hosszan a képernyőbe épitett ujjlenyomat-olvasót.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
@@ -297,4 +294,65 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigációs sáv</string>
+    <string name="immersive_navigation_title">Immerzív navigáció</string>
+    <string name="immersive_navigation_summary">A vezélésjelző és a navigációs sáv kitöltésének elrejtése</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Csomagadatok</string>
+    <string name="package_name">Csomagnév</string>
+    <string name="package_version">Csomagverzió</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">A hordozható hotspot neve nem fog megjelenni az elérhető WLAN hálózatok listájában.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Soha nem kapcsolódik ki</string>
+    <string name="wifi_hotspot_client_manager_title">Csatlakoztatott eszközök</string>
+    <string name="wifi_hotspot_client_manager_summary">A csatlakoztatott készülékek listája és kezelése</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">A hotspothoz csatlakoztatott eszközök listája</string>
+    <string name="wifi_hotspot_client_limit_title">Maximálisan csatlakoztatható készülék</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokkolt készülékek</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Csatlakoztatott eszközök</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Készüléktiltás</string>
+    <string name="wifi_hotspot_block_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" lecsatlakoztatásra és tiltólistára kerül</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Feloldás tiltás alól</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" tiltása megszűnik és csatlakozhat a hotspothoz</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Jelenleg nincs elérhető kliens. Amint lesz akár csatlakoztatott, akár letiltott, az itt fog megjelenni.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Soha</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 másodperc</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 perc</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 perc</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 perc</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 perc</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 óra</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszásvezérlő</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Rejtés a záróképernyőn</string>
+    <string name="power_menu_hide_on_secure_summary">A kikapcsolási menü nem látható a biztonságos záróképernyőn</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">A képernyőmentés hangja</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Parancsikonok a záróképernyőn</string>
+    <string name="lockscreen_shortcuts_summary">Beállíthatja a képernyőzár-parancsikonokat</string>
+    <string name="lockscreen_shortcut_start_title">Bal oldali parancsikon</string>
+    <string name="lockscreen_shortcut_end_title">Jobb oldali parancsikon</string>
+    <string name="lockscreen_shortcut_home">Főképernyő-vezérlők</string>
+    <string name="lockscreen_shortcut_wallet">Pénztárca</string>
+    <string name="lockscreen_shortcut_flashlight">Zseblámpa</string>
+    <string name="lockscreen_shortcut_qr">QR-kód beolvasó</string>
+    <string name="lockscreen_shortcut_camera">Kamera</string>
+    <string name="lockscreen_shortcut_none">Egyik sem</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Hálózatiforgalom-figyelő</string>
+    <string name="network_traffic_mode_title">Megjelenítési mód</string>
+    <string name="network_traffic_mode_disable">Letiltva</string>
+    <string name="network_traffic_mode_status_bar">Állapotsor</string>
+    <string name="network_traffic_mode_qs">Gyorsbeállítások</string>
+    <string name="network_traffic_autohide">Automatikus elrejtés</string>
+    <string name="network_traffic_autohide_summary">Elrejti a forgalomkijelzést, ha nincs valós forgalom</string>
+    <string name="network_traffic_units_title">A hálózati forgalom mértékegysége</string>
 </resources>
