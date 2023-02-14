@@ -18,23 +18,23 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No se ha especificado ningún certificado. La conexión no será privada.</string>
     <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Frecuencia de refresco de la pantalla</string>
+    <string name="max_refresh_rate_title">Frecuencia de refresco máxima</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Frecuencia de actualización mínima</string>
+    <string name="min_refresh_rate_title">Frecuencia de refresco mínima</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Aumenta automáticamente la frecuencia de refresco de 60 a %1$d Hz en algunos tipos de contenido. El uso de batería aumentará.</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
-    <string name="category_name_refresh_rate_controls">Frecuencia de actualización</string>
+    <string name="category_name_refresh_rate_controls">Frecuencia de refresco</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Desliza para capturar la pantalla</string>
     <string name="three_finger_gesture_summary">Desliza hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Gestor de iconos</string>
     <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Mantén presionado el sensor de huella digital para desbloquear el dispositivo</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Huella en AOD</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Mantén pulsado el sensor de huella dactilar para encender la pantalla y desbloquear el dispositivo.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear con la pantalla apagada.\nActivarlo puede causar encendidos accidentales.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Usa la huella digital para desbloquear</string>
     <string name="fingerprint_wake_unlock_touch">A la escucha de eventos con pantalla apagada</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir el orden de los botones de navegación</string>
     <string name="navbar_invert_info">Intercambiar los botones \"Atrás\" y \"Recientes\" de la barra de navegación</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Barra de gestos</string>
-    <string name="show_navbar_gesture_bar_summary">Mostrar barra de gestos en la parte inferior de la pantalla</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
     <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
@@ -297,4 +294,65 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o la contraseña correcta</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brillo automático en un toque</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegación</string>
+    <string name="immersive_navigation_title">Navegación inmersiva</string>
+    <string name="immersive_navigation_summary">Ocultar la barra de gestos y el relleno de la barra de navegación.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Detalles del paquete</string>
+    <string name="package_name">Nombre del paquete</string>
+    <string name="package_version">Versión del paquete</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nombre del punto de acceso móvil no aparecerá en la lista de redes WLAN disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca apagar el punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Mostrar y gestionar dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostrar dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_limit_title">Límite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo añadirá a la lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Nunca</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 hora</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga en los botones de volumen, cambiará la canción</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ocultar en pantalla de bloqueo</string>
+    <string name="power_menu_hide_on_secure_summary">Ocultar el menú de apagado en una pantalla de bloqueo segura</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Accesos directos en pantalla de bloqueo</string>
+    <string name="lockscreen_shortcuts_summary">Configurar accesos directos en pantalla de bloqueo</string>
+    <string name="lockscreen_shortcut_start_title">Acceso directo a la izquierda</string>
+    <string name="lockscreen_shortcut_end_title">Acceso directo a la derecha</string>
+    <string name="lockscreen_shortcut_home">Controles del hogar</string>
+    <string name="lockscreen_shortcut_wallet">Cartera</string>
+    <string name="lockscreen_shortcut_flashlight">Linterna</string>
+    <string name="lockscreen_shortcut_qr">Lector de códigos QR</string>
+    <string name="lockscreen_shortcut_camera">Cámara</string>
+    <string name="lockscreen_shortcut_none">Ninguno</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor de tráfico de red</string>
+    <string name="network_traffic_mode_title">Modo de visualización</string>
+    <string name="network_traffic_mode_disable">Desactivado</string>
+    <string name="network_traffic_mode_status_bar">Barra de estado</string>
+    <string name="network_traffic_mode_qs">Ajustes rápidos</string>
+    <string name="network_traffic_autohide">Ocultar automáticamente</string>
+    <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad</string>
+    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
 </resources>

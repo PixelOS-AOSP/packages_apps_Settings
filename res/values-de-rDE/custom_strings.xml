@@ -31,10 +31,10 @@
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Icon-Manager</string>
     <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole ändern</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always-On Fingerabdruck</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Zum Anschalten und Entsperren des Geräts den Fingerabdrucksensor im Display lange gedrückt halten.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren bei ausgeschaltetem Bildschirm.\nDie Aktivierung kann zu einem unbeabsichtigten Aufwecken führen.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Zum Entsperren Fingerabdrucksensor berühren</string>
     <string name="fingerprint_wake_unlock_touch">Fingerabdrucksensor bleibt aktiv, wenn der Bildschirm aus ist</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Layouts der Navigationsleiste umkehren</string>
     <string name="navbar_invert_info">Tausche die \"Zurück\" und \"Zuletzt geöffnet\" Tasten in der Navigationsleiste</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gestenleiste</string>
-    <string name="show_navbar_gesture_bar_summary">Gestenleiste am unteren Bildschirmrand anzeigen</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppeltippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
@@ -287,14 +284,75 @@
     <string name="display_rotation_180_title">180 Grad</string>
     <string name="display_rotation_270_title">270 Grad</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Mobilfunkinformation</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">PIN-Layout zufällig neu anordnen, wenn das Gerät entsperrt wird</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Schnelles entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wurde</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Autom. Helligkeitseinstellung nur einmalig vornehmen</string>
+    <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigationsleiste</string>
+    <string name="immersive_navigation_title">Navigationsleiste ausblenden</string>
+    <string name="immersive_navigation_summary">Gestenpille und Navigationsleiste ausblenden.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Paketinformationen</string>
+    <string name="package_name">Paketname</string>
+    <string name="package_version">Paketversion</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot niemals ausschalten</string>
+    <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte auflisten und verwalten</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte auflisten</string>
+    <string name="wifi_hotspot_client_limit_title">Max. Anzahl verbundener Geräte</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockierte Geräte</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Gerät blockieren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Diese Aktion trennt \"<xliff:g id="device_name">%1$s</xliff:g>\" von diesem Gerät und fügt es der Blockliste hinzu</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Gerät nicht mehr blockieren</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" wird sich mit diesem Hotspot verbinden können</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, sobald sie verfügbar sind.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Niemals</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 Sekunden</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 Minute</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 Minuten</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 Minuten</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 Minuten</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 Stunde</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Auf Sperrbildschirm ausblenden</string>
+    <string name="power_menu_hide_on_secure_summary">Verstecke das Ein-/Aus-Menü während eines sicheren Sperrbildschirms</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot-Auslöserton</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Sperrbildschirm-Verknüpfungen</string>
+    <string name="lockscreen_shortcuts_summary">Sperrbildschirm-Verknüpfungen konfigurieren</string>
+    <string name="lockscreen_shortcut_start_title">Linke Verknüpfung</string>
+    <string name="lockscreen_shortcut_end_title">Rechte Verknüpfung</string>
+    <string name="lockscreen_shortcut_home">Home-Steuerung</string>
+    <string name="lockscreen_shortcut_wallet">Wallet</string>
+    <string name="lockscreen_shortcut_flashlight">Taschenlampe</string>
+    <string name="lockscreen_shortcut_qr">QR-Code-Scanner</string>
+    <string name="lockscreen_shortcut_camera">Kamera</string>
+    <string name="lockscreen_shortcut_none">Keine</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Datenverkehr-Anzeige</string>
+    <string name="network_traffic_mode_title">Anzeigemodus</string>
+    <string name="network_traffic_mode_disable">Deaktiviert</string>
+    <string name="network_traffic_mode_status_bar">Statusleiste</string>
+    <string name="network_traffic_mode_qs">Schnelleinstellungen</string>
+    <string name="network_traffic_autohide">Automatisch ausblenden</string>
+    <string name="network_traffic_autohide_summary">Datenverkehr-Anzeige ausblenden, wenn keine Netzwerkaktivität vorhanden ist</string>
+    <string name="network_traffic_units_title">Einheiten der Datenübertragungsraten</string>
 </resources>

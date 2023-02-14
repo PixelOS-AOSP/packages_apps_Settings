@@ -31,10 +31,10 @@
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Zarządzanie ikonami</string>
     <string name="icon_manager_summary">Kontrola widoczności ikon paska stanu</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Przytrzymaj na czytniku linii papilarnych, aby odblokować urządzenie</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Zawsze podświetlaj czytnik odcisku palca</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Aby wybudzić i odblokować ekran, przytrzymaj dłużej czujnik linii papilarnych, który się znajduje pod wyświetlaczem</string>
+    <string name="ambient_display_screen_off_udfps_summary">Pozwala na odblokowanie przy wyłączonym ekranie.\nWłączenie może spowodować przypadkowe wybudzenia.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Dotknij czytnika linii papilarnych, aby odblokować</string>
     <string name="fingerprint_wake_unlock_touch">Nasłuchuj wydarzeń, gdy ekran jest wyłączony</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Odwróć układ paska nawigacji</string>
     <string name="navbar_invert_info">Spowoduje to zamianę przycisków \"Wstecz\" i \"Ostatnie\" na pasku nawigacji</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Pasek gestów</string>
-    <string name="show_navbar_gesture_bar_summary">Pokaż wskaźnik gestów w dolnej części ekranu</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Podwójne dotknięcie</string>
     <string name="doze_double_tap_title">Kliknij dwukrotnie, by sprawdzić telefon</string>
@@ -287,14 +284,75 @@
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informacje radiowe</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+    <string name="proximity_wake_summary">Używaj czujnika zbliżeniowego podczas wybudzania ekranu</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie wpisane prawidłowe hasło/PIN</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorazowa jasność automatyczna</string>
+    <string name="auto_brightness_one_shot_summary">Regulacja jasności nastąpi tylko w momencie włączenia ekranu</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Pasek nawigacji</string>
+    <string name="immersive_navigation_title">Nawigacja pełnoekranowa</string>
+    <string name="immersive_navigation_summary">Ukryj wypełnianie paska gestów i paska nawigacyjnego.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Szczegóły pakietu</string>
+    <string name="package_name">Nazwa pakietu</string>
+    <string name="package_version">Wersja pakietu</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Ukryta sieć</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nazwa Twojego mobilnego punktu dostępu nie pojawi się na liście dostępnych sieci Wi-Fi.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj punktu dostępu</string>
+    <string name="wifi_hotspot_client_manager_title">Podłączone urządzenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Pokaż i zarządzaj urządzeniami podłączonymi do punktu dostępu</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Pokaż urządzenia podłączone do punktu dostępu</string>
+    <string name="wifi_hotspot_client_limit_title">Limit urządzeń podłączonych</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Zablokowane urządzenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Podłączone urządzenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Zablokuj urządzenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ta czynność rozłączy \"<xliff:g id="device_name">%1$s</xliff:g>\" z tego urządzenia i doda go do listy zablokowanych</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokuj urządzenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Urządzenie \"<xliff:g id="device_name">%1$s</xliff:g>\" będzie mogło się połączyć do Twojego punktu dostępu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Aktualnie brak dostępnych urządzeń. Połączone i zablokowane urządzenia zostaną wyświetlone tutaj, jeśli będą dostępne.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Nigdy</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 sekund</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minuta</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minut</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minut</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minut</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 godzina</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
+    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ukryj na ekranie blokady</string>
+    <string name="power_menu_hide_on_secure_summary">Ta opcja spowoduje wyłączenie menu zasilania tylko na zabezpieczonym ekranie blokady</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Skróty ekranu blokady</string>
+    <string name="lockscreen_shortcuts_summary">Dostosuj skróty ekranu blokady</string>
+    <string name="lockscreen_shortcut_start_title">Lewy skrót</string>
+    <string name="lockscreen_shortcut_end_title">Prawy skrót</string>
+    <string name="lockscreen_shortcut_home">Sterowanie domem</string>
+    <string name="lockscreen_shortcut_wallet">Portfel</string>
+    <string name="lockscreen_shortcut_flashlight">Latarka</string>
+    <string name="lockscreen_shortcut_qr">Skaner kodów QR</string>
+    <string name="lockscreen_shortcut_camera">Aparat</string>
+    <string name="lockscreen_shortcut_none">Brak</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor połączenia sieciowego</string>
+    <string name="network_traffic_mode_title">Tryb wyświetlania</string>
+    <string name="network_traffic_mode_disable">Wyłączono</string>
+    <string name="network_traffic_mode_status_bar">Pasek stanu</string>
+    <string name="network_traffic_mode_qs">Szybkie ustawienia</string>
+    <string name="network_traffic_autohide">Auto ukrywanie</string>
+    <string name="network_traffic_autohide_summary">Ukryj monitor ruchu, przy braku aktywności</string>
+    <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
 </resources>

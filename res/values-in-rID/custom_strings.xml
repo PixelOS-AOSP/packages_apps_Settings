@@ -31,10 +31,10 @@
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Manajer ikon</string>
     <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Tekan lama pada sensor sidik jari untuk membuka kunci perangkat</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Sidik Jari Selalu Aktif</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Untuk mengaktifkan layar dan membuka kunci, tekan lama sensor sidik jari di bawah layar.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Mengizinkan membuka kunci dengan layar mati.\nMengaktifkan ini dapat menyebabkan bangun tanpa disengaja.</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Sentuh sensor sidik jari untuk membuka kunci</string>
     <string name="fingerprint_wake_unlock_touch">Mendeteksi saat layar mati</string>
@@ -110,9 +110,6 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
     <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Terbaru\" di bilah navigasi</string>
-    <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Bilah gestur</string>
-    <string name="show_navbar_gesture_bar_summary">Tampilkan bilah gestur di bagian bawah layar</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -298,4 +295,65 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan layar hanya akan terjadi saat layar dihidupkan</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Bilah navigasi</string>
+    <string name="immersive_navigation_title">Navigasi Immersive</string>
+    <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Rincian paket</string>
+    <string name="package_name">Nama paket</string>
+    <string name="package_version">Versi paket</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot seluler Anda tidak akan muncul dalam daftar jaringan WiFi yang tersedia.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Jangan pernah mematikan hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Perangkat yang tersambung</string>
+    <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang tersambung ke hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang tersambung ke hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Batas perangkat yang tersambung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Perangkat yang diblokir</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Perangkat yang terhubung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokir perangkat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari perangkat ini dan menambahkannya ke daftar blokir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang tersambung dan diblokir akan dicantumkan di sini jika tersedia.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Jangan pernah</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 detik</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 menit</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 menit</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 menit</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 menit</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 jam</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Sembunyikan pada layar kunci</string>
+    <string name="power_menu_hide_on_secure_summary">Sembunyikan menu daya saat berada di layar kunci</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <!-- Lockscreen bottom shortcuts -->
+    <string name="lockscreen_shortcuts">Pintasan layar kunci</string>
+    <string name="lockscreen_shortcuts_summary">Konfigurasikan pintasan layar kunci</string>
+    <string name="lockscreen_shortcut_start_title">Pintasan kiri</string>
+    <string name="lockscreen_shortcut_end_title">Pintasan kanan</string>
+    <string name="lockscreen_shortcut_home">Kontrol Home</string>
+    <string name="lockscreen_shortcut_wallet">Dompet</string>
+    <string name="lockscreen_shortcut_flashlight">Lampu Senter</string>
+    <string name="lockscreen_shortcut_qr">Pemindai kode QR</string>
+    <string name="lockscreen_shortcut_camera">Kamera</string>
+    <string name="lockscreen_shortcut_none">Tidak ada</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
+    <string name="network_traffic_mode_title">Mode tampilan</string>
+    <string name="network_traffic_mode_disable">Dinonaktifkan</string>
+    <string name="network_traffic_mode_status_bar">Bilah status</string>
+    <string name="network_traffic_mode_qs">Setelan Cepat</string>
+    <string name="network_traffic_autohide">Sembunyikan otomatis</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak ada aktivitas</string>
+    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
 </resources>
