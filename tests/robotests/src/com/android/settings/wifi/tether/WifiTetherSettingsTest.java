@@ -138,7 +138,6 @@ public class WifiTetherSettingsTest {
     public void createPreferenceControllers_notEmpty() {
         assertThat(WifiTetherSettings.SEARCH_INDEX_DATA_PROVIDER.getPreferenceControllers(mContext))
                 .isNotEmpty();
->>>>>>> 011f6f815b (SoftAp: add Hidden SSID preference)
     }
 
     @Test
