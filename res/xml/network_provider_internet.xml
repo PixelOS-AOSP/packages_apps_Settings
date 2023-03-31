@@ -125,11 +125,20 @@
         android:negativeButtonText="@android:string/cancel" />
 
     <Preference
+        android:key="network_traffic_state"
+        android:icon="@drawable/ic_settings_network_traffic"
+        android:title="@string/network_traffic_state_title"
+        android:summary="@string/network_traffic_state_summary"
+        android:order="25"
+        android:fragment="com.android.settings.custom.networktraffic.NetworkTrafficSettings"
+        android:defaultValue="false" />
+
+    <Preference
         android:fragment="com.android.settings.network.AdaptiveConnectivitySettings"
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_adaptive_connectivity"
-        android:order="25"
+        android:order="30"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
 </PreferenceScreen>
