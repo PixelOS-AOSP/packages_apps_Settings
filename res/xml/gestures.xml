@@ -110,7 +110,7 @@
         android:key="status_bar_quick_qs_pulldown"
         android:title="@string/quick_settings_quick_pull_down_title"
         android:summary="@string/quick_settings_quick_pull_down_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
