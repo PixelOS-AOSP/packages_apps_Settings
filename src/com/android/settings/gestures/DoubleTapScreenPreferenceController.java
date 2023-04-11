@@ -48,6 +48,7 @@ public class DoubleTapScreenPreferenceController extends TogglePreferenceControl
     private final int OFF = 0;
 
     private static final String SECURE_KEY = DOZE_DOUBLE_TAP_GESTURE;
+    private static final String AMBIENT_SECURE_KEY = "doze_double_tap_gesture_ambient";
 
     private AmbientDisplayConfiguration mAmbientConfig;
     @UserIdInt
@@ -102,7 +103,10 @@ public class DoubleTapScreenPreferenceController extends TogglePreferenceControl
                 Settings.Secure.getInt(resolver, SECURE_KEY, ON) == ON;
         String summary;
         if (enabled) {
-            summary = mContext.getString(R.string.gesture_setting_on);
+            summary = mContext.getString(R.string.gesture_setting_on) + " ("
+                    + (Settings.Secure.getInt(resolver, AMBIENT_SECURE_KEY, 0) == 1
+                    ? mContext.getString(R.string.gesture_wake_ambient)
+                    : mContext.getString(R.string.gesture_wake)) + ")";
         } else {
             summary = mContext.getString(R.string.gesture_setting_off);
         }
@@ -159,6 +163,7 @@ public class DoubleTapScreenPreferenceController extends TogglePreferenceControl
 
     private class SettingObserver extends ContentObserver {
         private final Uri mUri = Settings.Secure.getUriFor(SECURE_KEY);
+        private final Uri mAmbientUri = Settings.Secure.getUriFor(AMBIENT_SECURE_KEY);
 
         private final Preference mPreference;
 
@@ -169,6 +174,7 @@ public class DoubleTapScreenPreferenceController extends TogglePreferenceControl
 
         public void register(ContentResolver cr) {
             cr.registerContentObserver(mUri, false, this);
+            cr.registerContentObserver(mAmbientUri, false, this);
         }
 
         public void unregister(ContentResolver cr) {
@@ -178,7 +184,7 @@ public class DoubleTapScreenPreferenceController extends TogglePreferenceControl
         @Override
         public void onChange(boolean selfChange, Uri uri) {
             super.onChange(selfChange, uri);
-            if (uri == null || mUri.equals(uri)) {
+            if (uri == null || mUri.equals(uri) || mAmbientUri.equals(uri)) {
                 updateState(mPreference);
             }
         }
