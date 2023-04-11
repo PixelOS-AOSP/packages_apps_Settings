@@ -35,4 +35,10 @@
         android:key="gesture_double_tap_category"
         android:title="@string/ambient_display_summary" />
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="doze_double_tap_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

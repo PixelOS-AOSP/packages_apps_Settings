@@ -35,4 +35,10 @@
         android:key="ambient_display_pickup"
         android:title="@string/ambient_display_pickup_summary" />
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="doze_pick_up_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
