@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">সর্বোচ্চ রিফ্রেশ রেট</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">সর্বনিম্ন রিফ্রেশ রেট</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">কিছু কন্টেন্টের রিফ্রেশ রেট অটোমেটিক ৬০ থেকে ৯০ Hz পর্যন্ত বেড়ে যায়। ব্যাটারির ব্যবহার বেড়ে যায়।</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">রিফ্রেশ রেট</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">ফিঙ্গারপ্রিন্ট সেন্সরটি আপনার ট্যাবলেটের সামনের দিকে আছে</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">আপনার ডিভাইসের সামনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">আপনার ফোনের সামনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">আপনার ট্যাবলেটের পিছনে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন৷</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">আপনার ডিভাইসের পিছনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">আপনার ফোনের পিছনে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন৷</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">আপনার ট্যাবলেটের সামনের সেন্সরে স্পর্শ করুন।</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">আপনার ডিভাইসের সামনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">আপনার ফোনের সামনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">আপনার ট্যাবলেটের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">আপনার ডিভাইসের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">আপনার ফোনের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">আপনার ট্যাবলেটের পাশের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">আপনার ডিভাইসের পাশের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">আপনার ফোনের পাশের সেন্সরে টিপ দিন</string>
+    <!-- Proximity wake / Pocket mode -->
+    <string name="proximity_wake_title">অনিচ্ছাকৃত স্ক্রিন জেগে যাওয়া প্রতিহত করুন</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from the double tap to wake gesture</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">কল চলাকালীন ভাইব্রেশন অপশন</string>
+    <string name="incall_vibrate_connect_title">সংযোগে ভাইব্রেট করুন</string>
+    <string name="incall_vibrate_call_wait_title">কল ওয়েটিং এ ভাইব্রেট</string>
+    <string name="incall_vibrate_disconnect_title">সংযোগ বিচ্ছিন্ন হলে ভাইব্রেট করুন</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">বিরক্তিকর নোটিফিকেশন</string>
+    <string name="notification_sound_vib_screen_on_summary">স্ক্রীন চালু থাকলে নোটিফিকেশন এর জন্য শব্দ এবং ভাইব্রেট করুণ</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Advanced restart চালু করুন</string>
+    <string name="global_actions_advanced_reboot_summary">পাওয়ার মেনুতে রিকভারি এবং বুটলোডারের অপশন দেখান</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">স্ক্রিনশট নিতে সোয়াইপ করুন</string>
+    <string name="three_finger_gesture_summary">স্ক্রীনশট নিতে ৩ আঙ্গুল দিয়ে নিচের দিকে টানুন</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">রেডিও তথ্য</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">ক্লায়েন্টদের ভিপিএন ব্যবহার করার অনুমতি দিন</string>
+    <string name="tethering_allow_vpn_upstreams_summary">হটস্পট ক্লায়েন্টদের আপ স্ট্রিম সংযোগের জন্য এই ডিভাইস\u2019 এর ভিপিএন কানেকশন ব্যবহার করতে দিন</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">নেভিগেশন বার লেআউট উল্টানো</string>
+    <string name="navbar_invert_info">নেভিগেশন বারে \"ব্যাক\" এবং \"রিসেন্ট\" বোতামগুলি অদলবদল করুন৷</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">দ্রুত টর্চ জালুন</string>
+    <string name="power_button_torch_summary">যখন স্ক্রিনটি বন্ধ থাকবে, পাওয়ার বোতামটি দীর্ঘ-টিপলে টর্চকে সক্ষম করবে</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">স্লিপ মোডে পাঠাতে ট্যাপ করুন</string>
+    <string name="double_tap_sleep_gesture_summary">স্ট্যাটাসবারের যেকোনো জায়গায় দুইবার ট্যাপ করে ডিভাইসকে স্লিপ করান</string>
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">ডেটা ব্যবহার দেখান</string>
+    <string name="qs_show_data_usage_summary">QS ফুটারে দৈনিক সেলুলার/ওয়াই-ফাই ডেটা ব্যবহার দেখান</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">স্ট্যাটাস বার এর আইকন এর দৃশ্যমান অবস্থা নিয়ন্ত্রণ করুন</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">সুরক্ষিত উইন্ডো ফ্লাগ উপেক্ষা করুন</string>
+    <string name="ignore_window_secure_summary">সমস্ত অ্যাপের জন্য স্ক্রিনশট এবং স্ক্রিন রেকর্ডের সীমা সরান। এটি কিছু ক্ষেত্রে সুবিধাজনক হতে পারে কিন্তু গোপনীয়তা ফাঁস হতে পারে।</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">লহরী প্রভাব</string>
+    <string name="enable_fingerprint_ripple_effect_summary">ফিঙ্গারপ্রিন্ট দিয়ে আনলক করার সময় রিপল ইফেক্ট দেখান</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">পূর্ণ স্ক্রিন অ্যাপস</string>
+    <string name="display_cutout_force_fullscreen_summary">অ্যাপ্লিকেশনগুলিকে নচ উপেক্ষা করতে বাধ্য করুন</string>
+    <string name="search">অনুসন্ধান করুন</string>
+    <string name="search_apps">অ্যাপ খুঁজুন</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">১ মিনিটেরও কম</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">আজ %1$s</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">অ্যাপ ভলিউম</string>
+    <string name="app_volume_title">প্রতি-অ্যাপ ভলিউম নিয়ন্ত্রণ</string>
+    <string name="app_volume_summary">প্রতিটি অ্যাপের জন্য ভিন্ন ভলিউম লেভেল সেট করার অনুমতি দিন</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">নোটিফিকেশন সাউন্ডগুলির মধ্যে ন্যূনতম সময়</string>
+    <string name="app_notification_sound_timeout_summary_template">সাউন্ড বা ভাইব্রেশন প্রত্যেক <xliff:g id="duration">%1$s</xliff:g>- এ একবারের বেশি হতে অনুমতি দেবেন না</string>
+    <string name="app_notification_sound_timeout_value_none">কোনো বাধা নেই</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">১০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">৩০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_1_minute">১ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">৫ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">১০ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">৩০ মিনিট</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="longpress_to_clipboard">কপি করতে চেপে ধরে রাখুন</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">স্মার্ট পজ</string>
+    <string name="adaptive_playback_enabled">স্মার্ট পজ ব্যাবহার করুন</string>
+    <string name="adaptive_playback_disabled_summary">বন্ধ</string>
+    <string name="adaptive_playback_intro_text">ভলিউম নিঃশব্দ হলে স্বয়ংক্রিয়ভাবে মিডিয়াকে বিরাম দেয় এবং নির্ধারিত সময়ের মধ্যে ভলিউম পুনরুদ্ধার করা হলে স্বয়ংক্রিয়ভাবে পুনরায় শুরু হবে।</string>
+    <string name="adaptive_playback_timeout_title">একটি সময়সীমা ব্যবহার করুন</string>
+    <string name="adaptive_playback_timeout_none">সময়সীমা নেই</string>
+    <string name="adaptive_playback_timeout_none_summary">চালু (সময়সীমা নেই)</string>
+    <string name="adaptive_playback_timeout_30_secs">৩০ সেকেন্ড</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">(30 সেকেন্ড) এর সময়</string>
+    <string name="adaptive_playback_timeout_1_min">১ মিনিট</string>
+    <string name="adaptive_playback_timeout_1_min_summary">(১ মিনিট) এর সময়</string>
+    <string name="adaptive_playback_timeout_2_min">২ মিনিট</string>
+    <string name="adaptive_playback_timeout_2_min_summary">(২ মিনিট) এর সময়</string>
+    <string name="adaptive_playback_timeout_5_min">৫ মিনিট</string>
+    <string name="adaptive_playback_timeout_5_min_summary">(৫ মিনিট) এর সময়</string>
+    <string name="adaptive_playback_timeout_10_min">১০ মিনিট</string>
+    <string name="adaptive_playback_timeout_10_min_summary">(১০ মিনিট) এর সময়</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">স্ক্র্যাম্বল লেয়াউট</string>
+    <string name="unlock_scramble_pin_layout_summary">ডিভাইস আনলক করার সময় স্ক্র্যাম্বল পিন লেআউট</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Never</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minute</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">বিদ্যমান মুখের স্ক্যান অপসারণ করুন এবং একটি নতুন স্ক্যান তৈরি করুন</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">পুনরায় মুখ স্ক্যান করুন</string>
+    <string name="face_redo_confirm_btn">পুনরায় করুন</string>
+    <string name="face_redo_warning_msg">আপনি কি বিদ্যমান মুখের স্ক্যান সরিয়ে করে একটি নতুন স্ক্যান তৈরি করতে চান?</string>
+    <string name="face_unlock_method_title">লক স্ক্রিনে ফেস আনলক করার অনুমতি দিন</string>
+    <string name="face_unlock_method_default">যখন স্ক্রিনটি বন্ধ থাকবে</string>
+    <string name="face_unlock_method_swipe">লক স্ক্রিনে সোয়াইপ করার সময়</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">উচ্চ স্পর্শ সংবেদনশীলতা</string>
+    <string name="high_touch_sensitivity_summary">টাচস্ক্রীন সংবেদনশীলতা বৃদ্ধি করুন যাতে গ্লাভস পরে ব্যবহার করা যেতে পারে</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">টাচস্ক্রিন হোভারিং</string>
+    <string name="touchscreen_hovering_summary">আপনাকে ওয়েব ব্রাউজার, রিমোট ডেস্কটপ ইত্যাদিতে মাউসের মতো পর্দা ঘোরাতে দেয়</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">উচ্চ স্পর্শ পোলিং হার</string>
+    <string name="high_touch_polling_rate_summary">টাচস্ক্রিন পোলিং হার বাড়ান</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">দিনের সময় এবং পরিবেশের অবস্থার উপর নির্ভর করে রিডিং মোড চালু করূন যাতে আপনার পড়ার জন্য স্ক্রিন অনুকূল হয় এবং চোখের উপর চাপ কমে</string>
+    <string name="live_display_mode">ডিসপ্লে মোড</string>
+    <string name="live_display_color_temperature_title">কালার টেম্পারেচার</string>
+    <string name="live_display_color_temperature_summary">দিন: <xliff:g id="day_temperature">%1$d </xliff:g>K রাত: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">দিন</string>
+    <string name="live_display_night">রাত</string>
+    <string name="live_display_outdoor_mode_title">স্বয়ংক্রিয় ভাবে বাইরের মোডে চলে যাবে</string>
+    <string name="live_display_outdoor_mode_summary">রোদে গেলে স্বয়ংক্রিয়ভাবে আলো এবং রঙ এর গাঢতা বৃদ্ধি পাবে</string>
+    <string name="live_display_anti_flicker_title">অ্যান্টি ফ্লিকার</string>
+    <string name="live_display_anti_flicker_summary">ব্যাপক ঝাঁকুনি প্রতিরোধ করুন এবং কম আলোর অবস্থায় চোখের চাপ কমিয়ে দিন। এটি রঙের নির্ভুলতা হ্রাস করতে পারে এবং কিছু আইটেম প্রদর্শিত হওয়ার উপায়কে প্রভাবিত করতে পারে।</string>
+    <string name="live_display_low_power_title">শক্তির ব্যবহার কমান</string>
+    <string name="live_display_low_power_summary">অবক্ষয় ছাড়াই সর্বনিম্ন শক্তি ব্যবহারের জন্য ডিসপ্লে অ্যাডজাস্ট করুন</string>
+    <string name="live_display_enhance_color_title">উন্নত রঙ</string>
+    <string name="live_display_enhance_color_summary">চর্মের বর্ণ, দৃশ্য এবং অন্যান্য ছবির রঙের ভাইব্রেন্স উন্নতি করুন</string>
+    <string name="live_display_color_profile_title">কালার প্রোফাইল</string>
+    <string name="live_display_color_profile_standard_title">সাধারণ</string>
+    <string name="live_display_color_profile_standard_summary">সঠিক রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_natural_title">স্বাভাবিক</string>
+    <string name="live_display_color_profile_natural_summary">রং এবং শরীরের বাস্তবিক বর্ণ</string>
+    <string name="live_display_color_profile_dynamic_title">ডায়নামিক</string>
+    <string name="live_display_color_profile_dynamic_summary">বর্ধিত রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_cinema_title">সিনেমা</string>
+    <string name="live_display_color_profile_cinema_summary">ভিডিও করার জন্য পার্ফেক্ট কালার</string>
+    <string name="live_display_color_profile_astronomy_title">অ্যাস্ট্রোনমি</string>
+    <string name="live_display_color_profile_astronomy_summary">রাতের ভাব ধরে রাখার জন্য লাল সংস্করণ</string>
+    <string name="live_display_color_profile_photography_title">ফটোগ্রাফি</string>
+    <string name="live_display_color_profile_photography_summary">ছবির জন্য উপযুক্ত রং পুনরুৎপাদন</string>
+    <string name="live_display_color_profile_basic_title">সাধারণ</string>
+    <string name="live_display_color_profile_basic_summary">ডিসপ্লেটি আনক্যালিব্রেট হিসাবে ব্যবহার করুন</string>
+    <string name="live_display_color_profile_adaptive_title">মানানসই</string>
+    <string name="live_display_color_profile_adaptive_summary">পারিপার্শ্বিক পরিস্থিতির সাথে রং মানিয়ে নেয়</string>
+    <string name="live_display_color_profile_reading_title">পড়া</string>
+    <string name="live_display_color_profile_reading_summary">চোখের ওপর চাপ কম রাখার জন্য উষ্ণ রং</string>
+    <string name="live_display_color_profile_srgb_title">sRGB মোড</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_color_profile_dci_p3_title">ডিসিআই-পি৩</string>
+    <string name="live_display_color_profile_dci_p3_summary">ডিসিআই-পি৩ রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_reading_mode_title">রিডিং মোড</string>
+    <string name="live_display_reading_mode_summary">দীর্ঘ সময় পড়ার জন্য গ্রেস্কেল মোড</string>
+    <string name="color_calibration_title">কালার ক্যালিব্রেশন</string>
+    <string name="color_calibration_summary">স্ক্রীনের কালার ক্যালিব্রেট করুন</string>
+    <string name="color_red_title">লাল</string>
+    <string name="color_green_title">সবুজ</string>
+    <string name="color_blue_title">নীল</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ছবি সমন্বয়</string>
+    <string name="picture_adjustment_summary">হিউ, স্যাচুরেশন, প্রাবল্য, এবং কনট্রাস্ট অ্যাডজাস্ট করুন</string>
+    <string name="adj_hue_title">হিউ</string>
+    <string name="adj_saturation_title">সম্পৃক্তি</string>
+    <string name="adj_intensity_title">প্রাবল্য</string>
+    <string name="adj_contrast_title">কনট্রাস্ট</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">দ্রুত আনলক করুন</string>
+    <string name="unlock_quick_unlock_control_summary">সঠিক পিন/পাসওয়ার্ড দেওয়া হলে স্বয়ংক্রিয়ভাবে আনলক করুন</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ডাবল ট্যাপ</string>
+    <string name="doze_double_tap_title">ফোন চেক করার জন্য দু\'বার ট্যাপ করুন</string>
+    <string name="doze_double_tap_summary">দুইবার ট্যাপ এর মাধ্যমে পালস্ নোটিফিকেশন দেখুন</string>
+</resources>

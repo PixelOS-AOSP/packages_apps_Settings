@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">En yüksek yenileme hızı</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Bazı içerikler için yenileme hızını otomatik olarak 60 Hz\'den %1$d Hz\'e yükseltir. Pil kullanımını artırır.</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Yenileme Oranı</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yanında bulunan parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensöre dokunun.</string>
+    <!-- Proximity wake / Pocket mode -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Çift dokunuş hareketiyle ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Sıkıcı bildirimler</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çal</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radyo bilgisi</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Ses panelini solda göster</string>
+    <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında gösterir</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Hızlı el feneri</string>
+    <string name="power_button_torch_summary">Ekran kapalıyken güç tuşuna uzun süreli basıldığında el feneri etkinleştirilir</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Çift dokunuşla uyutma</string>
+    <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Düşük pil ışığı</string>
+    <string name="low_battery_light_summary">Pil duşük olduğunda ışığı yakıp söndür</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Ağ trafik göstergesi</string>
+    <string name="network_traffic_summary">Durum çubuğunda ağ hızı göstergesini etkinleştirin veya devre dışı bırakın</string>
+    <string name="network_traffic_state_title">\"Ağ trafiği göstergesini\" etkinleştir</string>
+    <string name="network_options_title">Ayarlar</string>
+    <string name="network_traffic_autohide_title">Ağ trafiği göstergesi etkin olmadığında gizle</string>
+    <string name="network_traffic_autohide_summary">Ağ trafiği göstergesi 1 KB/s\'nin altında olduğunda gizle</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Özelleştirme</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Veri kullanımını göster</string>
+    <string name="qs_show_data_usage_summary">Hızlı ayarlar alt bilgisinde günlük hücresel/Wi-Fi veri kullanımını göster</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Durum çubuğu simgeleri</string>
+    <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
+    <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken, ses tuşlarına uzun basmak şarkıyı değiştirir</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
+    <string name="backup_transport_title">Yedekleme sağlayıcısını seçin</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Pencere güvenlik işaretlerini yoksay</string>
+    <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Uygulama kilidi</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> uygulama korunuyor</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> uygulamalar korunuyor</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Kilidi aç</string>
+    <string name="enable_debugging">Hata ayıklamayı etkinleştir</string>
+    <string name="disable_debugging">Hata ayıklamayı devre dışı bırak</string>
+    <string name="app_lock_packages_title">Korunan uygulamalar</string>
+    <string name="app_lock_packages_summary">Biyometri veya cihaz kimlik bilgileriyle korunacak uygulamaları seçin</string>
+    <string name="app_lock_timeout_title">Otomatik kilitleme zaman aşımı</string>
+    <string name="app_lock_timeout_summary">Kilidi açılan bir uygulamanın arka planda ne kadar süre sonra kilitleneceği</string>
+    <string name="app_lock_notifications_title">Bildirimleri daralt</string>
+    <string name="app_lock_notifications_summary">          Seçilen uygulamalar kilitlendiğinde bildirim içeriği gizlenecek ve daraltılacaktır.
+          Bildirim pencereleri otomatik olarak devre dışı bırakılır.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Önce bir uygulamayı koruyun</string>
+    <string name="app_lock_biometrics_allowed_title">Kilidi açmak için biyometri kullan</string>
+    <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
+    <string name="enable_protection">Korumayı etkinleştir</string>
+    <string name="hide_from_launcher_title">Başlatıcıdan gizle</string>
+    <string name="hide_from_launcher_summary">       Bu uygulamanın başlatıcıda görünmesini engelle. Değişikliklerin etkili olması için başlatıcının yeniden başlatılması gerekir.
+    </string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Dalga efekti</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yok saymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulama ara</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Hızlı aşağı çekme</string>
+    <string name="quick_settings_quick_pull_down_summary">Hızlı ayarları genişletmek için durum çubuğunu sağ taraftan aşağı çekin</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Her zaman açık parmak izi okuyucu</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekran kapalıyken kilidin açılmasına izin verir.\nEtkinleştirme, yanlışlıkla uyanmalara neden olabilir.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1 dakikadan az</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">bugün %1$s</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasındaki en az süre</string>
+    <string name="app_notification_sound_timeout_summary_template">Her <xliff:g id="duration">%1$s</xliff:g> bir defadan fazla sese veya titreşime izin ver</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Akıllı duraklatma</string>
+    <string name="adaptive_playback_enabled">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_intro_text">Ses kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses geri yüklendiğinde otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Şu zaman aşımnıı kullan</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Hareket çubuğu</string>
+    <string name="show_navbar_gesture_bar_summary">Ekranın altında hareket çubuğunu göster</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken pin düzenini karıştırır</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Tek seferlik otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz uygun WLAN ağları listesinde görünmeyecek.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot\'u asla kapatma</string>
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Hotspot\'a bağlı cihazları listeleyin ve yönetin</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu eylem \"<xliff:g id="device_name">%1$s</xliff:g>\" bu cihazdan bağlantıyı kesecek ve kara listeye ekleyecek</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihazın engelini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot a bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Asla</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 saniye</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 dakika</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 dakika</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 saat</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yeniden yap</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Yüksek dokunma hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini arttırarak eldiven ile kullanıma olanak verir</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Dokunmatik ekrana dokunmadan gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Yüksek dokunmatik yoklama oranı</string>
+    <string name="high_touch_polling_rate_summary">Dokunmatik ekran yoklama oranını artırın</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
+    <string name="live_display_mode">Ekran Modu</string>
+    <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
+    <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Gündüz</string>
+    <string name="live_display_night">Gece</string>
+    <string name="live_display_outdoor_mode_title">Otomatik açık alan modu</string>
+    <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında parlaklığı ve doygunluğu otomatik olarak arttırır</string>
+    <string name="live_display_anti_flicker_title">Titreme önleme</string>
+    <string name="live_display_anti_flicker_summary">Düşük ışık koşullarında aşırı titremeyi önleyin ve göz yorgunluğunu azaltın. Renk doğruluğunu düşürebilir ve bazı öğelerin görüntülenme şeklini etkileyebilir.</string>
+    <string name="live_display_low_power_title">Güç tüketimini azalt</string>
+    <string name="live_display_low_power_summary">Ekranda bozulma olmadan en düşük güç tüketimi için ayarlar</string>
+    <string name="live_display_enhance_color_title">Geliştirilmiş renkler</string>
+    <string name="live_display_enhance_color_summary">Ten tonları, sahne ve diğer görüntülerin renk canlılığını geliştir</string>
+    <string name="live_display_color_profile_title">Renk profili</string>
+    <string name="live_display_color_profile_standard_title">Standart</string>
+    <string name="live_display_color_profile_standard_summary">Doğru renkler ve parlak beyazlar</string>
+    <string name="live_display_color_profile_natural_title">Doğal</string>
+    <string name="live_display_color_profile_natural_summary">Gerçekçi renkler ve ten tonları</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamik</string>
+    <string name="live_display_color_profile_dynamic_summary">Gelişmiş renkler ve parlak beyazlar</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Videolar için mükemmel renk uyarlaması</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Gece görüşünü korumak için yoğun kırmızı</string>
+    <string name="live_display_color_profile_photography_title">Fotoğrafçılık</string>
+    <string name="live_display_color_profile_photography_summary">Fotoğraflar için harika renk üretimi</string>
+    <string name="live_display_color_profile_basic_title">Temel</string>
+    <string name="live_display_color_profile_basic_summary">Ekranı kalibre edilmemiş şekilde kullan</string>
+    <string name="live_display_color_profile_adaptive_title">Uyarlanabilir</string>
+    <string name="live_display_color_profile_adaptive_summary">Renkleri ortam koşullarına göre uyarla</string>
+    <string name="live_display_color_profile_reading_title">Okuma</string>
+    <string name="live_display_color_profile_reading_summary">Daha az göz yorgunluğu için sıcak renkler</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB renk aralığına göre uygun renkler</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 renk aralığına göre uygun renkler</string>
+    <string name="live_display_reading_mode_title">Okuma modu</string>
+    <string name="live_display_reading_mode_summary">Uzun süreli okuma için gri tonlama modu</string>
+    <string name="color_calibration_title">Renk kalibrasyonu</string>
+    <string name="color_calibration_summary">Ekran renklerini kalibre edin</string>
+    <string name="color_red_title">Kırmızı</string>
+    <string name="color_green_title">Yeşil</string>
+    <string name="color_blue_title">Mavi</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Görüntü ayarlama</string>
+    <string name="picture_adjustment_summary">Ton, doygunluk, yoğunluk ve kontrastı ayarla</string>
+    <string name="adj_hue_title">Renk Tonu</string>
+    <string name="adj_saturation_title">Doygunluk</string>
+    <string name="adj_intensity_title">Yoğunluk</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Çift dokunma</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
+    <string name="doze_double_tap_summary">Çift dokunuşla bildirimler</string>
+</resources>

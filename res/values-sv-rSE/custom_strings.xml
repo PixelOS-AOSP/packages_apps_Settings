@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Högsta uppdateringsfrekvens</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Lägsta uppdateringsfrekvens</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Ökar automatiskt uppdateringsfrekvensen från 60 till %1$d Hz för visst innehåll. Ökar batterianvändningen.</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Uppdateringsfrekvens</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Lokalisera fingeravtryckssensorn på framsidan av din platta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Lokalisera fingeravtryckssensorn på din enhets framsida.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Lokalisera fingeravtryckssensorn på framsidan av din telefon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Lokalisera fingeravtryckssensorn på baksidan av din surfplatta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Lokalisera fingeravtryckssensorn på baksidan av din enhet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Lokalisera fingeravtryckssensorn på baksidan av din telefon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Rör sensorn på framsidan på din surfplatta.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Rör sensorn på framsidan på din enhet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Rör sensorn på framsidan på din telefon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Rör sensorn på baksidan på din surfplatta.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Rör sensorn på baksidan på din enhet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Rör sensorn på baksidan på din telefon.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Rör sensorn på sidan av din surfplatta.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Rör sensorn på sidan av din enhet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Rör sensorn på sidan av din telefon.</string>
+    <!-- Proximity wake / Pocket mode -->
+    <string name="proximity_wake_title">Förhindra oavsiktlig väckning</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from the double tap to wake gesture</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsalternativ vid samtal</string>
+    <string name="incall_vibrate_connect_title">Vibrera vid anslutning</string>
+    <string name="incall_vibrate_call_wait_title">Vibrera vid samtal väntar</string>
+    <string name="incall_vibrate_disconnect_title">Vibrera vid frånkoppling</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Spela upp ljud och vibration för aviseringar när skärmen är på</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktivera avancerad omstart</string>
+    <string name="global_actions_advanced_reboot_summary">Visa alternativ för återställning och starthanterare i avstängningsmenyn</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Svep för skärmdump</string>
+    <string name="three_finger_gesture_summary">Svep nedåt med tre fingrar för att ta en skärmbild</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radioinformation</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN:er</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Tillåt hotspot-klienter att använda den här enheten\u2019s VPN-anslutningar för uppströmsanslutning</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertera navigationsfältets layout</string>
+    <string name="navbar_invert_info">Växla knapparna \"Tillbaka\" och \"Senaste\" i navigeringsfältet</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Snabbficklampa</string>
+    <string name="power_button_torch_summary">När skärmen är avstängd, långtryck på strömknappen kommer aktivera ficklampan</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Dubbeltryck för att släcka skärmen</string>
+    <string name="double_tap_sleep_gesture_summary">Dubbeltryck på statusfältet för att släcka skärmen</string>
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Visa dataanvändning</string>
+    <string name="qs_show_data_usage_summary">Visa daglig mobil-/Wi-Fi-dataanvändning i QS-sidfoten</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Styr synligheten av statusfältsikoner</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Uppspelningskontroll</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Ta bort skärmdump och skärminspelningsgränser för alla appar. Detta kan vara praktiskt i vissa fall men kan leda till sekretessläckor.</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Rippel effekt</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Visa rippel effekt vid upplåsning med fingeravtryck</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Skärmdumpsljud</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Helskärmsappar</string>
+    <string name="display_cutout_force_fullscreen_summary">Tvinga appar att ignorera utrymme för sensorhaka</string>
+    <string name="search">Sök</string>
+    <string name="search_apps">Sök i appar</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Mindre än 1 minut</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s idag</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Appvolym</string>
+    <string name="app_volume_title">Volymkontroll per app</string>
+    <string name="app_volume_summary">Tillåt att ange olika volymnivåer för varje app</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minsta tid mellan aviseringsljud</string>
+    <string name="app_notification_sound_timeout_summary_template">Tillåt ljud eller vibration endast en gång per <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Ingen begränsning</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekunder</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekunder</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuter</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuter</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuter</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Kopierat till urklipp</string>
+    <string name="longpress_to_clipboard">Långtryck för att kopiera</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Använd smart paus</string>
+    <string name="adaptive_playback_disabled_summary">Av</string>
+    <string name="adaptive_playback_intro_text">Pausar automatiskt media när volymen är tystad och återupptas automatiskt när volymen återställs inom den inställda tiden.</string>
+    <string name="adaptive_playback_timeout_title">Använd en tidsgräns på</string>
+    <string name="adaptive_playback_timeout_none">Ingen tidsgräns</string>
+    <string name="adaptive_playback_timeout_none_summary">På (ingen tidsbegränsning)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">På (30 sekunder)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">På (1 minut)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuter</string>
+    <string name="adaptive_playback_timeout_2_min_summary">På (2 minuter)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuter</string>
+    <string name="adaptive_playback_timeout_5_min_summary">På (5 minuter)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuter</string>
+    <string name="adaptive_playback_timeout_10_min_summary">På (10 minuter)</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Kasta om layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Kasta om PIN-layout vid upplåsning av enheten</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Automatisk ljusstyrka en gång</string>
+    <string name="auto_brightness_one_shot_summary">Justering av ljusstyrkan kommer endast att ske när skärmen slås på</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Dolt nätverk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Namnet på din mobila surfpunkt kommer inte att visas i listan över tillgängliga WLAN-nätverk.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Stäng aldrig av surfpunkten</string>
+    <string name="wifi_hotspot_client_manager_title">Anslutna enheter</string>
+    <string name="wifi_hotspot_client_manager_summary">Visa och hantera enheter som är anslutna till surfzonen</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Visa enheter som är anslutna till surfzonen</string>
+    <string name="wifi_hotspot_client_limit_title">Gräns för anslutna enheter</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockerade enheter</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Anslutna enheter</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blockera enhet</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Denna åtgärd kommer att koppla bort \"<xliff:g id="device_name">%1$s</xliff:g>\" från den här enheten och lägga till den i blockeringslistan</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Ta bort blockering</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Enheten \"<xliff:g id="device_name">%1$s</xliff:g>\" kommer att kunna ansluta till denna surfpunkt</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Inga klienter är anslutna för närvarande. Anslutna och blockerade enheter kommer att listas här när de är tillgängliga.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Aldrig</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 sekunder</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minut</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minuter</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minuter</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minuter</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 timme</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Ta bort den befintliga ansiktsavläsningen och skapa en ny avläsning</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gör om ansiktsavläsning</string>
+    <string name="face_redo_confirm_btn">Gör om</string>
+    <string name="face_redo_warning_msg">Vill du ta bort den befintliga ansiktsskanningen och skapa en ny?</string>
+    <string name="face_unlock_method_title">Tillåt ansiktsupplåsning på låsskärmen</string>
+    <string name="face_unlock_method_default">När skärmen är på</string>
+    <string name="face_unlock_method_swipe">När du drar på låsskärmen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Hög tryckkänslighet</string>
+    <string name="high_touch_sensitivity_summary">Öka skärmens tryckkänslighet så att den kan användas med handskar</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Låter dig hovra över skärmen som en mus i webbläsare, fjärrskrivbord, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">High touch polling rate</string>
+    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimera din skärm beroende på tidpunkt och omgivning för att förbättra läsbarheten och minska belastningen på ögonen</string>
+    <string name="live_display_mode">Visningsläge</string>
+    <string name="live_display_color_temperature_title">Färgtemperatur</string>
+    <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_night">Natt</string>
+    <string name="live_display_outdoor_mode_title">Automatiskt utomhusläge</string>
+    <string name="live_display_outdoor_mode_summary">Öka ljusstyrkan och mättnaden automatiskt i starkt solljus</string>
+    <string name="live_display_anti_flicker_title">Anti-flimmer</string>
+    <string name="live_display_anti_flicker_summary">Förhindra omfattande flimmer och minska ansträngning utav ögonen i omgivningar med lågt ljus. Det kan försämra hur färger återges samt påverka hur vissa saker visas.</string>
+    <string name="live_display_low_power_title">Minska energiförbrukning</string>
+    <string name="live_display_low_power_summary">Justera skärmen för lägsta möjliga energiförbrukning utan någon försämring</string>
+    <string name="live_display_enhance_color_title">Förbättra färger</string>
+    <string name="live_display_enhance_color_summary">Förbättra färg vibrans på hudtoner, landskap och andra bilder</string>
+    <string name="live_display_color_profile_title">Färgprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Exakta färger och kritvitt</string>
+    <string name="live_display_color_profile_natural_title">Naturliga</string>
+    <string name="live_display_color_profile_natural_summary">Realistiska färger och naturliga toner</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisk</string>
+    <string name="live_display_color_profile_dynamic_summary">Förbättrade färger och kritvitt</string>
+    <string name="live_display_color_profile_cinema_title">Bio</string>
+    <string name="live_display_color_profile_cinema_summary">Perfekt färgåtergivning för video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Perfekt färgåtergivning för foton</string>
+    <string name="live_display_color_profile_basic_title">Grundläggande</string>
+    <string name="live_display_color_profile_basic_summary">Använd skärmen okalibrerad</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Färgerna anpassas efter omgivningen</string>
+    <string name="live_display_color_profile_reading_title">Läsning</string>
+    <string name="live_display_color_profile_reading_summary">Varmare färger för mindre påfrestning på ögonen</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Exakta färger för Adobe RGB-färgutrymmet</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Exakta färger för DCI-P3-färgutrymmet</string>
+    <string name="live_display_reading_mode_title">Läsläge</string>
+    <string name="live_display_reading_mode_summary">Gråskaleläge för långvarig läsning</string>
+    <string name="color_calibration_title">Färgkalibrering</string>
+    <string name="color_calibration_summary">Kalibrera skärmfärger</string>
+    <string name="color_red_title">Röd</string>
+    <string name="color_green_title">Grön</string>
+    <string name="color_blue_title">Blå</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Bildjustering</string>
+    <string name="picture_adjustment_summary">Justera nyans, mättnad, intensitet och kontrast</string>
+    <string name="adj_hue_title">Nyans</string>
+    <string name="adj_saturation_title">Färgmättnad</string>
+    <string name="adj_intensity_title">Styrka</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Snabbupplåsning</string>
+    <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord har angivits</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dubbeltryck</string>
+    <string name="doze_double_tap_title">Tryck snabbt två gånger för att kolla telefonen</string>
+    <string name="doze_double_tap_summary">Pulsera aviseringar genom att dubbeltrycka</string>
+</resources>
