@@ -28,6 +28,10 @@
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
+    <!-- Indicates whether device has a side mounted fingerprint sensor,
+         but a dedicated one, i.e. not embedded in the power button. -->
+    <bool name="config_is_side_fps" translatable="false">false</bool>
+
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
     <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
