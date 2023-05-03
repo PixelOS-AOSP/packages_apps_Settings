@@ -113,9 +113,6 @@
     <string name="ignore_window_secure_summary">Hapus tangkapan layar dan batas perekaman layar untuk semua aplikasi. Ini bisa nyaman dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi.</string>
     <!-- App lock -->
     <string name="app_lock_title">Kunci aplikasi</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikasi dilindungi</item>
-    </plurals>
     <string name="app_lock_authentication_dialog_title">Buka</string>
     <string name="enable_debugging">Aktifkan debugging</string>
     <string name="disable_debugging">Nonaktifkan debugging</string>
@@ -123,8 +120,16 @@
     <string name="app_lock_packages_summary">Pilih aplikasi yang akan dilindungi oleh biometrik atau kredensial perangkat</string>
     <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
     <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
+    <string name="app_lock_timeout_5secs">5 detik</string>
+    <string name="app_lock_timeout_10secs">10 detik</string>
+    <string name="app_lock_timeout_30secs">30 detik</string>
+    <string name="app_lock_timeout_1min">1 menit</string>
+    <string name="app_lock_timeout_5mins">5 menit</string>
+    <string name="app_lock_timeout_10mins">10 menit</string>
+    <string name="app_lock_timeout_30mins">30 menit</string>
     <string name="app_lock_notifications_title">Matikan notifikasi</string>
-    <string name="app_lock_notifications_summary">          Konten notifikasi akan disembunyikan dan dimatikan untuk aplikasi yang dipilih saat terkunci.
+    <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan diciutkan saat aplikasi terkunci.
+          Notifikasi yang ada serta notifikasi baru akan diedit.
           Notifikasi mengambang akan dinonaktifkan secara otomatis.
     </string>
     <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
@@ -303,4 +308,30 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Setelan rotasi</string>
+    <string name="display_rotation_enabled">Rotasi otomatis diaktifkan</string>
+    <string name="display_rotation_disabled">Rotasi otomatis dinonaktifkan</string>
+    <string name="display_rotation_unit">derajat</string>
+    <string name="display_rotation_category_title">Mode rotasi</string>
+    <string name="display_rotation_0_title">0 derajat</string>
+    <string name="display_rotation_90_title">90 derajat</string>
+    <string name="display_rotation_180_title">180 derajat</string>
+    <string name="display_rotation_270_title">270 derajat</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Sembunyikan pada layar kunci</string>
+    <string name="power_menu_hide_on_secure_summary">Sembunyikan menu daya saat berada di layar kunci</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Setelan tambahan</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
+    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
+    <string name="gesture_wake_ambient">Tampilkan Ambien</string>
+    <string name="gesture_wake">Bangun sepenuhnya</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tampilan ambien</string>
+    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
 </resources>

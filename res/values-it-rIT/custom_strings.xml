@@ -113,10 +113,6 @@
     <string name="ignore_window_secure_summary">Rimuovi i limiti agli screenshot e alle registrazioni schermo per tutte le app. Può essere utile in alcuni casi ma può compromettere la privacy.</string>
     <!-- App lock -->
     <string name="app_lock_title">Blocco app</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> applicazione è protetta</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applicazioni sono protette</item>
-    </plurals>
     <string name="app_lock_authentication_dialog_title">Sblocca</string>
     <string name="enable_debugging">Abilita debug</string>
     <string name="disable_debugging">Disabilita debugging</string>
@@ -124,9 +120,17 @@
     <string name="app_lock_packages_summary">Seleziona le applicazioni da proteggere con la biometria o le credenziali del dispositivo</string>
     <string name="app_lock_timeout_title">Timeout blocco automatico</string>
     <string name="app_lock_timeout_summary">Durata di tempo dopo il quale una applicazione sbloccata in background debba essere bloccata</string>
+    <string name="app_lock_timeout_5secs">5 seconds</string>
+    <string name="app_lock_timeout_10secs">10 seconds</string>
+    <string name="app_lock_timeout_30secs">30 seconds</string>
+    <string name="app_lock_timeout_1min">1 minute</string>
+    <string name="app_lock_timeout_5mins">5 minutes</string>
+    <string name="app_lock_timeout_10mins">10 minutes</string>
+    <string name="app_lock_timeout_30mins">30 minutes</string>
     <string name="app_lock_notifications_title">Nascondi notifiche</string>
-    <string name="app_lock_notifications_summary">          Il contenuto delle notifiche sarà nascosto e compresso per le app selezionate quando sono bloccate.
-          Le Notifiche Fluttuanti saranno disabilitate automaticamente.
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed when app is locked out.
+          Existing notifications as well as new notifications will be redacted.
+          Heads up notifications will be automatically disabled.
     </string>
     <string name="app_lock_notifications_disabled_summary">Proteggi prima un\'applicazione</string>
     <string name="app_lock_biometrics_allowed_title">Abilita la biometria per lo sblocco</string>
@@ -149,9 +153,9 @@
     <string name="quick_settings_quick_pull_down_title">Apertura veloce impostazioni rapide</string>
     <string name="quick_settings_quick_pull_down_summary">Abbassa velocemente la tendina delle notifiche dalla parte destra per espandere subito le impostazioni rapide</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">Sensore impronte sempre attivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permette lo sblocco con lo schermo spento.\nL\'abilitazione può causare risvegli accidentali.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Meno di un minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -192,30 +196,30 @@
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Barra dei gesti</string>
+    <string name="show_navbar_gesture_bar_summary">Mostra la barra dei gesti nella parte inferiore dello schermo</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Mischia la disposizione</string>
     <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione grafica dei numeri del PIN per sbloccare il dispositivo</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">Luminosità automatica singola</string>
+    <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà nel momento in cui lo schermo viene acceso</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
-    <string name="wifi_hotspot_timeout_summary_never">Never</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo Hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Non spegnere mai l\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_client_manager_summary">Elenca e gestisci i dispositivi connessi all\'Hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Elenca i dispositivi connessi all\'Hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limite di dispositivi connessi</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocca dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Questa azione disconnetterà \"<xliff:g id="device_name">%1$s</xliff:g>\" dal dispositivo e lo aggiungerà alla lista di blocco</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Il dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà connettersi a questo Hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Non ci sono Client disponibili. Dispositivi connessi e bloccati saranno elencati qui quando disponibili.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Mai</string>
     <string name="wifi_hotspot_timeout_summary_30secs">30 secondi</string>
     <string name="wifi_hotspot_timeout_summary_1min">1 minuto</string>
     <string name="wifi_hotspot_timeout_summary_5mins">5 minuti</string>
@@ -303,4 +307,30 @@
     <string name="double_tap_title">Doppio tocco</string>
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional settings</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
 </resources>

@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
     <!-- Max refresh rate -->
     <string name="max_refresh_rate_title">Tốc độ làm mới cao nhất</string>
     <!-- Min refresh rate -->
@@ -25,8 +25,8 @@
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Tần số quét</string>
     <!-- Battery saver refresh rate -->
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="battery_saver_refresh_rate_title">Giảm độ làm mới màn hình</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Xác định vị trí của cảm biến vân tay ở mặt trước máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Định vị cảm biến vân tay trên mặt trước thiết bị của bạn.</string>
@@ -34,9 +34,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Xác định vị trí cảm biến vân tay ở mặt trước thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Xác định vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Xác định cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Định vị cảm biến vân tay ở cạnh bên máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Xác định vị trí cảm biến vân tay ở mặt bên của thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Chạm vào cảm biến ở mặt trước máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Chạm vào cảm biến ở mặt trước thiết bị của bạn.</string>
@@ -49,7 +49,7 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
     <!-- Proximity wake / Pocket mode -->
     <string name="proximity_wake_title">Ngăn chặn vô tình mở khóa</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from the double tap to wake gesture</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi đánh thức màn hình từ cử chỉ đánh thức</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Các tùy chọn rung trong cuộc gọi</string>
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
@@ -73,8 +73,8 @@
     <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
     <string name="navbar_invert_info">Hoán đổi nút \"Quay về\" và \"Gần đây\" trên thanh điều hướng</string>
     <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <string name="volume_panel_on_left_title">Hiển thị thanh âm lượng bên trái màn hình</string>
+    <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Đèn pin nhanh</string>
     <string name="power_button_torch_summary">Khi màn hình tắt, nhấn và giữ nút nguồn sẽ bật đèn pin</string>
@@ -82,57 +82,62 @@
     <string name="double_tap_sleep_gesture_title">Chạm hai lần để tắt màn hình</string>
     <string name="double_tap_sleep_gesture_summary">Nhấn 2 lần vào bất kì vị trí nào trên thanh trạng thái để tắt màn hình</string>
     <!-- Low battery light -->
-    <string name="low_battery_light_title">Low battery light</string>
-    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <string name="low_battery_light_title">Đèn pin yếu</string>
+    <string name="low_battery_light_summary">Đèn LED nhấp nháy khi mức pin yếu</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_state_title">Enable \"Network traffic indicator\"</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_title">Lưu lượng mạng</string>
+    <string name="network_traffic_summary">Bật hoặc tắt hiển thị tốc độ mạng trên thanh trạng thái</string>
+    <string name="network_traffic_state_title">Kích hoạt giám sát lưu lượng mạng</string>
+    <string name="network_options_title">Tùy chọn</string>
+    <string name="network_traffic_autohide_title">Tự động ẩn tốc độ mạng khi không dùng</string>
+    <string name="network_traffic_autohide_summary">Ẩn lưu lượng mạng khi tốc độ mạng dưới 1KB/s</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Tuỳ biến</string>
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Hiện mức dùng dữ liệu</string>
     <string name="qs_show_data_usage_summary">Hiện mức dùng dữ liệu di động/Wi-Fi hàng ngày ở cuối QS</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_title">Biểu tượng thanh trạng thái</string>
     <string name="icon_manager_summary">Điều chỉnh các biểu tượng trên thanh trạng thái</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị một bảng nổi ở góc trái màn hình khi nội dung nào đó được sao chép vào bảng nhớ tạm</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Điều khiển phát lại</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, giữ phím âm lượng để chuyển bài hát</string>
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">Thay đổi nơi lưu trữ dữ liệu sao lưu của bạn</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp để sao lưu</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Bỏ qua cờ bảo mật cửa sổ</string>
     <string name="ignore_window_secure_summary">Loại bỏ giới hạn ảnh chụp màn hình và ghi màn hình cho tất cả các ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_title">Khóa ứng dụng</string>
+    <string name="app_lock_authentication_dialog_title">Mở khoá</string>
+    <string name="enable_debugging">Bật chế độ gỡ lỗi</string>
+    <string name="disable_debugging">Vô hiệu gỡ lỗi</string>
+    <string name="app_lock_packages_title">Các ứng dụng được bảo vệ</string>
+    <string name="app_lock_packages_summary">Chọn các ứng dụng để bảo vệ bằng sinh trắc học hoặc thông tin đăng nhập thiết bị</string>
+    <string name="app_lock_timeout_title">Hẹn giờ tự động khóa</string>
+    <string name="app_lock_timeout_summary">Khoảng thời gian mà ứng dụng dưới nền tự động bị khoá</string>
+    <string name="app_lock_timeout_5secs">5 giây</string>
+    <string name="app_lock_timeout_10secs">10 giây</string>
+    <string name="app_lock_timeout_30secs">30 giây</string>
+    <string name="app_lock_timeout_1min">1 phút</string>
+    <string name="app_lock_timeout_5mins">5 phút</string>
+    <string name="app_lock_timeout_10mins">10 phút</string>
+    <string name="app_lock_timeout_30mins">30 phút</string>
+    <string name="app_lock_notifications_title">Thu gọn thông báo</string>
+    <string name="app_lock_notifications_summary">          Nội dung thông báo sẽ bị ẩn và thu gọn khi khóa ứng dụng.
+          Các thông báo hiện có cũng như các thông báo mới sẽ được biên tập lại.
+          Thông báo cảnh báo sẽ tự động bị tắt.
     </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    <string name="app_lock_notifications_disabled_summary">Đầu tiên hãy khoá một ứng dụng</string>
+    <string name="app_lock_biometrics_allowed_title">Mở khoá bằng sinh trắc học</string>
+    <string name="app_lock_footer_text">Bong bóng sẽ tự động bị loại bỏ sau khi hết thời gian chờ</string>
+    <string name="enable_protection">Bật bảo vệ</string>
+    <string name="hide_from_launcher_title">Ẩn khỏi trình khởi chạy</string>
+    <string name="hide_from_launcher_summary">Không cho ứng dụng này hiển thị trong launcher. Cần khởi động lại launcher để thay đổi được áp dụng.
     </string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
@@ -145,12 +150,12 @@
     <string name="search">Tìm kiếm</string>
     <string name="search_apps">Tìm kiếm ứng dụng</string>
     <!-- Quick Settings quick pulldown -->
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="quick_settings_quick_pull_down_title">Kéo xuống nhanh</string>
+    <string name="quick_settings_quick_pull_down_summary">Kéo thanh trạng thái xuống từ bên phải để mở rộng cài đặt nhanh</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">Luôn bật vân tay khi màn hình tắt</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Cho phép mở khóa bằng vân tay khi màn hình đang tắt.\nKích hoạt có thể khiến thiết bị bất ngờ bị đánh thức.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Dưới 1 phút</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -191,8 +196,8 @@
     <string name="adaptive_playback_timeout_10_min">10 phút</string>
     <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
     <!-- Navigation bar hint -->
-    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <string name="show_navbar_gesture_bar_title">Thanh cử chỉ</string>
+    <string name="show_navbar_gesture_bar_summary">Hiển thị thanh cử chỉ ở cuối màn hình</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
@@ -229,7 +234,7 @@
     <string name="face_unlock_method_title">Cho phép mở khoá bằng khuôn mặt trên màn hình khoá</string>
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <string name="skip_biometric_auth_confirmation_title">Bỏ qua xác nhận thủ công</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Độ nhạy cảm ứng cao</string>
     <string name="high_touch_sensitivity_summary">Tăng độ nhạy màn hình cảm ứng để nó có thể được sử dụng trong khi đeo găng tay</string>
@@ -293,8 +298,8 @@
     <string name="adj_intensity_title">Cường độ</string>
     <string name="adj_contrast_title">Độ tương phản</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
+    <string name="system_black_theme_summary">Buộc màu nền tối</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Mở khoá nhanh</string>
     <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng PIN/mật khẩu</string>
@@ -302,4 +307,30 @@
     <string name="double_tap_title">Chạm 2 lần</string>
     <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
     <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Cài đặt xoay</string>
+    <string name="display_rotation_enabled">Tự động xoay được bật</string>
+    <string name="display_rotation_disabled">Tự động xoay đã tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ẩn trên màn hình khóa</string>
+    <string name="power_menu_hide_on_secure_summary">Ẩn tuỳ chọn menu mguồn trên màn hình khoá</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Phản hồi xúc giác</string>
+    <string name="back_gesture_haptic_summary">Kích hoạt phản hồi xúc giác trên cử chỉ quay lại</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Cài đặt bổ sung</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
+    <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức thiết bị</string>
+    <string name="gesture_wake_ambient">Hiển thị màn hình xem nhanh</string>
+    <string name="gesture_wake">Đánh thức hoàn toàn</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Màn hình luôn bật</string>
+    <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
 </resources>

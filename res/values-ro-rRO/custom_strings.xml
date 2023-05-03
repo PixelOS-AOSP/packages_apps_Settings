@@ -113,11 +113,6 @@
     <string name="ignore_window_secure_summary">Elimină limitarea capturilor de ecran și înregistrărilor de ecran pentru toate aplicațiile. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate.</string>
     <!-- App lock -->
     <string name="app_lock_title">Blocare aplicații</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicație este protejată</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicații sunt protejate</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicații sunt protejate</item>
-    </plurals>
     <string name="app_lock_authentication_dialog_title">Deblocare</string>
     <string name="enable_debugging">Activare depanare</string>
     <string name="disable_debugging">Dezactivare depanare</string>
@@ -125,9 +120,17 @@
     <string name="app_lock_packages_summary">Selectează aplicațiile pentru a le proteja cu datele biometrice sau datele de autentificare ale dispozitivului</string>
     <string name="app_lock_timeout_title">Timp de expirare pentru blocare automată</string>
     <string name="app_lock_timeout_summary">Durata de timp după care o aplicație deblocată în fundal ar trebui să fie blocată</string>
+    <string name="app_lock_timeout_5secs">5 secunde</string>
+    <string name="app_lock_timeout_10secs">10 secunde</string>
+    <string name="app_lock_timeout_30secs">30 de secunde</string>
+    <string name="app_lock_timeout_1min">1 minut</string>
+    <string name="app_lock_timeout_5mins">5 minute</string>
+    <string name="app_lock_timeout_10mins">10 minute</string>
+    <string name="app_lock_timeout_30mins">30 de minute</string>
     <string name="app_lock_notifications_title">Notificări</string>
-    <string name="app_lock_notifications_summary">Conținutul notificărilor va fi ascuns și restrâns pentru aplicațiile selectate atunci când acestea sunt blocate.
-          Notificările plutitoare vor fi dezactivate automat.
+    <string name="app_lock_notifications_summary">          Conținutul notificărilor va fi ascuns și restrâns atunci când aplicația este blocată.
+          Notificările existente, precum și notificările noi vor fi redactate.
+          Notificările de atenționare vor fi dezactivate automat.
     </string>
     <string name="app_lock_notifications_disabled_summary">Protejează mai întâi o aplicație</string>
     <string name="app_lock_biometrics_allowed_title">Activează datele biometrice pentru deblocare</string>
@@ -304,4 +307,30 @@
     <string name="double_tap_title">Apăsare dublă</string>
     <string name="doze_double_tap_title">Atinge de două ori pentru a verifica telefonul</string>
     <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Setări de rotire</string>
+    <string name="display_rotation_enabled">Rotire automată activată</string>
+    <string name="display_rotation_disabled">Rotire automată dezactivată</string>
+    <string name="display_rotation_unit">grade</string>
+    <string name="display_rotation_category_title">Moduri de rotire</string>
+    <string name="display_rotation_0_title">0 grade</string>
+    <string name="display_rotation_90_title">90 de grade</string>
+    <string name="display_rotation_180_title">180 de grade</string>
+    <string name="display_rotation_270_title">270 de grade</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ascunde pe ecranul de blocare</string>
+    <string name="power_menu_hide_on_secure_summary">Dezactivare meniu de alimentare pe ecranul de blocare protejat</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Reacție tactilă</string>
+    <string name="back_gesture_haptic_summary">Activare vibrație pentru gestul Înapoi</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Setări suplimentare</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Afișare ecran ambiental</string>
+    <string name="doze_gesture_ambient_summary">Se afișează afișajul ambient în loc de trezirea completă a ecranului</string>
+    <string name="gesture_wake_ambient">Afișare ecran ambiental</string>
+    <string name="gesture_wake">Trezire completă</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Afișaj ambiental</string>
+    <string name="doze_enabled_summary">Activarea funcționalității pachetului doze</string>
 </resources>
