@@ -308,29 +308,29 @@
     <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
     <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Impostazioni di rotazione schermo</string>
+    <string name="display_rotation_enabled">Rotazione automatica attivata</string>
+    <string name="display_rotation_disabled">Rotazione automatica disattivata</string>
+    <string name="display_rotation_unit">gradi</string>
+    <string name="display_rotation_category_title">Modalità di rotazione</string>
+    <string name="display_rotation_0_title">0 gradi</string>
+    <string name="display_rotation_90_title">90 gradi</string>
+    <string name="display_rotation_180_title">180 gradi</string>
+    <string name="display_rotation_270_title">270 gradi</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
-    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+    <string name="power_menu_hide_on_secure_title">Nascondi nella schermata di blocco</string>
+    <string name="power_menu_hide_on_secure_summary">Nascondi il menù di accensione nella schermata di blocco</string>
     <!-- Haptic feedback -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Feedback aptico</string>
+    <string name="back_gesture_haptic_summary">Attiva l'effetto aptico durante il gesto indietro</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional settings</string>
+    <string name="sound_settings_advanced_title">Impostazioni aggiuntive</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="doze_gesture_ambient_title">Mostra Ambient</string>
+    <string name="doze_gesture_ambient_summary">Mostra l'Ambient Display invece di risvegliare completamente lo schermo</string>
+    <string name="gesture_wake_ambient">Mostra Ambient</string>
+    <string name="gesture_wake">Risveglia completamente</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_summary">Se abilitare la funzionalità del pacchetto doze</string>
 </resources>
