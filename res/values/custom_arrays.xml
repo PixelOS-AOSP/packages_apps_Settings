@@ -20,4 +20,12 @@
     <string-array name="charging_control_mode_values_fine_grained_control" translatable="false">
         <item>3</item>
     </string-array>
+
+    <!-- Apps list to hide from Hide developer status setting -->
+    <string-array name="hide_developer_status_hidden_apps" translatable="false">
+        <item>android</item>
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.shell</item>
+    </string-array>
 </resources>

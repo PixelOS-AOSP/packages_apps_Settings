@@ -220,7 +220,6 @@
         android:fragment="com.android.settings.security.MemtagPage"
         settings:controller="com.android.settings.security.MemtagPagePreferenceController" />
 
-
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:order="92"
         android:key="window_ignore_secure"
@@ -228,5 +227,12 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
+    <Preference
+        android:order="94"
+        android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
+        settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
 </PreferenceScreen>
