@@ -97,6 +97,13 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
+    <!-- Separate ring & notification toggle -->
+    <SwitchPreference
+        android:key="volume_separate_notification"
+        android:title="@string/volume_separate_notification_title"
+        android:summary="@string/volume_separate_notification_summary"
+        android:order="-137"/>
+
     <!-- Per-app volume  -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="show_app_volume"

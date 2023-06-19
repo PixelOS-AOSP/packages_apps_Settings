@@ -54,9 +54,7 @@ public abstract class VolumeSeekBarPreferenceController extends
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        if (isAvailable()) {
-            setupVolPreference(screen);
-        }
+        setupVolPreference(screen);
     }
 
     protected void setupVolPreference(PreferenceScreen screen) {
