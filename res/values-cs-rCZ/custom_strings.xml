@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Vrchol obnovovací frekvence</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">U některého obsahu automaticky zvýší obnovovací frekvenci z 60 na %1$d Hz. Zvyšuje využití baterie.</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Frekvence obnovení</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisků prstů na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhledejte snímač otisků prstů na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhledejte snímač otisků prstů na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotkněte se senzoru na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotkněte se senzoru na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotkněte se senzoru na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotkněte se senzoru na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotkněte se senzoru na boční straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotkněte se senzoru na boční straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotkněte se senzoru na boční straně telefonu.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Snímek obrazovky třemi prsty</string>
+    <string name="three_finger_gesture_summary">Snímek obrazovky přejetím dolů třemi prsty</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Klepnutím uspat</string>
+    <string name="double_tap_sleep_gesture_summary">Dvojí poklepání kdekoliv na stavový řádek uvede zařízení do režimu spánku</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrací během hovoru</string>
+    <string name="incall_vibrate_connect_title">Zavibrovat při spojení</string>
+    <string name="incall_vibrate_call_wait_title">Zavibrovat při dalším hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Obtěžující oznámení</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
+    <string name="global_actions_advanced_reboot_summary">V menu napájení zobrazit možnosti pro režim recovery a bootloader</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
+    <string name="navbar_invert_info">Prohodit tlačítka \"Zpět\" a \"Nedávné\" na navigačním panelu</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Rychlá svítilna</string>
+    <string name="power_button_torch_summary">Když je obrazovka vypnutá, dlouhým stiskem tlačítka napájení zapnete svítilnu</string>
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Low battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network Traffic Indicator</string>
+    <string name="network_traffic_summary">Enable or disable the network speed indicator in the status bar</string>
+    <string name="network_traffic_state_title">Enable Network Traffic Indicator</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide the Network Traffic Indicator when inactive</string>
+    <string name="network_traffic_autohide_summary">Hides the network traffic indicator when below 1 KB/s</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Ovládejte viditelnost ikon stavového řádku</string>
+    <!-- Proximity wake / Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from the double tap to wake gesture</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorovat příznaky zabezpečení oken</string>
+    <string name="ignore_window_secure_summary">Odstranění omezení pro pořizování snímků obrazovky a záznamů obrazovky pro všechny aplikace. To může být v některých případech výhodné, ale může to vést k úniku soukromí.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikace na celou obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
+    <string name="search">Hledat</string>
+    <string name="search_apps">Vyhledávání aplikací</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Méně než 1 minuta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Hlasitost aplikace</string>
+    <string name="app_volume_title">Ovládání hlasitosti pro jednotlivé aplikace</string>
+    <string name="app_volume_summary">Umožnit nastavení různých úrovní hlasitosti pro každou aplikaci</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
+    <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez omezení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Chytré pozastavení</string>
+    <string name="adaptive_playback_enabled">Použít chytré pozastavení</string>
+    <string name="adaptive_playback_disabled_summary">Vyp</string>
+    <string name="adaptive_playback_intro_text">Adaptivní přehrávání automaticky pozastaví média, když je hlasitost ztlumena a automaticky se obnoví při obnově hlasitosti v daném čase.</string>
+    <string name="adaptive_playback_timeout_title">Použít časový limit</string>
+    <string name="adaptive_playback_timeout_none">Žádný časový limit</string>
+    <string name="adaptive_playback_timeout_none_summary">Zapnuto (žádný časový limit)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Zapnuto (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Zapnuto (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Zapnuto (2 minut)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Zapnuto (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Zapnuto (10 minut)</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Never</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minute</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional settings</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Vysoká citlivost dotyku</string>
+    <string name="high_touch_sensitivity_summary">Zvýšení citlivosti dotykové vrstvy, což umožňuje používání v rukavicích</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Detekce nad obrazovkou</string>
+    <string name="touchscreen_hovering_summary">Umožňuje pohybovat se jakoby nad obsahem obrazovky podobně, jako když myší najedete na nějaký ovládací prvek</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Vysoká vzorkovací frekvence pro dotyk</string>
+    <string name="high_touch_polling_rate_summary">Zvýšení vzorkovací frekvence dotykové obrazovky</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalizovat obrazovku podle denní doby a okolních podmínek pro lepší čitelnost a snížení namáhání očí</string>
+    <string name="live_display_mode">Režim zobrazení</string>
+    <string name="live_display_color_temperature_title">Teplota barev</string>
+    <string name="live_display_color_temperature_summary">Den: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Den</string>
+    <string name="live_display_night">Noc</string>
+    <string name="live_display_outdoor_mode_title">Automatický režim venku</string>
+    <string name="live_display_outdoor_mode_summary">Automaticky zvýšit jas a sytost za jasného slunečního světla</string>
+    <string name="live_display_anti_flicker_title">Eliminace blikání</string>
+    <string name="live_display_anti_flicker_summary">Zabraňuje znatelnému blikání a snižuje námahu očí při používání zařízení potmě. Může však dojít ke zhoršení přesnosti barev a ovlivnění způsobu, jakým jsou zobrazeny některé položky na obrazovce.</string>
+    <string name="live_display_low_power_title">Snížit spotřebu energie</string>
+    <string name="live_display_low_power_summary">Upravit zobrazení pro nejnižší spotřebu energie bez zhoršení čitelnosti</string>
+    <string name="live_display_enhance_color_title">Vylepšit barvy</string>
+    <string name="live_display_enhance_color_summary">Zlepšit živost barev pleťových odstínů, scenérie a dalších obrázků</string>
+    <string name="live_display_color_profile_title">Barevný profil</string>
+    <string name="live_display_color_profile_standard_title">Standardní</string>
+    <string name="live_display_color_profile_standard_summary">Přesné barvy a jasná bílá</string>
+    <string name="live_display_color_profile_natural_title">Přirozený</string>
+    <string name="live_display_color_profile_natural_summary">Reálné barvy a tělové tóny</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamický</string>
+    <string name="live_display_color_profile_dynamic_summary">Vylepšené barvy a jasná bílá</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfektní zobrazení barev pro video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Hluboká červená pro zachování vidění v noci</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfektní zobrazení barev pro fotografie</string>
+    <string name="live_display_color_profile_basic_title">Základní</string>
+    <string name="live_display_color_profile_basic_summary">Použít nezkalibrovaný displej</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptivní</string>
+    <string name="live_display_color_profile_adaptive_summary">Přizpůsobit barvy okolním podmínkám</string>
+    <string name="live_display_color_profile_reading_title">Čtení</string>
+    <string name="live_display_color_profile_reading_summary">Teplejší barvy pro menší namáhání očí</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Barvy s přesností na barevný prostor sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Barvy s přesností na barevný prostor DCI-P3</string>
+    <string name="live_display_reading_mode_title">Režim čtení</string>
+    <string name="live_display_reading_mode_summary">Režim stupňů šedi pro dlouhodobé čtení</string>
+    <string name="color_calibration_title">Kalibrace barev</string>
+    <string name="color_calibration_summary">Kalibrace barev na displeji</string>
+    <string name="color_red_title">Červená</string>
+    <string name="color_green_title">Zelená</string>
+    <string name="color_blue_title">Modrá</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Přizpůsobení obrazu</string>
+    <string name="picture_adjustment_summary">Přizpůsobit odstín, sytost, intenzitu a kontrast</string>
+    <string name="adj_hue_title">Odstín</string>
+    <string name="adj_saturation_title">Sytost</string>
+    <string name="adj_intensity_title">Intenzita</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dvojí klepnutí</string>
+    <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
+    <string name="doze_double_tap_summary">Pulzující oznámení dvojitým poklepáním</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+</resources>

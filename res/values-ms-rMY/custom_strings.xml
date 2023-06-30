@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Ketuk untuk memaparkan maklumat</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Kadar segar semula puncak</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Kadar segar semula minimum</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Meningkatkan kadar segar semula daripada 60 kepada %1$d Hz untuk sesetengah kandungan secara automatik. Meningkatkan penggunaan bateri.</string>
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Kadar Segar Semula</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Cari pengimbas cap jari di hadapan tablet anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cari pengimbas cap jari di hadapan peranti anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Cari pengimbas cap jari di hadapan telefon anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Cari pengimbas cap jari di belakang tablet anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cari pengimbas cap jari di belakang peranti anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Cari pengimbas cap jari di belakang telefon anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Cari pengimbas cap jari di sisi tablet anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cari pengimbas cap jari di sisi peranti anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Cari pengimbas cap jari di sisi telefon anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Sentuh pengimbas di hadapan tablet anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Sentuh pengimbas di hadapan peranti anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Sentuh pengimbas di hadapan telefon anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Sentuh pengimbas di belakang tablet anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Sentuh pengimbas di belakang peranti anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Sentuh pengimbas di belakang telefon anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Sentuh pengimbas di sisi tablet anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Sentuh pengimbas di sisi peranti anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Sentuh pengimbas di sisi telefon anda.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Leret untuk tangkapan layar</string>
+    <string name="three_finger_gesture_summary">Leret ke bawah dengan tiga jari untuk tangkapan layar</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Info radio</string>
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Paparkan panel kelantangan suara di kiri</string>
+    <string name="volume_panel_on_left_summary">Gerakkan panel kelantangan suara ke sisi kiri layar</string>
+    <!-- DT2S on statusbar-->
+    <string name="double_tap_sleep_gesture_title">Ketuk untuk tidur</string>
+    <string name="double_tap_sleep_gesture_summary">Ketuk dua kali di mana-mana pada bar status untuk menidurkan peranti</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Menarik cepat Tetapan Pantas</string>
+    <string name="quick_settings_quick_pull_down_summary">Tarik bar status ke bawah dari kanan untuk mengembangkan tetapan pantas</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Pilihan getaran dalam panggilan</string>
+    <string name="incall_vibrate_connect_title">Bergetar ketika bersambung</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar ketika menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar ketika terputus</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifikasi Menjengkelkan</string>
+    <string name="notification_sound_vib_screen_on_summary">Mainkan bunyi dan getaran untuk pemberitahuan apabila skrin dihidupkan</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Membolehkan mula semula lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Paparkan pilihan untuk mod pemulihan dan bootloader dalam menu kuasa</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Benarkan pelanggan menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Benarkan pelanggan hotspot untuk menggunakan sambungan VPN peranti \u2019 untuk sambungan huluan</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Balikkan susun atur bar navigasi</string>
+    <string name="navbar_invert_info">Tukar kedudukan butang \"Kembali\" dan \"Terkini\" pada bar navigasi</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lampu cepat</string>
+    <string name="power_button_torch_summary">Apabila layar dimatikan, tekan lama butang kuasa akan menghidupkan lampu</string>
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Lampu bateri lemah</string>
+    <string name="low_battery_light_summary">Kelipkan LED ketika bateri lemah</string>
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Bar isyarat</string>
+    <string name="show_navbar_gesture_bar_summary">Paparkan bar isyarat pada bahagian bawah layar</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Penunjuk lalu lintas rangkaian</string>
+    <string name="network_traffic_summary">Bolehkan atau nyahbolehkan penunjuk kelajuan rangkaian pada bar status</string>
+    <string name="network_traffic_state_title">Bolehkan Penunjuk Lalu Lintas Rangkaian</string>
+    <string name="network_options_title">Pilihan</string>
+    <string name="network_traffic_autohide_title">Sembunyikan Penunjuk Lalu Lintas Rangkaian apabila tidak aktif</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan penunjuk lalu lintas rangkaian apabila bawah 1 KB/s</string>
+    <!-- Display customization category -->
+    <string name="customization_category_title">Penyesuaian</string>
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Paparkan penggunaan data</string>
+    <string name="qs_show_data_usage_summary">Paparkan penggunaan data selular/Wi-Fi di pengaki Tetapan Pantas</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Item bar status</string>
+    <string name="icon_manager_summary">Kawal keterlihatan ikon bar status</string>
+    <!-- Proximity wake / Pocket mode -->
+    <string name="proximity_wake_title">Mencegah layar menyala secara tidak sengaja</string>
+    <string name="proximity_wake_summary">Periksa penderia jarak sebelum menyalakan layar daripada isyarat ketuk dua kali untuk menyala</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Paparkan tindanan papan keratan</string>
+    <string name="show_clipboard_overlay_summary">Paparkan tindanan di bucu kiri bawah layar apabila sesuatu disalin pada papan keratan</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Kawalan main balik</string>
+    <string name="volume_button_music_control_summary">Apabila layar dimatikan, tekan lama kekunci kelantangan suara akan melangkau runut musik</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Ubah penyedia sandaran</string>
+    <string name="backup_transport_title">Pilih penyedia sandaran</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Abaikan bendera keselamatan tetingkap</string>
+    <string name="ignore_window_secure_summary">Hapuskan had tangkapan layar dan perakam layar untuk semua aplikasi. Hal ini boleh menjadi selesa dalam sesetengah perkara tetapi boleh menyebabkan kebocoran privasi.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruangan takuk</string>
+    <string name="search">Carian</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Cap jari sentiasa aktif</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Benarkan membuka kunci dengan layar mati.\nMenghidupkan ini boleh menyebabkan layar menyala secara tidak sengaja.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang daripada 1 minit</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Kelantangan suara aplikasi</string>
+    <string name="app_volume_title">Kawalan kelantangan suara setiap aplikasi</string>
+    <string name="app_volume_summary">Benarkan untuk menetapkan aras kelantangan suara yang berbeza untuk setiap aplikasi</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Masa minimum antara bunyi pemberitahuan</string>
+    <string name="app_notification_sound_timeout_summary_template">Benarkan bunyi atau getaran tidak lebih dari sekali setiap <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Tiada sekatan</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saat</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saat</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minit</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minit</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minit</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minit</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Disalin ke papan keratan</string>
+    <string name="longpress_to_clipboard">Tekan lama untuk salin</string>
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Jeda pintar</string>
+    <string name="adaptive_playback_enabled">Gunakan jeda pintar</string>
+    <string name="adaptive_playback_disabled_summary">Matikan</string>
+    <string name="adaptive_playback_intro_text">Menjeda media secara automatik apabila suara disenyapkan dan akan menyambung semula secara automatik apabila suara dipulihkan dalam masa yang ditetapkan.</string>
+    <string name="adaptive_playback_timeout_title">Gunakan masa tamat</string>
+    <string name="adaptive_playback_timeout_none">Tiada masa tamat</string>
+    <string name="adaptive_playback_timeout_none_summary">Hidup (tiada masa tamat)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saat</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Hidup (30 saat)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Hidup (1 minit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Hidup (2 minit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Hidup (5 minit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 minit)</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Campur aduk susun atur</string>
+    <string name="unlock_scramble_pin_layout_summary">Campuraduk susunan PIN semasa menyahkunci peranti</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Kecerahan automatik satu tangkapan</string>
+    <string name="auto_brightness_one_shot_summary">Pelarasan kecerahan akan berlaku apabila skrin dihidupkan</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rangkaian tersembunyi</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot anda tidak akan kelihatan dalam senarai rangkaian WLAN yang tersedia.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot tidak akan dimatikan</string>
+    <string name="wifi_hotspot_client_manager_title">Peranti yang tersambung</string>
+    <string name="wifi_hotspot_client_manager_summary">Menyenarai dan mengatur peranti yang disambungkan dengan hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Senarai dan atur peranti yang bersambung dengan hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Had peranti yang bersambung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Peranti yang disekat</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Peranti yang Bersambung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Peranti yang disekat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari peranti ini dan menambahkannya ke senarai sekatan</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Menyahsekat peranti</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Peranti \"<xliff:g id="device_name">%1$s</xliff:g>\" akan boleh bersambung dengan hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tiada pelanggan yang tersedia pada masa ini. Peranti yang disambung dan dihalang akan disenaraikan di sini apabila tersedia.</string>
+    <string name="wifi_hotspot_timeout_summary_never">Tidak akan</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 saat</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 minit</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 minit</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 minit</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 minit</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 Jam</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Nyahkunci pantas</string>
+    <string name="unlock_quick_unlock_control_summary">Nyahkunci secara automatik apabila PIN/kata laluan yang betul dimasukkan</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Tetapan tambahan</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Kepekaan sentuhan tinggi</string>
+    <string name="high_touch_sensitivity_summary">Meningkatkan kepekaan layar sentuh maka layar boleh digunakan ketika memakai sarung tangan</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Layar sentuh berlegar</string>
+    <string name="touchscreen_hovering_summary">Membenarkan anda untuk melegarkan layar seperti tetikus dalam pelayar web, kawalan desktop, dll</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Kadar pengundian sentuhan tinggi</string>
+    <string name="high_touch_polling_rate_summary">Tingkatkan kadar pengundian layar sentuh</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimumkan layar anda berdasarkan waktu dan keadaan sekitar bagi meningkatkan kebolehbacaan dan mengurangkan ketegangan mata</string>
+    <string name="live_display_mode">Mod paparan</string>
+    <string name="live_display_color_temperature_title">Suhu warna</string>
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="darjah">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mod ruangan luar automatik</string>
+    <string name="live_display_outdoor_mode_summary">Tingkatkan kecerahan dan kepekatan secara automatik ketika di bawah cahaya matahari cerah</string>
+    <string name="live_display_anti_flicker_title">Anti kelipan</string>
+    <string name="live_display_anti_flicker_summary">Mencegah kerlipan yang meluas dan mengurangkan ketegangan mata dalam keadaan cahaya rendah. Ini mungkin menurunkan ketepatan warna dan mempengaruhi cara beberapa item dipaparkan.</string>
+    <string name="live_display_low_power_title">Kurangkan penggunaan kuasa</string>
+    <string name="live_display_low_power_summary">Laraskan paparan untuk pengunaan kuasa yang terendah tanpa kemerosotan</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Tingkatkan keterangan warna tona badan, pemandangan, dan lain-lain gambar</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Piawai</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang tepat dan putih yang cerah</string>
+    <string name="live_display_color_profile_natural_title">Semula jadi</string>
+    <string name="live_display_color_profile_natural_summary">Warna dan tona badan yang realistik</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamik</string>
+    <string name="live_display_color_profile_dynamic_summary">Warna yang dipertingkatkan dan putih yang cerah</string>
+    <string name="live_display_color_profile_cinema_title">Pawagam</string>
+    <string name="live_display_color_profile_cinema_summary">Penghasilan warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah pekat untuk memelihara penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Penghasilan warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Asas</string>
+    <string name="live_display_color_profile_basic_summary">Guna paparan yang belum ditentukur</string>
+    <string name="live_display_color_profile_adaptive_title">Penyesuaian</string>
+    <string name="live_display_color_profile_adaptive_summary">Menyesuaikan warna dengan keadaan sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna yang lebih suam untuk mengurangkan ketegangan mata</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Warna tepat kepada ruang warna sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna tepat kepada ruang warna DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mod membaca</string>
+    <string name="live_display_reading_mode_summary">Mod skala kelabu untuk pembacaan jangka panjang</string>
+    <string name="color_calibration_title">Penentukuran warna</string>
+    <string name="color_calibration_summary">Tentukurkan warna pada layar</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Penyelarasan gambar</string>
+    <string name="picture_adjustment_summary">Laraskan rona, kepekatan, keamatan, dan kontras</string>
+    <string name="adj_hue_title">Rona</string>
+    <string name="adj_saturation_title">Kepekatan</string>
+    <string name="adj_intensity_title">Keamatan</string>
+    <string name="adj_contrast_title">Kontras</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Kurangkan kadar segar semula</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan 60Hz kadar segar semula layar untuk menjimatkan tenaga apabila Battery Saver dihidupkan</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Guna tema hitam</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telefon</string>
+    <string name="doze_double_tap_summary">Denyut pemberitahuan dengan ketuk dua kali</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Tetapan putaran</string>
+    <string name="display_rotation_enabled">Putaran automatik dibolehkan</string>
+    <string name="display_rotation_disabled">Putaran automatik dinyahbolehkan</string>
+    <string name="display_rotation_unit">darjah</string>
+    <string name="display_rotation_category_title">Mod putaran</string>
+    <string name="display_rotation_0_title">0 darjah</string>
+    <string name="display_rotation_90_title">90 darjah</string>
+    <string name="display_rotation_180_title">180 darjah</string>
+    <string name="display_rotation_270_title">270 darjah</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Paparkan ambien</string>
+    <string name="doze_gesture_ambient_summary">Paparkan Paparan Ambien berbanding menyalakan layar sepenuhnya</string>
+    <string name="gesture_wake_ambient">Paparkan ambien</string>
+    <string name="gesture_wake">Menyala sepenuhnya</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Paparan ambien</string>
+    <string name="doze_enabled_summary">Sama ada untuk membolehkan fungsi pakej mengantuk</string>
+</resources>
