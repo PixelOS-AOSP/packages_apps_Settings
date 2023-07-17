@@ -286,4 +286,10 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Tampilan ambien</string>
     <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Cerdas</string>
+    <string name="smart_5g_summary">Secara otomatis beralih antara 5G dan 4G untuk mengurangi konsumsi baterai</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Dering dan Notifikasi Terpisah</string>
+    <string name="volume_separate_notification_summary">Izinkan mengontrol setiap aliran satu per satu</string>
 </resources>

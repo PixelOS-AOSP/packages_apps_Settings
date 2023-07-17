@@ -152,15 +152,15 @@
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">30 സെക്കൻഡ്‌സ്</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 മിനിറ്റ്</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 മിനിറ്റ്</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 മിനിറ്റ്</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
@@ -184,11 +184,11 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <string name="wifi_hotspot_timeout_summary_never">Never</string>
-    <string name="wifi_hotspot_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_hotspot_timeout_summary_1min">1 minute</string>
-    <string name="wifi_hotspot_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_hotspot_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">30 സെക്കൻഡ്‌സ്</string>
+    <string name="wifi_hotspot_timeout_summary_1min">1 മിനിറ്റ്</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">5 മിനിറ്റ്</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">10 മിനിറ്റ്</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">30 മിനിറ്റ്</string>
     <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
@@ -214,7 +214,7 @@
     <string name="live_display_night">Night</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_title">ആന്റി ഫ്ലിക്കർ</string>
     <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
@@ -243,7 +243,7 @@
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_title">വായനാ മോഡ്</string>
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

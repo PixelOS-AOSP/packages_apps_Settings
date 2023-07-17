@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Aktiv låsskärm</string>
     <string name="doze_enabled_summary">Om du vill aktivera doze-paketets funktionalitet</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Växla automatiskt mellan 5G och 4G för att minska batteriförbrukningen</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

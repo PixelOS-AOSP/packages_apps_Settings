@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Visualização ambiente</string>
     <string name="doze_enabled_summary">Se são ou não ativadas as funcionalidades dos pacotes Doze</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Trocar automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

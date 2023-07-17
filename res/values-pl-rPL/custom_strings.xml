@@ -17,11 +17,11 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Częstotliwość odświeżania ekranu</string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania ekranu</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania </string>
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania ekranu</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie zwiększ częstotliwość odświeżania z 60 na %1$dHz. Zwiększa zużycie baterii.</string>
+    <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie zwiększa częstotliwość odświeżania z 60 na %1$dHz. Zwiększa zużycie baterii.</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Częstotliwość odświeżania</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
@@ -85,12 +85,12 @@
     <string name="show_navbar_gesture_bar_title">Pasek gestów</string>
     <string name="show_navbar_gesture_bar_summary">Pokaż wskaźnik gestów w dolnej części ekranu</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network Traffic Indicator</string>
-    <string name="network_traffic_summary">Enable or disable the network speed indicator in the status bar</string>
-    <string name="network_traffic_state_title">Enable Network Traffic Indicator</string>
+    <string name="network_traffic_title">Wskaźnik przepływu sieci internetowej</string>
+    <string name="network_traffic_summary">Włącz lub wyłącz wskaźnik przepływu łącza internetowego na pasku statusu</string>
+    <string name="network_traffic_state_title">Włącz wskaźnik przepływu łącza internetowego</string>
     <string name="network_options_title">Opcje</string>
-    <string name="network_traffic_autohide_title">Hide the Network Traffic Indicator when inactive</string>
-    <string name="network_traffic_autohide_summary">Hides the network traffic indicator when below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Ukryj wskaźnik przepływu łącza internetowego, gdy nieaktywny</string>
+    <string name="network_traffic_autohide_summary">Chowa wskaźnik przepływu internetu, gdy dane są mniejsze już 1KB/s</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Personalizacja</string>
     <!-- QS footer data usage -->
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ekran dostosowany do otoczenia</string>
     <string name="doze_enabled_summary">Czy włączyć funkcję paczki drzemki</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatycznie przełącza między 5G i 4G aby zredukować użycie baterii</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

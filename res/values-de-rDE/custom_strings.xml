@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Inaktivitätsdisplay</string>
     <string name="doze_enabled_summary">Ob die Funktionalität des Doze-Pakets aktiviert werden soll</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

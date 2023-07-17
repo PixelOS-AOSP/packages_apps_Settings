@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">অ্যাম্বিয়েন্ট ডিসপ্লে</string>
     <string name="doze_enabled_summary">ডোজ প্যাকেজ কার্যকারিতা সক্ষম করা হবে কিনা</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">স্মার্ট 5G</string>
+    <string name="smart_5g_summary">ব্যাটারি ব্যবহার কমাতে স্বয়ংক্রিয়ভাবে 5G এবং 4G-এর মধ্যে পাল্টান</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">আলাদা রিং এবং নটিফিকেশন</string>
+    <string name="volume_separate_notification_summary">প্রতিটি স্ট্রীমকে পৃথকভাবে নিয়ন্ত্রণ করার অনুমতি দিন</string>
 </resources>

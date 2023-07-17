@@ -15,9 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Tik om info te tonen</string>
     <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Peak refresh rate</string>
+    <string name="max_refresh_rate_title">Piek vernieuwingsfrequentie</string>
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
@@ -87,17 +87,17 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">Network Traffic Indicator</string>
     <string name="network_traffic_summary">Enable or disable the network speed indicator in the status bar</string>
-    <string name="network_traffic_state_title">Enable Network Traffic Indicator</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide the Network Traffic Indicator when inactive</string>
-    <string name="network_traffic_autohide_summary">Hides the network traffic indicator when below 1 KB/s</string>
+    <string name="network_traffic_state_title">Netwerk verkeer indicator aanzetten</string>
+    <string name="network_options_title">Opties</string>
+    <string name="network_traffic_autohide_title">Verberg de indicator voor netwerkverkeer wanneer deze inactief is</string>
+    <string name="network_traffic_autohide_summary">Verbergt de indicator voor netwerkverkeer als deze lager is dan 1 KB/s</string>
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Aanpassingen</string>
     <!-- QS footer data usage -->
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="qs_show_data_usage_title">Gegevensgebruik weergeven</string>
+    <string name="qs_show_data_usage_summary">Toon dagelijks mobiel of Wi-Fi gegevensgebruik in QS footer</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_title">Statusbalk items</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
     <!-- Proximity wake / Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -214,7 +214,7 @@
     <string name="live_display_night">Night</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_title">Anti-flicker</string>
     <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
@@ -243,7 +243,7 @@
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_title">Leesmodus</string>
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

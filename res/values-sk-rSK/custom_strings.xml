@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambientný displej</string>
     <string name="doze_enabled_summary">Či sa má povoliť funkcia uspatie balíka</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Inteligentné 5G</string>
+    <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Oddelené notifikácie a zvonenie</string>
+    <string name="volume_separate_notification_summary">Povoliť ovládanie každého prúdu zvlášť</string>
 </resources>

@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient Display</string>
     <string name="doze_enabled_summary">Включить функциональность пакета doze</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Автоматическое переключение между 5G и 4G для снижения расхода батареи</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Разделенный звонок и уведомление</string>
+    <string name="volume_separate_notification_summary">Разрешить управление каждым потоком по отдельности</string>
 </resources>

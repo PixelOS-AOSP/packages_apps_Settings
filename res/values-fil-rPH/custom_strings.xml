@@ -152,13 +152,13 @@
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">Tatlumpung segundo</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">Isang minuto</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">Limang minuto</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
@@ -184,9 +184,9 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <string name="wifi_hotspot_timeout_summary_never">Never</string>
-    <string name="wifi_hotspot_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_hotspot_timeout_summary_1min">1 minute</string>
-    <string name="wifi_hotspot_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">Tatlumpung segundo</string>
+    <string name="wifi_hotspot_timeout_summary_1min">Isang minuto</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">Limang minuto</string>
     <string name="wifi_hotspot_timeout_summary_10mins">10 minutes</string>
     <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
@@ -214,7 +214,7 @@
     <string name="live_display_night">Gabi</string>
     <string name="live_display_outdoor_mode_title">Awtomatikong panglabas na mode</string>
     <string name="live_display_outdoor_mode_summary">Dagdagan ang brightness at saturation awtomatik kapag nasa ilalim ng malakas na araw</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_title">Iwasan ang pumipitik na screen</string>
     <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

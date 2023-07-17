@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ortam ekranı</string>
     <string name="doze_enabled_summary">Doze paketi işlevselliğinin etkinleştirilip etkinleştirilmeyeceği</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Ayrılmış Zil ve Bildirim sesi</string>
+    <string name="volume_separate_notification_summary">Her akışı ayrı ayrı kontrol etmeye izin ver</string>
 </resources>

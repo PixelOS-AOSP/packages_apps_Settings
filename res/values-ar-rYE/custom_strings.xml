@@ -184,11 +184,11 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <string name="wifi_hotspot_timeout_summary_never">Never</string>
-    <string name="wifi_hotspot_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_hotspot_timeout_summary_1min">1 minute</string>
-    <string name="wifi_hotspot_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_hotspot_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_hotspot_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_hotspot_timeout_summary_30secs">٣٠ ثانية</string>
+    <string name="wifi_hotspot_timeout_summary_1min">دقيقة واحدة</string>
+    <string name="wifi_hotspot_timeout_summary_5mins">٥ دقائق</string>
+    <string name="wifi_hotspot_timeout_summary_10mins">١٠ دقائق</string>
+    <string name="wifi_hotspot_timeout_summary_30mins">٣٠ دقيقة</string>
     <string name="wifi_hotspot_timeout_summary_1hour">1 hour</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

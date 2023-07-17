@@ -223,7 +223,7 @@
     <string name="live_display_color_profile_title">Profil warna</string>
     <string name="live_display_color_profile_standard_title">Piawai</string>
     <string name="live_display_color_profile_standard_summary">Warna yang tepat dan putih yang cerah</string>
-    <string name="live_display_color_profile_natural_title">Semula jadi</string>
+    <string name="live_display_color_profile_natural_title">Semulajadi</string>
     <string name="live_display_color_profile_natural_summary">Warna dan tona badan yang realistik</string>
     <string name="live_display_color_profile_dynamic_title">Dinamik</string>
     <string name="live_display_color_profile_dynamic_summary">Warna yang dipertingkatkan dan putih yang cerah</string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Paparan ambien</string>
     <string name="doze_enabled_summary">Sama ada untuk membolehkan fungsi pakej mengantuk</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Pintar</string>
+    <string name="smart_5g_summary">Menukar antara 5G dan 4G secara automatik untuk mengurangkan penggunaan bateri</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Deringan dan Pemberitahuan Terpisah</string>
+    <string name="volume_separate_notification_summary">Benarkan pengawalan setiap aliran secara individu</string>
 </resources>

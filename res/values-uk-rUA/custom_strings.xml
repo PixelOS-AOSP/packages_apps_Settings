@@ -113,12 +113,12 @@
     <string name="backup_transport_title">Виберіть провайдера резервного копіювання</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ігнорувати позначки безпеки вікон додатків</string>
-    <string name="ignore_window_secure_summary">Видаляйте обмеження знімків екрану та запису екрану для всіх додатків. Це може бути зручно в деяких випадках, але може призвести до пошкодження конфіденційності.</string>
+    <string name="ignore_window_secure_summary">Видаляйте обмеження знімків екрана та запису екрана для всіх застосунків. Це може бути зручно в деяких випадках, але може призвести до пошкодження конфіденційності.</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Повноекранні додатки</string>
-    <string name="display_cutout_force_fullscreen_summary">Змусити додатки ігнорувати виріз</string>
+    <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
     <string name="search">Пошук</string>
-    <string name="search_apps">Пошук додатків</string>
+    <string name="search_apps">Пошук застосунків</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Завжди увімкнений відбиток пальця</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -128,9 +128,9 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">Гучність додатків</string>
-    <string name="app_volume_title">Налаштування гучності додатків</string>
-    <string name="app_volume_summary">Встановлення різних рівнів гучності для кожної програми</string>
+    <string name="app_volume">Гучність застосунку</string>
+    <string name="app_volume_title">Налаштування гучності застосунку</string>
+    <string name="app_volume_summary">Встановлення різних рівнів гучності для кожного застосунку</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Мінімальний час між звуками повідомлень</string>
     <string name="app_notification_sound_timeout_summary_template">Дозволити звук або вібрацію не більше ніж один раз кожні <xliff:g id="duration">%1$s </xliff:g></string>
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активний дисплей</string>
     <string name="doze_enabled_summary">Чи вмикати функціонал пакету doze</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Розумний 5G</string>
+    <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Розділене Кільце і Повідомлення</string>
+    <string name="volume_separate_notification_summary">Дозволити керування кожним потоком індивідуально</string>
 </resources>

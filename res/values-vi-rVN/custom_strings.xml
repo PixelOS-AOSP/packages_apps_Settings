@@ -85,12 +85,12 @@
     <string name="show_navbar_gesture_bar_title">Thanh cử chỉ</string>
     <string name="show_navbar_gesture_bar_summary">Hiển thị thanh cử chỉ ở cuối màn hình</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network Traffic Indicator</string>
-    <string name="network_traffic_summary">Enable or disable the network speed indicator in the status bar</string>
-    <string name="network_traffic_state_title">Enable Network Traffic Indicator</string>
+    <string name="network_traffic_title">Hiển thị tốc độ mạng</string>
+    <string name="network_traffic_summary">Bật hoặc tắt hiển thị tốc độ mạng trên thanh trạng thái</string>
+    <string name="network_traffic_state_title">Hiển thị tốc độ mạng</string>
     <string name="network_options_title">Tùy chọn</string>
-    <string name="network_traffic_autohide_title">Hide the Network Traffic Indicator when inactive</string>
-    <string name="network_traffic_autohide_summary">Hides the network traffic indicator when below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Ẩn tốc độ mạng khi không truy cập</string>
+    <string name="network_traffic_autohide_summary">Ẩn tốc độ mạng dưới 1 KB/s</string>
     <!-- Display customization category -->
     <string name="customization_category_title">Tuỳ biến</string>
     <!-- QS footer data usage -->
@@ -285,4 +285,10 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Màn hình luôn bật</string>
     <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Thông minh</string>
+    <string name="smart_5g_summary">Tự động chuyển đổi giữa mạng 5G và 4G để giảm tiêu thụ pin</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Tách riêng Âm lượng Nhạc chuông và Thông báo</string>
+    <string name="volume_separate_notification_summary">Cho phép điều khiển mỗi luồng riêng biệt</string>
 </resources>
