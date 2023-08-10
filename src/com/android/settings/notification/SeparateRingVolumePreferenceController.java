@@ -62,9 +62,6 @@ public class SeparateRingVolumePreferenceController extends
 
         mSeparateNotification = isSeparateNotificationConfigEnabled();
         updateRingerMode();
-        if (mPreference != null) {
-            mPreference.setVisible(getAvailabilityStatus() == AVAILABLE);
-        }
     }
 
     /**
@@ -77,9 +74,6 @@ public class SeparateRingVolumePreferenceController extends
             if (valueUpdated) {
                 updateEffectsSuppressor();
                 selectPreferenceIconState();
-                if (mPreference != null) {
-                    mPreference.setVisible(getAvailabilityStatus() == AVAILABLE);
-                }
             }
         }
     }
@@ -117,7 +111,7 @@ public class SeparateRingVolumePreferenceController extends
     public int getAvailabilityStatus() {
         boolean separateNotification = isSeparateNotificationConfigEnabled();
         return separateNotification && !mHelper.isSingleVolume()
-                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override

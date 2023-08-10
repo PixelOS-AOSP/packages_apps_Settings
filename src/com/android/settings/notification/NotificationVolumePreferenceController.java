@@ -61,12 +61,10 @@ public class NotificationVolumePreferenceController extends
         mNormalIconId =  R.drawable.ic_notifications;
         mVibrateIconId = R.drawable.ic_volume_ringer_vibrate;
         mSilentIconId = R.drawable.ic_notifications_off_24dp;
-        mSeparateNotification = isSeparateNotificationConfigEnabled();
 
         if (updateRingerMode()) {
             updateEnabledState();
         }
-        updateVisibility();
     }
 
     /**
@@ -84,7 +82,6 @@ public class NotificationVolumePreferenceController extends
         updateEffectsSuppressor();
         selectPreferenceIconState();
         updateEnabledState();
-        updateVisibility();
     }
 
     /**
@@ -98,18 +95,15 @@ public class NotificationVolumePreferenceController extends
             if (newVal != mSeparateNotification) {
                 mSeparateNotification = newVal;
                 // Update UI if config change happens when Sound Settings page is on the foreground
-                updateVisibility();
+                if (mPreference != null) {
+                    int status = getAvailabilityStatus();
+                    mPreference.setVisible(status == AVAILABLE
+                            || status == DISABLED_DEPENDENT_SETTING);
+                    if (status == DISABLED_DEPENDENT_SETTING) {
+                        mPreference.setEnabled(false);
+                    }
+                }
             }
-        }
-    }
-
-    private void updateVisibility() {
-        if (mPreference == null) return;
-        int status = getAvailabilityStatus();
-        mPreference.setVisible(status == AVAILABLE
-                || status == DISABLED_DEPENDENT_SETTING);
-        if (status == DISABLED_DEPENDENT_SETTING) {
-            mPreference.setEnabled(false);
         }
     }
 
@@ -139,7 +133,7 @@ public class NotificationVolumePreferenceController extends
                 && !mHelper.isSingleVolume() && separateNotification
                 ? (mRingerMode == AudioManager.RINGER_MODE_NORMAL
                     ? AVAILABLE : DISABLED_DEPENDENT_SETTING)
-                : CONDITIONALLY_UNAVAILABLE;
+                : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
