@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Розділене Кільце і Повідомлення</string>
-    <string name="volume_separate_notification_summary">Дозволити керування кожним потоком індивідуально</string>
 </resources>

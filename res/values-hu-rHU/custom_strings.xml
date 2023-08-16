@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Okos 5G</string>
     <string name="smart_5g_summary">Az akkufogyasztás csökkentése érdekében automatikusan vált az 5G és a 4G között</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Külön szabályozható csengő- és értesítéshangok</string>
-    <string name="volume_separate_notification_summary">Lehetővé teszi az egyes folyamatok különálló vezérlését</string>
 </resources>

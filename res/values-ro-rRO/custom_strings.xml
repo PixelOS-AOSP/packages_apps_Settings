@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G inteligent</string>
     <string name="smart_5g_summary">Comută automat între 5G și 4G pentru a reduce consumul bateriei</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Sonerie și notificare separate</string>
-    <string name="volume_separate_notification_summary">Permite controlul individual al fiecărui flux</string>
 </resources>

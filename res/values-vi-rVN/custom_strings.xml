@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G Thông minh</string>
     <string name="smart_5g_summary">Tự động chuyển đổi giữa mạng 5G và 4G để giảm tiêu thụ pin</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Tách riêng Âm lượng Nhạc chuông và Thông báo</string>
-    <string name="volume_separate_notification_summary">Cho phép điều khiển mỗi luồng riêng biệt</string>
 </resources>

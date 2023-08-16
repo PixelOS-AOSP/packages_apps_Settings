@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Έξυπνο 5G</string>
     <string name="smart_5g_summary">Αυτόματη εναλλαγή μεταξύ 5G και 4G για μείωση της κατανάλωσης μπαταρίας</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Διαχωρισμένο Κουδούνισμα και Ειδοποίηση</string>
-    <string name="volume_separate_notification_summary">Επιτρέψτε τον έλεγχο κάθε ροής ξεχωριστά</string>
 </resources>

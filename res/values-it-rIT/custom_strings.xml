@@ -23,7 +23,7 @@
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente la frequenza d\'aggiornamento da 60 a %1$d Hz per alcuni contenuti. Aumenta il consumo energetico.</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
-    <string name="category_name_refresh_rate_controls">Frequenza Aggiornamento</string>
+    <string name="category_name_refresh_rate_controls">Frequenza d\'aggiornamento</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del dispositivo.</string>
@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Passa automaticamente tra 5G e 4G per ridurre il consumo di batteria</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

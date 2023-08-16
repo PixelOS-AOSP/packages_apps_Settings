@@ -288,7 +288,4 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">智慧 5G</string>
     <string name="smart_5g_summary">自動在 5G 和 4G 之間切換以減少電池的消耗</string>
-    <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">區分鈴聲和通知音量</string>
-    <string name="volume_separate_notification_summary">允許單獨調整鈴聲和通知的音量</string>
 </resources>
