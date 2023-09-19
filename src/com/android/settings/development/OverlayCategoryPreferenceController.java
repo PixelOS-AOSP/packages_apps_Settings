@@ -65,8 +65,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
             Comparator.comparing(OverlayInfo::getPackageName);
     private final IOverlayManager mOverlayManager;
     private final boolean mAvailable;
-    private final boolean mIsFonts;
-    private final boolean mIsAdaptiveIconShape;
     private final String mCategory;
     private final PackageManager mPackageManager;
     private final String mDeviceDefaultLabel;
@@ -82,8 +80,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
         mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
-        mIsFonts = FONT_KEY.equals(category);
-        mIsAdaptiveIconShape = ADAPTIVE_ICON_SHAPE_KEY.equals(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
@@ -139,40 +135,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         Log.w(TAG, "setOverlay currentPackageNames=" + currentPackageNames.toString());
         Log.w(TAG, "setOverlay packageNames=" + packageNames.toString());
         Log.w(TAG, "setOverlay label=" + label);
-
-        if (mIsFonts || mIsAdaptiveIconShape) {
-            // For fonts we also need to set this setting
-            String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
-                    Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, UserHandle.USER_CURRENT);
-            JSONObject json;
-            if (value == null) {
-                json = new JSONObject();
-            } else {
-                try {
-                    json = new JSONObject(value);
-                } catch (JSONException e) {
-                    Log.e(TAG, "Error parsing current settings value:\n" + e.getMessage());
-                    return false;
-                }
-            }
-            // removing all currently enabled overlays from the json
-            for (String categoryName : currentCategoryNames) {
-                json.remove(categoryName);
-            }
-            // adding the new ones
-            for (int i = 0; i < categoryNames.size(); i++) {
-                try {
-                    json.put(categoryNames.get(i), packageNames.get(i));
-                } catch (JSONException e) {
-                    Log.e(TAG, "Error adding new settings value:\n" + e.getMessage());
-                    return false;
-                }
-            }
-            // updating the setting
-            Settings.Secure.putStringForUser(mContext.getContentResolver(),
-                    Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES,
-                    json.toString(), UserHandle.USER_CURRENT);
-        }
 
         new AsyncTask<Void, Void, Boolean>() {
             @Override
