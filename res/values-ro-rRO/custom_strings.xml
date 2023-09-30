@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G inteligent</string>
     <string name="smart_5g_summary">Comută automat între 5G și 4G pentru a reduce consumul bateriei</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control încărcare</string>
+    <string name="charging_control_enable_title">Activează controlul încărcării</string>
+    <string name="charging_control_mode_title">Modul de încărcare</string>
+    <string name="charging_control_mode_auto_title">Programare automată</string>
+    <string name="charging_control_mode_auto_summary">Determină automat când se pornește încărcarea pe baza alarmelor setate</string>
+    <string name="charging_control_mode_custom_title">Programare personalizată</string>
+    <string name="charging_control_mode_custom_summary">Setează un timp țintă pentru încărcare completă</string>
+    <string name="charging_control_mode_limit_title">Limitează încărcarea</string>
+    <string name="charging_control_mode_limit_summary">Limitează încărcarea la un anumit procent</string>
+    <string name="charging_control_start_time_title">Ora începerii</string>
+    <string name="charging_control_start_time_summary">Controlul încărcării se activează când începi încărcarea după %s</string>
+    <string name="charging_control_target_time_title">Timpul țintă până la încărcarea completă</string>
+    <string name="charging_control_target_time_summary">Bateria va fi încărcată complet până la %s</string>
+    <string name="charging_control_limit_title">Limită</string>
+    <string name="reset">Resetează</string>
 </resources>

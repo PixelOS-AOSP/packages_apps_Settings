@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Inteligentné 5G</string>
     <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Ovládanie nabíjania</string>
+    <string name="charging_control_enable_title">Povoliť ovládanie nabíjania</string>
+    <string name="charging_control_mode_title">Režim nabíjania</string>
+    <string name="charging_control_mode_auto_title">Automatický harmonogram</string>
+    <string name="charging_control_mode_auto_summary">Automaticky zistiť kedy sa má začať nabíjanie na základe nastavených budíkov</string>
+    <string name="charging_control_mode_custom_title">Vlastný plán</string>
+    <string name="charging_control_mode_custom_summary">Nastavenie cieľového času do úplného nabitia</string>
+    <string name="charging_control_mode_limit_title">Limitovať nabíjanie</string>
+    <string name="charging_control_mode_limit_summary">Limitovať nabíjanie do istého percenta batérie</string>
+    <string name="charging_control_start_time_title">Čas začiatku</string>
+    <string name="charging_control_start_time_summary">Ovládanie napájania sa spustí keď začnete nabíjanie po %s</string>
+    <string name="charging_control_target_time_title">Cieľový čas do úplného nabitia</string>
+    <string name="charging_control_target_time_summary">Batéria bude plne nabitá o %s</string>
+    <string name="charging_control_limit_title">Obmedzenie</string>
+    <string name="reset">Obnoviť</string>
 </resources>

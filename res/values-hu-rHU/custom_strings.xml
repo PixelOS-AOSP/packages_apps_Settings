@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Okos 5G</string>
     <string name="smart_5g_summary">Az akkufogyasztás csökkentése érdekében automatikusan vált az 5G és a 4G között</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Kontrollált töltés</string>
+    <string name="charging_control_enable_title">A kontrolált töltés bekapcsolása</string>
+    <string name="charging_control_mode_title">A töltés módja</string>
+    <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
+    <string name="charging_control_mode_auto_summary">A beállított ébresztések alapján automatikusan határozza meg, hogy mikor kezdődjön a töltés</string>
+    <string name="charging_control_mode_custom_title">Egyéni ütemezés</string>
+    <string name="charging_control_mode_custom_summary">Ön állíthat be célidőt a teljes feltöltéshez</string>
+    <string name="charging_control_mode_limit_title">Limitált töltés</string>
+    <string name="charging_control_mode_limit_summary">Egy bizonyos akkuszázalékhoz köti a töltést</string>
+    <string name="charging_control_start_time_title">Kezdési idő</string>
+    <string name="charging_control_start_time_summary">Aktiválódik amennyiben Ön %s után kezdi a töltést</string>
+    <string name="charging_control_target_time_title">A teljes töltés célideje</string>
+    <string name="charging_control_target_time_summary">%s esetén töltődik fel teljesen az akku</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Visszaállítás</string>
 </resources>

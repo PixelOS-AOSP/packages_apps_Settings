@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatycznie przełącza między 5G i 4G aby zredukować użycie baterii</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Kontrola ładowania</string>
+    <string name="charging_control_enable_title">Włącz kontrolę ładowania</string>
+    <string name="charging_control_mode_title">Tryb ładowania</string>
+    <string name="charging_control_mode_auto_title">Planowanie automatyczne</string>
+    <string name="charging_control_mode_auto_summary">Automatycznie określaj, kiedy rozpocząć ładowanie na podstawie nastawionych alarmów</string>
+    <string name="charging_control_mode_custom_title">Własny harmonogram</string>
+    <string name="charging_control_mode_custom_summary">Ustaw docelowy czas pełnego naładowania</string>
+    <string name="charging_control_mode_limit_title">Ogranicz ładowanie</string>
+    <string name="charging_control_mode_limit_summary">Ogranicz ładowanie do określonej wartości procentowej</string>
+    <string name="charging_control_start_time_title">Data rozpoczęcia</string>
+    <string name="charging_control_start_time_summary">Kontrola ładowania aktywuje się, gdy rozpoczniesz ładowanie po %s</string>
+    <string name="charging_control_target_time_title">Docelowy czas pełnego naładowania</string>
+    <string name="charging_control_target_time_summary">Bateria zostanie w pełni naładowana za %s</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Resetuj</string>
 </resources>

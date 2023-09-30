@@ -45,8 +45,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь сканера отпечатков пальцев на боковой грани вашего устройства.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Найдите сканер отпечатков пальцев на боковой части вашего телефона.</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Свайп для создания скриншота</string>
-    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами, чтобы сделать скриншот</string>
+    <string name="three_finger_gesture">Жест для снимка экрана</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами, чтобы сделать снимок экрана</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Информация о радио</string>
     <!-- Left volume panel -->
@@ -179,9 +179,9 @@
     <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
     <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
     <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в список блокировки</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит «<xliff:g id="device_name">%1$s</xliff:g>» от этого устройства и добавит его в список блокировки</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство «<xliff:g id="device_name">%1$s</xliff:g>» сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут отображены здесь, когда они станут доступны.</string>
     <string name="wifi_hotspot_timeout_summary_never">Никогда</string>
     <string name="wifi_hotspot_timeout_summary_30secs">30 секунд</string>
@@ -212,7 +212,7 @@
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">День</string>
     <string name="live_display_night">Ночь</string>
-    <string name="live_display_outdoor_mode_title">Автоматический режим \"На улице\"</string>
+    <string name="live_display_outdoor_mode_title">Автоматический режим «На улице»</string>
     <string name="live_display_outdoor_mode_summary">Автоматическое увеличение яркости и насыщенности при ярком солнечном свете</string>
     <string name="live_display_anti_flicker_title">Предотвращение мерцания</string>
     <string name="live_display_anti_flicker_summary">Предотвращает чрезмерное мерцание и уменьшает нагрузку на глаза в условиях низкого освещения. Может понизить точность цвета и повлиять на отображение некоторых элементов.</string>
@@ -286,6 +286,22 @@
     <string name="doze_enabled_title">Ambient Display</string>
     <string name="doze_enabled_summary">Включить функциональность пакета doze</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_title">Умный 5G</string>
     <string name="smart_5g_summary">Автоматическое переключение между 5G и 4G для снижения расхода батареи</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Управление зарядкой</string>
+    <string name="charging_control_enable_title">Enable charging control</string>
+    <string name="charging_control_mode_title">Charging mode</string>
+    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
+    <string name="charging_control_mode_custom_title">Custom schedule</string>
+    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
+    <string name="charging_control_mode_limit_title">Limit charging</string>
+    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
+    <string name="charging_control_target_time_title">Target time to full charge</string>
+    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Reset</string>
 </resources>

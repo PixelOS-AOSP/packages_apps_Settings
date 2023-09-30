@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">智能 5G</string>
     <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电量消耗</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动规划</string>
+    <string name="charging_control_mode_auto_summary">自动基于闹钟设置决定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义规划</string>
+    <string name="charging_control_mode_custom_summary">设定需要完全充满的时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">将充电电量限制在一定百分比</string>
+    <string name="charging_control_start_time_title">开始时间</string>
+    <string name="charging_control_start_time_summary">当您在充电 %s 后激活充电控制</string>
+    <string name="charging_control_target_time_title">完全充满所需的时间</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
+    <string name="charging_control_limit_title">上限</string>
+    <string name="reset">重置</string>
 </resources>

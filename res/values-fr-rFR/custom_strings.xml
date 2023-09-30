@@ -279,7 +279,7 @@
     <string name="display_rotation_270_title">270 degrés</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Afficher en mode veille</string>
-    <string name="doze_gesture_ambient_summary">Afficher l\'affichage en mode Veille au lieu de réveiller l\'écran</string>
+    <string name="doze_gesture_ambient_summary">Utiliser l\'affichage en mode Veille au lieu de réveiller l\'écran</string>
     <string name="gesture_wake_ambient">Afficher en mode veille</string>
     <string name="gesture_wake">Réveiller complètement</string>
     <!-- Doze enablement -->
@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G Intelligente</string>
     <string name="smart_5g_summary">Basculer automatiquement entre 5G et 4G pour réduire la consommation de la batterie</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Contrôle de charge</string>
+    <string name="charging_control_enable_title">Activer le contrôle de charge</string>
+    <string name="charging_control_mode_title">Mode de charge</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer le chargement en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de fin de charge complète</string>
+    <string name="charging_control_mode_limit_title">Limiter la charge</string>
+    <string name="charging_control_mode_limit_summary">Limiter la charge à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de début</string>
+    <string name="charging_control_start_time_summary">Le contrôle de charge s\'active lorsque vous commencez à charger après %s</string>
+    <string name="charging_control_target_time_title">Heure cible de charge complète</string>
+    <string name="charging_control_target_time_summary">La batterie sera complètement chargée dans %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Remise à zéro</string>
 </resources>

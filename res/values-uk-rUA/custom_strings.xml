@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Контроль заряджання</string>
+    <string name="charging_control_enable_title">Увімкнути керування заряджанням</string>
+    <string name="charging_control_mode_title">Режим заряджання</string>
+    <string name="charging_control_mode_auto_title">Автоматичний графік</string>
+    <string name="charging_control_mode_auto_summary">Автоматично визначати коли починати заряджання на основі встановлених будильників</string>
+    <string name="charging_control_mode_custom_title">Розклад користувача</string>
+    <string name="charging_control_mode_custom_summary">Встановити час до повного заряджання</string>
+    <string name="charging_control_mode_limit_title">Обмежити заряджання</string>
+    <string name="charging_control_mode_limit_summary">Обмежити заряд до певного відсотка</string>
+    <string name="charging_control_start_time_title">Час початку</string>
+    <string name="charging_control_start_time_summary">Керування заряджанням активується через %s після початку заряджання</string>
+    <string name="charging_control_target_time_title">Час до повного заряджання</string>
+    <string name="charging_control_target_time_summary">Батарея буде повністю заряджена за %s</string>
+    <string name="charging_control_limit_title">Ліміт</string>
+    <string name="reset">Скинути</string>
 </resources>

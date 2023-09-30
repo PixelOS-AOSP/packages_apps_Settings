@@ -115,7 +115,7 @@
     <string name="ignore_window_secure_title">Ignora flag di sicurezza della finestra</string>
     <string name="ignore_window_secure_summary">Rimuovi i limiti agli screenshot e alle registrazioni schermo per tutte le app. Può essere utile in alcuni casi ma può compromettere la privacy.</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">App a scchermo intero</string>
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
     <string name="display_cutout_force_fullscreen_summary">Forza le app a ignorare lo spazio del notch</string>
     <string name="search">Cerca</string>
     <string name="search_apps">Cerca applicazioni</string>
@@ -288,4 +288,20 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Passa automaticamente tra 5G e 4G per ridurre il consumo di batteria</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controllo della ricarica</string>
+    <string name="charging_control_enable_title">Abilita il controllo della ricarica</string>
+    <string name="charging_control_mode_title">Modalità di ricarica</string>
+    <string name="charging_control_mode_auto_title">Pianificazione automatica</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando iniziare la ricarica in base agli allarmi impostati</string>
+    <string name="charging_control_mode_custom_title">Pianificazione personalizzata</string>
+    <string name="charging_control_mode_custom_summary">Imposta un tempo di completamento della carica</string>
+    <string name="charging_control_mode_limit_title">Limita la ricarica</string>
+    <string name="charging_control_mode_limit_summary">Limita la ricarica a una determinata percentuale</string>
+    <string name="charging_control_start_time_title">Tempo di inizio</string>
+    <string name="charging_control_start_time_summary">Il controllo di ricarica si attiva quando inizi a ricaricare dopo %s</string>
+    <string name="charging_control_target_time_title">Tempo previsto per la ricarica completa</string>
+    <string name="charging_control_target_time_summary">La batteria sarà completamente carica entro %s</string>
+    <string name="charging_control_limit_title">Limita</string>
+    <string name="reset">Resetta</string>
 </resources>
