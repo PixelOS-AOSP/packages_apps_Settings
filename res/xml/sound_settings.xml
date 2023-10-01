@@ -197,14 +197,6 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
-    <!-- Volume panel to left -->
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="volume_panel_on_left"
-        android:title="@string/volume_panel_on_left_title"
-        android:summary="@string/volume_panel_on_left_summary"
-        android:defaultValue="false"
-        android:order="-28" />
-
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"

@@ -59,10 +59,6 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
-    <!-- Left volume panel -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
-    <string name="volume_panel_on_left_summary">Move volume panel to the left side of the screen</string>
-
     <!-- DT2S on statusbar-->
     <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
     <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
@@ -358,6 +354,5 @@
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
 
-
-<string name="reset">Reset</string>
+    <string name="reset">Reset</string>
 </resources>
