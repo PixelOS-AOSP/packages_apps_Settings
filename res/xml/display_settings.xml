@@ -212,7 +212,8 @@
             android:key="double_tap_sleep_gesture"
             android:title="@string/status_bar_double_tap_to_sleep_title"
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
-            android:defaultValue="false" />
+            android:defaultValue="@*android:bool/config_dt2sGestureEnabledByDefault"
+            settings:requiresConfig="@*android:bool/config_dt2sGestureAvailable" />
 
         <Preference
             android:key="display_cutout_force_fullscreen_settings"
