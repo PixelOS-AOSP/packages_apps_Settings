@@ -584,4 +584,64 @@ public abstract class DevelopmentTiles extends TileService {
             Toast.makeText(mContext, message, Toast.LENGTH_LONG).show();
         }
     }
+
+    /**
+     * Tile for refresh rate indicator
+     */
+    public static class ShowRefreshRate extends DevelopmentTiles {
+
+        private static final int SETTING_VALUE_QUERY = 2;
+        private static final int SETTING_VALUE_ON = 1;
+        private static final int SETTING_VALUE_OFF = 0;
+
+        private static final String SURFACE_FLINGER_SERVICE_KEY = "SurfaceFlinger";
+        private static final String SURFACE_COMPOSER_INTERFACE_KEY = "android.ui.ISurfaceComposer";
+        private static final int SURFACE_FLINGER_CODE = 1034;
+
+        private IBinder mSurfaceFlinger;
+
+        @Override
+        public void onCreate() {
+            super.onCreate();
+            mSurfaceFlinger = ServiceManager.getService(SURFACE_FLINGER_SERVICE_KEY);
+        }
+
+        @Override
+        protected boolean isEnabled() {
+            boolean enabled = false;
+            // magic communication with surface flinger.
+            try {
+                if (mSurfaceFlinger != null) {
+                    final Parcel data = Parcel.obtain();
+                    final Parcel reply = Parcel.obtain();
+                    data.writeInterfaceToken(SURFACE_COMPOSER_INTERFACE_KEY);
+                    data.writeInt(SETTING_VALUE_QUERY);
+                    mSurfaceFlinger.transact(SURFACE_FLINGER_CODE, data, reply, 0 /* flags */);
+                    enabled = reply.readBoolean();
+                    reply.recycle();
+                    data.recycle();
+                }
+            } catch (RemoteException ex) {
+                // intentional no-op
+            }
+            return enabled;
+        }
+
+        @Override
+        protected void setIsEnabled(boolean isEnabled) {
+            try {
+                if (mSurfaceFlinger != null) {
+                    final Parcel data = Parcel.obtain();
+                    data.writeInterfaceToken(SURFACE_COMPOSER_INTERFACE_KEY);
+                    final int showRefreshRate = isEnabled ? SETTING_VALUE_ON : SETTING_VALUE_OFF;
+                    data.writeInt(showRefreshRate);
+                    mSurfaceFlinger.transact(SURFACE_FLINGER_CODE, data,
+                            null /* reply */, 0 /* flags */);
+                    data.recycle();
+                }
+            } catch (RemoteException ex) {
+                // intentional no-op
+            }
+        }
+    }
 }

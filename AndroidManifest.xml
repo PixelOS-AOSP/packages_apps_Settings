@@ -4507,6 +4507,20 @@
                        android:value="persist.wm.debug.desktop_mode" />
         </service>
 
+        <service
+            android:name=".development.qstile.DevelopmentTiles$ShowRefreshRate"
+            android:label="@string/show_refresh_rate"
+            android:icon="@drawable/tile_icon_refresh_rate"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                       android:value="true"/>
+        </service>
+
         <activity
             android:name=".HelpTrampoline"
             android:exported="true"
