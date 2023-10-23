@@ -220,5 +220,13 @@
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
+        <!-- Heads up -->
+        <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:order="25"
+            android:title="@string/heads_up_title"
+            android:summary="@string/heads_up_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
