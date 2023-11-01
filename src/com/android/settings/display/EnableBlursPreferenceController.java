@@ -18,57 +18,99 @@ package com.android.settings.display;
 
 import static android.view.CrossWindowBlurListeners.CROSS_WINDOW_BLUR_SUPPORTED;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.PowerManager;
 import android.provider.Settings;
 
-import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.core.TogglePreferenceController;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
 /**
  * Controller that toggles window blurs on devices that support it.
  */
-public final class EnableBlursPreferenceController extends AbstractPreferenceController
-        implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
+public final class EnableBlursPreferenceController extends TogglePreferenceController
+        implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin,
+        LifecycleObserver, OnStart, OnStop {
 
-    private static final String ENABLE_BLURS_ON_WINDOWS = "enable_blurs_on_windows";
-    private final boolean mBlurSupported;
+    private Preference mPreference;
+    private final PowerManager mPowerManager;
 
-    public EnableBlursPreferenceController(Context context) {
-        this(context, CROSS_WINDOW_BLUR_SUPPORTED);
-    }
+    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (mPreference != null)
+                updateState(mPreference);
+        }
+    };
 
-    @VisibleForTesting
-    public EnableBlursPreferenceController(Context context, boolean blurSupported) {
-        super(context);
-        mBlurSupported = blurSupported;
+    public EnableBlursPreferenceController(Context context, String key) {
+        super(context, key);
+        mPowerManager = context.getSystemService(PowerManager.class);
     }
 
     @Override
-    public String getPreferenceKey() {
-        return ENABLE_BLURS_ON_WINDOWS;
+    public void onStart() {
+        mContext.registerReceiver(mReceiver,
+                new IntentFilter(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED));
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        boolean enabled = (Boolean) newValue;
+    public void onStop() {
+        mContext.unregisterReceiver(mReceiver);
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mPreference = screen.findPreference(getPreferenceKey());
+    }
+
+    @Override
+    public CharSequence getSummary() {
+        return mContext.getString(mPowerManager.isPowerSaveMode()
+                ? R.string.dark_ui_mode_disabled_summary_dark_theme_on
+                : R.string.enable_blurs_on_windows_summary);
+    }
+
+    @Override
+    public int getAvailabilityStatus() {
+        return CROSS_WINDOW_BLUR_SUPPORTED ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
+    public boolean isChecked() {
+        return Settings.Global.getInt(mContext.getContentResolver(),
+                    Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0;
+    }
+
+    @Override
+    public boolean setChecked(boolean isChecked) {
         Settings.Global.putInt(mContext.getContentResolver(),
-                Settings.Global.DISABLE_WINDOW_BLURS, enabled ? 0 : 1);
+                Settings.Global.DISABLE_WINDOW_BLURS, isChecked ? 0 : 1);
         return true;
     }
 
     @Override
-    public boolean isAvailable() {
-        return mBlurSupported;
+    public void updateState(Preference preference) {
+        super.updateState(preference);
+        refreshSummary(preference);
+        preference.setEnabled(!mPowerManager.isPowerSaveMode());
     }
 
     @Override
-    public void updateState(Preference preference) {
-        boolean isEnabled = Settings.Global.getInt(mContext.getContentResolver(),
-                    Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0;
-        ((TwoStatePreference) preference).setChecked(isEnabled);
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_display;
     }
+
 }

@@ -285,6 +285,7 @@
         <SwitchPreferenceCompat
             android:key="enable_blurs_on_windows"
             android:title="@string/enable_blurs_on_windows_title"
-            android:summary="@string/enable_blurs_on_windows_summary" />
+            android:summary="@string/enable_blurs_on_windows_summary"
+            settings:controller="com.android.settings.display.EnableBlursPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>
