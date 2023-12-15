@@ -267,4 +267,9 @@
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">数据使用情况</string>
     <string name="qs_show_data_usage_summary">在 QS 页脚中显示移动网络/WiFi 数据使用情况</string>
+
+    <!-- QS Battery estimates -->
+    <string name="qs_show_battery_estimate_title">电池估算值</string>
+    <string name="qs_show_battery_estimate_summary_on">在 QS 中显示电池估算值</string>
+    <string name="qs_show_battery_estimate_summary_off">在 QS 中隐藏电池估算值</string>
 </resources>

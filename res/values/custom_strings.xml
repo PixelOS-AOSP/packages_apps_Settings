@@ -374,4 +374,9 @@
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+
+    <!-- QS Battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
 </resources>
