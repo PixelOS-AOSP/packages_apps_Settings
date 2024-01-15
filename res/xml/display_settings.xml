@@ -189,13 +189,6 @@
             android:summary="@string/tap_to_wake_summary"/>
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary"
-            android:defaultValue="false"
-            android:enabled="@*android:bool/config_pocketModeSupported" />
-
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
             android:summary="@string/high_touch_polling_rate_summary"
