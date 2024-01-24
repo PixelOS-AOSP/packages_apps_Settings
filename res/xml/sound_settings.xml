@@ -182,6 +182,12 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
+    <!-- Show vibrate icon in status bar -->
+    <SwitchPreference
+        android:key="vibrate_icon"
+        android:title="@string/vibrate_icon_title"
+        android:order="-27"/>
+
     <Preference
         android:key="sound_settings_advanced"
         android:title="@string/sound_settings_advanced_title"
