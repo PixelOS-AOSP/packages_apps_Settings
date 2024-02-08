@@ -118,8 +118,7 @@
 
     <!--
     <PreferenceCategory
-        android:title="@string/category_name_refresh_rate_controls"
-        android:key="refresh_rate_category">
+        android:title="@string/category_name_refresh_rate_controls">
 
         <SwitchPreference
             android:key="peak_refresh_rate"
