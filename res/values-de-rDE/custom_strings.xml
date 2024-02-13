@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Battery light -->
-    <string name="battery_light_title">Turn on the light when charging</string>
+    <string name="battery_light_title">Licht beim Laden aktivieren</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Warnung: Diese Option kann zu Fehlern führen bis hin zum Datenverlust und wird deshalb nicht empfohlen!</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Aktualisierungsrate</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Automatisch entsperren, wenn Sie eine korrekte PIN eingeben. Dies ist unsicherer als die Eingabe zur Bestätigung.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Mobilfunkinformation</string>
     <!-- General -->
@@ -17,11 +17,11 @@
     <string name="three_finger_gesture">Wischen für Screenshot</string>
     <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen, um einen Screenshot zu erstellen</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Zwischen den Modi wechseln</string>
+    <string name="prevent_ringing_option_cycle_summary">An (Zwischen den Modi wechseln)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Schnelle Taschenlampe</string>
     <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Ein-/Aus-Taste die Taschenlampe aktiviert</string>
@@ -36,27 +36,23 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Icon-Manager</string>
     <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole ändern</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Power-Menü anzeigen</string>
     <!-- Navbar options -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Navigationsleiste</string>
     <string name="navbar_invert_layout_title">Layouts der Navigationsleiste umkehren</string>
     <string name="navbar_invert_info">Tausche die \"Zurück\" und \"Zuletzt geöffnet\" Tasten in der Navigationsleiste</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
+    <string name="hide_navbar_gesture_bar_summary">Blendet die Navigationsleiste am unteren Bildschirmrand aus</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Schwarzes Design verwenden</string>
     <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Akkuverbrauch zu reduzieren</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimale Bildschirmwiederholrate</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Gerätes.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Gerätes.</string>
@@ -82,7 +78,7 @@
     <string name="display_cutout_force_fullscreen_summary">Apps zwingen, die Notch zu ignorieren</string>
     <string name="search">Suche</string>
     <string name="search_apps">Apps suchen</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">App-Symbol</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always-On Fingerabdruck</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -99,12 +95,12 @@
     <string name="display_rotation_270_title">270 Grad</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Display ausschalten durch doppeltes Tippen</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Tippe doppelt auf Statusleiste oder Sperrbildschirm, um den Bildschirm auszuschalten</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">App-Sicherheitsmerkmale ignorieren</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_summary">Beschränkungen für Screenshots und Bildschirmaufzeichnungen für alle Anwendungen entfernen. Dies kann manchmal praktisch sein, kann aber Ihre Privatsphäre verletzen.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s heute</string>
     <!-- Battery saver refresh rate -->
@@ -112,7 +108,7 @@
     <string name="battery_saver_refresh_rate_summary">Bildschirmaktualisierungsrate von 60 Hz verwenden, um Strom zu sparen, wenn der Energiesparmodus aktiviert ist</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Ladesteuerung</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_summary">Passe den Ladezeitplan und die Ladegrenzen für dein Gerät an</string>
     <string name="charging_control_enable_title">Ladekontrolle aktivieren</string>
     <string name="charging_control_mode_title">Lademodus</string>
     <string name="charging_control_mode_auto_title">Automatischer Zeitplan</string>
@@ -121,12 +117,12 @@
     <string name="charging_control_mode_custom_summary">Zeit bis zur vollständigen Aufladung festlegen</string>
     <string name="charging_control_mode_limit_title">Ladebegrenzung</string>
     <string name="charging_control_mode_limit_summary">Ladung auf einen bestimmten Prozentsatz begrenzen</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
-    <string name="reset">Reset</string>
+    <string name="charging_control_start_time_title">Startzeit</string>
+    <string name="charging_control_start_time_summary">Ladekontrolle wird aktiviert, wenn du nach %s mit dem Laden beginnst</string>
+    <string name="charging_control_target_time_title">Zielzeit bis zur vollständigen Aufladung</string>
+    <string name="charging_control_target_time_summary">Akku wird bis %s vollständig geladen sein</string>
+    <string name="charging_control_limit_title">Grenze</string>
+    <string name="reset">Zurücksetzen</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Autom. Helligkeitseinstellung nur einmalig vornehmen</string>
     <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
@@ -197,19 +193,19 @@
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
     <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
-    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <string name="qstile_requires_unlocking_title">Sichere Schnelleinstellungskacheln</string>
+    <string name="qstile_requires_unlocking_summary">Entsperren zur Verwendung sensibler QS-Kacheln erforderlich</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Power-Menü</string>
+    <string name="lockscreen_enable_power_menu_summary">Power-Menüzugriff auf gesichertem Sperrbildschirm erlauben</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Netzwerkverkehrsanzeige</string>
+    <string name="network_traffic_state_summary">Aktiviere oder deaktiviere die Netzwerkverkehrsanzeige in der Statusleiste</string>
+    <string name="network_traffic_title">Netzwerkverkehrsanzeige</string>
+    <string name="network_traffic_master_switch_title">Datenverkehr-Anzeige benutzen</string>
     <string name="network_options_title">Einstellungen</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Netzwerkverkehrsanzeige ausblenden, wenn inaktiv</string>
+    <string name="network_traffic_autohide_summary">Ausblenden, wenn die Netzwerkverkehrsanzeige unter 1 KB/s liegt</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
@@ -224,12 +220,12 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Gerät nicht mehr blockieren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" wird sich mit diesem Hotspot verbinden können</string>
     <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, sobald sie verfügbar sind.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Hosentaschen-Erkennung</string>
+    <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in der Hosentasche befindet</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
     <string name="unlock_scramble_pin_layout_summary">PIN-Layout zufällig neu anordnen, wenn das Gerät entsperrt wird</string>
@@ -240,16 +236,37 @@
     <string name="notification_sound_vib_screen_on_title">Störende Benachrichtigungen</string>
     <string name="notification_sound_vib_screen_on_summary">Benachrichtigungstöne und Vibration bei eingeschaltetem Bildschirm</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+    <string name="sim_card_number_title">SIM-Karte <xliff:g id="CARD_NUMBER">%1$d</xliff:g></string>
     <!-- Heads up -->
     <string name="heads_up_title">Pop-up-Benachrichtigungen</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Ausgewählte Benachrichtigungen als Banner am oberen Bildschirmrand anzeigen</string>
+    <string name="heads_up_off">Pop-Up-Benachrichtigungen sind deaktiviert</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Saner heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_summary">Zeige Heads-Up nur für Anrufe, Nachrichten, Erinnerungen, Erinnerungen und vorrangige Unterhaltungen</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Screenshot-Auslöserton</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Zusätzliche Töne</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Inaktiv anzeigen</string>
+    <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm voll aufzuwecken</string>
+    <string name="gesture_wake_ambient">Inaktiv anzeigen</string>
+    <string name="gesture_wake">Volles Wecken</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibrieren bei Verbindung</string>
+    <string name="incall_vibrate_call_wait_title">Beim Anklopfen vibrieren</string>
+    <string name="incall_vibrate_disconnect_title">Vibrieren beim Trennen</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Geräten erlauben, VPNs zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaube Hotspot-Clients die VPN Verbindung dieses Gerätes\u2019 für ausgehende Verbindungen zu nutzen</string>
 </resources>

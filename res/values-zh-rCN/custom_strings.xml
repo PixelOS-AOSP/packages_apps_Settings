@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">智能 5G</string>
     <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电量消耗</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">最高刷新率</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">最低刷新率</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板电脑正面找到指纹传感器</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">您可以在设备正面找到指纹传感器</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">双击状态栏或锁屏界面以息屏</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略某些应用禁止用户截取屏幕的标志</string>
-    <string name="ignore_window_secure_summary">该功能将去除所有应用程序的 FLAG_SECURE 窗口标志，但在某些情况下可能会导致您的敏感数据泄露。应用程序通常会使用该标志来禁止您对窗口进行屏幕录制或截图操作。开关此功能后，需要重新打开相应的应用程序以使改动生效。</string>
+    <string name="ignore_window_secure_summary">移出所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">少于 1 分钟</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -249,7 +245,28 @@
     <string name="less_boring_heads_up_title">浮动通知</string>
     <string name="less_boring_heads_up_summary">仅在通话、消息、提醒、提醒和优先对话中显示浮动通知</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">其它声音</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">显示环境模式</string>
+    <string name="doze_gesture_ambient_summary">显示环境显示而不是唤醒屏幕</string>
+    <string name="gesture_wake_ambient">显示环境模式</string>
+    <string name="gesture_wake">完全唤醒</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz（自适应）</string>
+    <string name="refresh_rate_vrr_title">自适应屏幕刷新率</string>
+    <string name="refresh_rate_vrr_summary">当屏幕空闲时自动降低刷新率以节省电量，可能会导致某些设备的屏幕闪烁或色偏。</string>
+    <string name="refresh_rate_footer">更高的刷新率使显示的内容变化时变得更加流畅，但会增加电量消耗。</string>
+    <string name="keywords_refresh_rate">屏幕刷新率、流畅度、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">来电振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
 </resources>

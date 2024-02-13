@@ -5,7 +5,7 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Attention: Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée!</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
-    <string name="category_name_refresh_rate_controls">Taux de raffraichissement</string>
+    <string name="category_name_refresh_rate_controls">Taux de rafraichissement</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Déverrouiller automatiquement si vous saisissez un code PIN correct. Ceci est légèrement moins sécurisé que d\'appuyer sur Entrée pour confirmer.</string>
     <!-- Radio Info -->
@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G Intelligente</string>
     <string name="smart_5g_summary">Basculer automatiquement entre 5G et 4G pour réduire la consommation de la batterie</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Taux de rafraîchissement maxi</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le lecteur d\'empreintes digitales à l\'avant de votre tablette.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Appuyer deux fois sur la barre d\'état ou sur l\'écran de verrouillage pour éteindre l\'écran</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
-    <string name="ignore_window_secure_summary">Cela supprime les captures d\'écran et les limites des enregistrements d\'écran pour toutes les applications. Normalement, les applications spéciales sont remplacées par des zones noires dans les enregistrements. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
+    <string name="ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Moins d\'une minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -137,8 +133,8 @@
     <string name="touchscreen_hovering_title">Survol de l\'écran tactile</string>
     <string name="touchscreen_hovering_summary">Permet de survoler l\'écran comme avec une souris dans les navigateurs web, les bureaux à distance, etc</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">Taux de rafraîchissement élevé</string>
-    <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement de l\'écran</string>
+    <string name="high_touch_polling_rate_title">Taux d’échantillonnage tactile élevé</string>
+    <string name="high_touch_polling_rate_summary">Augmente le taux d’échantillonnage tactile</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions lumineuse pour améliorer la lisibilité et réduire la fatigue oculaire</string>
     <string name="live_display_mode">Mode d\'affichage</string>
@@ -249,7 +245,28 @@
     <string name="less_boring_heads_up_title">Notifications flottantes Saner</string>
     <string name="less_boring_heads_up_summary">Afficher les notifications flottantes uniquement pour les appels, messages, alarmes, rappels et conversations prioritaires</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Son de capture d\'écran</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Sons supplémentaires</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Afficher en mode veille</string>
+    <string name="doze_gesture_ambient_summary">Utiliser l\'affichage en mode Veille au lieu de réveiller l\'écran</string>
+    <string name="gesture_wake_ambient">Afficher en mode veille</string>
+    <string name="gesture_wake">Réveiller complètement</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Taux de rafraîchissement</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptatif)</string>
+    <string name="refresh_rate_vrr_title">Taux de rafraîchissement adaptatif</string>
+    <string name="refresh_rate_vrr_summary">Diminuer automatiquement la fréquence de rafraîchissement lorsque l\'affichage est inactif, pour économiser de l\'énergie. Peut causer un scintillement ou un décalage de couleur sur certains affichages</string>
+    <string name="refresh_rate_footer">Un taux de rafraîchissement plus élevé rend l\'affichage plus fluide, mais augmente la consommation d\'énergie</string>
+    <string name="keywords_refresh_rate">rafraîchissement, vitesse, lisse, pic, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Options de vibration appel entrant</string>
+    <string name="incall_vibrate_connect_title">Vibrer lorsque la connexion est établie</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer lors d\'un appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors de la fin de l\'appel</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Autoriser les utilisateurs à utiliser les connections VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permettre aux utilisateurs du point d\'accès d\'utiliser les connexions VPN de l\'appareil \u2019 pour la connectivité sortante</string>
 </resources>

@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">智慧 5G</string>
     <string name="smart_5g_summary">自動在 5G 和 4G 之間切換以減少電池的消耗</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">最高更新率</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">最低刷新率</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">指紋感應器位於平板電腦正面。</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">指紋感應器位於裝置正面。</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略某些應用禁止用戶擷取螢幕的標示</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_summary">移除所有應用程序的螢幕截圖和螢幕錄影限制。 在某些情況下這可能很方便，但可能會導致隱私洩露。</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -252,4 +248,25 @@
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Additional sounds</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
+    <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而不是完全喚醒屏幕</string>
+    <string name="gesture_wake_ambient">顯示微光螢幕</string>
+    <string name="gesture_wake">完全喚醒</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">有插撥電話時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許無線基地台的連線裝置使用此裝置的 VPN 連接到上游</string>
 </resources>

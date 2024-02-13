@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Battery light -->
-    <string name="battery_light_title">Turn on the light when charging</string>
+    <string name="battery_light_title">Encender el indicador Led cuando el dispositivo se esté cargando</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Precaución: ¡Esta opción podría no funcionar correctamente o podría causar perdida de datos, por lo tanto, no es recomendable!</string>
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Frecuencia de refresco</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquea automáticamente si introduces el PIN correcto. Esta opción es un poco menos segura que presionar Intro para confirmar.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Información de radio</string>
     <!-- General -->
@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G inteligente</string>
     <string name="smart_5g_summary">Cambia automáticamente entre 5G y 4G para reducir el consumo de batería</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Frecuencia de refresco máxima</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Frecuencia de refresco mínima</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localiza el sensor de huella dactilar en el frontal de tu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el sensor de huella dactilar en el frontal de tu dispositivo.</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Doble toque en la barra de estado o pantalla de bloqueo para apagar la pantalla</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorar la restricción de captura de pantalla</string>
-    <string name="ignore_window_secure_summary">Esto elimina la limitación de captura y grabación de pantalla en todas las aplicaciones. Normalmente, determinadas aplicaciones son reemplazadas por áreas negras en las capturas. Esto puede ser útil en algunos casos, pero puede conducir a filtraciones de datos. Tras cambiar esta opción, quizás necesites reiniciar las aplicaciones para que el cambio tenga efecto.</string>
+    <string name="ignore_window_secure_summary">Eliminar los límites de captura de pantalla y grabación de pantalla para todas las aplicaciones. Esto puede ser conveniente en algunos casos, pero puede llevar a fugas de privacidad.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -200,16 +196,16 @@
     <string name="qstile_requires_unlocking_title">Mosaicos de configuración rápida segura</string>
     <string name="qstile_requires_unlocking_summary">Requerir desbloqueo para usar mosaicos sensibles de configuración rápida</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Menú de apagado</string>
+    <string name="lockscreen_enable_power_menu_summary">Permitir el acceso al menú de encendido en la pantalla de bloqueo</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Indicador de tráfico de red</string>
+    <string name="network_traffic_state_summary">Activar o desactivar el indicador de velocidad de red en la barra de estado</string>
+    <string name="network_traffic_title">Indicador de tráfico de red</string>
+    <string name="network_traffic_master_switch_title">Usar Indicador de Tráfico de Red</string>
     <string name="network_options_title">Opciones</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Ocultar indicador de tráfico de red si está inactivo</string>
+    <string name="network_traffic_autohide_summary">Ocultar cuando el tráfico de red es menor de 1 Kb/s</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">El nombre del punto de acceso móvil no aparecerá en la lista de redes WLAN disponibles.</string>
@@ -228,8 +224,8 @@
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en el bolsillo</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
     <string name="unlock_scramble_pin_layout_summary">Disposición aleatoria del PIN al desbloquear el dispositivo</string>
@@ -240,11 +236,11 @@
     <string name="notification_sound_vib_screen_on_title">Notificaciones molestas</string>
     <string name="notification_sound_vib_screen_on_summary">Las notificaciones suenan y vibran cuando la pantalla está encendida</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d </xliff:g></string>
     <!-- Heads up -->
     <string name="heads_up_title">Notificaciones emergentes</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Mostrar notificaciones seleccionadas como banner en la parte superior de la pantalla</string>
+    <string name="heads_up_off">Las notificaciones emergentes están desactivadas globalmente</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Saner heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
@@ -252,4 +248,25 @@
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Additional sounds</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar pantalla ambiente en lugar de despertar completamente la pantalla</string>
+    <string name="gesture_wake_ambient">Mostrar ambiente</string>
+    <string name="gesture_wake">Despertar por completo</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes del punto de acceso usar las conexiones VPN de este dispositivo\u2019 para conectividad de subida</string>
 </resources>

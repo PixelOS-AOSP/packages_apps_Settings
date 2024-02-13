@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Найменша частота оновлення</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на передній панелі вашого планшета.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер пальців на передній панелі вашого пристрою.</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Подвійне натискання на рядок стану чи екран блокування, щоб вимкнути екран</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ігнорувати позначки безпеки вікон додатків</string>
-    <string name="ignore_window_secure_summary">Це видаляє ліміти даних з екрану та записи екрану для всіх програм. Зазвичай такі програми замінюються чорними областями в записах. Це може бути зручним в деяких випадках, але може призвести до витоку конфіденційності. Після зміни цього перемикача, вам, можливо, доведеться перезапустити додатки, щоб зміни набрали сили.</string>
+    <string name="ignore_window_secure_summary">Видаляйте обмеження знімків екрана та запису екрана для всіх застосунків. Це може бути зручно в деяких випадках, але може призвести до пошкодження конфіденційності.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менше хвилини</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -249,7 +245,28 @@
     <string name="less_boring_heads_up_title">Санер</string>
     <string name="less_boring_heads_up_summary">Показувати спливаючі сповіщення лише для дзвінків, повідомлень, будильників, нагадувань і пріоритетних розмов</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Звук знімку екрану</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Додаткові звуки</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показати Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Показувати на Ambient Display замість повного пробудження екрану вгору</string>
+    <string name="gesture_wake_ambient">Показати Ambient Display</string>
+    <string name="gesture_wake">Повністю пробуджувати</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота оновлення</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
+    <string name="refresh_rate_summary_vrr_on">%d Гц (адаптивно)</string>
+    <string name="refresh_rate_vrr_title">Адаптивна частота оновлення</string>
+    <string name="refresh_rate_vrr_summary">Автоматично знижуйте частоту оновлення, коли дисплей неактивний, щоб заощадити енергію. Може спричинити мерехтіння або зміну кольору на певних дисплеях</string>
+    <string name="refresh_rate_footer">Вища частота оновлення робить дисплей більш плавним, але збільшує споживання енергії</string>
+    <string name="keywords_refresh_rate">оновлення, частота, плавна, пік, 60 Гц, 90 Гц, 120 Гц, 144 Гц, 165 Гц</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою для підключення до мережі</string>
 </resources>

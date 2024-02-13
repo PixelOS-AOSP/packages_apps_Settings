@@ -7,7 +7,7 @@
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Obnovovacia frekvencia</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Odomkne sa automaticky po zadaní správneho kódu PIN. Je to o niečo menej bezpečné ako ťuknutie na tlačidlo Enter na potvrdenie.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informácie o rádiu</string>
     <!-- General -->
@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Inteligentné 5G</string>
     <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Maximálna obnovovacia frekvencia</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimálna obnovovacia frekvencia</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Nájdite snímač odtlačkov prstov na prednej strane tabletu.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhľadajte senzor odtlačkov prsta na prednej strane vášho zariadenia.</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Vypnúť obrazovku dvojklikom na stavový riadok alebo na obrazovku uzamknutia</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorovať príznaky zabezpečenia okien</string>
-    <string name="ignore_window_secure_summary">Týmto sa odstránia obmedzenia snímok obrazovky a záznamov obrazovky pre všetky aplikácie. Normálne sú špeciálne aplikácie nahradené čiernymi oblasťami v záznamoch. V niektorých prípadoch to môže byť výhodné, ale môže to viesť k úniku súkromia. Po zmene tohto prepínača bude možno potrebné reštartovať aplikácie, aby sa zmena prejavila.</string>
+    <string name="ignore_window_secure_summary">Odstránenie obmedzení pre snímky obrazovky a záznamy obrazovky pre všetky aplikácie. V niektorých prípadoch to môže byť vhodné, ale môže to viesť k úniku súkromia.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menej ako 1 minúta</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -229,7 +225,7 @@
     <string name="wifi_band_60ghz">60 GHz</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detekcia vo vrecku</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Pomiešať rozloženie</string>
     <string name="unlock_scramble_pin_layout_summary">Pomiešať rozloženie kláves pre zadanie kódu PIN pri odomykaní zariadenia</string>
@@ -243,13 +239,34 @@
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Heads up -->
     <string name="heads_up_title">Plávajúce upozornenia</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Zobrazenie vybraných oznámení ako banneru v hornej časti obrazovky</string>
+    <string name="heads_up_off">Funkcia Heads up je globálne vypnutá</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">Rozumnejšie varovania</string>
+    <string name="less_boring_heads_up_summary">Zobrazenie upozornení len pre hovory, správy, alarmy, pripomenutia a prioritné konverzácie</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Zvuk snímky obrazovky</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Ďalšie zvuky</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Zobraziť Ambientný displej</string>
+    <string name="doze_gesture_ambient_summary">Zobraziť ambientný diplej namiesto úplného prebudenia obrazovky</string>
+    <string name="gesture_wake_ambient">Zobraziť Ambientný displej</string>
+    <string name="gesture_wake">Úplne prebudený</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Obnovovacia frekvencia</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptívna)</string>
+    <string name="refresh_rate_vrr_title">Adaptívna obnovovacia frekvencia</string>
+    <string name="refresh_rate_vrr_summary">Automatické zníženie obnovovacej frekvencie, keď je displej nečinný, aby sa šetrila energia. Môže spôsobiť blikanie alebo posun farieb na niektorých displejoch</string>
+    <string name="refresh_rate_footer">Vyššia obnovovacia frekvencia zvyšuje plynulosť zobrazenia, ale zvyšuje spotrebu energie</string>
+    <string name="keywords_refresh_rate">obnovovacia, frekvencia, plynulý, vrchol, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Povoliť klientom používanie VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povoliť klientom hotspotu používať pripojenie VPN tohto zariadenia pre všetku konektivitu</string>
 </resources>

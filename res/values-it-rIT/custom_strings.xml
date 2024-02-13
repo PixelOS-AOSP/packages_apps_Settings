@@ -53,10 +53,6 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G intelligente</string>
     <string name="smart_5g_summary">Passa automaticamente tra 5G e 4G per ridurre il consumo della batteria</string>
-    <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Frequenza massima di aggiornamento</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del dispositivo.</string>
@@ -102,7 +98,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">Tocca due volte sulla barra di stato o sulla schermata di blocco per spegnere lo schermo</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignora flag di sicurezza della finestra</string>
-    <string name="ignore_window_secure_summary">Questo rimuove i limiti degli screenshot e delle registrazioni dello schermo per tutte le applicazioni. Normalmente, le applicazioni speciali sono sostituite da aree nere nei registri. Ciò può essere comodo in alcuni casi, ma potrebbe comportare delle fughe di privacy. Dopo aver modificato questo interruttore, potresti dover riavviare le applicazioni perché le modifiche siano effettive.</string>
+    <string name="ignore_window_secure_summary">Rimuovi i limiti agli screenshot e alle registrazioni schermo per tutte le app. Può essere utile in alcuni casi ma può compromettere la privacy.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Meno di 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -249,7 +245,28 @@
     <string name="less_boring_heads_up_title">Notifiche fluttuanti più sane</string>
     <string name="less_boring_heads_up_summary">Mostra le notifiche fluttuanti solo per chiamate, messaggi, allarmi, promemoria e conversazioni prioritarie</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Suoni Aggiuntivi</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di attivare completamente lo schermo</string>
+    <string name="gesture_wake_ambient">Mostra l\'Ambient Display</string>
+    <string name="gesture_wake">Risveglia completamente</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni per la vibrazione in chiamata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra quando la chiamata è in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra al riaggancio</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di usare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permetti ai client hotspot connessi di utilizzare la VPN del dispositivo per connettersi a internet</string>
 </resources>
