@@ -105,13 +105,26 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
                 com.android.settingslib.fuelgauge.BatteryUtils.getBatteryIntent(mContext);
         final int batteryLevel = Utils.getBatteryLevel(batteryBroadcast);
 
+        final int chargeCounterUah =
+                batteryBroadcast.getIntExtra(BatteryManager.EXTRA_CHARGE_COUNTER, -1);
+
         mBatteryUsageProgressBarPreference.setUsageSummary(
                 formatBatteryPercentageText(batteryLevel));
         mBatteryUsageProgressBarPreference.setPercent(batteryLevel, BATTERY_MAX_LEVEL);
+
+        if (chargeCounterUah != -1) {
+            int chargeCounter = chargeCounterUah / 1_000;
+            mBatteryUsageProgressBarPref.setTotalSummary(
+                    formatBatteryChargeCounterText(chargeCounter));
+        }
     }
 
     private CharSequence formatBatteryPercentageText(int batteryLevel) {
         return com.android.settings.Utils.formatPercentage(batteryLevel);
+    }
+
+    private CharSequence formatBatteryChargeCounterText(int chargeCounter) {
+        return mContext.getString(R.string.battery_charge_counter_summary, chargeCounter);
     }
 }
 // LINT.ThenChange(BatteryHeaderPreference.kt)
