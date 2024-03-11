@@ -62,7 +62,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         requireActivity().setTitle(getTitle())
-        activityManager = requireContext().getSystemService(ActivityManager::class.java)
+        activityManager = requireContext().getSystemService(ActivityManager::class.java) as ActivityManager
         packageManager = requireContext().packageManager
         packageList = packageManager.getInstalledPackages(0)
         cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext());
@@ -75,9 +75,9 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         adapter = AppListAdapter()
         recyclerView = view.findViewById<RecyclerView>(R.id.apps_list).also {
-            it.layoutManager = LinearLayoutManager(context)
-            it.adapter = adapter
-        }
+            it!!.layoutManager = LinearLayoutManager(context)
+            it!!.adapter = adapter
+        } as RecyclerView
         refreshList()
     }
 
@@ -133,8 +133,8 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private fun refreshList() {
         var list = packageList.filter {
             when (category) {
-                CATEGORY_SYSTEM_ONLY -> it.applicationInfo.isSystemApp()
-                CATEGORY_USER_ONLY -> !it.applicationInfo.isSystemApp()
+                CATEGORY_SYSTEM_ONLY -> it.applicationInfo!!.isSystemApp()
+                CATEGORY_USER_ONLY -> !it.applicationInfo!!.isSystemApp()
                 else -> true
             }
         }.filter {
@@ -157,11 +157,11 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         AppInfo(
             packageInfo.packageName,
             getLabel(packageInfo),
-            packageInfo.applicationInfo.loadIcon(packageManager),
+            packageInfo.applicationInfo!!.loadIcon(packageManager),
         )
     
     private fun getLabel(packageInfo: PackageInfo) =
-        packageInfo.applicationInfo.loadLabel(packageManager).toString()
+        packageInfo.applicationInfo!!.loadLabel(packageManager).toString()
 
     private inner class AppListAdapter: ListAdapter<AppInfo, AppListViewHolder>(itemCallback) {
         private val selectedIndices = mutableSetOf<Int>()
@@ -173,16 +173,16 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
         override fun onBindViewHolder(holder: AppListViewHolder, position: Int) {
             getItem(position).let {
-                holder.label.text = it.label
-                holder.packageName.text = it.packageName
-                holder.icon.setImageDrawable(it.icon)
-                holder.itemView.setOnClickListener {
+                holder.label!!.text = it.label
+                holder.packageName!!.text = it.packageName
+                holder.icon!!.setImageDrawable(it.icon)
+                holder.itemView!!.setOnClickListener {
                     if (selectedIndices.contains(position)) {
                         selectedIndices.remove(position)
-                        onListUpdate(holder.packageName.text.toString(), false)
+                        onListUpdate(holder.packageName!!.text.toString(), false)
                     } else {
                         selectedIndices.add(position)
-                        onListUpdate(holder.packageName.text.toString(), true)
+                        onListUpdate(holder.packageName!!.text.toString(), true)
                     }
                     notifyItemChanged(position)
                 }
@@ -190,7 +190,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
                     initialList.remove(it.packageName)
                     selectedIndices.add(position)
                 }
-                holder.checkBox.isChecked = selectedIndices.contains(position)
+                holder.checkBox!!.isChecked = selectedIndices.contains(position)
             }
         }
 
@@ -208,10 +208,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     }
 
     private class AppListViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        val icon: ImageView = itemView.findViewById(R.id.icon)
-        val label: TextView = itemView.findViewById(R.id.label)
-        val packageName: TextView = itemView.findViewById(R.id.packageName)
-        val checkBox: CheckBox = itemView.findViewById(R.id.checkBox)
+        val icon: ImageView? = itemView.findViewById(R.id.icon)
+        val label: TextView? = itemView.findViewById(R.id.label)
+        val packageName: TextView? = itemView.findViewById(R.id.packageName)
+        val checkBox: CheckBox? = itemView.findViewById(R.id.checkBox)
     }
 
     private data class AppInfo(
