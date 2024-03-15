@@ -9,4 +9,7 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
+    <!-- Show battery information -->
+    <bool name="config_show_battery_info" translatable="false">true</bool>
+
 </resources>
