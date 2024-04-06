@@ -28,7 +28,7 @@ import android.util.Log;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
@@ -114,7 +114,7 @@ public class Smart5gPreferenceController extends TelephonyTogglePreferenceContro
         if (preference == null) {
             return;
         }
-        final SwitchPreference switchPreference = (SwitchPreference) preference;
+        final SwitchPreferenceCompat switchPreference = (SwitchPreferenceCompat) preference;
         switchPreference.setEnabled(isUserControlAllowed());
     }
 
