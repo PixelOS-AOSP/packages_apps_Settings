@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">广播信息</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">输入正确的 PIN 码时自动解锁。这会比点击手动确认的安全性低一些。</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">循环模式</string>
+    <string name="prevent_ringing_option_cycle_summary">开启 (循环模式)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指同时下滑以截屏</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">智能 5G</string>
+    <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电量消耗</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">忽略某些应用禁止用户截取屏幕的标志</string>
+    <string name="ignore_window_secure_summary">移出所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">少于 1 分钟</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_summary">自定义您设备的充电计划和限制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动规划</string>
+    <string name="charging_control_mode_auto_summary">自动基于闹钟设置决定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义规划</string>
+    <string name="charging_control_mode_custom_summary">设定需要完全充满的时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">将充电电量限制在一定百分比</string>
+    <string name="charging_control_start_time_title">开始时间</string>
+    <string name="charging_control_start_time_summary">当您在充电 %s 后激活充电控制</string>
+    <string name="charging_control_target_time_title">完全充满所需的时间</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
+    <string name="charging_control_limit_title">上限</string>
+    <string name="reset">重置</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
+    <string name="high_touch_sensitivity_summary">提高触摸灵敏度，以便在戴手套时使用</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">悬空操作</string>
+    <string name="touchscreen_hovering_summary">允许您将手指悬停在屏幕上作为浏览器、远程桌面等处的鼠标指针</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高屏幕的触控采样率</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">基于当前时间和环境条件来优化您的屏幕以改善可读性和减少视疲劳</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">日间</string>
+    <string name="live_display_night">夜间</string>
+    <string name="live_display_outdoor_mode_title">自动启用户外模式</string>
+    <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+    <string name="live_display_anti_flicker_title">防闪烁</string>
+    <string name="live_display_anti_flicker_summary">在低亮度条件下，可大幅降低屏闪并减少眼睛疲劳。 此模式可能降低色彩精度，并影响部分内容的显示效果。</string>
+    <string name="live_display_low_power_title">降低功耗</string>
+    <string name="live_display_low_power_summary">调整显示屏以降低功耗，但不削弱显示效果</string>
+    <string name="live_display_enhance_color_title">色彩增强</string>
+    <string name="live_display_enhance_color_summary">优化肤色、风景和其他图像的色彩饱和度</string>
+    <string name="live_display_color_profile_title">色彩配置</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">精准的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">真实的色彩和肤色</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">增强的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">电影</string>
+    <string name="live_display_color_profile_cinema_summary">针对视频的完美色彩重现</string>
+    <string name="live_display_color_profile_astronomy_title">夜间</string>
+    <string name="live_display_color_profile_astronomy_summary">夜间模式下显示为深红色以保护视力</string>
+    <string name="live_display_color_profile_photography_title">图像</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未调校的显示配置</string>
+    <string name="live_display_color_profile_adaptive_title">自适应</string>
+    <string name="live_display_color_profile_adaptive_summary">颜色根据环境条件自适应</string>
+    <string name="live_display_color_profile_reading_title">阅读</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色调以缓解眼睛疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">使用 sRGB 色彩空间校准屏幕颜色</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色彩空间校准屏幕颜色</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
+    <string name="color_calibration_title">颜色校准</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">红</string>
+    <string name="color_green_title">绿</string>
+    <string name="color_blue_title">蓝</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">图像校正</string>
+    <string name="picture_adjustment_summary">调整色调，饱和度，亮度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和度</string>
+    <string name="adj_intensity_title">亮度</string>
+    <string name="adj_contrast_title">对比度</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">快捷手电筒</string>
+    <string name="power_button_torch_summary">屏幕关闭时，长按电源键将启用手电筒</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz（自适应）</string>
+    <string name="refresh_rate_vrr_title">自适应刷新率</string>
+    <string name="refresh_rate_vrr_summary">当屏幕空闲时自动降低刷新率以节省电量，可能会导致某些设备的屏幕闪烁或色偏。</string>
+    <string name="refresh_rate_footer">更高的刷新率使显示的内容变化时变得更加流畅，但会增加电量消耗。</string>
+    <string name="keywords_refresh_rate">刷新, 速度, 平滑, 峰值, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">当省电模式开启时，使用 60Hz 屏幕刷新率以节省电量</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏热点</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的热点将不会出现在可用的 WLAN 网络列表中。</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">限制连接设备的数目</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已屏蔽的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将会断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与本设备的连接，并将其添加到屏蔽列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解除此设备的屏蔽</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到该热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已屏蔽的设备。</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Use assisted GPS</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">应用全屏</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海屏区域</string>
+    <string name="search">搜索</string>
+    <string name="search_apps">搜索应用</string>
+    <string name="application_icon">应用图标</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
+    <string name="status_bar_double_tap_to_sleep_summary">在状态栏或锁屏界面点按两次即可关闭屏幕</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
+    <!-- Heads up -->
+    <string name="heads_up_title">浮动通知</string>
+    <string name="heads_up_summary">在屏幕顶部以横幅方式显示通知内容</string>
+    <string name="heads_up_off">浮动通知已在全局禁用</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_summary">仅在通话、消息、闹钟、提醒和优先对话中显示浮动通知</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">更多提示音</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">导航栏</string>
+    <string name="navbar_invert_layout_title">反向导航栏布局</string>
+    <string name="navbar_invert_info">交换导航栏上的 \"返回\" 和 \"最近任务\" 按钮</string>
+    <string name="hide_navbar_gesture_bar_title">隐藏导航栏</string>
+    <string name="hide_navbar_gesture_bar_summary">隐藏屏幕底部的导航栏</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">网络流量指示器</string>
+    <string name="network_traffic_state_summary">在状态栏中启用或禁用网络流量指示器</string>
+    <string name="network_traffic_title">网络流量指示器</string>
+    <string name="network_traffic_master_switch_title">使用网络流量指示器</string>
+    <string name="network_options_title">选项</string>
+    <string name="network_traffic_autohide_title">当网络处于非活动状态时隐藏网络流量指示器</string>
+    <string name="network_traffic_autohide_summary">当网络流量小于 1 KB/s 时隐藏网络流量指示器</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">始终使用指纹</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">允许屏幕关闭时解锁。\n启用可能导致意外唤醒。</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">使用纯黑色主题</string>
+    <string name="system_black_theme_summary">强制使用纯黑色背景</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">显示环境模式</string>
+    <string name="doze_gesture_ambient_summary">显示环境显示而不是唤醒屏幕</string>
+    <string name="gesture_wake_ambient">显示环境模式</string>
+    <string name="gesture_wake">完全唤醒</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">乱序排布</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序的键盘布局</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">启用高级重启选项</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示重启到 Recovery 和 Bootloader 的选项</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">电源菜单</string>
+    <string name="lockscreen_enable_power_menu_summary">允许在锁屏界面使用电源菜单</string>
+</resources>

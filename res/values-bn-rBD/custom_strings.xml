@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="longpress_to_clipboard">কপি করতে চেপে ধরে রাখুন</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">রেডিও তথ্য</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">স্ক্রিনশট নিতে সোয়াইপ করুন</string>
+    <string name="three_finger_gesture_summary">স্ক্রীনশট নিতে ৩ আঙ্গুল দিয়ে নিচের দিকে টানুন</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">স্মার্ট 5G</string>
+    <string name="smart_5g_summary">ব্যাটারি ব্যবহার কমাতে স্বয়ংক্রিয়ভাবে 5G এবং 4G-এর মধ্যে পাল্টান</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">সুরক্ষিত উইন্ডো ফ্লাগ উপেক্ষা করুন</string>
+    <string name="ignore_window_secure_summary">সমস্ত অ্যাপের জন্য স্ক্রিনশট এবং স্ক্রিন রেকর্ডের সীমা সরান। এটি কিছু ক্ষেত্রে সুবিধাজনক হতে পারে কিন্তু গোপনীয়তা ফাঁস হতে পারে।</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">আজ %1$s</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">চার্জিং নিয়ন্ত্রণ</string>
+    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_enable_title">Enable charging control</string>
+    <string name="charging_control_mode_title">Charging mode</string>
+    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
+    <string name="charging_control_mode_custom_title">Custom schedule</string>
+    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
+    <string name="charging_control_mode_limit_title">Limit charging</string>
+    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
+    <string name="charging_control_target_time_title">Target time to full charge</string>
+    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Reset</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">উচ্চ স্পর্শ সংবেদনশীলতা</string>
+    <string name="high_touch_sensitivity_summary">টাচস্ক্রীন সংবেদনশীলতা বৃদ্ধি করুন যাতে গ্লাভস পরে ব্যবহার করা যেতে পারে</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">টাচস্ক্রিন হোভারিং</string>
+    <string name="touchscreen_hovering_summary">আপনাকে ওয়েব ব্রাউজার, রিমোট ডেস্কটপ ইত্যাদিতে মাউসের মতো পর্দা ঘোরাতে দেয়</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">উচ্চ স্পর্শ পোলিং হার</string>
+    <string name="high_touch_polling_rate_summary">টাচস্ক্রিন পোলিং হার বাড়ান</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">দিনের সময় এবং পরিবেশের অবস্থার উপর নির্ভর করে রিডিং মোড চালু করূন যাতে আপনার পড়ার জন্য স্ক্রিন অনুকূল হয় এবং চোখের উপর চাপ কমে</string>
+    <string name="live_display_mode">ডিসপ্লে মোড</string>
+    <string name="live_display_color_temperature_title">কালার টেম্পারেচার</string>
+    <string name="live_display_color_temperature_summary">দিন: <xliff:g id="day_temperature">%1$d </xliff:g>K রাত: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">দিন</string>
+    <string name="live_display_night">রাত</string>
+    <string name="live_display_outdoor_mode_title">স্বয়ংক্রিয় ভাবে বাইরের মোডে চলে যাবে</string>
+    <string name="live_display_outdoor_mode_summary">রোদে গেলে স্বয়ংক্রিয়ভাবে আলো এবং রঙ এর গাঢতা বৃদ্ধি পাবে</string>
+    <string name="live_display_anti_flicker_title">অ্যান্টি ফ্লিকার</string>
+    <string name="live_display_anti_flicker_summary">ব্যাপক ঝাঁকুনি প্রতিরোধ করুন এবং কম আলোর অবস্থায় চোখের চাপ কমিয়ে দিন। এটি রঙের নির্ভুলতা হ্রাস করতে পারে এবং কিছু আইটেম প্রদর্শিত হওয়ার উপায়কে প্রভাবিত করতে পারে।</string>
+    <string name="live_display_low_power_title">শক্তির ব্যবহার কমান</string>
+    <string name="live_display_low_power_summary">অবক্ষয় ছাড়াই সর্বনিম্ন শক্তি ব্যবহারের জন্য ডিসপ্লে অ্যাডজাস্ট করুন</string>
+    <string name="live_display_enhance_color_title">উন্নত রঙ</string>
+    <string name="live_display_enhance_color_summary">চর্মের বর্ণ, দৃশ্য এবং অন্যান্য ছবির রঙের ভাইব্রেন্স উন্নতি করুন</string>
+    <string name="live_display_color_profile_title">কালার প্রোফাইল</string>
+    <string name="live_display_color_profile_standard_title">সাধারণ</string>
+    <string name="live_display_color_profile_standard_summary">সঠিক রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_natural_title">স্বাভাবিক</string>
+    <string name="live_display_color_profile_natural_summary">রং এবং শরীরের বাস্তবিক বর্ণ</string>
+    <string name="live_display_color_profile_dynamic_title">ডায়নামিক</string>
+    <string name="live_display_color_profile_dynamic_summary">বর্ধিত রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_cinema_title">সিনেমা</string>
+    <string name="live_display_color_profile_cinema_summary">ভিডিও করার জন্য পার্ফেক্ট কালার</string>
+    <string name="live_display_color_profile_astronomy_title">অ্যাস্ট্রোনমি</string>
+    <string name="live_display_color_profile_astronomy_summary">রাতের ভাব ধরে রাখার জন্য লাল সংস্করণ</string>
+    <string name="live_display_color_profile_photography_title">ফটোগ্রাফি</string>
+    <string name="live_display_color_profile_photography_summary">ছবির জন্য উপযুক্ত রং পুনরুৎপাদন</string>
+    <string name="live_display_color_profile_basic_title">সাধারণ</string>
+    <string name="live_display_color_profile_basic_summary">ডিসপ্লেটি আনক্যালিব্রেট হিসাবে ব্যবহার করুন</string>
+    <string name="live_display_color_profile_adaptive_title">মানানসই</string>
+    <string name="live_display_color_profile_adaptive_summary">পারিপার্শ্বিক পরিস্থিতির সাথে রং মানিয়ে নেয়</string>
+    <string name="live_display_color_profile_reading_title">পড়া</string>
+    <string name="live_display_color_profile_reading_summary">চোখের ওপর চাপ কম রাখার জন্য উষ্ণ রং</string>
+    <string name="live_display_color_profile_srgb_title">sRGB মোড</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_color_profile_dci_p3_title">ডিসিআই-পি৩</string>
+    <string name="live_display_color_profile_dci_p3_summary">ডিসিআই-পি৩ রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_reading_mode_title">রিডিং মোড</string>
+    <string name="live_display_reading_mode_summary">দীর্ঘ সময় পড়ার জন্য গ্রেস্কেল মোড</string>
+    <string name="color_calibration_title">কালার ক্যালিব্রেশন</string>
+    <string name="color_calibration_summary">স্ক্রীনের কালার ক্যালিব্রেট করুন</string>
+    <string name="color_red_title">লাল</string>
+    <string name="color_green_title">সবুজ</string>
+    <string name="color_blue_title">নীল</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ছবি সমন্বয়</string>
+    <string name="picture_adjustment_summary">হিউ, স্যাচুরেশন, প্রাবল্য, এবং কনট্রাস্ট অ্যাডজাস্ট করুন</string>
+    <string name="adj_hue_title">হিউ</string>
+    <string name="adj_saturation_title">সম্পৃক্তি</string>
+    <string name="adj_intensity_title">প্রাবল্য</string>
+    <string name="adj_contrast_title">কনট্রাস্ট</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">দ্রুত টর্চ জালুন</string>
+    <string name="power_button_torch_summary">যখন স্ক্রিনটি বন্ধ থাকবে, পাওয়ার বোতামটি দীর্ঘ-টিপলে টর্চকে সক্ষম করবে</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">রিফ্রেশ রেট কমান</string>
+    <string name="battery_saver_refresh_rate_summary">ব্যাটারি সেভার চালু থাকলে পাওয়ার সাশ্রয় করতে 60 Hz স্ক্রীন রিফ্রেশ রেট ব্যবহার করুন</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">লুকানো নেটওয়ার্ক</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">আপনার মোবাইল হটস্পটের নাম উপলব্ধ WLAN নেটওয়ার্কের তালিকায় উপস্থিত হবে না৷</string>
+    <string name="wifi_hotspot_client_manager_title">সংযুক্ত ডিভাইস</string>
+    <string name="wifi_hotspot_client_manager_summary">হটস্পটের সাথে সংযুক্ত ডিভাইসগুলির তালিকা এবং পরিচালনা করুন৷</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">হটস্পটের সাথে সংযুক্ত ডিভাইসগুলির তালিকা</string>
+    <string name="wifi_hotspot_client_limit_title">সংযুক্ত ডিভাইসের সীমা</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">ব্লক করা ডিভাইস</string>
+    <string name="wifi_hotspot_connected_clients_list_title">সংযুক্ত ডিভাইস</string>
+    <string name="wifi_hotspot_block_client_dialog_title">ডিভাইস ব্লক করুন</string>
+    <string name="wifi_hotspot_block_client_dialog_text">এই সংযোগ বিচ্ছিন্ন হবে \"<xliff:g id="device_name">%1$s</xliff:g>\" ডিভাইস থেকে এবং ব্লকলিস্টে যোগ হবে</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">ডিভাইস আনব্লক করুন</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">এই ডিভাইস \"<xliff:g id="device_name">%1$s</xliff:g>\" এই হটস্পটের সাথে সংযোগ করতে সক্ষম হবে</string>
+    <string name="wifi_hotspot_client_manager_footer_text">কোন ক্লায়েন্ট বর্তমানে উপলব্ধ. সংযুক্ত এবং অবরুদ্ধ ডিভাইসগুলি উপলব্ধ হলে এখানে তালিকাভুক্ত করা হবে৷</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">ক্লায়েন্টদের ভিপিএন ব্যবহার করার অনুমতি দিন</string>
+    <string name="tethering_allow_vpn_upstreams_summary">হটস্পট ক্লায়েন্টদের আপ স্ট্রিম সংযোগের জন্য এই ডিভাইস\u2019 এর ভিপিএন কানেকশন ব্যবহার করতে দিন</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Use assisted GPS</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">পূর্ণ স্ক্রিন অ্যাপস</string>
+    <string name="display_cutout_force_fullscreen_summary">অ্যাপ্লিকেশনগুলিকে নচ উপেক্ষা করতে বাধ্য করুন</string>
+    <string name="search">অনুসন্ধান করুন</string>
+    <string name="search_apps">অ্যাপ খুঁজুন</string>
+    <string name="application_icon">Application icon</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">স্লিপ মোডে পাঠাতে ট্যাপ করুন</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <!-- Heads up -->
+    <string name="heads_up_title">হেডস আপ</string>
+    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
+    <string name="heads_up_off">Heads up is disabled globally</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">নেভিগেশন বার লেআউট উল্টানো</string>
+    <string name="navbar_invert_info">নেভিগেশন বারে \"ব্যাক\" এবং \"রিসেন্ট\" বোতামগুলি অদলবদল করুন৷</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">Network traffic indicator</string>
+    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_options_title">অপশন</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">সবসময় ফিঙ্গারপ্রিন্ট চালু</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">স্ক্রীন বন্ধ করে আনলক করার অনুমতি দেয়।\nচালু করলে ভুল ক্রমে স্ক্রীন অন হতে পারে।</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">কালো থিম ব্যবহার করুন</string>
+    <string name="system_black_theme_summary">জোরপূর্বক ব্যাকগ্রাউন্ড রং কালো করুন</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">অ্যাম্বিয়েন্ট দেখান</string>
+    <string name="doze_gesture_ambient_summary">পুরোপুরি স্ক্রীন চালু হওয়ার পরিবর্তে অ্যাম্বিয়েন্ট ডিসপ্লে দেখান</string>
+    <string name="gesture_wake_ambient">অ্যাম্বিয়েন্ট দেখান</string>
+    <string name="gesture_wake">পুরোপুরি জেগে উঠুন</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">স্ক্র্যাম্বল লেয়াউট</string>
+    <string name="unlock_scramble_pin_layout_summary">ডিভাইস আনলক করার সময় স্ক্র্যাম্বল পিন লেআউট</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Advanced restart চালু করুন</string>
+    <string name="global_actions_advanced_reboot_summary">পাওয়ার মেনুতে পুনরুদ্ধার এবং বুটলোডারের বিকল্পগুলি দেখান</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+</resources>

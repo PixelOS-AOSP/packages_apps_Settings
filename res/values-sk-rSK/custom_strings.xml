@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="copied_to_clipboard">Skopírované do schránky</string>
+    <string name="longpress_to_clipboard">Dlhým stlačením skopírujete</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informácie o rádiu</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Odomkne sa automaticky po zadaní správneho kódu PIN. Je to o niečo menej bezpečné ako ťuknutie na tlačidlo Enter na potvrdenie.</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Prepínánie medzi režimami</string>
+    <string name="prevent_ringing_option_cycle_summary">Zap. (Prepínanie medzi režimami)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Potiahnutím urobiť snímku obrazovky</string>
+    <string name="three_finger_gesture_summary">Potiahnutím nadol troma prstami urobiť snímku obrazovky</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Inteligentné 5G</string>
+    <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorovať príznaky zabezpečenia okien</string>
+    <string name="ignore_window_secure_summary">Odstránenie obmedzení pre snímky obrazovky a záznamy obrazovky pre všetky aplikácie. V niektorých prípadoch to môže byť vhodné, ale môže to viesť k úniku súkromia.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menej ako 1 minúta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Ovládanie nabíjania</string>
+    <string name="charging_control_summary">Prispôsobenie plánu nabíjania a limitov pre batériu</string>
+    <string name="charging_control_enable_title">Povoliť ovládanie nabíjania</string>
+    <string name="charging_control_mode_title">Režim nabíjania</string>
+    <string name="charging_control_mode_auto_title">Automatický harmonogram</string>
+    <string name="charging_control_mode_auto_summary">Automaticky zistiť kedy sa má začať nabíjanie na základe nastavených budíkov</string>
+    <string name="charging_control_mode_custom_title">Vlastný plán</string>
+    <string name="charging_control_mode_custom_summary">Nastavenie cieľového času do úplného nabitia</string>
+    <string name="charging_control_mode_limit_title">Limitovať nabíjanie</string>
+    <string name="charging_control_mode_limit_summary">Limitovať nabíjanie do istého percenta batérie</string>
+    <string name="charging_control_start_time_title">Čas začiatku</string>
+    <string name="charging_control_start_time_summary">Ovládanie napájania sa spustí keď začnete nabíjanie po %s</string>
+    <string name="charging_control_target_time_title">Cieľový čas do úplného nabitia</string>
+    <string name="charging_control_target_time_summary">Batéria bude plne nabitá o %s</string>
+    <string name="charging_control_limit_title">Obmedzenie</string>
+    <string name="reset">Obnoviť</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Vysoká citlivosť na dotyk</string>
+    <string name="high_touch_sensitivity_summary">Zvýšiť citlivosť dotykovej obrazovky, takže ju bude možné používať pri nosení rukavíc</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pohyb nad dotykovou obrazovkou</string>
+    <string name="touchscreen_hovering_summary">Pohybovať sa nad obrazovkou podobne, ako myš vo webovom prehliadači, vzdialenej ploche, atď</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Vysoká vzorkovacia frekvencia pre dotyk</string>
+    <string name="high_touch_polling_rate_summary">Zvýšenie vzorkovacej frekvencie dotykovej obrazovky</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalizovať vašu obrazovku na základe dennej doby a podmienok okolia na zlepšenie čitateľnosti a zníženia únavy očí</string>
+    <string name="live_display_mode">Režim zobrazenia</string>
+    <string name="live_display_color_temperature_title">Teplota farieb</string>
+    <string name="live_display_color_temperature_summary">Deň: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Deň</string>
+    <string name="live_display_night">Noc</string>
+    <string name="live_display_outdoor_mode_title">Automatický režim vonku</string>
+    <string name="live_display_outdoor_mode_summary">Automaticky zvýšiť jas a sýtosť za jasného slnečného svetla</string>
+    <string name="live_display_anti_flicker_title">Eliminácia blikania</string>
+    <string name="live_display_anti_flicker_summary">Zabrániť rozsiahlemu blikaniu a znížiť námahu očí v slabých svetelných podmienkach. Môže degradovať presnosť farieb a ovplyvniť zobrazenie niektorých položiek.</string>
+    <string name="live_display_low_power_title">Znížiť spotrebu energie</string>
+    <string name="live_display_low_power_summary">Nastaviť zobrazenie pre najnižšiu spotrebu energie bez zhoršenia čitateľnosti</string>
+    <string name="live_display_enhance_color_title">Vylepšiť farby</string>
+    <string name="live_display_enhance_color_summary">Zlepšiť živosť farieb pleťových odtieňov, scenérie a ďalších obrázkov</string>
+    <string name="live_display_color_profile_title">Farebný profil</string>
+    <string name="live_display_color_profile_standard_title">Štandardný</string>
+    <string name="live_display_color_profile_standard_summary">Presné farby a jasná biela</string>
+    <string name="live_display_color_profile_natural_title">Prirodzený</string>
+    <string name="live_display_color_profile_natural_summary">Realistické farby a telové tóny</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamický</string>
+    <string name="live_display_color_profile_dynamic_summary">Vylepšené farby a jasná biela</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Dokonalá farebná reprodukcia pre video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronómia</string>
+    <string name="live_display_color_profile_astronomy_summary">Tmavo červená pre zachovanie nočného videnia</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Dokonalá farebná reprodukcia pre fotografie</string>
+    <string name="live_display_color_profile_basic_title">Základný</string>
+    <string name="live_display_color_profile_basic_summary">Použiť nekalibrovaný displej</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptívny</string>
+    <string name="live_display_color_profile_adaptive_summary">Prispôsobiť farby okolitým podmienkam</string>
+    <string name="live_display_color_profile_reading_title">Čítanie</string>
+    <string name="live_display_color_profile_reading_summary">Teplejšie farby pre menšie namáhanie očí</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farby sú identické s farebným priestorom sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farby sú identické s farebným priestorom DCI-P3</string>
+    <string name="live_display_reading_mode_title">Režim čítania</string>
+    <string name="live_display_reading_mode_summary">Režim odtieňov šedej pre dlhodobé čítanie</string>
+    <string name="color_calibration_title">Kalibrácia farieb</string>
+    <string name="color_calibration_summary">Kalibrovať farby na obrazovke</string>
+    <string name="color_red_title">Červená</string>
+    <string name="color_green_title">Zelená</string>
+    <string name="color_blue_title">Modrá</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Prispôsobenie obrazu</string>
+    <string name="picture_adjustment_summary">Upraviť odtieň, sýtosť, intenzitu a kontrast</string>
+    <string name="adj_hue_title">Odtieň</string>
+    <string name="adj_saturation_title">Saturácia</string>
+    <string name="adj_intensity_title">Intenzita</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Rýchla baterka</string>
+    <string name="power_button_torch_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidla napájania aktivujete baterku</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Obnovovacia frekvencia</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptívna)</string>
+    <string name="refresh_rate_vrr_title">Adaptívna obnovovacia frekvencia</string>
+    <string name="refresh_rate_vrr_summary">Automatické zníženie obnovovacej frekvencie, keď je displej nečinný, aby sa šetrila energia. Môže spôsobiť blikanie alebo posun farieb na niektorých displejoch</string>
+    <string name="refresh_rate_footer">Vyššia obnovovacia frekvencia zvyšuje plynulosť zobrazenia, ale zvyšuje spotrebu energie</string>
+    <string name="keywords_refresh_rate">obnovovacia, frekvencia, plynulý, vrchol, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Znížiť obnovovaciu frekvenciu</string>
+    <string name="battery_saver_refresh_rate_summary">Použiť obnovovaciu frekvenciu 60 Hz ak je zapnutý šetrič batérie</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detekcia vo vrecku</string>
+    <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Skrytá sieť</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Názov vášho mobilného hotspotu sa nezobrazí v zozname dostupných sietí WLAN.</string>
+    <string name="wifi_hotspot_client_manager_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Zoznam zariadení pripojených k hotspotu</string>
+    <string name="wifi_hotspot_client_limit_title">Limit pripojených zariadení</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokované zariadenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Pripojené zariadenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokovať zariadenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Táto akcia odpojí zariadenie <xliff:g id="device_name">%1$s</xliff:g> od tohto zariadenia a pridá ho do zoznamu blokovaných</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovať zariadenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Toto zariadenie \"<xliff:g id="device_name">%1$s</xliff:g>\" sa bude môcť pripojiť k tomuto hotspotu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Momentálne nie sú k dispozícii žiadni klienti. Tu budú uvedené pripojené a blokované zariadenia, keď budú k dispozícii.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Povoliť klientom používanie VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povoliť klientom hotspotu používať pripojenie VPN tohto zariadenia pre všetku konektivitu</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Use assisted GPS</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikácie na celú obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Prinútiť aplikácie ignorovať výrez</string>
+    <string name="search">Hľadať</string>
+    <string name="search_apps">Hľadať aplikácie</string>
+    <string name="application_icon">Ikona aplikácie</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Klepnutím uspať</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Vypnúť obrazovku dvojklikom na stavový riadok alebo na obrazovku uzamknutia</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Zvuk snímky obrazovky</string>
+    <!-- Heads up -->
+    <string name="heads_up_title">Plávajúce upozornenia</string>
+    <string name="heads_up_summary">Zobrazenie vybraných oznámení ako banneru v hornej časti obrazovky</string>
+    <string name="heads_up_off">Funkcia Heads up je globálne vypnutá</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_summary">Zobrazenie upozornení len pre hovory, správy, alarmy, pripomenutia a prioritné konverzácie</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Ďalšie zvuky</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigačný panel</string>
+    <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
+    <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
+    <string name="hide_navbar_gesture_bar_title">Skryť panel gestá</string>
+    <string name="hide_navbar_gesture_bar_summary">Zobraziť panel gestá v dolnej časti obrazovky</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">Indikátor sieťovej prevádzky</string>
+    <string name="network_traffic_state_summary">Povoliť alebo zakázať indikátor rýchlosti sieťových operácií v stavovom riadku</string>
+    <string name="network_traffic_title">Indikátor sieťovej prevádzky</string>
+    <string name="network_traffic_master_switch_title">Povoliť indikátor sieťovej prevádzky</string>
+    <string name="network_options_title">Možnosti</string>
+    <string name="network_traffic_autohide_title">Skryť indikátor sieťovej prevádzky pri neaktivite</string>
+    <string name="network_traffic_autohide_summary">Skryť indikátor sieťovej prevádzky ak rýchlosť klesne pod 1 KB/s</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Vždy zapnutý odtlačok prsta</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Umožňuje odomknutie s vypnutou obrazovkou.\nPovolenie môže spôsobiť náhodné prebudenie.</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Použiť čiernu tému</string>
+    <string name="system_black_theme_summary">Vynútiť čiernu farbu pozadia</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Zobraziť Ambientný displej</string>
+    <string name="doze_gesture_ambient_summary">Zobraziť ambientný diplej namiesto úplného prebudenia obrazovky</string>
+    <string name="gesture_wake_ambient">Zobraziť Ambientný displej</string>
+    <string name="gesture_wake">Úplne prebudený</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Pomiešať rozloženie</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomiešať rozloženie kláves pre zadanie kódu PIN pri odomykaní zariadenia</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Povoliť rozšírený reštart</string>
+    <string name="global_actions_advanced_reboot_summary">V ponuke napájania zobrazte možnosti režimu recovery a bootloadera</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Ponuka Napájanie</string>
+    <string name="lockscreen_enable_power_menu_summary">Povoliť prístup do Menu napájania na zabezpečenej obrazovke uzamknutia</string>
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiat în clipboard</string>
+    <string name="longpress_to_clipboard">Apăsare lungă pentru a copia</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informații radio</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Deblocați automat dacă introduceți un cod PIN corect. Acest lucru este puțin mai sigur decât apăsarea Enter pentru confirmare.</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Parcurgere între moduri</string>
+    <string name="prevent_ringing_option_cycle_summary">Pornit (ciclu între moduri)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisare pentru captură de ecran</string>
+    <string name="three_finger_gesture_summary">Glisează în jos cu trei degete pentru a realiza o captură de ecran</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G inteligent</string>
+    <string name="smart_5g_summary">Comută automat între 5G și 4G pentru a reduce consumul bateriei</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignoră semnalările sigure ale ferestrelor</string>
+    <string name="ignore_window_secure_summary">Elimină limitarea capturilor de ecran și înregistrărilor de ecran pentru toate aplicațiile. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Mai puțin de 1 minut</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s astăzi</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control încărcare</string>
+    <string name="charging_control_summary">Personalizează programul și limitele de încărcare pentru baterie</string>
+    <string name="charging_control_enable_title">Activează controlul încărcării</string>
+    <string name="charging_control_mode_title">Modul de încărcare</string>
+    <string name="charging_control_mode_auto_title">Programare automată</string>
+    <string name="charging_control_mode_auto_summary">Determină automat când se pornește încărcarea pe baza alarmelor setate</string>
+    <string name="charging_control_mode_custom_title">Programare personalizată</string>
+    <string name="charging_control_mode_custom_summary">Setează un timp țintă pentru încărcare completă</string>
+    <string name="charging_control_mode_limit_title">Limitează încărcarea</string>
+    <string name="charging_control_mode_limit_summary">Limitează încărcarea la un anumit procent</string>
+    <string name="charging_control_start_time_title">Ora începerii</string>
+    <string name="charging_control_start_time_summary">Controlul încărcării se activează când începi încărcarea după %s</string>
+    <string name="charging_control_target_time_title">Timpul țintă până la încărcarea completă</string>
+    <string name="charging_control_target_time_summary">Bateria va fi încărcată complet până la %s</string>
+    <string name="charging_control_limit_title">Limită</string>
+    <string name="reset">Resetează</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Sensibilitate crescută la atingere</string>
+    <string name="high_touch_sensitivity_summary">Crește sensibilitatea ecranului tactil astfel încât acesta poate fi utilizat în timp ce se poartă mănuși</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Plutire peste ecran</string>
+    <string name="touchscreen_hovering_summary">Permite plutirea degetului peste ecran ca un mouse în browserele web, desktop-uri la distanță, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Rată ridicată de sondare la atingere</string>
+    <string name="high_touch_polling_rate_summary">Crește rata de interogare a ecranului tactil</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Se optimizează ecranul bazat pe timpul zilei și condițiile mediului ambient pentru a îmbunătăți lizibilitatea și a reduce oboseala ochilor</string>
+    <string name="live_display_mode">Mod de afișare</string>
+    <string name="live_display_color_temperature_title">Temperatura culorii</string>
+    <string name="live_display_color_temperature_summary">Zi: %1$dK Noapte: %2$dK</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Zi</string>
+    <string name="live_display_night">Noapte</string>
+    <string name="live_display_outdoor_mode_title">Mod automat exterior</string>
+    <string name="live_display_outdoor_mode_summary">Crește luminozitatea și saturația automat când lumina soarelui este puternică</string>
+    <string name="live_display_anti_flicker_title">Anti-pâlpâire</string>
+    <string name="live_display_anti_flicker_summary">Prevenirea pâlpâirii extinse și reducerea oboselii ochilor în condiții de lumină slabă. E posibil degradarea culorii și afectarea modulului în care sunt afișate unele elemente.</string>
+    <string name="live_display_low_power_title">Reducerea consumului de energie</string>
+    <string name="live_display_low_power_summary">Reglează afișajul pentru cel mai mic consum de energie fără degradare</string>
+    <string name="live_display_enhance_color_title">Îmbunătățire culori</string>
+    <string name="live_display_enhance_color_summary">Îmbunătățește vibranța culorilor pentru tonuri, peisaje și alte imagini</string>
+    <string name="live_display_color_profile_title">Profil de culoare</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Culori precise și alb luminos</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Tonuri și culori realiste</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamice</string>
+    <string name="live_display_color_profile_dynamic_summary">Culori îmbunătățite și alb luminos</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducere perfectă a culorii pentru video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Roșu închis pentru păstrarea viziunii nocturne</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
+    <string name="live_display_color_profile_basic_title">De bază</string>
+    <string name="live_display_color_profile_basic_summary">Utilizare ecran necalibrat</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Culorile se adaptează la condițiile ambientale</string>
+    <string name="live_display_color_profile_reading_title">Citire</string>
+    <string name="live_display_color_profile_reading_summary">Culori mai calde pentru reducerea oboselii ochilor</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Culorile se calibrează după spațiul de culori sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Culorile se calibrează după spațiul de culori DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mod lectură</string>
+    <string name="live_display_reading_mode_summary">Mod cu tonuri gri pentru cititul pe termen lung</string>
+    <string name="color_calibration_title">Calibrare culoare</string>
+    <string name="color_calibration_summary">Calibrare culori pe ecran</string>
+    <string name="color_red_title">Roșu</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Albastru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajustarea imaginii</string>
+    <string name="picture_adjustment_summary">Ajustare nuanță, saturație, intensitate și contrast</string>
+    <string name="adj_hue_title">Nuanță</string>
+    <string name="adj_saturation_title">Saturație</string>
+    <string name="adj_intensity_title">Intensitate</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanternă rapidă</string>
+    <string name="power_button_torch_summary">Când ecranul este oprit, apăsarea lungă a butonului de pornire va activa lanterna</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Se reduce rata de reîmprospătare</string>
+    <string name="battery_saver_refresh_rate_summary">Folosește rata de împrospătare a ecranului 60 Hz pentru a economisi energie atunci când Economizorul de baterie este pornit</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rețea ascunsă</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Numele hotspot-ului mobil nu va apărea în lista rețelelor WiFi disponibile.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispozitive conectate</string>
+    <string name="wifi_hotspot_client_manager_summary">Listează și gestionează dispozitivele conectate la hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listează dispozitivele conectate la hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limita de dispozitive conectate</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispozitive blocate</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispozitive conectate</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocare dispozitiv</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Această acțiune va deconecta \"<xliff:g id="device_name">%1$s</xliff:g>\" de la acest dispozitiv și-l va adăuga în lista blocărilor</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Deblocare dispozitiv</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Dispozitivul \"<xliff:g id="device_name">%1$s</xliff:g>\" se va putea conecta la acest hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nu sunt clienți disponibili momentan. Dispozitivele conectate și blocate vor fi listate aici atunci când sunt disponibile.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permite clienților să utilizeze VPN-uri</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite clienților hotspot-ului să utilizeze conexiunile VPN ale acestui dispozitiv pentru conexiunea upstream</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Use assisted GPS</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicații ecran complet</string>
+    <string name="display_cutout_force_fullscreen_summary">Forțează aplicațiile să ignore spațiul pentru decupaj</string>
+    <string name="search">Căutare</string>
+    <string name="search_apps">Căutare aplicații</string>
+    <string name="application_icon">Iconița aplicație</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Dublă atingere pe bara de stare pentru oprire ecran</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Atingeți de două ori bara de stare sau ecranul de blocare pentru a opri ecranul</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <!-- Heads up -->
+    <string name="heads_up_title">Atenționare</string>
+    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
+    <string name="heads_up_off">Heads up is disabled globally</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Bară de navigare</string>
+    <string name="navbar_invert_layout_title">Inversează aspectul barei de navigare</string>
+    <string name="navbar_invert_info">Schimbă butoanele \"Înapoi\" și \"Recente\" pe bara de navigare</string>
+    <string name="hide_navbar_gesture_bar_title">Ascunde bara de gesturi</string>
+    <string name="hide_navbar_gesture_bar_summary">Ascunde bara de gesturi din partea de jos a ecranului</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">Indicator trafic rețea</string>
+    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_title">Indicator trafic rețea</string>
+    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_options_title">Opțiuni</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Amprentă Afișaj permanent</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Permite deblocarea cu ecranul oprit.\nActivarea poate provoca treziri accidentale.</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Folosește tema neagră</string>
+    <string name="system_black_theme_summary">Forțează culorile negre de fundal</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Afișare ecran ambiental</string>
+    <string name="doze_gesture_ambient_summary">Se afișează afișajul ambient în loc de trezirea completă a ecranului</string>
+    <string name="gesture_wake_ambient">Afișare ecran ambiental</string>
+    <string name="gesture_wake">Trezire completă</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
+    <string name="unlock_scramble_pin_layout_summary">Amestecă aspectul ecranului de PIN atunci când se deblochează dispozitivul</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activare repornire avansată</string>
+    <string name="global_actions_advanced_reboot_summary">Arată opțiuni pentru modul recuperare și bootloader în meniul de alimentare</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Meniu de pornire</string>
+    <string name="lockscreen_enable_power_menu_summary">Permite accesarea meniului de pornire pe ecranul de blocare securizat</string>
+</resources>
