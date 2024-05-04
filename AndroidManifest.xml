@@ -1539,26 +1539,6 @@
         </activity>
 
         <activity
-            android:name="Settings$RefreshRateSettingsActivity"
-            android:label="@string/refresh_rate_title"
-            android:exported="true">
-            <intent-filter android:priority="32">
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <intent-filter android:priority="1">
-                <action android:name="android.settings.REFRESH_RATE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.display.RefreshRateSettings" />
-            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
-                       android:value="@string/menu_key_display"/>
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
-        </activity>
-
-        <activity
             android:name="Settings$NightDisplaySuggestionActivity"
             android:enabled="@*android:bool/config_nightDisplayAvailable"
             android:exported="true"
@@ -4629,20 +4609,6 @@
             android:name=".development.qstile.DevelopmentTiles$ShowTaps"
             android:label="@string/show_touches"
             android:icon="@drawable/tile_icon_show_taps"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-            android:exported="true"
-            android:enabled="false">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE" />
-            </intent-filter>
-            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE"
-                       android:value="true"/>
-        </service>
-
-        <service
-            android:name=".development.qstile.DevelopmentTiles$ShowRefreshRate"
-            android:label="@string/show_refresh_rate"
-            android:icon="@drawable/tile_icon_refresh_rate"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true"
             android:enabled="false">
