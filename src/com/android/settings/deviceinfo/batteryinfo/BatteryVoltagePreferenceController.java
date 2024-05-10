@@ -55,6 +55,6 @@ public class BatteryVoltagePreferenceController extends BasePreferenceController
                     .format(new Measure(voltage, MeasureUnit.VOLT));
         }
 
-        return mContext.getText(R.string.battery_voltage_not_available);
+        return mContext.getText(R.string.battery_cycle_count_not_available);
     }
 }

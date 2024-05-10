@@ -55,6 +55,6 @@ public class BatteryMaximumCapacityPreferenceController extends BasePreferenceCo
                     R.string.battery_maximum_capacity_summary, maxCapacity, percentage);
         }
 
-        return mContext.getString(R.string.battery_maximum_capacity_not_available);
+        return mContext.getString(R.string.battery_cycle_count_not_available);
     }
 }

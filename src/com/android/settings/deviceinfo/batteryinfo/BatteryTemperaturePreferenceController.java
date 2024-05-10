@@ -56,6 +56,6 @@ public class BatteryTemperaturePreferenceController extends BasePreferenceContro
                     .format(new Measure(temperature, MeasureUnit.CELSIUS));
         }
 
-        return mContext.getText(R.string.battery_temperature_not_available);
+        return mContext.getText(R.string.battery_cycle_count_not_available);
     }
 }
