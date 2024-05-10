@@ -64,8 +64,6 @@
     <string name="live_display_summary">I-optimize ang iyong screen batay sa panahon ng araw at ambient na kondisyon upang mas madali itong basahin at mabawasan ang pananakit ng mata</string>
     <string name="live_display_mode">Anyo ng display</string>
     <string name="live_display_color_temperature_title">Temperatura ng kulay</string>
-    <string name="live_display_color_temperature_summary">Araw: <xliff:g id="day_temperature">%1$d</xliff:g>K  Gabi: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Araw</string>
     <string name="live_display_night">Gabi</string>
     <string name="live_display_outdoor_mode_title">Awtomatikong panglabas na mode</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">Habang patay ang screen, pindutin ng matagal ang powe button upang mabuksan ang torch</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
     <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
@@ -187,7 +184,6 @@
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
@@ -199,20 +195,13 @@
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Ang mga pagpipilian ng pagnginig sa tawag</string>
+    <string name="incall_vibrate_connect_title">Manginig sa pag konek</string>
+    <string name="incall_vibrate_call_wait_title">Manginig habang naghihintay sa tawag</string>
+    <string name="incall_vibrate_disconnect_title">Manginig sa pagpatay ng tawag</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Magpatugtug and pagalawin sa notification kapag buhay ang screen</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>

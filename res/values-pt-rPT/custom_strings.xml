@@ -64,8 +64,6 @@
     <string name="live_display_summary">Otimiza o ecrã com base na hora do dia e condições do ambiente para melhorar a legibilidade e reduzir a fadiga ocular</string>
     <string name="live_display_mode">Modo de exibição</string>
     <string name="live_display_color_temperature_title">Temperatura da cor</string>
-    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dia</string>
     <string name="live_display_night">Noite</string>
     <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">Quando o ecrã está desligado, manter premido o botão de energia ligará a lanterna</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
     <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
@@ -187,7 +184,6 @@
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
@@ -199,20 +195,13 @@
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre activa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração durante a chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar em chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificações Irritantes</string>
+    <string name="notification_sound_vib_screen_on_summary">As notificações reproduzem som e vibram quando o ecrã está ligado</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brilho automático ao ligar o ecrã</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste do brilho ocorrerá apenas no momento em que o ecrã for ligado</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>

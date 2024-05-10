@@ -64,8 +64,6 @@
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
     <string name="live_display_mode">Modo da tela</string>
     <string name="live_display_color_temperature_title">Temperatura da cor</string>
-    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dia</string>
     <string name="live_display_night">Noite</string>
     <string name="live_display_outdoor_mode_title">Modo ambiente externo automático</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna.</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Taxa de atualização</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
     <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
     <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando a tela estiver ociosa para economizar energia. Pode causar cintilação ou mudança de cor em determinadas telas.</string>
@@ -148,9 +145,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que clientes de ponto de acesso usem conexões VPN deste dispositivo para se conectar a VPN</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Usar GPS assistido</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Baixar dados de assistência por satélite através da internet, o que pode melhorar muito o desempenho da inicialização do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Apps em tela cheia</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar os apps a ignorar o espaço do notch</string>
@@ -167,7 +164,7 @@
     <string name="heads_up_summary">Mostrar notificações flutuantes no topo da tela</string>
     <string name="heads_up_off">As notificações flutuantes estão desativadas</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Prioridade do heads up</string>
     <string name="less_boring_heads_up_summary">Mostrar notificações flutuantes apenas para aplicativo de chamadas, mensagem, alarmes e prioridades</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Sons adicionais</string>
@@ -186,33 +183,25 @@
     <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede se estiver inativo</string>
     <string name="network_traffic_autohide_summary">Ocultar quando o indicador de tráfego de rede estiver abaixo de 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_technology">Tecnologia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecimento</string>
+    <string name="battery_health_dead">Morta</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage">Tensão</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity">Capacidade projetada</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre ativa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -226,11 +215,11 @@
     <string name="gesture_wake_ambient">Mostrar tela ambiente</string>
     <string name="gesture_wake">Acordar totalmente</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho de padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro de padrão</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu de energia</string>
     <string name="lockscreen_enable_power_menu_summary">Permitir acessar o menu de energia na tela de bloqueio</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibrações em chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificações irritantes</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibração para notificações quando a tela estiver ativada</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brilho automático ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho ocorrerá somente no momento em que a tela for ligada</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela está desligada, manter pressionadas as teclas de volume irá pular as faixas de música</string>
 </resources>

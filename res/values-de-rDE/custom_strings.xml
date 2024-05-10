@@ -64,8 +64,6 @@
     <string name="live_display_summary">Optimieren Sie Ihren Bildschirm basierend auf Tageszeit und Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Augen zu schonen</string>
     <string name="live_display_mode">Anzeigemodus</string>
     <string name="live_display_color_temperature_title">Farbtemperatur</string>
-    <string name="live_display_color_temperature_summary">Tag: <xliff:g id="day_temperature">%1$d </xliff:g> K Nacht: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Tag</string>
     <string name="live_display_night">Nacht</string>
     <string name="live_display_outdoor_mode_title">Automatischer Outdoormodus</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Ein-/Aus-Taste die Taschenlampe aktiviert</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
     <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
@@ -187,7 +184,6 @@
     <string name="network_traffic_autohide_summary">Ausblenden, wenn die Netzwerkverkehrsanzeige unter 1 KB/s liegt</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
@@ -199,20 +195,13 @@
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always-On Fingerabdruck</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power-Menü</string>
     <string name="lockscreen_enable_power_menu_summary">Power-Menüzugriff auf gesichertem Sperrbildschirm erlauben</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibrieren bei Verbindung</string>
+    <string name="incall_vibrate_call_wait_title">Beim Anklopfen vibrieren</string>
+    <string name="incall_vibrate_disconnect_title">Vibrieren beim Trennen</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Störende Benachrichtigungen</string>
+    <string name="notification_sound_vib_screen_on_summary">Benachrichtigungstöne und Vibration bei eingeschaltetem Bildschirm</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Autom. Helligkeitseinstellung nur einmalig vornehmen</string>
+    <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>

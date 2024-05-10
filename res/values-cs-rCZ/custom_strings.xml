@@ -15,42 +15,42 @@
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informace o rádiu</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Odemknout automaticky po zadání správného PINu. Toto je o trochu méně bezpečné než klepnutí na tlačítko Enter pro potvrzení PINu.</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Procházet režimy</string>
+    <string name="prevent_ringing_option_cycle_summary">Zap. (přepínání mezi režimy)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Snímek obrazovky třemi prsty</string>
     <string name="three_finger_gesture_summary">Snímek obrazovky přejetím dolů třemi prsty</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Chytré 5G</string>
+    <string name="smart_5g_summary">Automatické přepnutí mezi 5G a 4G ke snížení spotřeby baterie</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorovat příznaky zabezpečení oken</string>
     <string name="ignore_window_secure_summary">Odstranění omezení pro pořizování snímků obrazovky a záznamů obrazovky pro všechny aplikace. To může být v některých případech výhodné, ale může to vést k úniku soukromí.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Méně než 1 minuta</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">Dnes %1$s</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_title">Řízení nabíjení</string>
+    <string name="charging_control_summary">Přizpůsobte si plán nabíjení a limity pro vaše zařízení</string>
+    <string name="charging_control_enable_title">Povolit ovládání nabíjení</string>
+    <string name="charging_control_mode_title">Režim nabíjení</string>
+    <string name="charging_control_mode_auto_title">Automatický plán</string>
+    <string name="charging_control_mode_auto_summary">Automatické určení začátku nabíjení na základě nastavených budíků</string>
+    <string name="charging_control_mode_custom_title">Vlastní plán</string>
+    <string name="charging_control_mode_custom_summary">Nastavit cílový čas do úplného nabití</string>
+    <string name="charging_control_mode_limit_title">Omezit nabíjení</string>
+    <string name="charging_control_mode_limit_summary">Omezit nabíjení na určité procento</string>
+    <string name="charging_control_start_time_title">Čas zahájení</string>
+    <string name="charging_control_start_time_summary">Ovládání nabíjení se aktivuje při zahájení nabíjení po %s</string>
+    <string name="charging_control_target_time_title">Čas do plného nabití</string>
+    <string name="charging_control_target_time_summary">Baterie bude plně nabita do %s</string>
     <string name="charging_control_limit_title">Limit</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Resetovat</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Vysoká citlivost dotyku</string>
     <string name="high_touch_sensitivity_summary">Zvýšení citlivosti dotykové vrstvy, což umožňuje používání v rukavicích</string>
@@ -64,8 +64,6 @@
     <string name="live_display_summary">Optimalizovat obrazovku podle denní doby a okolních podmínek pro lepší čitelnost a snížení namáhání očí</string>
     <string name="live_display_mode">Režim zobrazení</string>
     <string name="live_display_color_temperature_title">Teplota barev</string>
-    <string name="live_display_color_temperature_summary">Den: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Den</string>
     <string name="live_display_night">Noc</string>
     <string name="live_display_outdoor_mode_title">Automatický režim venku</string>
@@ -117,22 +115,21 @@
     <string name="power_button_torch_title">Rychlá svítilna</string>
     <string name="power_button_torch_summary">Když je obrazovka vypnutá, dlouhým stiskem tlačítka napájení zapnete svítilnu</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_title">Obnovovací frekvence</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptivní)</string>
+    <string name="refresh_rate_vrr_title">Adaptivní obnovovací frekvence</string>
+    <string name="refresh_rate_vrr_summary">Automaticky snížit obnovovací frekvenci, když je displej neaktivní, šetřit energii. Může způsobit blikání nebo posun barev na určitých displejích</string>
     <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Snížit obnovovací frekvenci</string>
     <string name="battery_saver_refresh_rate_summary">Když je zapnut spořič baterie, použít obnovovací frekvenci 60 Hz pro úsporu energie</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Detekce uložení v kapse</string>
+    <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Skrytá síť</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Název vašeho mobilního hotspotu se nezobrazí v seznamu dostupných sítí WLAN.</string>
     <string name="wifi_hotspot_client_manager_title">Připojená zařízení</string>
     <string name="wifi_hotspot_client_manager_summary">Seznam a správa připojených zařízení</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Seznam připojených zařízení</string>
@@ -143,25 +140,25 @@
     <string name="wifi_hotspot_block_client_dialog_text">Tato akce odpojí \"<xliff:g id="device_name">%1$s</xliff:g>\" od tohoto zařízení a přidá jej do seznamu zablokovaných zařízení</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovat zařízení</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Zařízení \"<xliff:g id="device_name">%1$s</xliff:g>\" se bude moci připojit k tomuto hotspotu</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Aktuálně nejsou k dispozici žádní klienti. Připojená a blokovaná zařízení budou zobrazena v případě, že budou k dostupná.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Použit asistované GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Stáhněte si data satelitní asistence z internetu, což může výrazně zlepšit výkon spouštění GPS. Při tísňovém volání je asistovaná GPS povolena vždy.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikace na celou obrazovku</string>
     <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
     <string name="search">Hledat</string>
     <string name="search_apps">Vyhledávání aplikací</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">Ikona aplikace</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Klepnutím uspat</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dvojím klepnutím na stavový řádek nebo zamykací obrazovku vypnout obrazovku</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Heads up -->
     <string name="heads_up_title">Plovoucí oznámení</string>
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
@@ -170,74 +167,80 @@
     <string name="less_boring_heads_up_title">Priority heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Dodatečné zvuky</string>
     <!-- Navbar options -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Navigační lišta</string>
     <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
     <string name="navbar_invert_info">Prohodit tlačítka \"Zpět\" a \"Nedávné\" na navigačním panelu</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Skrýt lištu gest</string>
+    <string name="hide_navbar_gesture_bar_summary">Skrýt lištu gest v dolní části obrazovky</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_state_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_state_summary">Zapnout nebo vypnout indikátory rychlosti sítě ve stavovém řádku</string>
+    <string name="network_traffic_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_master_switch_title">Použít indikátor síťového provozu</string>
+    <string name="network_options_title">Možnosti</string>
+    <string name="network_traffic_autohide_title">Skrýt indikátor síťového provozu při neaktivitě</string>
+    <string name="network_traffic_autohide_summary">Skrýt indikátor síťového provozu, když je stahování nižší než 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_technology">Technologie</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Zdraví</string>
+    <string name="battery_health_good">Dobré</string>
+    <string name="battery_health_overheat">Přehřátí</string>
+    <string name="battery_health_dead">Mrtvý</string>
+    <string name="battery_health_over_voltage">Přepětí</string>
+    <string name="battery_health_unspecified_failure">Nespecifikovaná chyba</string>
+    <string name="battery_health_cold">Studená</string>
+    <string name="battery_health_unknown">Neznámý</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature">Teplota</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage">Napětí</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity">Konstrukční kapacita</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity">Maximální kapacita</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Umožňuje odemknout při vypnuté obrazovce.\nZapnutí může způsobit náhodné probuzení.</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Použít černý motiv</string>
     <string name="system_black_theme_summary">Vynutit černou barvu pozadí</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Zobrazit ambientní displej</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_summary">Zobrazit Ambientní displej namísto úplného probuzení obrazovky</string>
     <string name="gesture_wake_ambient">Zobrazit ambientní displej</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Zcela probudit</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Zvolit velikost vzoru</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Zobrazit vzor chybného gesta</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Zobrazit body vzoru</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
+    <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
     <string name="global_actions_advanced_reboot_summary">V menu napájení zobrazit možnosti pro režim recovery a bootloader</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Menu napájení</string>
+    <string name="lockscreen_enable_power_menu_summary">Povolit přístup do Menu napájení na zabezpečené obrazovce uzamčení</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrací během hovoru</string>
+    <string name="incall_vibrate_connect_title">Zavibrovat při spojení</string>
+    <string name="incall_vibrate_call_wait_title">Zavibrovat při dalším hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Obtěžující oznámení</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Rychlé nastavení automatického jasu</string>
+    <string name="auto_brightness_one_shot_summary">K úpravě jasu dojde pouze v okamžiku zapnutí obrazovky</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Ovládání přehrávání</string>
+    <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhím stisknutí tlačítek hlasitosti přeskočíte skladby</string>
 </resources>

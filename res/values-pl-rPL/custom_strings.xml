@@ -64,8 +64,6 @@
     <string name="live_display_summary">Zoptymalizuj swój ekran w zależności od pory dnia, aby poprawić czytelność i zredukować zmęczenie oczu</string>
     <string name="live_display_mode">Tryb wyświetlania</string>
     <string name="live_display_color_temperature_title">Temperatura kolorów</string>
-    <string name="live_display_color_temperature_summary">Dzień: <xliff:g id="temperatura_dnia">%1$d </xliff:g> K: <xliff:g id="temperatura nocy">%2$d </xliff:g> K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dzień</string>
     <string name="live_display_night">Noc</string>
     <string name="live_display_outdoor_mode_title">Automatyczny tryb na zewnątrz</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisku zasilania włączy latarkę</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Częstotliwość odświeżania</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptacyjne)</string>
     <string name="refresh_rate_vrr_title">Adaptacyjna częstotliwość odświeżania</string>
     <string name="refresh_rate_vrr_summary">Automatycznie zmniejsz częstotliwość odświeżania, kiedy wyświetlacz jest bezczynny. Może to spowodować migotanie lub zmianę barw na pewnych wyświetlaczach</string>
@@ -148,9 +145,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Zezwalaj klientom na korzystanie z sieci VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom podłączonym do udostępnionej sieci na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Korzystanie ze wspomaganego GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Pobranie z Internetu danych wspomagania satelitarnego może znacznie poprawić wydajność uruchamiania GPS. W przypadku połączeń alarmowych wspomagany GPS jest zawsze dozwolony.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
     <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie miejsca przy wcięciu</string>
@@ -187,32 +184,24 @@
     <string name="network_traffic_autohide_summary">Ukryj, kiedy wskaźnik ruchu sieciowego pokazuje poniżej 1 KB/s</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_overheat">Przegrzewanie</string>
     <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_over_voltage">Zbyt wysokie napięcie</string>
+    <string name="battery_health_unspecified_failure">Nieokreślony błąd</string>
     <string name="battery_health_cold">Cold</string>
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage">Napięcie</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity">Fabryczna Pojemność Baterii</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity">Maksymalna pojemność</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Zawsze na odcisku palca</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -226,7 +215,7 @@
     <string name="gesture_wake_ambient">Pokaż Ambient</string>
     <string name="gesture_wake">Wybudzanie</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Wybierz siatkę wzoru</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu zasilania</string>
     <string name="lockscreen_enable_power_menu_summary">Zezwól na dostęp do menu zasilania z poziomu zabezpieczonego ekranu blokady</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcje wibracji podczas rozmowy</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy odebraniu</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Irytujące powiadomienia</string>
+    <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje dla powiadomień, gdy ekran jest włączony</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorazowa jasność automatyczna</string>
+    <string name="auto_brightness_one_shot_summary">Regulacja jasności nastąpi tylko w momencie włączenia ekranu</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>

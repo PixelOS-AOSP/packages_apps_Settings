@@ -64,8 +64,6 @@
     <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，可改善可讀性和減少眼睛疲勞</string>
     <string name="live_display_mode">顯示模式</string>
     <string name="live_display_color_temperature_title">色溫</string>
-    <string name="live_display_color_temperature_summary">日間： <xliff:g id="day_temperature">%1$d</xliff:g>K  夜間： <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">日間</string>
     <string name="live_display_night">夜間</string>
     <string name="live_display_outdoor_mode_title">自動戶外模式</string>
@@ -118,7 +116,6 @@
     <string name="power_button_torch_summary">當螢幕關閉時，長按電源鍵會開啟手電筒</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">刷新率</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (自適應)</string>
     <string name="refresh_rate_vrr_title">自適應刷新率</string>
     <string name="refresh_rate_vrr_summary">當螢幕空閒時自動降低更新率以節省電量，可能會導致某些裝置的螢幕閃爍或色偏。</string>
@@ -187,7 +184,6 @@
     <string name="network_traffic_autohide_summary">當網絡流量小於 1 KB/s 時隱藏網路流量指示器</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
@@ -199,20 +195,13 @@
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">一律啟用指紋辨識</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">電源選單</string>
     <string name="lockscreen_enable_power_menu_summary">在鎖定螢幕上允許使用電源選單</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">有插撥電話時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">煩人的通知</string>
+    <string name="notification_sound_vib_screen_on_summary">當螢幕開啟時也啟用通知的聲音和震動</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">單次自動亮度調整</string>
+    <string name="auto_brightness_one_shot_summary">僅在螢幕開啟時自動調整螢幕亮度一次</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">媒體播放控制</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>

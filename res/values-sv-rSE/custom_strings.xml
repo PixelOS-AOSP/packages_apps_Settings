@@ -17,7 +17,7 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radioinformation</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Lås upp automatiskt om du anger en korrekt PIN-kod. Detta är något mindre säkert än att trycka Enter för att bekräfta.</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Växla mellan lägen</string>
     <string name="prevent_ringing_option_cycle_summary">På (växla mellan lägen)</string>
@@ -31,12 +31,12 @@
     <string name="ignore_window_secure_title">Ignorera säkra fönster flaggor</string>
     <string name="ignore_window_secure_summary">Ta bort skärmdump och skärminspelningsgränser för alla appar. Detta kan vara praktiskt i vissa fall men kan leda till sekretessläckor.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Mindre än 1 minut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s idag</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Laddningskontroll</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_summary">Anpassa laddningsschema och begränsningar för batteri</string>
     <string name="charging_control_enable_title">Aktivera laddningskontroll</string>
     <string name="charging_control_mode_title">Laddningsläge</string>
     <string name="charging_control_mode_auto_title">Automatiskt schema</string>
@@ -64,8 +64,6 @@
     <string name="live_display_summary">Optimera din skärm beroende på tidpunkt och omgivning för att förbättra läsbarheten och minska belastningen på ögonen</string>
     <string name="live_display_mode">Visningsläge</string>
     <string name="live_display_color_temperature_title">Färgtemperatur</string>
-    <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dag</string>
     <string name="live_display_night">Natt</string>
     <string name="live_display_outdoor_mode_title">Automatiskt utomhusläge</string>
@@ -117,10 +115,9 @@
     <string name="power_button_torch_title">Snabbficklampa</string>
     <string name="power_button_torch_summary">När skärmen är avstängd, långtryck på strömknappen kommer aktivera ficklampan</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_title">Uppdateringsfrekvens</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptiv)</string>
+    <string name="refresh_rate_vrr_title">Adaptiv uppdateringsfrekvens</string>
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
     <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
@@ -148,29 +145,29 @@
     <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN:er</string>
     <string name="tethering_allow_vpn_upstreams_summary">Tillåt hotspot-klienter att använda den här enheten\u2019s VPN-anslutningar för uppströmsanslutning</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Använd assisterad GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Ladda ner satellitdata från internet som avsevärt kan förbättra GPS:ens startprestanda. För nödsamtal är assisterad GPS alltid tillåten.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Helskärmsappar</string>
     <string name="display_cutout_force_fullscreen_summary">Tvinga appar att ignorera utrymme för sensorhaka</string>
     <string name="search">Sök</string>
     <string name="search_apps">Sök i appar</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">Appikon</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Dubbeltryck för att släcka skärmen</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dubbeltryck på statusfältet eller låsskärmen för att stänga av skärmen</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Skärmdumpsljud</string>
     <!-- Heads up -->
     <string name="heads_up_title">Heads up</string>
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
     <string name="heads_up_off">Heads up is disabled globally</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_summary">Visa heads-up endast för samtal, meddelanden, larm, påminnelser och prioriterade konversationer</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Ytterligare ljud</string>
     <!-- Navbar options -->
     <string name="navbar_category">Navigeringsfält</string>
     <string name="navbar_invert_layout_title">Invertera navigationsfältets layout</string>
@@ -187,32 +184,24 @@
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health">Hälsa</string>
+    <string name="battery_health_good">Bra</string>
+    <string name="battery_health_overheat">Överhettning</string>
+    <string name="battery_health_dead">Död</string>
+    <string name="battery_health_over_voltage">Överspänning</string>
+    <string name="battery_health_unspecified_failure">Ospecificerat fel</string>
     <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health_unknown">Okänd</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature">Temperatur</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage">Spänning</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity">Design kapacitet</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity">Maximal kapacitet</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Fingertryck alltid tillgänglig</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -240,4 +229,18 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsalternativ vid samtal</string>
+    <string name="incall_vibrate_connect_title">Vibrera vid anslutning</string>
+    <string name="incall_vibrate_call_wait_title">Vibrera vid samtal väntar</string>
+    <string name="incall_vibrate_disconnect_title">Vibrera vid frånkoppling</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Irriterande notifikationer</string>
+    <string name="notification_sound_vib_screen_on_summary">Spela upp ljud och vibration för aviseringar när skärmen är på</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Automatisk ljusstyrka en gång</string>
+    <string name="auto_brightness_one_shot_summary">Justering av ljusstyrkan kommer endast att ske när skärmen slås på</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Uppspelningskontroll</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
