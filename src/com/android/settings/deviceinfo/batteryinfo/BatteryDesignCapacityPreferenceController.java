@@ -49,6 +49,6 @@ public class BatteryDesignCapacityPreferenceController extends BasePreferenceCon
             return mContext.getString(R.string.battery_design_capacity_summary, designCapacity);
         }
 
-        return mContext.getString(R.string.battery_design_capacity_not_available);
+        return mContext.getString(R.string.battery_cycle_count_not_available);
     }
 }

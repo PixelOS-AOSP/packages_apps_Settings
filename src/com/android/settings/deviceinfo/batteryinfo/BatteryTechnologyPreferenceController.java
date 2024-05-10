@@ -45,6 +45,6 @@ public class BatteryTechnologyPreferenceController extends BasePreferenceControl
 
         return technology != null
                 ? technology
-                : mContext.getText(R.string.battery_technology_not_available);
+                : mContext.getText(R.string.battery_cycle_count_not_available);
     }
 }
