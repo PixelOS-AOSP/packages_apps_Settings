@@ -761,7 +761,7 @@
     <bool name="config_battery_manager_consider_ac">false</bool>
 
     <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
-    <bool name="config_cloned_apps_page_enabled">false</bool>
+    <bool name="config_cloned_apps_page_enabled">true</bool>
 
     <!-- Whether to initiate Account login during Private Space setup.-->
     <bool name="config_privatespace_account_login_enabled">false</bool>
