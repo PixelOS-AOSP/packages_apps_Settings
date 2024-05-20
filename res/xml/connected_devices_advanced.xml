@@ -38,10 +38,17 @@
         settings:userRestriction="no_near_field_communication_radio" />
 
     <Preference
+        android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
+        android:key="default_usb_configuration"
+        android:title="@string/usb_pref"
+        android:summary="@string/usb_default_label"
+        android:order="-6"/>
+
+    <Preference
         android:fragment="com.android.settings.wfd.WifiDisplaySettings"
         android:icon="@drawable/ic_cast_24dp"
         android:key="wifi_display_settings"
-        android:order="-6"
+        android:order="-5"
         android:title="@string/wifi_display_settings_title"
         settings:controller="com.android.settings.wfd.WifiDisplayPreferenceController"
         settings:keywords="@string/keywords_wifi_display_settings" />
