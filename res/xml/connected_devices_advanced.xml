@@ -42,6 +42,7 @@
         android:key="default_usb_configuration"
         android:title="@string/usb_pref"
         android:summary="@string/usb_default_label"
+        android:icon="@drawable/ic_usb_24"
         android:order="-6"/>
 
     <Preference
