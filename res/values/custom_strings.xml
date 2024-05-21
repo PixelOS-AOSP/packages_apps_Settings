@@ -406,4 +406,8 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
+    <!-- X-Reality Engine -->
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="x_reality_engine_mode_summary">Enable bravia engine inspired display mode</string>
 </resources>

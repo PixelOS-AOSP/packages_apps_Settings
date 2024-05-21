@@ -37,7 +37,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.SeekBarPreference;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
@@ -53,9 +55,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import com.android.settings.custom.preference.SecureSettingSwitchPreference;
+
 @SuppressWarnings("WeakerAccess")
 @SearchIndexable
-public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
+public class ColorModePreferenceFragment extends RadioButtonPickerFragment implements Preference.OnPreferenceChangeListener {
+
+    private static final String KEY_X_REALITY_ENGINE = "x_reality_engine_mode_enabled";
+    private static final String KEY_COLOR_BALANCE_RED = "color_balance_red";
+    private static final String KEY_COLOR_BALANCE_GREEN = "color_balance_green";
+    private static final String KEY_COLOR_BALANCE_BLUE = "color_balance_blue";
 
     private static final String KEY_COLOR_MODE_PREFIX = "color_mode_";
 
@@ -79,6 +88,11 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
 
     private ImageView[] mDotIndicators;
     private View[] mViewPagerImages;
+    
+    private SecureSettingSwitchPreference mXRealityEnginePreference;
+    private SeekBarPreference mColorBalanceRed;
+    private SeekBarPreference mColorBalanceGreen;
+    private SeekBarPreference mColorBalanceBlue;
 
     @Override
     public void onAttach(Context context) {
@@ -114,6 +128,35 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
             final int selectedPosition = savedInstanceState.getInt(PAGE_VIEWER_SELECTION_INDEX);
             mViewPager.setCurrentItem(selectedPosition);
             updateIndicator(selectedPosition);
+        }
+        mXRealityEnginePreference = findPreference(KEY_X_REALITY_ENGINE);
+        mColorBalanceRed = findPreference(KEY_COLOR_BALANCE_RED);
+        mColorBalanceGreen = findPreference(KEY_COLOR_BALANCE_GREEN);
+        mColorBalanceBlue = findPreference(KEY_COLOR_BALANCE_BLUE);
+        if (mXRealityEnginePreference != null) {
+            mXRealityEnginePreference.setOnPreferenceChangeListener(this);
+            updateSeekBarsState(mXRealityEnginePreference.isChecked());
+        }
+    }
+    
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference.getKey().equals(KEY_X_REALITY_ENGINE)) {
+            boolean isEnabled = (Boolean) newValue;
+            updateSeekBarsState(isEnabled);
+        }
+        return true;
+    }
+    
+    private void updateSeekBarsState(boolean isXRealityEngineEnabled) {
+        if (mColorBalanceRed != null) {
+            mColorBalanceRed.setEnabled(!isXRealityEngineEnabled);
+        }
+        if (mColorBalanceGreen != null) {
+            mColorBalanceGreen.setEnabled(!isXRealityEngineEnabled);
+        }
+        if (mColorBalanceBlue != null) {
+            mColorBalanceBlue.setEnabled(!isXRealityEngineEnabled);
         }
     }
 
