@@ -102,7 +102,6 @@ public class WifiHotspotRepository {
     protected Boolean mIs6gBandSupported;
     protected Boolean mIs6gAvailable;
     protected MutableLiveData<Boolean> m6gAvailable;
-    protected ActiveCountryCodeChangedCallback mActiveCountryCodeChangedCallback;
 
     @VisibleForTesting
     Boolean mIsConfigShowSpeed;
@@ -204,24 +203,10 @@ public class WifiHotspotRepository {
     }
 
     /**
-     * Set to auto refresh data.
-     *
-     * @param enabled whether the auto refresh should be enabled or not.
-     */
-    public void setAutoRefresh(boolean enabled) {
-        if (enabled) {
-            startAutoRefresh();
-        } else {
-            stopAutoRefresh();
-        }
-    }
-
-    /**
      * Gets SecurityType LiveData
      */
     public LiveData<Integer> getSecurityType() {
         if (mSecurityType == null) {
-            startAutoRefresh();
             mSecurityType = new MutableLiveData<>();
             updateSecurityType();
             log("getSecurityType():" + mSecurityType.getValue());
@@ -274,7 +259,6 @@ public class WifiHotspotRepository {
      */
     public LiveData<Integer> getSpeedType() {
         if (mSpeedType == null) {
-            startAutoRefresh();
             mSpeedType = new MutableLiveData<>();
             updateSpeedType();
             log("getSpeedType():" + mSpeedType.getValue());
@@ -391,9 +375,7 @@ public class WifiHotspotRepository {
         if (mIs5gAvailable == null) {
             // If Settings is unable to get available 5GHz SAP information, Wi-Fi Framework's
             // proposal is to assume that 5GHz is available. (See b/272450463#comment16)
-            mIs5gAvailable = is5GHzBandSupported()
-                    && isChannelAvailable(WifiScanner.WIFI_BAND_5_GHZ_WITH_DFS,
-                    true /* defaultValue */);
+            mIs5gAvailable = is5GHzBandSupported();
             log("is5gAvailable():" + mIs5gAvailable);
         }
         return mIs5gAvailable;
@@ -436,8 +418,7 @@ public class WifiHotspotRepository {
      */
     public boolean is6gAvailable() {
         if (mIs6gAvailable == null) {
-            mIs6gAvailable = is6GHzBandSupported()
-                    && isChannelAvailable(WifiScanner.WIFI_BAND_6_GHZ, false /* defaultValue */);
+            mIs6gAvailable = is6GHzBandSupported();
             log("is6gAvailable():" + mIs6gAvailable);
         }
         return mIs6gAvailable;
@@ -519,61 +500,17 @@ public class WifiHotspotRepository {
             log("isSpeedFeatureAvailable():false, 5 GHz band is not supported on this device");
             return false;
         }
-        // Check if 5 GHz band SAP channel is not ready
-        isChannelAvailable(WifiScanner.WIFI_BAND_5_GHZ_WITH_DFS, true /* defaultValue */);
-        if (mIsSpeedFeatureAvailable != null && !mIsSpeedFeatureAvailable) {
-            log("isSpeedFeatureAvailable():false, error occurred while getting 5 GHz SAP channel");
-            return false;
-        }
 
-        // Check if 6 GHz band SAP channel is not ready
-        isChannelAvailable(WifiScanner.WIFI_BAND_6_GHZ, false /* defaultValue */);
-        if (mIsSpeedFeatureAvailable != null && !mIsSpeedFeatureAvailable) {
-            log("isSpeedFeatureAvailable():false, error occurred while getting 6 GHz SAP channel");
+        // Check if 6 GHz band is not supported
+        if (!is6GHzBandSupported()) {
+            mIsSpeedFeatureAvailable = false;
+            log("isSpeedFeatureAvailable():false, 6 GHz band is not supported on this device");
             return false;
         }
 
         mIsSpeedFeatureAvailable = true;
         log("isSpeedFeatureAvailable():true");
         return true;
-    }
-
-    protected void purgeRefreshData() {
-        mIs5gAvailable = null;
-        mIs6gAvailable = null;
-    }
-
-    protected void startAutoRefresh() {
-        if (mActiveCountryCodeChangedCallback != null) {
-            return;
-        }
-        log("startMonitorSoftApConfiguration()");
-        mActiveCountryCodeChangedCallback = new ActiveCountryCodeChangedCallback();
-        mWifiManager.registerActiveCountryCodeChangedCallback(mAppContext.getMainExecutor(),
-                mActiveCountryCodeChangedCallback);
-    }
-
-    protected void stopAutoRefresh() {
-        if (mActiveCountryCodeChangedCallback == null) {
-            return;
-        }
-        log("stopMonitorSoftApConfiguration()");
-        mWifiManager.unregisterActiveCountryCodeChangedCallback(mActiveCountryCodeChangedCallback);
-        mActiveCountryCodeChangedCallback = null;
-    }
-
-    protected class ActiveCountryCodeChangedCallback implements
-            WifiManager.ActiveCountryCodeChangedCallback {
-        @Override
-        public void onActiveCountryCodeChanged(String country) {
-            log("onActiveCountryCodeChanged(), country:" + country);
-            purgeRefreshData();
-            refresh();
-        }
-
-        @Override
-        public void onCountryCodeInactive() {
-        }
     }
 
     /**
