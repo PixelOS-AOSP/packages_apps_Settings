@@ -16,7 +16,6 @@
 
 package com.android.settings.wifi.dpp;
 
-import android.annotation.Nullable;
 import android.app.settings.SettingsEnums;
 import android.content.ClipboardManager;
 import android.content.ComponentName;
@@ -42,6 +41,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.internal.app.chooser.DisplayResolveInfo;

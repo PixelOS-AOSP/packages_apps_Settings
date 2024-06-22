@@ -20,6 +20,7 @@ import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
 import com.android.settings.MainClearConfirm;
+import com.android.settings.ResetNetwork;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -28,11 +29,14 @@ import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.accessibility.AccessibilitySettingsForSetupWizard;
 import com.android.settings.accessibility.CaptioningPropertiesFragment;
 import com.android.settings.accessibility.ColorAndMotionFragment;
+import com.android.settings.accessibility.ColorContrastFragment;
 import com.android.settings.accessibility.TextReadingPreferenceFragment;
 import com.android.settings.accessibility.TextReadingPreferenceFragmentForSetupWizard;
 import com.android.settings.accessibility.ToggleColorInversionPreferenceFragment;
 import com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment;
 import com.android.settings.accessibility.ToggleReduceBrightColorsPreferenceFragment;
+import com.android.settings.accessibility.VibrationIntensitySettingsFragment;
+import com.android.settings.accessibility.shortcuts.EditShortcutsPreferenceFragment;
 import com.android.settings.accounts.AccountDashboardFragment;
 import com.android.settings.accounts.AccountSyncSettings;
 import com.android.settings.accounts.ChooseAccountFragment;
@@ -143,6 +147,7 @@ import com.android.settings.network.apn.ApnEditor;
 import com.android.settings.network.apn.ApnSettings;
 import com.android.settings.network.telephony.MobileNetworkSettings;
 import com.android.settings.network.telephony.NetworkSelectSettings;
+import com.android.settings.network.telephony.SatelliteSetting;
 import com.android.settings.network.tether.TetherSettings;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.ConfigureNotificationSettings;
@@ -166,6 +171,9 @@ import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.privacy.PrivacyControlsFragment;
 import com.android.settings.privacy.PrivacyDashboardFragment;
+import com.android.settings.privatespace.delete.PrivateSpaceDeleteFragment;
+import com.android.settings.privatespace.delete.PrivateSpaceDeletionProgressFragment;
+import com.android.settings.privatespace.onelock.PrivateSpaceBiometricSettings;
 import com.android.settings.regionalpreferences.RegionalPreferencesEntriesFragment;
 import com.android.settings.safetycenter.MoreSecurityPrivacyFragment;
 import com.android.settings.security.LockscreenDashboardFragment;
@@ -250,6 +258,7 @@ public class SettingsGateway {
             AccessibilityDetailsSettingsFragment.class.getName(),
             AccessibilitySettings.class.getName(),
             AccessibilitySettingsForSetupWizard.class.getName(),
+            EditShortcutsPreferenceFragment.class.getName(),
             TextReadingPreferenceFragment.class.getName(),
             TextReadingPreferenceFragmentForSetupWizard.class.getName(),
             CaptioningPropertiesFragment.class.getName(),
@@ -268,6 +277,9 @@ public class SettingsGateway {
             FingerprintSettingsV2Fragment.class.getName(),
             CombinedBiometricSettings.class.getName(),
             CombinedBiometricProfileSettings.class.getName(),
+            PrivateSpaceBiometricSettings.class.getName(),
+            PrivateSpaceDeleteFragment.class.getName(),
+            PrivateSpaceDeletionProgressFragment.class.getName(),
             SwipeToNotificationSettings.class.getName(),
             DoubleTapPowerSettings.class.getName(),
             DoubleTapScreenSettings.class.getName(),
@@ -301,6 +313,7 @@ public class SettingsGateway {
             AppNotificationSettings.class.getName(),
             NotificationAssistantPicker.class.getName(),
             ChannelNotificationSettings.class.getName(),
+            SatelliteSetting.class.getName(),
             ApnSettings.class.getName(),
             ApnEditor.class.getName(),
             WifiCallingSettings.class.getName(),
@@ -372,11 +385,14 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
+            ColorContrastFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
             RegionalPreferencesEntriesFragment.class.getName(),
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
+            ResetNetwork.class.getName(),
+            VibrationIntensitySettingsFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName()
     };
