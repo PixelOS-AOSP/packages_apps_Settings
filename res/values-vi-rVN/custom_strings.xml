@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Quản lý biểu tượng</string>
+    <string name="icon_manager_summary">Điều chỉnh các biểu tượng trên thanh trạng thái</string>
     <!-- General -->
     <string name="copied_to_clipboard">Đã sao chép vào khay nhớ tạm</string>
     <string name="longpress_to_clipboard">Nhấn và giữ để sao chép</string>
@@ -145,9 +148,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Cho phép khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối đến máy chủ</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Sử dụng GPS được hỗ trợ</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Tải xuống dữ liệu hỗ trợ vệ tinh từ internet, dữ liệu này có thể cải thiện đáng kể hiệu suất khởi động GPS. Đối với các cuộc gọi khẩn cấp, luôn cho phép sử dụng GPS có hỗ trợ.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua tai thỏ</string>
@@ -164,7 +167,7 @@
     <string name="heads_up_summary">Hiển thị các thông báo được chọn dưới dạng biểu ngữ trên đầu màn hình</string>
     <string name="heads_up_off">Tính năng cảnh báo bị tắt trên toàn cầu</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Ưu tiên thông báo nhanh</string>
     <string name="less_boring_heads_up_summary">Chỉ hiển thị cảnh báo cho các cuộc gọi, tin nhắn, báo thức, lời nhắc và cuộc trò chuyện ưu tiên</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Âm thanh bổ sung</string>
@@ -183,43 +186,43 @@
     <string name="network_traffic_autohide_title">Tự động ẩn tốc độ mạng khi không dùng</string>
     <string name="network_traffic_autohide_summary">Ẩn tốc độ mạng dưới 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Công nghệ pin</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Sức khoẻ</string>
+    <string name="battery_health_good">Tốt</string>
+    <string name="battery_health_overheat">Quá nhiệt</string>
+    <string name="battery_health_dead">Hỏng</string>
+    <string name="battery_health_over_voltage">Quá tải</string>
+    <string name="battery_health_unspecified_failure">Lỗi không xác định</string>
+    <string name="battery_health_cold">Nguội</string>
+    <string name="battery_health_unknown">Không rõ</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Nhiệt độ</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Điện áp</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Dung lượng thiết kế</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Dung lượng tối đa</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Luôn bật vân tay khi màn hình tắt</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Cho phép mở khóa bằng vân tay khi màn hình đang tắt.\nKích hoạt có thể khiến thiết bị bất ngờ bị đánh thức.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
-    <string name="system_black_theme_summary">Buộc màu nền tối</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Tối hoàn toàn</string>
+    <string name="berry_black_theme_summary">Nền tối hoàn toàn cho chủ đề tối</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
     <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức thiết bị</string>
     <string name="gesture_wake_ambient">Hiển thị màn hình xem nhanh</string>
     <string name="gesture_wake">Đánh thức hoàn toàn</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Chọn kích cỡ mẫu hình</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Hiển thị lỗi mẫu hình</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Hiển thị dấu chấm mẫu hình</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">Điều chỉnh độ sáng sẽ chỉ thực hiện tại thời điểm màn hình được bật</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Điều khiển phát lại</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
 </resources>

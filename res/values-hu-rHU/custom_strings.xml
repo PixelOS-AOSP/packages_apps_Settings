@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
     <!-- General -->
     <string name="copied_to_clipboard">Vágólapra másolva</string>
     <string name="longpress_to_clipboard">Másolás hosszannyomással</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Állandóan bekapcsolt Ujjlenyomat</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Lehetővé teszi a feloldást kikapcsolt képernyőn.\nAz engedélyezése kéretlen képernyő-ébresztést okozhat.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Sötét téma</string>
-    <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Valódi fekete</string>
+    <string name="berry_black_theme_summary">Egy igazán fekete háttér a sötét témákhoz</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Környezeti kijelző</string>
     <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>

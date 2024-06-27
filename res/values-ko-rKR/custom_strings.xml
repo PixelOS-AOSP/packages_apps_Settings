@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">상태 표시줄 아이콘의 표시 여부 설정</string>
     <!-- General -->
     <string name="copied_to_clipboard">클립보드에 복사됨</string>
     <string name="longpress_to_clipboard">길게 눌러 복사</string>
@@ -116,11 +119,11 @@
     <string name="power_button_torch_title">빠른 손전등</string>
     <string name="power_button_torch_summary">화면이 꺼져있을 때 전원 버튼을 길게 눌러 손전등 켜기</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="refresh_rate_title">화면 주사율</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (적응형)</string>
+    <string name="refresh_rate_vrr_title">적응형 화면 주사율</string>
+    <string name="refresh_rate_vrr_summary">정지된 화면에서 화면 주사율을 낮추어 배터리 사용량을 줄입니다. 일부 기기에서 플리커링이나 색상 변조가 일어날 수 있습니다.</string>
+    <string name="refresh_rate_footer">화면 주사율이 높아지면 디스플레이가 더 부드러워지지만, 전력 소비가 늘어납니다</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">화면 재생률 줄이기</string>
@@ -157,7 +160,7 @@
     <string name="application_icon">Application icon</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">두 번 탭하여 화면 끄기</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">상태 표시줄이나 잠금 화면을 두 번 두드려 화면 끄기</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Heads up -->
@@ -176,13 +179,13 @@
     <string name="hide_navbar_gesture_bar_title">제스처 바 숨기기</string>
     <string name="hide_navbar_gesture_bar_summary">화면 하단의 제스처 표시줄 숨기기</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">네트워크 트래픽 모니터</string>
+    <string name="network_traffic_state_summary">네트워크 속도 모니터를 상태표시줄에 표시합니다.</string>
+    <string name="network_traffic_title">네트워크 트래픽 모니터</string>
+    <string name="network_traffic_master_switch_title">네트워크 트래픽 모니터 사용</string>
     <string name="network_options_title">옵션</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">활동이 없을 때 네트워크 트래픽 모니터 숨기기</string>
+    <string name="network_traffic_autohide_summary">1 KB/s 미만일 때 네트워크 트래픽 모니터를 숨깁니다</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
     <!-- Battery Info: Health -->
@@ -207,9 +210,9 @@
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">화면이 꺼진 상태에서 잠금 해제를 허용합니다.\n활성화하면 의도치 않게 화면이 켜질 수 있습니다.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">어두운 테마 사용</string>
-    <string name="system_black_theme_summary">검은색 배경색 강제 적용</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>

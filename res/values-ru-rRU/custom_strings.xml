@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- General -->
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
     <string name="longpress_to_clipboard">Длительное нажатие для копирования</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Отпечаток пальца всегда включен</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Разрешает разблокировку при выключении экрана.\nВключение может вызвать случайные пробуждения.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Использовать чёрную тему</string>
-    <string name="system_black_theme_summary">Принудительный чёрный цвет фона</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать Ambient</string>
     <string name="doze_gesture_ambient_summary">Показывать Ambient Display вместо полного включения экрана</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в тот момент, когда экран включен</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
 </resources>

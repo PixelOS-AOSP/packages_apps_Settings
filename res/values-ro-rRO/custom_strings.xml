@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Controlează vizibilitatea pictogramelor din bara de stare</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copiat în clipboard</string>
     <string name="longpress_to_clipboard">Apăsare lungă pentru a copia</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Amprentă Afișaj permanent</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permite deblocarea cu ecranul oprit.\nActivarea poate provoca treziri accidentale.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Folosește tema neagră</string>
-    <string name="system_black_theme_summary">Forțează culorile negre de fundal</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Afișare ecran ambiental</string>
     <string name="doze_gesture_ambient_summary">Se afișează afișajul ambient în loc de trezirea completă a ecranului</string>

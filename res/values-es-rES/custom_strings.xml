@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copiado al portapapeles</string>
     <string name="longpress_to_clipboard">Mantén pulsado para copiar</string>
@@ -164,7 +167,7 @@
     <string name="heads_up_summary">Mostrar notificaciones seleccionadas como banner en la parte superior de la pantalla</string>
     <string name="heads_up_off">Las notificaciones emergentes están desactivadas globalmente</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Avisos de prioridad</string>
     <string name="less_boring_heads_up_summary">Mostrar notificaciones emergentes solo para llamadas, mensajes, alarmas, recordatorios y conversaciones de prioridad</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Ajustes adicionales</string>
@@ -183,7 +186,7 @@
     <string name="network_traffic_autohide_title">Ocultar indicador de tráfico de red si está inactivo</string>
     <string name="network_traffic_autohide_summary">Ocultar cuando el tráfico de red es menor de 1 Kb/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Tecnología</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Nivel de vida</string>
     <string name="battery_health_good">Bueno</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Huella en AOD</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear con la pantalla apagada.\nActivarlo puede causar encendidos accidentales.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Utilizar el tema negro</string>
-    <string name="system_black_theme_summary">Forzar colores de fondo negros</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar pantalla ambiente en lugar de despertar completamente la pantalla</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control de reproducción</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla está apagada, mantener presionadas las teclas de volumen cambiará la canción</string>
 </resources>

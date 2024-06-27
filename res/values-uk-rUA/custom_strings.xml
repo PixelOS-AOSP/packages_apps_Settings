@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Менеджер іконок</string>
+    <string name="icon_manager_summary">Налаштування видимості значків рядка стану</string>
     <!-- General -->
     <string name="copied_to_clipboard">Скопійовано до буферу обміну.</string>
     <string name="longpress_to_clipboard">Довге натискання для копіювання</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Завжди увімкнений відбиток пальця</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Дозволяє розблокування екрану вимкнений.\nУвімкнення може викликати випадкові пробудження.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Використовувати чорну тему</string>
-    <string name="system_black_theme_summary">Примусово використовувати чорні кольори фону</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Режим чисто чорного кольору</string>
+    <string name="berry_black_theme_summary">Чистий чорний фон для темної теми</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показати Ambient Display</string>
     <string name="doze_gesture_ambient_summary">Показувати на Ambient Display замість повного пробудження екрану вгору</string>

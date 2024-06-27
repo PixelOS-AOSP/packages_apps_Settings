@@ -11,16 +11,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Controlar a visibilidade dos ícones da barra de estado</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Mantenha premido para copiar</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informações do rádio</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se inserir um PIN correto. Isto é um menos seguro do que confirmar manualmente.</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Percorrer os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (percorrer os modos)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslizar para capturar o ecrã</string>
     <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para tirar uma captura de ecrã</string>
@@ -31,26 +34,26 @@
     <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
     <string name="ignore_window_secure_summary">Remova limites de gravação e captura de ecrã para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode levar a problemas de privacidade.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
-    <string name="reset">Reset</string>
+    <string name="charging_control_title">Controlo de carregamento</string>
+    <string name="charging_control_summary">Personalizar o agendamento de carregamento e limites de carga</string>
+    <string name="charging_control_enable_title">Ativar controlo de carregamento</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Agendamento automático</string>
+    <string name="charging_control_mode_auto_summary">Determinar automaticamente quando iniciar o carregamento com base nos alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Agendamento personalizado</string>
+    <string name="charging_control_mode_custom_summary">Definir uma hora pretendida para o carregamento completo</string>
+    <string name="charging_control_mode_limit_title">Limitar carregamento</string>
+    <string name="charging_control_mode_limit_summary">Limitar carregamento a uma certa percentagem</string>
+    <string name="charging_control_start_time_title">Hora de início</string>
+    <string name="charging_control_start_time_summary">O controlo de carregamento é ativado quando começar a carregar depois das %s</string>
+    <string name="charging_control_target_time_title">Hora pretendida para o carregamento completo</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Redefinir</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade do ecrã para ser utilizado quando estiver a usar luvas</string>
@@ -115,18 +118,18 @@
     <string name="power_button_torch_title">Acesso rápido à lanterna</string>
     <string name="power_button_torch_summary">Quando o ecrã está desligado, manter premido o botão de energia ligará a lanterna</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">Taxa de atualização</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptativo)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptativa</string>
+    <string name="refresh_rate_vrr_summary">Diminuir automaticamente a taxa de atualização quando o ecrã estiver inativo, para economizar energia. Pode causar cintilação ou mudança de cores em alguns ecrãs</string>
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna o ecrã mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">taxa, atualização, refrescamento, suave, alta, 60hz, 120hz, 144hz, 165hz, hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
     <string name="battery_saver_refresh_rate_summary">Usar a taxa de atualização de 60 Hz para economizar energia quando a poupança de bateria estiver ativada</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Deteção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear o ecrã e os botões quando o dispositivo estiver no bolso</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes Wi-Fi disponíveis.</string>
@@ -145,81 +148,81 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acesso usem as ligações VPN deste dispositivo</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Utilizar GPS assistido</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Descarregar dados de assistência por satélite da internet, o que pode melhorar bastante o desempenho de arranque do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã inteiro</string>
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicações a ignorar o espaço do entalhe</string>
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicações</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">Ícone da aplicação</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Toque para desligar</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de estado ou no ecrã de bloqueio para desligar o ecrã</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Som da Captura de ecrã</string>
     <!-- Heads up -->
     <string name="heads_up_title">Notificações flutuantes</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Apresentar notificações selecionadas numa faixa no topo do ecrã</string>
+    <string name="heads_up_off">As notificações flutuantes estão desativadas globalmente</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">Prioridade em alerta</string>
+    <string name="less_boring_heads_up_summary">Mostrar avisos apenas para chamadas, mensagens, alarmes, lembretes e conversas prioritárias</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Sons adicionais</string>
     <!-- Navbar options -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Barra de Navegação</string>
     <string name="navbar_invert_layout_title">Inverter botões da barra de navegação</string>
     <string name="navbar_invert_info">Inverter os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Ocultar barra de gestos</string>
+    <string name="hide_navbar_gesture_bar_summary">Ocultar a barra de gestos da parte inferior do ecrã</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Indicadores de tráfego de Rede</string>
+    <string name="network_traffic_state_summary">Ativar ou desativar o indicador de velocidade de rede na barra de estado</string>
+    <string name="network_traffic_title">Indicadores de tráfego de Rede</string>
+    <string name="network_traffic_master_switch_title">Usar indicador de tráfego de rede</string>
     <string name="network_options_title">Opções</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede se inativo</string>
+    <string name="network_traffic_autohide_summary">Ocultar quando o indicador de tráfego de rede estiver abaixo de 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Tecnologia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Bom</string>
+    <string name="battery_health_overheat">Superaquecimento</string>
+    <string name="battery_health_dead">Descarregada</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecido</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Tensão</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Capacidade de design</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre activa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear com o ecrã desligado.\nActivar pode causar que o dispositivo acorde acidentalmente.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Usar tema preto</string>
-    <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar Visualização Ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Visualização Ambiente em vez de acordar completamente o ecrã</string>
     <string name="gesture_wake_ambient">Mostrar Visualização Ambiente</string>
     <string name="gesture_wake">Acordar totalmente</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro padrão</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos padrão</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
     <string name="unlock_scramble_pin_layout_summary">Apresentar aleatoriamente a disposição do teclado numérico ao desbloquear com PIN</string>
@@ -227,8 +230,8 @@
     <string name="global_actions_advanced_reboot_title">Ativar reinicio avançado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opções para modos de recuperação e bootloader</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Menu de energia</string>
+    <string name="lockscreen_enable_power_menu_summary">Permitir o acesso ao menu de energia no ecrã de bloqueio seguro</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opções de vibração durante a chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">O ajuste do brilho ocorrerá apenas no momento em que o ecrã for ligado</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controle de reprodução</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Quando o ecrã estiver desligado, a pressão longa nos botões de volume irá alternar as faixas de música</string>
 </resources>

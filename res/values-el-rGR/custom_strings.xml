@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Ελέγξτε την ορατότητα των εικονιδίων της γραμμής κατάστασης</string>
     <!-- General -->
     <string name="copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="longpress_to_clipboard">Πατήστε παρατεταμένα για αντιγραφή</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Πάντα ενεργό Δακτυλικό αποτύπωμα</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Επιτρέπει το ξεκλείδωμα με την οθόνη σβηστή.\nΗ ενεργοποίηση μπορεί να προκαλέσει τυχαία αφύπνιση.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Χρήση Μαύρου θέματος</string>
-    <string name="system_black_theme_summary">Εξαναγκασμός μαύρων χρωμάτων φόντου</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Αμιγές μαύρο</string>
+    <string name="berry_black_theme_summary">Αμιγές μαύρο φόντο για σκούρο θέμα</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Εμφάνιση Οθόνης Περιβάλλοντος</string>
     <string name="doze_gesture_ambient_summary">Εμφάνιση οθόνης περιβάλλοντος αντί για πλήρη αφύπνιση της οθόνης</string>

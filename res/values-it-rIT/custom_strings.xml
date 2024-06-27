@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Controlla la visibilità delle icone sulla barra di stato</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copiato negli appunti</string>
     <string name="longpress_to_clipboard">Pressione prolungata per copiare</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Sensore impronte sempre attivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permette lo sblocco con lo schermo spento.\nL\'abilitazione può causare risvegli accidentali.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Usa tema nero</string>
-    <string name="system_black_theme_summary">Forza colori di sfondo neri</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Nero assoluto</string>
+    <string name="berry_black_theme_summary">Sfondo nero assoluto per tema scuro</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
     <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di attivare completamente lo schermo</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà nel momento in cui lo schermo viene acceso</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controlli per la riproduzione</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, una pressione prolungata dei tasti del volume salterà le tracce musicali</string>
 </resources>

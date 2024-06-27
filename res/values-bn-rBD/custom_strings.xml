@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">স্ট্যাটাস বার এর আইকন এর দৃশ্যমান অবস্থা নিয়ন্ত্রণ করুন</string>
     <!-- General -->
     <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
     <string name="longpress_to_clipboard">কপি করতে চেপে ধরে রাখুন</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">সবসময় ফিঙ্গারপ্রিন্ট চালু</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">স্ক্রীন বন্ধ করে আনলক করার অনুমতি দেয়।\nচালু করলে ভুল ক্রমে স্ক্রীন অন হতে পারে।</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">কালো থিম ব্যবহার করুন</string>
-    <string name="system_black_theme_summary">জোরপূর্বক ব্যাকগ্রাউন্ড রং কালো করুন</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">অ্যাম্বিয়েন্ট দেখান</string>
     <string name="doze_gesture_ambient_summary">পুরোপুরি স্ক্রীন চালু হওয়ার পরিবর্তে অ্যাম্বিয়েন্ট ডিসপ্লে দেখান</string>

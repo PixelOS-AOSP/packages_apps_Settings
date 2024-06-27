@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Kawal keterlihatan ikon bar status</string>
     <!-- General -->
     <string name="copied_to_clipboard">Disalin ke papan keratan</string>
     <string name="longpress_to_clipboard">Tekan lama untuk salin</string>
@@ -115,18 +118,18 @@
     <string name="power_button_torch_title">Lampu cepat</string>
     <string name="power_button_torch_summary">Apabila layar dimatikan, tekan lama butang kuasa akan menghidupkan lampu</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">Kadar segar semula</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Mudah suai)</string>
+    <string name="refresh_rate_vrr_title">Segar semula mudah suai</string>
+    <string name="refresh_rate_vrr_summary">Merendahkan kadar segar semula secara automatik bila skrin melahu untuk penjimatan tenaga. Sesetengah skrin mungkin akan berkelip atau berubah warna</string>
+    <string name="refresh_rate_footer">Kadar segar semula yang tinggi menjadikan skrin lebih lancar, tetapi memakan lebih banyak tenaga</string>
+    <string name="keywords_refresh_rate">segar semula, kadar, lancar, tertinggi, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Kurangkan kadar segar semula</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan 60Hz kadar segar semula layar untuk menjimatkan tenaga apabila Battery Saver dihidupkan</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Pengesan poket</string>
+    <string name="pocket_judge_summary">Menghalang skrin tersentuh atau butang tertekan ketika di dalam poket</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rangkaian tersembunyi</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot anda tidak akan kelihatan dalam senarai rangkaian WLAN yang tersedia.</string>
@@ -153,12 +156,12 @@
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruangan takuk</string>
     <string name="search">Carian</string>
     <string name="search_apps">Cari aplikasi</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">Ikon aplikasi</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Ketuk untuk tidur</string>
     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Bunyi tangkapan layar</string>
     <!-- Heads up -->
     <string name="heads_up_title">Pemberitahuan pop naik</string>
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
@@ -183,20 +186,20 @@
     <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Teknologi</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Kesihatan</string>
+    <string name="battery_health_good">Baik</string>
+    <string name="battery_health_overheat">Terlalu panas</string>
+    <string name="battery_health_dead">Mati</string>
+    <string name="battery_health_over_voltage">Terlebih voltan</string>
+    <string name="battery_health_unspecified_failure">Kegagalan yang tidak dinyatakan</string>
+    <string name="battery_health_cold">Sejuk</string>
+    <string name="battery_health_unknown">Tidak diketahui</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Suhu</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Voltan</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Cap jari sentiasa aktif</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Benarkan membuka kunci dengan layar mati.\nMenghidupkan ini boleh menyebabkan layar menyala secara tidak sengaja.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Guna tema hitam</string>
-    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Hitam legam</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Paparkan ambien</string>
     <string name="doze_gesture_ambient_summary">Paparkan Paparan Ambien berbanding menyalakan layar sepenuhnya</string>

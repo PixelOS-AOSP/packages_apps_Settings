@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Contrôle de la visibilité des icônes de la barre d\'état</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="longpress_to_clipboard">Appui long pour copier</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Empreinte digitale écran éteint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permet de déverrouiller avec l\'écran éteint.\nL\'activation peut provoquer des réveils accidentels.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Utiliser le thème sombre</string>
-    <string name="system_black_theme_summary">Forcer l\'utilisation de couleurs d\'arrière-plan sombres</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Noir pur</string>
+    <string name="berry_black_theme_summary">Fond noir pur pour le thème sombre</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Afficher en mode veille</string>
     <string name="doze_gesture_ambient_summary">Utiliser l\'affichage en mode Veille au lieu de réveiller l\'écran</string>

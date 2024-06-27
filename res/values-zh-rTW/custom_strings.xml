@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">狀態列圖示的顯示開關</string>
     <!-- General -->
     <string name="copied_to_clipboard">已複製到剪貼簿</string>
     <string name="longpress_to_clipboard">長按複製</string>
@@ -145,9 +148,9 @@
     <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允許無線基地台的連線裝置使用此裝置的 VPN 連接到上游</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">使用輔助 GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">從網路下載衛星輔助資料，這可以極大的提高 GPS 啟動效能。使用緊急通話時，始終允許輔助 GPS。</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
     <string name="display_cutout_force_fullscreen_summary">強制應用程式使用瀏海區域</string>
@@ -162,10 +165,10 @@
     <!-- Heads up -->
     <string name="heads_up_title">彈出通知</string>
     <string name="heads_up_summary">在螢幕上方以橫條形式顯示已選的通知</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_off">浮動通知已在全局禁用</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">優先懸浮通知</string>
+    <string name="less_boring_heads_up_summary">僅在通話、訊息、鬧鐘、提醒及優先對話使用懸浮通知</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">更多音效設定</string>
     <!-- Navbar options -->
@@ -183,43 +186,43 @@
     <string name="network_traffic_autohide_title">當網路處於非活動狀態時隱藏網路流量指示器</string>
     <string name="network_traffic_autohide_summary">當網絡流量小於 1 KB/s 時隱藏網路流量指示器</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">技術</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">健康度</string>
+    <string name="battery_health_good">好</string>
+    <string name="battery_health_overheat">過熱</string>
+    <string name="battery_health_dead">電池耗盡</string>
+    <string name="battery_health_over_voltage">電壓過高</string>
+    <string name="battery_health_unspecified_failure">未知的錯誤</string>
+    <string name="battery_health_cold">過冷</string>
+    <string name="battery_health_unknown">未知的</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">溫度</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">電壓</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">設計容量</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">最大容量</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">一律啟用指紋辨識</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">允許在螢幕關閉時解鎖。\n啟用可能會導致意外喚醒。</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">使用黑色主題</string>
-    <string name="system_black_theme_summary">強制使用黑色背景</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
     <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而不是完全喚醒屏幕</string>
     <string name="gesture_wake_ambient">顯示微光螢幕</string>
     <string name="gesture_wake">完全喚醒</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">選解鎖鎖圖形大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">顯示錯誤解鎖圖形</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形節點</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">亂序布局</string>
     <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 鍵盤布局</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">僅在螢幕開啟時自動調整螢幕亮度一次</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">媒體播放控制</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
 </resources>

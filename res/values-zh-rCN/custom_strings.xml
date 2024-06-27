@@ -11,8 +11,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">状态栏图标管理</string>
+    <string name="icon_manager_summary">控制状态栏图标的可见性</string>
     <!-- General -->
-    <string name="copied_to_clipboard">已复制到剪贴</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按复制</string>
     <!-- Radio Info -->
     <string name="radio_info_title">广播信息</string>
@@ -203,12 +206,12 @@
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">最大容量</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">始终使用指纹</string>
+    <string name="ambient_display_screen_off_udfps_title">始终开启指纹识别</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">允许屏幕关闭时解锁。\n启用可能导致意外唤醒。</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">使用纯黑色主题</string>
-    <string name="system_black_theme_summary">强制使用纯黑色背景</string>
+    <string name="ambient_display_screen_off_udfps_summary">允许屏幕关闭时解锁，启用可能导致意外唤醒</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">纯黑</string>
+    <string name="berry_black_theme_summary">暗色主题使用纯黑色背景</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">显示环境显示</string>
     <string name="doze_gesture_ambient_summary">显示环境显示而不是唤醒屏幕</string>

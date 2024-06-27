@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
@@ -120,7 +123,7 @@
     <string name="refresh_rate_vrr_title">自适应屏幕刷新率</string>
     <string name="refresh_rate_vrr_summary">在屏幕闲置时自动降低刷新率以节省电量。 在某些屏幕上可能会导致闪烁或色彩偏移。</string>
     <string name="refresh_rate_footer">更高的分辨率会使屏幕显示更加流畅，但是这会增加电量消耗。</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="keywords_refresh_rate">刷新，率，平滑，峰值，60Hz，90Hz，120Hz，144Hz，165Hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">减小屏幕刷新率</string>
     <string name="battery_saver_refresh_rate_summary">当省电模式开启时使用60Hz屏幕刷新率以节省电量</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">始终显示指纹识别</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">允许在熄屏状态下解锁。\n开启可能会导致意外唤醒。</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">使用黑色主题</string>
-    <string name="system_black_theme_summary">强制黑色背景</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>

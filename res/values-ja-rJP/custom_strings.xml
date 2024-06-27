@@ -11,13 +11,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">ステータスバーのアイコンの表示を制御する</string>
     <!-- General -->
     <string name="copied_to_clipboard">クリップボードにコピー</string>
     <string name="longpress_to_clipboard">長押しでコピー</string>
     <!-- Radio Info -->
     <string name="radio_info_title">無線の情報</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">正しい PIN を入力後に自動でロックを解除します。これは Enter をタップして確認するよりも安全性が少々低下します。</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">サイクルスルーモード</string>
     <string name="prevent_ringing_option_cycle_summary">On (サイクルスルーモード)</string>
@@ -115,18 +118,18 @@
     <string name="power_button_torch_title">クイックライト</string>
     <string name="power_button_torch_summary">画面消灯時に電源ボタンの長押しでトーチを有効にする</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">リフレッシュレート</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (アダプティブ)</string>
+    <string name="refresh_rate_vrr_title">アダプティブリフレッシュレート</string>
+    <string name="refresh_rate_vrr_summary">画面がアイドル状態時に自動でリフレッシュレートを下げて消費電力を抑えます。一部の機種で画面のちらつきや色の変化が生じる可能性があります。</string>
+    <string name="refresh_rate_footer">リフレッシュレートを高くすると表示が滑らかになりますが、消費電力が増加します。</string>
+    <string name="keywords_refresh_rate">リフレッシュ, レート, 滑らか, ピーク, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">リフレッシュレートを下げる</string>
     <string name="battery_saver_refresh_rate_summary">バッテリーセーバー有効時に電池消費を抑えるために60Hzのリフレッシュレートを使用する</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">デバイスがポケットの中にあるときに画面とボタンの入力をブロックします</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
     <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
@@ -145,9 +148,9 @@
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">このデバイス\u2019s VPN接続をアップストリーム接続に使用するホットスポットクライアントを許可する</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">アシスト GPS を使用する</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">インターネットから衛星支援データをダウンロードする事で GPS 起動のパフォーマンスが大幅に向上します。緊急通話の場合、アシスト GPS は常に許可されます。</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面アプリ</string>
     <string name="display_cutout_force_fullscreen_summary">アプリにノッチ領域を無視するよう強制します</string>
@@ -158,16 +161,16 @@
     <string name="status_bar_double_tap_to_sleep_title">タップでスリープ</string>
     <string name="status_bar_double_tap_to_sleep_summary">ステータスバーかロック画面をダブルタップして画面を消灯する</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
     <!-- Heads up -->
     <string name="heads_up_title">Heads up</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">選択した通知を画面上部にバナーとして表示します</string>
+    <string name="heads_up_off">ヘッドアップ通知はグローバルで無効化されています</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">優先的なヘッドアップ</string>
+    <string name="less_boring_heads_up_summary">通話、メッセージ、アラーム、リマインダー、優先的な会話のみでヘッドアップを表示します</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">追加のサウンド</string>
     <!-- Navbar options -->
     <string name="navbar_category">ナビゲーションバー</string>
     <string name="navbar_invert_layout_title">ナビゲーションバーのレイアウトを反転する</string>
@@ -175,51 +178,51 @@
     <string name="hide_navbar_gesture_bar_title">ジェスチャーバーを隠す</string>
     <string name="hide_navbar_gesture_bar_summary">画面下部のジェスチャーバーを隠す</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">ネットワークトラフィックインジケーター</string>
+    <string name="network_traffic_state_summary">ステータスバーのネットワーク速度インジケーターを有効化または無効化します</string>
+    <string name="network_traffic_title">ネットワークトラフィックインジケーター</string>
+    <string name="network_traffic_master_switch_title">ネットワークトラフィックインジケーターを使用する</string>
     <string name="network_options_title">オプション</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">非アクティブ時にネットワークトラフィックインジケーターを非表示にする</string>
+    <string name="network_traffic_autohide_summary">ネットワークトラフィックインジケーターが 1KB/秒未満の場合は非表示にします</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">テクノロジー</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">健康度</string>
+    <string name="battery_health_good">良い</string>
+    <string name="battery_health_overheat">発熱</string>
+    <string name="battery_health_dead">死亡</string>
+    <string name="battery_health_over_voltage">過電圧</string>
+    <string name="battery_health_unspecified_failure">不特定の問題</string>
+    <string name="battery_health_cold">冷却</string>
+    <string name="battery_health_unknown">不明</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">温度</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">電圧</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">設計時の最大容量</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">最大容量</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">指紋認証を常に使用</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">画面消灯時にロック解除を許可する。\n有効化すると誤って復帰する可能性があります。</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">ブラックテーマを使用</string>
-    <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">アンビエント表示</string>
     <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
     <string name="gesture_wake_ambient">アンビエント表示</string>
     <string name="gesture_wake">完全にスリープ解除</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">パターンのサイズを選択してください</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">パターンエラーを表示</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">パターンドットを表示</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">スクランブルレイアウト</string>
     <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
@@ -227,8 +230,8 @@
     <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
     <string name="global_actions_advanced_reboot_summary">電源メニューにリカバリーとブートローダーのオプションを表示する</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">電源メニュー</string>
+    <string name="lockscreen_enable_power_menu_summary">ロック画面で電源メニューへのアクセスを許可します</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">通話中の振動オプション</string>
     <string name="incall_vibrate_connect_title">接着信時に振動させる</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">画面が点灯した時に一度だけ、自動で画面の明るさ調整を行います</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">画面が OFF のときに音量ボタンを長押しで音楽のトラックをスキップします</string>
 </resources>

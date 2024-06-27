@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
     <!-- General -->
     <string name="copied_to_clipboard">Skopírované do schránky</string>
     <string name="longpress_to_clipboard">Dlhým stlačením skopírujete</string>
@@ -206,9 +209,9 @@
     <string name="ambient_display_screen_off_udfps_title">Vždy zapnutý odtlačok prsta</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Umožňuje odomknutie s vypnutou obrazovkou.\nPovolenie môže spôsobiť náhodné prebudenie.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Použiť čiernu tému</string>
-    <string name="system_black_theme_summary">Vynútiť čiernu farbu pozadia</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Čistá čierna</string>
+    <string name="berry_black_theme_summary">Čisto čierne pozadie pre tmavú tému vzhľadu</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Zobraziť Ambientný displej</string>
     <string name="doze_gesture_ambient_summary">Zobraziť ambientný diplej namiesto úplného prebudenia obrazovky</string>

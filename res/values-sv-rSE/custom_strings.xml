@@ -11,6 +11,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Styr synligheten av statusfältsikoner</string>
     <!-- General -->
     <string name="copied_to_clipboard">Kopierat till urklipp</string>
     <string name="longpress_to_clipboard">Långtryck för att kopiera</string>
@@ -118,15 +121,15 @@
     <string name="refresh_rate_title">Uppdateringsfrekvens</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptiv)</string>
     <string name="refresh_rate_vrr_title">Adaptiv uppdateringsfrekvens</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_vrr_summary">Sänk automatiskt uppdateringsfrekvensen när skärmen är statisk, för att spara ström. Kan orsaka flimmer eller färgskiftning på vissa skärmar</string>
+    <string name="refresh_rate_footer">En högre uppdateringshastighet gör skärmen smidigare, men ökar strömförbrukningen</string>
+    <string name="keywords_refresh_rate">uppdatera, frekvens, smidig, topp, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Minska uppdateringsfrekvensen</string>
     <string name="battery_saver_refresh_rate_summary">Använd 60 Hz som högsta uppdateringsfrekvens för att spara ström när batterisparläge är aktiverat</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Fickdetektering</string>
+    <string name="pocket_judge_summary">Blockera skärmen och knapptryckningar när enheten är i fickan</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Dolt nätverk</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Namnet på din mobila surfpunkt kommer inte att visas i listan över tillgängliga WLAN-nätverk.</string>
@@ -161,10 +164,10 @@
     <string name="screenshot_shutter_sound_title">Skärmdumpsljud</string>
     <!-- Heads up -->
     <string name="heads_up_title">Heads up</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Visa valda aviseringar som en banner över toppen av skärmen</string>
+    <string name="heads_up_off">Heads-up är inaktiverat globalt</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Prioriterade heads-up</string>
     <string name="less_boring_heads_up_summary">Visa heads-up endast för samtal, meddelanden, larm, påminnelser och prioriterade konversationer</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Ytterligare ljud</string>
@@ -175,15 +178,15 @@
     <string name="hide_navbar_gesture_bar_title">Dölj gestfält</string>
     <string name="hide_navbar_gesture_bar_summary">Dölj gestfält längst ner på skärmen</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Nätverkstrafikindikator</string>
+    <string name="network_traffic_state_summary">Aktivera eller inaktivera indikatorn för nätverkshastighet i statusfältet</string>
+    <string name="network_traffic_title">Nätverkstrafikindikator</string>
+    <string name="network_traffic_master_switch_title">Aktivera nätverkstrafikindikator</string>
     <string name="network_options_title">Alternativ</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Dölj indikatorn för nätverkstrafik när det inte finns någon aktivitet</string>
+    <string name="network_traffic_autohide_summary">Dölj när indikatorn för nätverkstrafik är under 1 KB/s</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Teknologi</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Hälsa</string>
     <string name="battery_health_good">Bra</string>
@@ -191,7 +194,7 @@
     <string name="battery_health_dead">Död</string>
     <string name="battery_health_over_voltage">Överspänning</string>
     <string name="battery_health_unspecified_failure">Ospecificerat fel</string>
-    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_cold">Kall</string>
     <string name="battery_health_unknown">Okänd</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperatur</string>
@@ -206,20 +209,20 @@
     <string name="ambient_display_screen_off_udfps_title">Fingertryck alltid tillgänglig</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Tillåter upplåsning när skärmen är avstängd.\nAktivering kan orsaka oavsiktliga väckningar.</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Använd svart tema</string>
-    <string name="system_black_theme_summary">Tvinga svarta bakgrundsfärger</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Visa aktiv låsskärm</string>
     <string name="doze_gesture_ambient_summary">Visa aktiv låsskärm istället för att väcka skärmen helt</string>
     <string name="gesture_wake_ambient">Visa aktiv låsskärm</string>
     <string name="gesture_wake">Fullt uppvaknande</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Välj en mönsterstorlek</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Visa mönster vid fel</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Visa mönsterprickar</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Kasta om layout</string>
     <string name="unlock_scramble_pin_layout_summary">Kasta om PIN-layout vid upplåsning av enheten</string>
@@ -227,8 +230,8 @@
     <string name="global_actions_advanced_reboot_title">Aktivera avancerad omstart</string>
     <string name="global_actions_advanced_reboot_summary">Visa alternativ för återställning och starthanterare i avstängningsmenyn</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Avstängningsmeny</string>
+    <string name="lockscreen_enable_power_menu_summary">Tillåt åtkomst till avstängningsmenyn från säker låsskärm</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Vibrationsalternativ vid samtal</string>
     <string name="incall_vibrate_connect_title">Vibrera vid anslutning</string>
@@ -242,5 +245,5 @@
     <string name="auto_brightness_one_shot_summary">Justering av ljusstyrkan kommer endast att ske när skärmen slås på</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Uppspelningskontroll</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">När skärmen är avstängd kommer långtryck på volymknapparna att byta musikspår</string>
 </resources>
