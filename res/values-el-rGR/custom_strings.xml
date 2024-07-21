@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Διαχείριση εικονιδίων</string>
     <string name="icon_manager_summary">Ελέγξτε την ορατότητα των εικονιδίων της γραμμής κατάστασης</string>
     <!-- General -->
     <string name="copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Έλεγχος αναπαραγωγής</string>
     <string name="volume_button_music_control_summary">Όταν η οθόνη είναι απενεργοποιημένη, το παρατεταμένο πάτημα των πλήκτρων έντασης θα παρακάμπτει τα μουσικά κομμάτια.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Ένταση ήχου εφαρμογής</string>
+    <string name="app_volume_title">Έλεγχος έντασης ήχου ανά εφαρμογή</string>
+    <string name="app_volume_summary">Επιτρέπει να ορίσετε διαφορετικά επίπεδα έντασης για κάθε εφαρμογή</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Ρυθμίσεις περιστροφής</string>
+    <string name="display_rotation_enabled">Η αυτόματη περιστροφή είναι ενεργοποιημένη</string>
+    <string name="display_rotation_disabled">Η αυτόματη περιστροφή είναι απενεργοποιημένη</string>
+    <string name="display_rotation_unit">μοίρες</string>
+    <string name="display_rotation_category_title">Λειτουργίες περιστροφής</string>
+    <string name="display_rotation_0_title">0 μοίρες</string>
+    <string name="display_rotation_90_title">90 μοίρες</string>
+    <string name="display_rotation_180_title">180 μοίρες</string>
+    <string name="display_rotation_270_title">270 μοίρες</string>
 </resources>

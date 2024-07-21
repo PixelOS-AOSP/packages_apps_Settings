@@ -247,4 +247,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">재생 컨트롤</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">앱 볼륨</string>
+    <string name="app_volume_title">앱 별로 볼륨 조절</string>
+    <string name="app_volume_summary">앱 별로 다른 볼륨 레벨을 사용할 수 있도록 허용</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">화면 회전 설정</string>
+    <string name="display_rotation_enabled">자동 회전 켜짐</string>
+    <string name="display_rotation_disabled">자동 회전 꺼짐</string>
+    <string name="display_rotation_unit">각도</string>
+    <string name="display_rotation_category_title">회전 모드</string>
+    <string name="display_rotation_0_title">0 도</string>
+    <string name="display_rotation_90_title">90 도</string>
+    <string name="display_rotation_180_title">180 도</string>
+    <string name="display_rotation_270_title">270도</string>
 </resources>

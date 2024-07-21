@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Gestionnaire d\'icônes</string>
     <string name="icon_manager_summary">Contrôle de la visibilité des icônes de la barre d\'état</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copié dans le presse-papier</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de passer les pistes musicales</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Masquer le statut développeur</string>
+    <string name="hide_developer_status_summary">Empêcher les applications de vérifier le statut de adb et du mode développeur</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume par application</string>
+    <string name="app_volume_title">Contrôle du volume par application</string>
+    <string name="app_volume_summary">Permettre de définir différents niveaux de volume pour chaque application</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Paramètres de rotation</string>
+    <string name="display_rotation_enabled">Rotation automatique activée</string>
+    <string name="display_rotation_disabled">Rotation automatique désactivée</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degrés</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
 </resources>

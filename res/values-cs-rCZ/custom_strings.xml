@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Správce ikon</string>
     <string name="icon_manager_summary">Ovládejte viditelnost ikon stavového řádku</string>
     <!-- General -->
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
@@ -122,8 +122,8 @@
     <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptivní)</string>
     <string name="refresh_rate_vrr_title">Adaptivní obnovovací frekvence</string>
     <string name="refresh_rate_vrr_summary">Automaticky snížit obnovovací frekvenci, když je displej neaktivní, šetřit energii. Může způsobit blikání nebo posun barev na určitých displejích</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_footer">Vyšší obnovovací frekvence činí displej plynulejším, ale zvyšuje spotřebu energie</string>
+    <string name="keywords_refresh_rate">obnovovací, frekvence, plynulý, špička, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Snížit obnovovací frekvenci</string>
     <string name="battery_saver_refresh_rate_summary">Když je zapnut spořič baterie, použít obnovovací frekvenci 60 Hz pro úsporu energie</string>
@@ -210,8 +210,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Umožňuje odemknout při vypnuté obrazovce.\nZapnutí může způsobit náhodné probuzení.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Čistě černá</string>
+    <string name="berry_black_theme_summary">Čistě černé pozadí při tmavém motivu</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Zobrazit ambientní displej</string>
     <string name="doze_gesture_ambient_summary">Zobrazit Ambientní displej namísto úplného probuzení obrazovky</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Ovládání přehrávání</string>
     <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhím stisknutí tlačítek hlasitosti přeskočíte skladby</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Hlasitost aplikace</string>
+    <string name="app_volume_title">Ovládání hlasitosti pro jednotlivé aplikace</string>
+    <string name="app_volume_summary">Umožnit nastavení různých úrovní hlasitosti pro každou aplikaci</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Nastavení otáčení</string>
+    <string name="display_rotation_enabled">Automatické otáčení povoleno</string>
+    <string name="display_rotation_disabled">Automatické otáčení zakázáno</string>
+    <string name="display_rotation_unit">stupně</string>
+    <string name="display_rotation_category_title">Režimy otáčení</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
 </resources>

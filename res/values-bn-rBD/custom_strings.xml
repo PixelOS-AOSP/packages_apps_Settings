@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">প্লেব্যাক নিয়ন্ত্রণ</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">অ্যাপ ভলিউম</string>
+    <string name="app_volume_title">প্রতি-অ্যাপ ভলিউম নিয়ন্ত্রণ</string>
+    <string name="app_volume_summary">প্রতিটি অ্যাপের জন্য ভিন্ন ভলিউম লেভেল সেট করার অনুমতি দিন</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">ঘূর্ণন সেটিংস</string>
+    <string name="display_rotation_enabled">স্বতঃ-ঘূর্ণন সক্রিয় আছে</string>
+    <string name="display_rotation_disabled">স্বতঃ-ঘূর্ণন নিষ্ক্রিয় আছে</string>
+    <string name="display_rotation_unit">ডিগ্রী</string>
+    <string name="display_rotation_category_title">ঘুর্ণন মোডস</string>
+    <string name="display_rotation_0_title">০ ডিগ্রী</string>
+    <string name="display_rotation_90_title">৯০ ডিগ্রী</string>
+    <string name="display_rotation_180_title">১৮০ ডিগ্রী</string>
+    <string name="display_rotation_270_title">২৭০ ডিগ্রী</string>
 </resources>

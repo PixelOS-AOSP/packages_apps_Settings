@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Pengurus ikon</string>
     <string name="icon_manager_summary">Kawal keterlihatan ikon bar status</string>
     <!-- General -->
     <string name="copied_to_clipboard">Disalin ke papan keratan</string>
@@ -20,7 +20,7 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Info radio</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Membuka kunci secara automatik jika memasukkan PIN yang betul. Ini sedikit tidak selamat berbanding tekan Enter untuk sahkan.</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Kitaran melalui mod</string>
     <string name="prevent_ringing_option_cycle_summary">Aktif (kitaran melalui mod)</string>
@@ -34,12 +34,12 @@
     <string name="ignore_window_secure_title">Abaikan bendera keselamatan tetingkap</string>
     <string name="ignore_window_secure_summary">Hapuskan had tangkapan layar dan perakam layar untuk semua aplikasi. Hal ini boleh menjadi selesa dalam sesetengah perkara tetapi boleh menyebabkan kebocoran privasi.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Kurang daripada 1 minit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hari ini</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Kawalan pengecasan</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_summary">Mengubahsuai jadual pengecasan dan had untuk bateri</string>
     <string name="charging_control_enable_title">Aktifkan kawalan pengecasan</string>
     <string name="charging_control_mode_title">Mod pengecasan</string>
     <string name="charging_control_mode_auto_title">Jadual automatik</string>
@@ -148,9 +148,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Benarkan pelanggan menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Benarkan pelanggan hotspot untuk menggunakan sambungan VPN peranti \u2019 untuk sambungan huluan</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Guna GPS Berbantu</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Muat turun data pembantu satelit daripada internet dimana dapat menambah baik prestasi permulaan GPS. Untuk panggillan kecemasan, GPS Berbantu selalu dihidupkan.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruangan takuk</string>
@@ -159,18 +159,18 @@
     <string name="application_icon">Ikon aplikasi</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Ketuk untuk tidur</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Sentuh dua kali pada status bar atau skrin kunci untuk mematikan paparan</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Bunyi tangkapan layar</string>
     <!-- Heads up -->
     <string name="heads_up_title">Pemberitahuan pop naik</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_summary">Tunjukkan pilih notifikasi sebagai sepanduk di bahagian atas skrin</string>
+    <string name="heads_up_off">Heads up dimatikan secara global</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">Keutamaan heads up</string>
+    <string name="less_boring_heads_up_summary">Tunjuk heads up untuk panggilan, mesej, penggera, peringatan dan perbualan utama</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_advanced_title">Suara tambahan</string>
     <!-- Navbar options -->
     <string name="navbar_category">Bar navigasi</string>
     <string name="navbar_invert_layout_title">Balikkan susun atur bar navigasi</string>
@@ -178,13 +178,13 @@
     <string name="hide_navbar_gesture_bar_title">Sembunyikan bar gerak isyarat</string>
     <string name="hide_navbar_gesture_bar_summary">Sembunyikan bar gerak isyarat di bahagian bawah skrin</string>
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_traffic_state_title">Penunjuk trafik rangkaian</string>
+    <string name="network_traffic_state_summary">Hidupkan atau matikan penunjuk kelajuan rangkaian di status bar</string>
+    <string name="network_traffic_title">Penunjuk trafik rangkaian</string>
+    <string name="network_traffic_master_switch_title">Guna penunjuk trafik rangkaian</string>
     <string name="network_options_title">Pilihan</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Sembunyikan Penunjuk Lalu Lintas Rangkaian apabila tidak aktif</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan penunjuk lalu lintas rangkaian apabila bawah 1 KB/s</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Teknologi</string>
     <!-- Battery Info: Health -->
@@ -202,27 +202,27 @@
     <string name="battery_voltage">Voltan</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Kapasiti reka bentuk</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Kapasiti maksimum</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Cap jari sentiasa aktif</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Benarkan membuka kunci dengan layar mati.\nMenghidupkan ini boleh menyebabkan layar menyala secara tidak sengaja.</string>
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Hitam legam</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_summary">Latar belakang hitam tulen untuk tema gelap</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Paparkan ambien</string>
     <string name="doze_gesture_ambient_summary">Paparkan Paparan Ambien berbanding menyalakan layar sepenuhnya</string>
     <string name="gesture_wake_ambient">Paparkan ambien</string>
     <string name="gesture_wake">Menyala sepenuhnya</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Sila pilih saiz corak</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Tunjuk kesilapan corak</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Paparkan corak titik</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Campur aduk susun atur</string>
     <string name="unlock_scramble_pin_layout_summary">Campuraduk susunan PIN semasa menyahkunci peranti</string>
@@ -230,8 +230,8 @@
     <string name="global_actions_advanced_reboot_title">Membolehkan mula semula lanjutan</string>
     <string name="global_actions_advanced_reboot_summary">Paparkan pilihan untuk mod pemulihan dan bootloader dalam menu kuasa</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Menu kuasa</string>
+    <string name="lockscreen_enable_power_menu_summary">Membenarkan mengakses menu kuasa pada skrin kunci</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Pilihan getaran dalam panggilan</string>
     <string name="incall_vibrate_connect_title">Bergetar ketika bersambung</string>
@@ -245,5 +245,22 @@
     <string name="auto_brightness_one_shot_summary">Pelarasan kecerahan akan berlaku apabila skrin dihidupkan</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kawalan main balik</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Apabila skrin tertutup, jika butang bunyi ditekan lama akan menukar trek muzik</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Kelantangan suara aplikasi</string>
+    <string name="app_volume_title">Kawalan kelantangan suara setiap aplikasi</string>
+    <string name="app_volume_summary">Benarkan untuk menetapkan aras kelantangan suara yang berbeza untuk setiap aplikasi</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Tetapan putaran</string>
+    <string name="display_rotation_enabled">Putaran automatik dibolehkan</string>
+    <string name="display_rotation_disabled">Putaran automatik dinyahbolehkan</string>
+    <string name="display_rotation_unit">darjah</string>
+    <string name="display_rotation_category_title">Mod putaran</string>
+    <string name="display_rotation_0_title">0 darjah</string>
+    <string name="display_rotation_90_title">90 darjah</string>
+    <string name="display_rotation_180_title">180 darjah</string>
+    <string name="display_rotation_270_title">270 darjah</string>
 </resources>

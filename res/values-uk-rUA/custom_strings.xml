@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Керування відтворенням медіа</string>
     <string name="volume_button_music_control_summary">Коли пристрій у режимі сну, утримування кнопок гучності перемикатиме композиції</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Приховати статус розробника</string>
+    <string name="hide_developer_status_summary">Запобігти перевірки стану режиму adb та розробників</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Гучність застосунку</string>
+    <string name="app_volume_title">Налаштування гучності застосунку</string>
+    <string name="app_volume_summary">Встановлення різних рівнів гучності для кожного застосунку</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Параметри автоповороту</string>
+    <string name="display_rotation_enabled">Автоповорот увімкнено</string>
+    <string name="display_rotation_disabled">Автоповорот вимкнуто</string>
+    <string name="display_rotation_unit">градусів</string>
+    <string name="display_rotation_category_title">Режими повороту</string>
+    <string name="display_rotation_0_title">0 градусів</string>
+    <string name="display_rotation_90_title">90 градусів</string>
+    <string name="display_rotation_180_title">180 градусів</string>
+    <string name="display_rotation_270_title">270 градусів</string>
 </resources>

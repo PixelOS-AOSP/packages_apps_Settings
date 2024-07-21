@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
     <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ukryj status programisty</string>
+    <string name="hide_developer_status_summary">Zablokuj aplikacjom sprawdzanie statusu adb i trybu dewelopera</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Głośność aplikacji</string>
+    <string name="app_volume_title">Regulacja głośnoći dla konkretnej aplikacji</string>
+    <string name="app_volume_summary">Zezwalaj na ustawienie różnych poziomów głośności dla każdej aplikacji</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Ustawienia obracania</string>
+    <string name="display_rotation_enabled">Automatyczne obracanie zostało włączone</string>
+    <string name="display_rotation_disabled">Automatyczne obracanie zostało wyłączone</string>
+    <string name="display_rotation_unit">stopni</string>
+    <string name="display_rotation_category_title">Tryby obracania</string>
+    <string name="display_rotation_0_title">0 stopni</string>
+    <string name="display_rotation_90_title">90 stopni</string>
+    <string name="display_rotation_180_title">180 stopni</string>
+    <string name="display_rotation_270_title">270 stopni</string>
 </resources>

@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">狀態列圖示管理</string>
     <string name="icon_manager_summary">狀態列圖示的顯示開關</string>
     <!-- General -->
     <string name="copied_to_clipboard">已複製到剪貼簿</string>
@@ -210,8 +210,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">允許在螢幕關閉時解鎖。\n啟用可能會導致意外喚醒。</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">純黑色</string>
+    <string name="berry_black_theme_summary">深色主題使用純黑色的背景</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
     <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而不是完全喚醒屏幕</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">媒體播放控制</string>
     <string name="volume_button_music_control_summary">螢幕關閉時，長按音量鍵即可切換曲目</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">應用程式音量</string>
+    <string name="app_volume_title">個別應用音量控制</string>
+    <string name="app_volume_summary">允許針對個別應用程式設定音量</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋轉設定</string>
+    <string name="display_rotation_enabled">啟用自動旋轉</string>
+    <string name="display_rotation_disabled">停用自動旋轉</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
 </resources>

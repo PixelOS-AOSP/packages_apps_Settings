@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">媒体播放控制</string>
     <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键将跳过音乐曲目</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">应用音量</string>
+    <string name="app_volume_title">独立控制每个应用的音量</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量大小</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">自动旋转已启用</string>
+    <string name="display_rotation_disabled">自动旋转已禁用</string>
+    <string name="display_rotation_unit">屏幕旋转角度</string>
+    <string name="display_rotation_category_title">屏幕旋转模式</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
 </resources>

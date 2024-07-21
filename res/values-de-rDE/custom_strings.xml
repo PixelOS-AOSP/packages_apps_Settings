@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Symbolmanager</string>
     <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole ändern</string>
     <!-- General -->
     <string name="copied_to_clipboard">In Zwischenablage kopiert</string>
@@ -118,12 +118,12 @@
     <string name="power_button_torch_title">Schnelle Taschenlampe</string>
     <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Ein-/Aus-Taste die Taschenlampe aktiviert</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">Bildwiederholrate</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptiv)</string>
+    <string name="refresh_rate_vrr_title">Adaptive Bildwiederholrate</string>
+    <string name="refresh_rate_vrr_summary">Bildwiederholrate automatisch senken, wenn das Display nicht aktiv ist, um Energie zu sparen. Kann auf bestimmten Bildschirmen flimmern oder Farbverschiebungen verursachen</string>
+    <string name="refresh_rate_footer">Eine höhere Bildwiederholrate macht das Display flüssiger, erhöht aber den Stromverbrauch</string>
+    <string name="keywords_refresh_rate">Aktualisierung, Rate, Flüssig, Maximal, 60 Hz, 90 Hz, 120 Hz, 144 Hz, 165 Hz</string>
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Aktualisierungsrate reduzieren</string>
     <string name="battery_saver_refresh_rate_summary">Bildschirmaktualisierungsrate von 60 Hz verwenden, um Strom zu sparen, wenn der Energiesparmodus aktiviert ist</string>
@@ -148,9 +148,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Geräten erlauben, VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Erlaube Hotspot-Clients die VPN Verbindung dieses Gerätes\u2019 für ausgehende Verbindungen zu nutzen</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Unterstütztes GPS verwenden</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, was den Startvorgang von GPS deutlich beschleunigen kann. Für Notrufe ist die Nutzung von unterstütztem GPS immer gestattet.</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
     <string name="display_cutout_force_fullscreen_summary">Apps zwingen, die Notch zu ignorieren</string>
@@ -167,7 +167,7 @@
     <string name="heads_up_summary">Ausgewählte Benachrichtigungen als Banner am oberen Bildschirmrand anzeigen</string>
     <string name="heads_up_off">Pop-Up-Benachrichtigungen sind deaktiviert</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Priorisierte Vorabbenachrichtigungen</string>
     <string name="less_boring_heads_up_summary">Zeige Heads-Up nur für Anrufe, Nachrichten, Erinnerungen, Erinnerungen und vorrangige Unterhaltungen</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Zusätzliche Töne</string>
@@ -186,43 +186,43 @@
     <string name="network_traffic_autohide_title">Netzwerkverkehrsanzeige ausblenden, wenn inaktiv</string>
     <string name="network_traffic_autohide_summary">Ausblenden, wenn die Netzwerkverkehrsanzeige unter 1 KB/s liegt</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Technologie</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Batteriezustand</string>
+    <string name="battery_health_good">Gut</string>
+    <string name="battery_health_overheat">Überhitzt</string>
+    <string name="battery_health_dead">Leer</string>
+    <string name="battery_health_over_voltage">Spannung zu hoch</string>
+    <string name="battery_health_unspecified_failure">Unspezifizierter Fehler</string>
+    <string name="battery_health_cold">Kalt</string>
+    <string name="battery_health_unknown">Unbekannt</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatur</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Spannung</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Designkapazität</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Maximale Kapazität</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always-On Fingerabdruck</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren bei ausgeschaltetem Bildschirm.\nDie Aktivierung kann zu einem unbeabsichtigten Aufwecken führen.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Reines Schwarz</string>
+    <string name="berry_black_theme_summary">Rein schwarzer Hintergrund für dunkles Design</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Inaktiv anzeigen</string>
     <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm voll aufzuwecken</string>
     <string name="gesture_wake_ambient">Inaktiv anzeigen</string>
     <string name="gesture_wake">Volles Wecken</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Größe des Entsperrmusters wählen</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Falsches Entsperrmuster anzeigen</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Entsperrmuster-Punkte anzeigen</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
     <string name="unlock_scramble_pin_layout_summary">PIN-Layout zufällig neu anordnen, wenn das Gerät entsperrt wird</string>
@@ -245,5 +245,22 @@
     <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App Lautstärke</string>
+    <string name="app_volume_title">Lautstärkeregelung auf App-Basis</string>
+    <string name="app_volume_summary">Erlaubt die Einstellung der Lautstärke auf App-Basis</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Bildschirmausrichtung</string>
+    <string name="display_rotation_enabled">Automatische Bildschirmausrichtung ist aktiviert</string>
+    <string name="display_rotation_disabled">Automatische Bildschirmausrichtung ist deaktiviert</string>
+    <string name="display_rotation_unit"> Grad</string>
+    <string name="display_rotation_category_title">Rotationsmodus</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
 </resources>

@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Ikonkezelő</string>
     <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
     <!-- General -->
     <string name="copied_to_clipboard">Vágólapra másolva</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlő</string>
     <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő-gombok hosszú megnyomásával zeneszámokat ugorhat át</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazásonkénti hangerő</string>
+    <string name="app_volume_title">Hangerőszabályozás alkalmazásonként</string>
+    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Elforgatási beállítások</string>
+    <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
+    <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
+    <string name="display_rotation_unit">° fok</string>
+    <string name="display_rotation_category_title">Elforgatási módok</string>
+    <string name="display_rotation_0_title">0° fok</string>
+    <string name="display_rotation_90_title">90° fok</string>
+    <string name="display_rotation_180_title">180° fok</string>
+    <string name="display_rotation_270_title">270° fok</string>
 </resources>

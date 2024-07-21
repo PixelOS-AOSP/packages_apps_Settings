@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volum aplicație</string>
+    <string name="app_volume_title">Control volum per-aplicație</string>
+    <string name="app_volume_summary">Permite setarea nivelelor de volum diferite pentru fiecare aplicație</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Setări de rotire</string>
+    <string name="display_rotation_enabled">Rotire automată activată</string>
+    <string name="display_rotation_disabled">Rotire automată dezactivată</string>
+    <string name="display_rotation_unit">grade</string>
+    <string name="display_rotation_category_title">Moduri de rotire</string>
+    <string name="display_rotation_0_title">0 grade</string>
+    <string name="display_rotation_90_title">90 de grade</string>
+    <string name="display_rotation_180_title">180 de grade</string>
+    <string name="display_rotation_270_title">270 de grade</string>
 </resources>

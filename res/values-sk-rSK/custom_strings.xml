@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Správca ikon</string>
     <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
     <!-- General -->
     <string name="copied_to_clipboard">Skopírované do schránky</string>
@@ -246,4 +246,21 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
     <string name="volume_button_music_control_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidiel na ovládanie hlasitosti môžete prepínať skladby</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Skryť status vývojára</string>
+    <string name="hide_developer_status_summary">Zabráni aplikáciám kontrolovať stav adb a vývojárskeho režimu</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Hlasitosť aplikácie</string>
+    <string name="app_volume_title">Ovládanie hlasitosti podľa aplikácie</string>
+    <string name="app_volume_summary">Umožňuje nastaviť rôzne úrovne hlasitosti pre každú aplikáciu</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Nastavenia otáčania</string>
+    <string name="display_rotation_enabled">Automatické otáčanie je povolené</string>
+    <string name="display_rotation_disabled">Automatické otáčanie je zakázané</string>
+    <string name="display_rotation_unit">stupne</string>
+    <string name="display_rotation_category_title">Režimy otáčania</string>
+    <string name="display_rotation_0_title">0 stupňov</string>
+    <string name="display_rotation_90_title">90 stupňov</string>
+    <string name="display_rotation_180_title">180 stupňov</string>
+    <string name="display_rotation_270_title">270 stupňov</string>
 </resources>
