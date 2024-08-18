@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basmak şarkıyı değiştirir</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Uygulama ses düzeyi</string>
     <string name="app_volume_title">Uygulama başına ses kontrolü</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasındaki en az süre</string>
+    <string name="app_notification_sound_timeout_summary_template">Her <xliff:g id="duration">%1$s</xliff:g> bir defadan fazla sese veya titreşime izin ver</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
 </resources>

@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volum aplicație</string>
     <string name="app_volume_title">Control volum per-aplicație</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90 de grade</string>
     <string name="display_rotation_180_title">180 de grade</string>
     <string name="display_rotation_270_title">270 de grade</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Timp minim între sunetele notificărilor</string>
+    <string name="app_notification_sound_timeout_summary_template">Se permit sunete sau vibrații cel mult o dată la <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Fără restricții</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secunde</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 de secunde</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minute</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 de minute</string>
 </resources>

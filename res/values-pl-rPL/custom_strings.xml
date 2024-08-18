@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Zarządzanie ikonami</string>
     <string name="icon_manager_summary">Kontrola widoczności ikon paska stanu</string>
     <!-- General -->
     <string name="copied_to_clipboard">Skopiowano do schowka</string>
@@ -210,8 +210,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Pozwala na odblokowanie przy wyłączonym ekranie.\nWłączenie może spowodować przypadkowe wybudzenia.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Czysta czerń</string>
+    <string name="berry_black_theme_summary">Czarne tło dla ciemnego motywu</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Pokaż Ambient</string>
     <string name="doze_gesture_ambient_summary">Pokaż ekran dostosowany do otoczenia zamiast całkowicie wybudzać ekran w górę</string>
@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
     <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Ukryj status programisty</string>
-    <string name="hide_developer_status_summary">Zablokuj aplikacjom sprawdzanie statusu adb i trybu dewelopera</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Głośność aplikacji</string>
     <string name="app_volume_title">Regulacja głośnoći dla konkretnej aplikacji</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90 stopni</string>
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimalny odstęp między dźwiękami powiadomień</string>
+    <string name="app_notification_sound_timeout_summary_template">Zezwól na dźwięki i wibracje, nie więcej niż jeden raz każde <xliff:g id="czas trwania">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez ograniczeń</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
 </resources>

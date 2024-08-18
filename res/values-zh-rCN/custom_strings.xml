@@ -164,7 +164,7 @@
     <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
     <!-- Heads up -->
     <string name="heads_up_title">浮动通知</string>
-    <string name="heads_up_summary">在屏幕顶部以横幅方式显示通知内容</string>
+    <string name="heads_up_summary">在屏幕顶部以横幅形式显示通知内容</string>
     <string name="heads_up_off">浮动通知已在全局禁用</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">优先浮动通知</string>
@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">媒体播放控制</string>
     <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键将跳过音乐曲目</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">应用音量</string>
     <string name="app_volume_title">独立控制每个应用的音量</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90°</string>
     <string name="display_rotation_180_title">180°</string>
     <string name="display_rotation_270_title">270°</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">强制 LTE 载波聚合</string>
+    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知提示音间隔时间</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 允许响铃或振动一次</string>
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
 </resources>

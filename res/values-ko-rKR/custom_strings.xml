@@ -247,9 +247,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">재생 컨트롤</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">앱 볼륨</string>
     <string name="app_volume_title">앱 별로 볼륨 조절</string>
@@ -264,4 +261,17 @@
     <string name="display_rotation_90_title">90 도</string>
     <string name="display_rotation_180_title">180 도</string>
     <string name="display_rotation_270_title">270도</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">알림음 최소 시간 간격</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>에 한 번만 알림음 또는 진동을 허용</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
 </resources>

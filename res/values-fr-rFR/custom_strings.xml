@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
     <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de passer les pistes musicales</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Masquer le statut développeur</string>
-    <string name="hide_developer_status_summary">Empêcher les applications de vérifier le statut de adb et du mode développeur</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volume par application</string>
     <string name="app_volume_title">Contrôle du volume par application</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90 degrés</string>
     <string name="display_rotation_180_title">180 degrés</string>
     <string name="display_rotation_270_title">270 degrés</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forcer LTE CA</string>
+    <string name="force_lte_ca_summary">Forcer l\'agrégation d\'opérateur LTE à fonctionner</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Délai minimum entre les sons des notifications</string>
+    <string name="app_notification_sound_timeout_summary_template">Permettre des sons ou des vibrations pas plus d’une fois chaque <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Pas de restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 </resources>

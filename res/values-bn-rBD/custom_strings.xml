@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">প্লেব্যাক নিয়ন্ত্রণ</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">অ্যাপ ভলিউম</string>
     <string name="app_volume_title">প্রতি-অ্যাপ ভলিউম নিয়ন্ত্রণ</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">৯০ ডিগ্রী</string>
     <string name="display_rotation_180_title">১৮০ ডিগ্রী</string>
     <string name="display_rotation_270_title">২৭০ ডিগ্রী</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">নোটিফিকেশন সাউন্ডগুলির মধ্যে ন্যূনতম সময়</string>
+    <string name="app_notification_sound_timeout_summary_template">সাউন্ড বা ভাইব্রেশন প্রত্যেক <xliff:g id="duration">%1$s</xliff:g>- এ একবারের বেশি হতে অনুমতি দেবেন না</string>
+    <string name="app_notification_sound_timeout_value_none">কোনো বাধা নেই</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">১০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">৩০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_1_minute">১ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">৫ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">৩০ মিনিট</string>
 </resources>

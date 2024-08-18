@@ -165,10 +165,10 @@
     <!-- Heads up -->
     <string name="heads_up_title">Heads up</string>
     <string name="heads_up_summary">在屏幕顶部以横幅显示选择的通知</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_off">浮动通知已全局关闭</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">优先级浮动通知</string>
+    <string name="less_boring_heads_up_summary">仅为来电、消息、闹钟、日历活动和优先对话显示浮动通知</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">其它提示音</string>
     <!-- Navbar options -->
@@ -192,30 +192,30 @@
     <string name="battery_health_good">良好</string>
     <string name="battery_health_overheat">过热</string>
     <string name="battery_health_dead">损坏</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health_over_voltage">电压过高</string>
+    <string name="battery_health_unspecified_failure">未知故障</string>
+    <string name="battery_health_cold">温度过低</string>
+    <string name="battery_health_unknown">未知</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">温度</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">电压</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">设计容量</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">最大容量</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">始终显示指纹识别</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">允许在熄屏状态下解锁。\n开启可能会导致意外唤醒。</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">纯黑背景</string>
+    <string name="berry_black_theme_summary">在深色模式下使用纯黑背景</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="doze_gesture_ambient_title">显示息屏显示</string>
+    <string name="doze_gesture_ambient_summary">点亮息屏显示而不是点亮屏幕</string>
+    <string name="gesture_wake_ambient">显示息屏显示</string>
     <string name="gesture_wake">完全唤醒</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
@@ -241,26 +241,36 @@
     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">自动亮度</string>
+    <string name="auto_brightness_one_shot_summary">亮度调整只会在打开屏幕的那一刻发生</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">播放控制</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">屏幕旋转设置</string>
+    <string name="display_rotation_enabled">屏幕自动旋转已开启</string>
+    <string name="display_rotation_disabled">屏幕自动旋转已关闭</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">屏幕旋转模式</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">强制 LTE 载波聚合</string>
+    <string name="force_lte_ca_summary">强制启用 LTE 载波聚合</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 </resources>

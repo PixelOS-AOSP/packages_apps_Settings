@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Lejátszásvezérlő</string>
     <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő-gombok hosszú megnyomásával zeneszámokat ugorhat át</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Alkalmazásonkénti hangerő</string>
     <string name="app_volume_title">Hangerőszabályozás alkalmazásonként</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90° fok</string>
     <string name="display_rotation_180_title">180° fok</string>
     <string name="display_rotation_270_title">270° fok</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Az LTE CA erőltetése</string>
+    <string name="force_lte_ca_summary">A működéshez kényszerítse az LTE szolgáltató aggregációt</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Értesítési hangok közötti minimum időtartam</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g> alatt egy értesítési hang vagy rezgés engedélyezett</string>
+    <string name="app_notification_sound_timeout_value_none">Nincs korlátozás</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 másodperc</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 másodperc</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 perc</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 perc</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 perc</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 perc</string>
 </resources>

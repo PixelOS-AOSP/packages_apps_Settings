@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Ikonhanterare</string>
     <string name="icon_manager_summary">Styr synligheten av statusfältsikoner</string>
     <!-- General -->
     <string name="copied_to_clipboard">Kopierat till urklipp</string>
@@ -210,8 +210,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Tillåter upplåsning när skärmen är avstängd.\nAktivering kan orsaka oavsiktliga väckningar.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Helsvart</string>
+    <string name="berry_black_theme_summary">Använd helsvart bakgrund vid mörkt tema</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Visa aktiv låsskärm</string>
     <string name="doze_gesture_ambient_summary">Visa aktiv låsskärm istället för att väcka skärmen helt</string>
@@ -246,9 +246,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Uppspelningskontroll</string>
     <string name="volume_button_music_control_summary">När skärmen är avstängd kommer långtryck på volymknapparna att byta musikspår</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Appvolym</string>
     <string name="app_volume_title">Volymkontroll per app</string>
@@ -263,4 +260,17 @@
     <string name="display_rotation_90_title">90 grader</string>
     <string name="display_rotation_180_title">180 grader</string>
     <string name="display_rotation_270_title">270 grader</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Tvinga LTE CA</string>
+    <string name="force_lte_ca_summary">Tvinga LTE CA att fungera</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minsta tid mellan aviseringsljud</string>
+    <string name="app_notification_sound_timeout_summary_template">Tillåt ljud eller vibration endast en gång per <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Ingen begränsning</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekunder</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekunder</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuter</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuter</string>
 </resources>
