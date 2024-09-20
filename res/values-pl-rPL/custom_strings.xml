@@ -248,7 +248,7 @@
     <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Głośność aplikacji</string>
-    <string name="app_volume_title">Regulacja głośnoći dla konkretnej aplikacji</string>
+    <string name="app_volume_title">Regulacja głośności dla konkretnej aplikacji</string>
     <string name="app_volume_summary">Zezwalaj na ustawienie różnych poziomów głośności dla każdej aplikacji</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ustawienia obracania</string>
@@ -261,8 +261,8 @@
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Wymuś LTE CA</string>
+    <string name="force_lte_ca_summary">Wymuś agregację LTE</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimalny odstęp między dźwiękami powiadomień</string>
     <string name="app_notification_sound_timeout_summary_template">Zezwól na dźwięki i wibracje, nie więcej niż jeden raz każde <xliff:g id="czas trwania">%1$s </xliff:g></string>
@@ -271,6 +271,9 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minut</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>

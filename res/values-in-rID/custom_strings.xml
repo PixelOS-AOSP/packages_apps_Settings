@@ -261,8 +261,8 @@
     <string name="display_rotation_180_title">180 derajat</string>
     <string name="display_rotation_270_title">270 derajat</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Paksa LTE CA</string>
+    <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Waktu minimum antara suara notifikasi</string>
     <string name="app_notification_sound_timeout_summary_template">Izinkan suara atau getaran tidak lebih dari sekali setiap <xliff:g id="duration">%1$s</xliff:g></string>
@@ -271,6 +271,9 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 detik</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 menit</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 menit</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 menit</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 menit</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>

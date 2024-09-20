@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">상태 표시줄 아이콘 설정</string>
     <string name="icon_manager_summary">상태 표시줄 아이콘의 표시 여부 설정</string>
     <!-- General -->
     <string name="copied_to_clipboard">클립보드에 복사됨</string>
@@ -22,8 +22,8 @@
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">모드 간 전환</string>
+    <string name="prevent_ringing_option_cycle_summary">켜기 (모드 간 전환)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">스와이프하여 캡처</string>
     <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처</string>
@@ -35,20 +35,20 @@
     <string name="ignore_window_secure_summary">모든 앱들의 스크린샷 및 화면녹화 제한을 제거
 이 기능은 몇몇 경우에 편리하지만 개인정보 유출로 이어질 수 있습니다.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">1분 미만</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">오늘 %1$s</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">충전 제어</string>
     <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
     <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_mode_title">충전 모드</string>
+    <string name="charging_control_mode_auto_title">자동 스케줄</string>
+    <string name="charging_control_mode_auto_summary">설정된 알람에 따라 충전 시작 시간을 자동으로 결정</string>
+    <string name="charging_control_mode_custom_title">일정 직접 설정</string>
+    <string name="charging_control_mode_custom_summary">완전 충전할 목표 시간 설정</string>
+    <string name="charging_control_mode_limit_title">충전량 제한</string>
+    <string name="charging_control_mode_limit_summary">특정 퍼센트로 충전량 제한</string>
     <string name="charging_control_start_time_title">Start time</string>
     <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
     <string name="charging_control_target_time_title">Target time to full charge</string>
@@ -129,8 +129,8 @@
     <string name="battery_saver_refresh_rate_title">화면 재생률 줄이기</string>
     <string name="battery_saver_refresh_rate_summary">절전 모드 사용 중 전력 소모를 줄이기 위해 최대 60Hz 화면 재생률 사용</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">주머니 감지</string>
+    <string name="pocket_judge_summary">기기가 주머니에 있을 때 화면 켜짐과 버튼 입력을 방지합니다.</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">숨겨진 네트워크</string>
     <string name="wifi_hotspot_hidden_ssid_summary">내 모바일 핫스팟의 이름이 사용 가능한 무선랜 목록에 표시되 않도록 합니다.</string>
@@ -157,7 +157,7 @@
     <string name="display_cutout_force_fullscreen_summary">앱이 노치 공간을 무시하도록 하기</string>
     <string name="search">검색</string>
     <string name="search_apps">앱 검색</string>
-    <string name="application_icon">Application icon</string>
+    <string name="application_icon">애플리케이션 아이콘</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">두 번 탭하여 화면 끄기</string>
     <string name="status_bar_double_tap_to_sleep_summary">상태 표시줄이나 잠금 화면을 두 번 두드려 화면 끄기</string>
@@ -187,9 +187,9 @@
     <string name="network_traffic_autohide_title">활동이 없을 때 네트워크 트래픽 모니터 숨기기</string>
     <string name="network_traffic_autohide_summary">1 KB/s 미만일 때 네트워크 트래픽 모니터를 숨깁니다</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">사용된 기술</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
+    <string name="battery_health">상태</string>
     <string name="battery_health_good">Good</string>
     <string name="battery_health_overheat">Overheat</string>
     <string name="battery_health_dead">Dead</string>
@@ -198,20 +198,20 @@
     <string name="battery_health_cold">Cold</string>
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">온도</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">베터리 전압</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">설계 용량</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">최대 용량</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">화면이 꺼진 상태에서 잠금 해제를 허용합니다.\n활성화하면 의도치 않게 화면이 켜질 수 있습니다.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_title">완전한 검은색 배경</string>
     <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
@@ -231,7 +231,7 @@
     <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
     <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드 및 부트로더로 다시 시작 옵션 표시</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_title">전원 메뉴</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">통화 중 진동 옵션</string>
@@ -246,7 +246,7 @@
     <string name="auto_brightness_one_shot_summary">자동 밝기 조절을 화면이 켜질 때 단 한 번만 실행</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">재생 컨트롤</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">화면이 꺼져있을 때, 음량 조절 버튼을 길게 눌러 곡을 넘깁니다</string>
     <!-- Per-app volume control -->
     <string name="app_volume">앱 볼륨</string>
     <string name="app_volume_title">앱 별로 볼륨 조절</string>
@@ -274,4 +274,7 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
     <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>

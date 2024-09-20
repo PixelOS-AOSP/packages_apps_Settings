@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Gestor de ícones</string>
     <string name="icon_manager_summary">Controlar a visibilidade dos ícones da barra de estado</string>
     <!-- General -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
@@ -210,8 +210,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear com o ecrã desligado.\nActivar pode causar que o dispositivo acorde acidentalmente.</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Preto puro</string>
+    <string name="berry_black_theme_summary">Tema escuro com preto puro</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar Visualização Ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Visualização Ambiente em vez de acordar completamente o ecrã</string>
@@ -261,8 +261,8 @@
     <string name="display_rotation_180_title">180 graus</string>
     <string name="display_rotation_270_title">270 graus</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Forçar CA LTE</string>
+    <string name="force_lte_ca_summary">Forçar agregação de transportadoras LTE para funcionar</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
     <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações, apenas uma vez, a cada <xliff:g id="duration">%1$s</xliff:g></string>
@@ -271,6 +271,9 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>

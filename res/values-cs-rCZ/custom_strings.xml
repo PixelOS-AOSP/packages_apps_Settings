@@ -164,7 +164,7 @@
     <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Heads up -->
     <string name="heads_up_title">Plovoucí oznámení</string>
-    <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
+    <string name="heads_up_summary">Zobrazit vybraná oznámení jako banner v horní části obrazovky</string>
     <string name="heads_up_off">Heads up is disabled globally</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Priority heads up</string>
@@ -206,7 +206,7 @@
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximální kapacita</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">Otisk prstu při AOD</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Umožňuje odemknout při vypnuté obrazovce.\nZapnutí může způsobit náhodné probuzení.</string>
     <!-- Black theme for dark mode -->
@@ -261,8 +261,8 @@
     <string name="display_rotation_180_title">180°</string>
     <string name="display_rotation_270_title">270°</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Vynutit LTE CA</string>
+    <string name="force_lte_ca_summary">Vynutit agregaci LTE operátora</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
     <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
@@ -271,6 +271,9 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minut</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>
