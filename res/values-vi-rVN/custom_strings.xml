@@ -261,8 +261,8 @@
     <string name="display_rotation_180_title">180 độ</string>
     <string name="display_rotation_270_title">270 độ</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Buộc sử dụng LTE</string>
+    <string name="force_lte_ca_summary">Buộc dùng LTE để hoạt động</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Thời gian tối thiểu giữa các âm thanh thông báo</string>
     <string name="app_notification_sound_timeout_summary_template">Cho phép âm thanh hoặc rung không nhiều hơn một lần mỗi <xliff:g id="duration">%1$s</xliff:g></string>
@@ -271,9 +271,9 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 giây</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 phút</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 phút</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">15 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 phút</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Sạc nhanh</string>
+    <string name="fast_charging_summary">Tắt để giảm nhiệt do thiết bị tạo ra trong khi sạc hoặc để kéo dài tuổi thọ của pin</string>
 </resources>

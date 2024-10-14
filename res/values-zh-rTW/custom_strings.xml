@@ -274,6 +274,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">15 分鐘</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">快速充電</string>
+    <string name="fast_charging_summary">禁用以減少裝置在充電時產生的熱量或延長電池的使用壽命</string>
 </resources>

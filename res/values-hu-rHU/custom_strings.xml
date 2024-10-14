@@ -274,6 +274,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">15 perc</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 perc</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Gyorstöltés</string>
+    <string name="fast_charging_summary">Ne engedélyezze, ha csökkentené a készülék töltés közbeni melegedését, vagy meghosszabbítaná az akkumulátor élettartamát</string>
 </resources>

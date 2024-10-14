@@ -274,6 +274,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">15 minute</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 de minute</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Încărcare rapidă</string>
+    <string name="fast_charging_summary">Dezactivează pentru a reduce căldura produsă de dispozitiv în timpul încărcări pentru a extinde durata de viață a bateriei</string>
 </resources>

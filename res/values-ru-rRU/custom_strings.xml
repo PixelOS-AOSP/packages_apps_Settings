@@ -16,11 +16,11 @@
     <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- General -->
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
-    <string name="longpress_to_clipboard">Длительное нажатие для копирования</string>
+    <string name="longpress_to_clipboard">Удерживать для копирования</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Информация о радио</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Автоматическая разблокировка при вводе правильного ПИН-кода. Это менее безопасно, чем нажатие подтверждения.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если введён правильный PIN-код. Это менее безопасно, чем нажатие кнопки подтверждения.</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Переключение между режимами</string>
     <string name="prevent_ringing_option_cycle_summary">Вкл. (переключение между режимами)</string>
@@ -208,7 +208,7 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Отпечаток пальца всегда включен</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Разрешает разблокировку при выключении экрана.\nВключение может вызвать случайные пробуждения.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Позволяет разблокировать устройство при выключенном экране.\nВключение может привести к непреднамеренным разблокировкам.</string>
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Чистый черный</string>
     <string name="berry_black_theme_summary">Чистый черный фон для темной темы</string>
@@ -274,6 +274,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">15 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки и продлить срок службы батареи</string>
 </resources>

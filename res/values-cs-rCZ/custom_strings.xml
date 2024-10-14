@@ -165,10 +165,10 @@
     <!-- Heads up -->
     <string name="heads_up_title">Plovoucí oznámení</string>
     <string name="heads_up_summary">Zobrazit vybraná oznámení jako banner v horní části obrazovky</string>
-    <string name="heads_up_off">Heads up is disabled globally</string>
+    <string name="heads_up_off">Plovoucí oznámení jsou celkově zakázána</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+    <string name="less_boring_heads_up_title">Prioritní plovoucí oznámení</string>
+    <string name="less_boring_heads_up_summary">Zobrazit plovoucí oznámení pouze pro hovory, zprávy, budíky, připomenutí a prioritní konverzace</string>
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Dodatečné zvuky</string>
     <!-- Navbar options -->
@@ -274,6 +274,6 @@
     <string name="app_notification_sound_timeout_value_15_minutes">15 minut</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Rychlé nabíjení</string>
+    <string name="fast_charging_summary">Vypnutím snížíte teplo produkované zařízením během nabíjení a prodloužíte životnost baterie</string>
 </resources>
