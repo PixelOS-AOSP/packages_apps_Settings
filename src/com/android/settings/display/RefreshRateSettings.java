@@ -21,7 +21,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -45,7 +45,7 @@ public class RefreshRateSettings extends RadioButtonPickerFragment {
 
     private Context mContext;
     private RefreshRateUtils mUtils;
-    private SwitchPreference mVrrSwitchPref;
+    private SwitchPreferenceCompat mVrrSwitchPref;
 
     @Override
     public void onAttach(Context context) {
@@ -61,7 +61,7 @@ public class RefreshRateSettings extends RadioButtonPickerFragment {
 
     @Override
     protected void addStaticPreferences(PreferenceScreen screen) {
-        mVrrSwitchPref = new SwitchPreference(screen.getContext());
+        mVrrSwitchPref = new SwitchPreferenceCompat(screen.getContext());
         mVrrSwitchPref.setKey(KEY_VRR_PREF);
         mVrrSwitchPref.setTitle(R.string.refresh_rate_vrr_title);
         mVrrSwitchPref.setSummary(R.string.refresh_rate_vrr_summary);
