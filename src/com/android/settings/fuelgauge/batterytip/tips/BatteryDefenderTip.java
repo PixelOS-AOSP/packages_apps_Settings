@@ -87,26 +87,28 @@ public class BatteryDefenderTip extends BatteryTip {
 
         cardPreference.setSelectable(false);
         cardPreference.setIconResId(getIconId());
-        cardPreference.setPrimaryButtonText(context.getString(R.string.learn_more));
-        cardPreference.setPrimaryButtonAction(
-                () -> {
-                    var helpIntent =
-                            HelpUtils.getHelpIntent(
-                                    context,
-                                    context.getString(R.string.help_url_battery_defender),
-                                    /* backupContext= */ "");
-                    ActivityCompat.startActivityForResult(
-                            (Activity) preference.getContext(),
-                            helpIntent,
-                            /* requestCode= */ 0,
-                            /* options= */ null);
 
-                    return Unit.INSTANCE;
-                });
-        cardPreference.setPrimaryButtonVisibility(true);
-        cardPreference.setPrimaryButtonContentDescription(
-                context.getString(
-                        R.string.battery_tip_limited_temporarily_sec_button_content_description));
+        if (getHelpResource() != 0) {
+            cardPreference.setPrimaryButtonText(context.getString(R.string.learn_more));
+            cardPreference.setPrimaryButtonAction(
+                    () -> {
+                        var helpIntent =
+                                HelpUtils.getHelpIntent(
+                                        context,
+                                        context.getString(getHelpResource()),
+                                        /* backupContext= */ "");
+                        ActivityCompat.startActivityForResult(
+                                (Activity) preference.getContext(),
+                                helpIntent,
+                                /* requestCode= */ 0,
+                                /* options= */ null);
+
+                        return Unit.INSTANCE;
+                    });
+            cardPreference.setPrimaryButtonVisibility(true);
+            cardPreference.setPrimaryButtonContentDescription(context.getString(
+                    R.string.battery_tip_limited_temporarily_sec_button_content_description));
+        }
 
         cardPreference.setSecondaryButtonText(
                 context.getString(R.string.battery_tip_charge_to_full_button));
@@ -119,6 +121,10 @@ public class BatteryDefenderTip extends BatteryTip {
                 });
         cardPreference.setSecondaryButtonVisibility(mIsPluggedIn);
         cardPreference.buildContent();
+    }
+
+    private int getHelpResource() {
+        return R.string.help_url_battery_defender;
     }
 
     private void resumeCharging(Context context) {
