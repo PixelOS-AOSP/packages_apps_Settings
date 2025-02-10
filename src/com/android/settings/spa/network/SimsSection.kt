@@ -73,6 +73,11 @@ private fun SimPreference(subInfo: SubscriptionInfo) {
         SubscriptionRepository(context).isSubscriptionEnabledFlow(subInfo.subscriptionId)
     }.collectAsStateWithLifecycle(initialValue = false)
     val phoneNumber = phoneNumber(subInfo)
+    val canDisablePhysicalSubscription by remember {
+        flow {
+            emit(SubscriptionRepository(context).canDisablePhysicalSubscription())
+        }
+    }.collectAsStateWithLifecycle(initialValue = false)
     val isConvertedPsim by remember(subInfo) {
         flow {
             emit(SubscriptionUtil.isConvertedPsimSubscription(subInfo))
@@ -94,7 +99,10 @@ private fun SimPreference(subInfo: SubscriptionInfo) {
                 }
             }
             override val icon = @Composable { SimIcon(subInfo.isEmbedded) }
-            override val changeable = { isActivationChangeable && !isConvertedPsim }
+            override val changeable = {
+                (subInfo.isEmbedded || canDisablePhysicalSubscription)
+                    && isActivationChangeable && !isConvertedPsim
+            }
             override val checked = { checked.value }
             override val onCheckedChange: (Boolean) -> Unit = { newChecked ->
                 coroutineScope.launch {
