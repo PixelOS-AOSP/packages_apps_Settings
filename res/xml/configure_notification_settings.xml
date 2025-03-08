@@ -204,5 +204,13 @@
             android:summary="@string/heads_up_summary"
             android:defaultValue="false" />
 
+        <!-- ongoing action -->
+         <SwitchPreferenceCompat
+            android:key="ongoing_action_chip"
+            android:order="27"
+            android:title="@string/ongoing_action_chip_title"
+            android:summary="@string/ongoing_action_chip_summary"
+            android:defaultValue="true" /> 
+
     </PreferenceCategory>
 </PreferenceScreen>
