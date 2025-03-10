@@ -20,6 +20,7 @@ import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpd
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.BatteryManager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,6 +32,7 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.R;
 import com.android.settingslib.Utils;
 import com.android.settingslib.widget.UsageProgressBarPreference;
 
@@ -114,7 +116,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
 
         if (chargeCounterUah != -1) {
             int chargeCounter = chargeCounterUah / 1_000;
-            mBatteryUsageProgressBarPref.setTotalSummary(
+            mBatteryUsageProgressBarPreference.setTotalSummary(
                     formatBatteryChargeCounterText(chargeCounter));
         }
     }
