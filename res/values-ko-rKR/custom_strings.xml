@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2020-2023 PixelOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">디버깅 시 루트 권한 사용</string>
+    <string name="adb_enable_summary_root">Android 디버깅 루트 권한 사용을 허용합니다</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">PIN이 일치하면 자동으로 잠금을 해제합니다. 확인 버튼을 눌러 잠금을 해제하는 것보다는 안전하지 못합니다.</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">화면 주사율</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (적응형)</string>
+    <string name="refresh_rate_vrr_title">적응형 화면 주사율</string>
+    <string name="refresh_rate_vrr_summary">정지된 화면에서 화면 주사율을 낮추어 배터리 사용량을 줄입니다. 일부 기기에서 플리커링이나 색상 변조가 일어날 수 있습니다.</string>
+    <string name="refresh_rate_footer">화면 주사율이 높아지면 디스플레이가 더 부드러워지지만, 전력 소비가 늘어납니다</string>
+    <string name="keywords_refresh_rate">화면, 재생률, 부드러운, 최대, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Heads up -->
+    <string name="heads_up_title">화면 상단 알림</string>
+    <string name="heads_up_summary">선택한 알림을 화면 상단에 배너로 표시합니다.</string>
+    <string name="heads_up_off">Heads up 기능은 비활성화됨</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">GPS 도우미 사용</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">GPS 시작 성능을 개선하기 위해 A-GPS 데이터를 인터넷에서 다운로드합니다. 긴급전화의 경우, A-GPS가 항상 허용됩니다.</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">화면 재생률 줄이기</string>
+    <string name="battery_saver_refresh_rate_summary">절전 모드 사용 중 전력 소모를 줄이기 위해 최대 60Hz 화면 재생률 사용</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">경고: 이 옵션은 제대로 작동하지 않거나 데이터 손실이 일어날 가능성이 있으므로 권장하지 않습니다!</string>
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="longpress_to_clipboard">길게 눌러 복사</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">전파 정보</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">충전 제어</string>
+    <string name="charging_control_summary">배터리 충전 스케줄 및 제한 사용자 정의</string>
+    <string name="charging_control_enable_title">충전 제어 사용</string>
+    <string name="charging_control_mode_title">충전 모드</string>
+    <string name="charging_control_mode_auto_title">자동 스케줄</string>
+    <string name="charging_control_mode_auto_summary">설정된 알람에 따라 충전 시작 시간을 자동으로 결정</string>
+    <string name="charging_control_mode_custom_title">일정 직접 설정</string>
+    <string name="charging_control_mode_custom_summary">완전 충전할 목표 시간 설정</string>
+    <string name="charging_control_mode_limit_title">충전량 제한</string>
+    <string name="charging_control_mode_limit_summary">특정 퍼센트로 충전량 제한</string>
+    <string name="charging_control_start_time_title">시작 시간</string>
+    <string name="charging_control_start_time_summary">충전 제어는 %s 이후에 충전을 시작할 때 활성화됩니다</string>
+    <string name="charging_control_target_time_title">완전 충전할 목표 시간 설정</string>
+    <string name="charging_control_target_time_summary">배터리는 %s%% 까지 충전될 것입니다</string>
+    <string name="charging_control_limit_title">한도</string>
+    <string name="reset">초기화</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">가독성을 향상시키고 눈의 피로를 줄이기 위해 주변 환경과 시간에 따라 화면을 최적화합니다</string>
+    <string name="live_display_mode">디스플레이 모드</string>
+    <string name="live_display_color_temperature_title">색온도</string>
+    <string name="live_display_day">주간</string>
+    <string name="live_display_night">야간</string>
+    <string name="live_display_outdoor_mode_title">자동 야외 모드</string>
+    <string name="live_display_outdoor_mode_summary">밝은 햇빛 아래에서 자동으로 밝기와 채도를 증가시킵니다</string>
+    <string name="live_display_anti_flicker_title">안티 플리커 (화면 깜박임 방지)</string>
+    <string name="live_display_anti_flicker_summary">낮은 밝기 환경에서 화면 깜박임을 방지해 눈의 피로를 줄입니다. 색 정확도가 저하되고 일부 항목이 다르게 표시될 수 있습니다.</string>
+    <string name="live_display_low_power_title">전력 소모 줄이기</string>
+    <string name="live_display_low_power_summary">화질 저하 없이 화면을 조정하여 전력 소모를 감소시킵니다</string>
+    <string name="live_display_enhance_color_title">색상 보정</string>
+    <string name="live_display_enhance_color_summary">피부색, 풍경 등 기타 이미지에서 색의 생동감을 향상시킵니다</string>
+    <string name="live_display_color_profile_title">색상 프로필</string>
+    <string name="live_display_color_profile_standard_title">표준</string>
+    <string name="live_display_color_profile_standard_summary">정확한 색상과 밝은 흰색을 표현합니다</string>
+    <string name="live_display_color_profile_natural_title">자연스러운 색상</string>
+    <string name="live_display_color_profile_natural_summary">사실적인 색과 피부색을 표현합니다</string>
+    <string name="live_display_color_profile_dynamic_title">다이나믹</string>
+    <string name="live_display_color_profile_dynamic_summary">색상을 향상시키고 흰색을 밝게 표현합니다</string>
+    <string name="live_display_color_profile_cinema_title">영화</string>
+    <string name="live_display_color_profile_cinema_summary">영상을 위한 완벽한 색 재현력</string>
+    <string name="live_display_color_profile_astronomy_title">천체</string>
+    <string name="live_display_color_profile_astronomy_summary">야간 시야 확보를 위한 붉은 색감을 사용합니다.</string>
+    <string name="live_display_color_profile_photography_title">사진</string>
+    <string name="live_display_color_profile_photography_summary">사진을 위한 완벽한 색 재현력</string>
+    <string name="live_display_color_profile_basic_title">기본</string>
+    <string name="live_display_color_profile_basic_summary">화면을 보정하지 않은 상태로 사용</string>
+    <string name="live_display_color_profile_adaptive_title">적응형 색상 조절</string>
+    <string name="live_display_color_profile_adaptive_summary">주변 상황에 따라 색상을 적용합니다.</string>
+    <string name="live_display_color_profile_reading_title">독서용</string>
+    <string name="live_display_color_profile_reading_summary">눈의 피로를 줄이기 위해 따뜻한 색감을 사용합니다.</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB 색 영역에 맞게 색상을 표현합니다.</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 색 영역에 맞게 색상을 표현합니다.</string>
+    <string name="live_display_reading_mode_title">독서 모드</string>
+    <string name="live_display_reading_mode_summary">긴 시간 독서를 위해 색을 흑백으로 표현합니다.</string>
+    <string name="color_calibration_title">색상 보정</string>
+    <string name="color_calibration_summary">화면의 색상을 보정합니다</string>
+    <string name="color_red_title">빨간색</string>
+    <string name="color_green_title">녹색</string>
+    <string name="color_blue_title">파란색</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">화면 조정</string>
+    <string name="picture_adjustment_summary">색조, 채도, 명도 및 대비를 조정합니다.</string>
+    <string name="adj_hue_title">색조</string>
+    <string name="adj_saturation_title"></string>
+    <string name="adj_intensity_title">명도</string>
+    <string name="adj_contrast_title">명암비</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">터치 감도 높이기</string>
+    <string name="high_touch_sensitivity_summary">장갑을 끼고 있어도 터치할 수 있도록 터치 감도를 높입니다</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">High touch polling rate</string>
+    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">완전한 검은색 배경</string>
+    <string name="berry_black_theme_summary">어두운 테마 사용 시 완전 검정색 배경 사용</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">1분 미만</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">오늘 %1$s</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">모드 간 전환</string>
+    <string name="prevent_ringing_option_cycle_summary">켜기 (모드 간 전환)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">화면을 쓸어 스크린샷 찍기</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 스크린샷 캡처</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">스마트 5G</string>
+    <string name="smart_5g_summary">배터리 소모를 줄이기 위해 5G와 4G 사이를 자동으로 전환합니다.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">빠른 손전등</string>
+    <string name="power_button_torch_summary">화면이 꺼져있을 때 전원 버튼을 길게 눌러 손전등 켜기</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">스크린샷 효과음</string>
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">추가 소리 설정</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">내비게이션 바 레이아웃 반전</string>
+    <string name="navbar_invert_info">뒤로가기 버튼과 최근 앱 버튼의 위치를 서로 바꿉니다.</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">알림 소리 간격 최소로 하기</string>
+    <string name="app_notification_sound_timeout_summary_template">매 <xliff:g id="duration">%1$s</xliff:g>마다 한 번씩만 소리 또는 진동을 허용합니다</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15분</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">전원 메뉴</string>
+    <string name="lockscreen_enable_power_menu_summary">잠금 화면에서 전원 메뉴 표시</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">패턴의 크기를 선택하세요</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">패턴 오류 표시</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">패턴 점 표시</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">키패드 순서 섞기</string>
+    <string name="unlock_scramble_pin_layout_summary">기기 잠금을 해제할 때 키패드 레이아웃을 섞습니다</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">네트워크 트래픽 모니터 사용</string>
+    <string name="network_traffic_state_summary">네트워크 속도 모니터를 상태표시줄에 표시합니다.</string>
+    <string name="network_traffic_title">네트워크 트래픽 모니터 사용</string>
+    <string name="network_traffic_master_switch_title">네트워크 트래픽 모니터 사용</string>
+    <string name="network_options_title">옵션</string>
+    <string name="network_traffic_autohide_title">네트워크 비활성화 시 네트워크 트래픽 표시기 숨기기</string>
+    <string name="network_traffic_autohide_summary">1 KB/s 미만일 때 네트워크 트래픽 모니터를 숨깁니다</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">통화 중 진동 옵션</string>
+    <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
+    <string name="incall_vibrate_call_wait_title">통화 대기 시 진동</string>
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">숨겨진 네트워크</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">내 모바일 핫스팟의 이름을 사용 가능한 무선랜 목록에 표시하지 않게 합니다.</string>
+    <string name="wifi_hotspot_client_manager_title">연결된 기기들</string>
+    <string name="wifi_hotspot_client_manager_summary">핫스팟에 연결된 기기 목록 및 관리</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">빠른 설정</string>
+    <string name="show_qs_on_secure_keyguard_summary">잠금 화면에서 빠른 설정 전환 허용</string>
+</resources>
