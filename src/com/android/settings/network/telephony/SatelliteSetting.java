@@ -68,6 +68,9 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
     private static final String PREF_KEY_YOUR_SATELLITE_DATA_PLAN = "key_your_satellite_data_plan";
     private static final String PREF_KEY_CATEGORY_ABOUT_SATELLITE = "key_category_about_satellite";
     private static final String KEY_FOOTER_PREFERENCE = "satellite_setting_extra_info_footer_pref";
+    private static final String KEY_SATELLITE_CONNECTION_GUIDE = "key_satellite_connection_guide";
+    private static final String KEY_SUPPORTED_SERVICE = "key_supported_service";
+
 
     static final String SUB_ID = "sub_id";
     static final String EXTRA_IS_SERVICE_DATA_TYPE = "is_service_data_type";
@@ -221,6 +224,15 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
             category.setEnabled(false);
             category.setShouldDisableView(true);
         }
+        if (!isCarrierRoamingNtnConnectedTypeManual()) {
+            return;
+        }
+        Preference connectionGuide = findPreference(KEY_SATELLITE_CONNECTION_GUIDE);
+        connectionGuide.setTitle(R.string.title_satellite_connection_guide_for_manual_type);
+        connectionGuide.setSummary(R.string.summary_satellite_connection_guide_for_manual_type);
+        Preference supportedService = findPreference(KEY_SUPPORTED_SERVICE);
+        supportedService.setTitle(R.string.title_supported_service_for_manual_type);
+        supportedService.setSummary(R.string.summary_supported_service_for_manual_type);
     }
 
     private void updateFooterContent() {
@@ -229,7 +241,7 @@ public class SatelliteSetting extends RestrictedDashboardFragment {
         if (footerPreference != null) {
             footerPreference.setSummary(
                     getResources().getString(R.string.satellite_setting_summary_more_information,
-                            getSubjectString(), mSimOperatorName));
+                            mSimOperatorName));
 
             final String[] link = new String[1];
             link[0] = readSatelliteMoreInfoString();

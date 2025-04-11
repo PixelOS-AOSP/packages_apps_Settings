@@ -4875,17 +4875,21 @@
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"ສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມ. ບໍ່ຮວມມາກັບບັນຊີຂອງທ່ານ."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມ, ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"ກ່ຽວກັບ <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="9212860038048311345">"ທ່ານສາມາດສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມໄດ້ໂດຍເປັນພາກສ່ວນໜຶ່ງຂອງບັນຊີ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ທີ່ມີສິດ"</string>
-    <string name="category_title_your_satellite_plan" msgid="3017895097366691841">"ແພັກເກດ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ຂອງທ່ານ"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"ການຮັບສົ່ງຂໍ້ຄວາມຈະຮວມຢູ່ໃນບັນຊີຂອງທ່ານ"</string>
+    <string name="title_about_satellite_setting" msgid="3563087940535642558">"ທ່ານສາມາດສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມດ້ວຍບັນຊີ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ທີ່ມີສິດ"</string>
+    <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"ບັນຊີ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ຂອງທ່ານ"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມຮວມຢູ່ໃນບັນຊີຂອງທ່ານ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມບໍ່ໄດ້ຮວມຢູ່ໃນບັນຊີຂອງທ່ານ"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"ສຶກສາເພີ່ມເຕີມ"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"ມັນເຮັດວຽກແນວໃດ"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"ເມື່ອທ່ານບໍ່ມີເຄືອຂ່າຍມືຖື"</string>
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"ສົ່ງຂໍ້ຄວາມໄປຫາເບີໂທລະສັບ"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"ໂທລະສັບຂອງທ່ານຈະເຊື່ອມຕໍ່ກັບດາວທຽມໂດຍອັດຕະໂນມັດ. ສຳລັບການເຊື່ອມຕໍ່ທີ່ດີທີ່ສຸດ, ກະລຸນາຢູ່ໃນພື້ນທີ່ທີ່ເບິ່ງເຫັນທ້ອງຟ້າໄດ້ຢ່າງຊັດເຈນ."</string>
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"ຫາກທ່ານບໍ່ມີເຄືອຂ່າຍມືຖື, ທ່ານຈະເຫັນຕົວເລືອກໃຫ້ໃຊ້ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມ."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"ຫຼັງຈາກທີ່ໂທລະສັບຂອງທ່ານເຊື່ອມຕໍ່ກັບດາວທຽມ"</string>
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ເຮັດຕາມຂັ້ນຕອນເພື່ອເຊື່ອມຕໍ່ກັບດາວທຽມ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ. ໂທລະສັບຂອງທ່ານຈະເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍມືຖືອີກຄັ້ງເມື່ອມີໃຫ້ໃຊ້."</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> ອາດໃຊ້ເວລາດົນກວ່າປົກກະຕິ ແລະ ພ້ອມໃຫ້ບໍລິການໃນບາງພື້ນທີ່ເທົ່ານັ້ນ. ສະພາບອາກາດ ແລະ ໂຄງສ້າງບາງຢ່າງອາດສົ່ງຜົນຕໍ່ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມຂອງທ່ານ. ການໂທຜ່ານດາວທຽມບໍ່ພ້ອມໃຫ້ບໍລິການ. ການໂທສຸກເສີນອາດຍັງເຊື່ອມຕໍ່ຢູ່.\n\nລະບົບອາດໃຊ້ເວລາໄລຍະໜຶ່ງຈົນກວ່າການປ່ຽນແປງໃນບັນຊີຈະສະແດງໃນການຕັ້ງຄ່າ. ກະລຸນາຕິດຕໍ່ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ສຳລັບລາຍລະອຽດ."</string>
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ຫຼັງຈາກເຊື່ອມຕໍ່ໂທລະສັບຂອງທ່ານແລ້ວ, ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ."</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ການເຊື່ອມຕໍ່ດາວທຽມອາດຈະຊ້າກວ່າ ແລະ ມີສັນຍານຢູ່ບາງເຂດເທົ່ານັ້ນ. ສະພາບອາກາດ ແລະ ໂຄງສ້າງບາງຢ່າງອາດສົ່ງຜົນຕໍ່ການເຊື່ອມຕໍ່. ການໂທຜ່ານດາວທຽມບໍ່ພ້ອມໃຫ້ບໍລິການ. ການໂທສຸກເສີນອາດຍັງເຊື່ອມຕໍ່ຢູ່.\n\nລະບົບອາດໃຊ້ເວລາໄລຍະໜຶ່ງຈົນກວ່າການປ່ຽນແປງໃນບັນຊີຈະສະແດງໃນການຕັ້ງຄ່າ. ຕິດຕໍ່ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ສຳລັບລາຍລະອຽດ."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບ <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"ບໍ່ສາມາດເປີດ <xliff:g id="FUNCTION">%1$s</xliff:g> ໄດ້"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"ເພື່ອເປີດ <xliff:g id="FUNCTION">%1$s</xliff:g>, ໃຫ້ສິ້ນສຸດການເຊື່ອມຕໍ່ດາວທຽມກ່ອນ"</string>

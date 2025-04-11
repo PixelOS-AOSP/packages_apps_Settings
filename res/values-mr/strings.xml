@@ -4875,17 +4875,21 @@
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"सॅटेलाइटद्वारे एसएमएस पाठवा आणि मिळवा. तुमच्या खात्यात समाविष्ट नाही."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"सॅटेलाइट मेसेजिंग, सॅटेलाइट कनेक्टिव्हिटी"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> विषयी"</string>
-    <string name="title_about_satellite_setting" msgid="9212860038048311345">"तुम्ही <xliff:g id="CARRIER_NAME">%1$s</xliff:g> खात्याच्या पात्रतेचा भाग म्हणून उपग्रहाद्वारे एसएमएस पाठवू आणि मिळवू शकता"</string>
-    <string name="category_title_your_satellite_plan" msgid="3017895097366691841">"तुमचा <xliff:g id="CARRIER_NAME">%1$s</xliff:g> प्लॅन"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"तुमच्या खात्यामध्ये मेसेजिंगचा समावेश केला आहे"</string>
+    <string name="title_about_satellite_setting" msgid="3563087940535642558">"तुम्ही पात्र <xliff:g id="CARRIER_NAME">%1$s</xliff:g> खात्यासह सॅटेलाइटद्वारे एसएमएस पाठवू आणि मिळवू शकता"</string>
+    <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"तुमचे <xliff:g id="CARRIER_NAME">%1$s</xliff:g> खाते"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"तुमच्या खात्यामध्ये उपग्रह मेसेजिंगचा समावेश आहे"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"उपग्रह मेसेजिंगचा तुमच्या खात्यामध्ये समावेश केलेला नाही"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"अधिक जाणून घ्या"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"ते कसे काम करते"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"तुमच्याकडे मोबाइल नेटवर्क नसते, तेव्हा"</string>
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"फोन नंबरला एसएमएस पाठवा"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"तुमचा फोन उपग्रहाशी ऑटो-कनेक्ट होईल. सर्वोत्तम कनेक्शनसाठी, आकाश स्पष्ट दिसेल अशा ठिकाणी बाहेर उभे रहा."</string>
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"तुमच्याकडे मोबाईल नेटवर्क नसल्यास, तुम्हाला सॅटेलाइट मेसेजिंग वापरण्याचा पर्याय दिसेल."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"तुमचा फोन उपग्रहाशी जोडल्यानंतर"</string>
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"सॅटेलाइटशी कनेक्ट करण्यासाठी पायऱ्या फॉलो करा"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"आणीबाणी सेवांसह तुम्ही कोणालाही एसएमएस पाठवू शकता. उपलब्ध असेल, तेव्हा तुमचा फोन मोबाइल नेटवर्कशी पुन्हा कनेक्ट होईल."</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> ला जास्त वेळ लागू शकतो आणि ते फक्त काही भागांमध्ये उपलब्ध आहे. हवामान आणि विशिष्ट संरचना तुमच्या सॅटेलाइट कनेक्शनवर परिणाम करू शकतात. सॅटेलाइटद्वारे कॉल करणे उपलब्ध नाही. आणीबाणी कॉल अजूनही कनेक्ट होऊ शकतात.\n\nखात्यामधील बदल सेटिंग्ज मध्ये दिसण्यासाठी काही वेळ लागू शकतो. तपशिलांसाठी <xliff:g id="CARRIER_NAME">%1$s</xliff:g> शी संपर्क साधा."</string>
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"तुमचा फोन कनेक्ट केल्यानंतर, तुम्ही आणीबाणी सेवांसोबतच इतर कोणालाही एसएमएस पाठवू शकता."</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"सॅटेलाइट कनेक्शनचा वेग कमी असू शकतो आणि ते फक्त काही भागांमध्ये उपलब्ध असते. हवामान आणि विशिष्ट संरचना कनेक्शनवर परिणाम करू शकतात. सॅटेलाइटद्वारे कॉल करणे उपलब्ध नाही. आणीबाणी कॉल अजूनही कनेक्ट होऊ शकतात.\n\nखात्यामधील बदल सेटिंग्ज मध्ये दिसण्यासाठी काही वेळ लागू शकतो. तपशिलांसाठी <xliff:g id="CARRIER_NAME">%1$s</xliff:g> शी संपर्क साधा."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> बद्दल आणखी"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> सुरू करू शकत नाही"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> सुरू करण्यासाठी, सर्वप्रथम सॅटेलाइट कनेक्शन बंद करा"</string>

@@ -79,6 +79,7 @@ public class SatelliteSettingsPreferenceCategoryController
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreferenceCategory = screen.findPreference(getPreferenceKey());
+        mPreferenceCategory.setTitle(R.string.category_title_satellite_connectivity);
     }
 
     @Override
@@ -134,11 +135,6 @@ public class SatelliteSettingsPreferenceCategoryController
             if (mPreferenceCategory == null) {
                 Log.d(TAG, "Satellite preference category is not initialized yet");
                 return;
-            }
-            if (isDataAvailable) {
-                mPreferenceCategory.setTitle(R.string.category_title_satellite_connectivity);
-            } else if (isSmsAvailable) {
-                mPreferenceCategory.setTitle(R.string.satellite_setting_title);
             }
         }
 

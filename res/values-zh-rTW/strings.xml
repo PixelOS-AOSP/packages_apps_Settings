@@ -4875,17 +4875,21 @@
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"透過衛星收發訊息 (你的帳戶不支援這項功能)。"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"衛星訊息, 衛星連線"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"關於<xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="9212860038048311345">"適用的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶支援透過衛星收發訊息"</string>
-    <string name="category_title_your_satellite_plan" msgid="3017895097366691841">"你的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」方案"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"你的帳戶支援訊息功能"</string>
+    <string name="title_about_satellite_setting" msgid="3563087940535642558">"你可以在符合資格的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶中透過衛星收發訊息"</string>
+    <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"你的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"你的帳戶支援衛星訊息"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"你的帳戶不支援衛星訊息"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"瞭解詳情"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"運作方式"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"沒有行動網路時"</string>
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"傳送訊息到某個電話號碼"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"手機會自動連上衛星。為獲得最佳連線品質，請在沒有物體遮住天空的地方使用。"</string>
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"如果沒有行動網路，你會看到使用衛星訊息的選項。"</string>
     <string name="title_supported_service" msgid="4275535165812691571">"手機連上衛星後"</string>
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"按照步驟連上衛星"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"你可以傳送訊息給任何人，包括緊急救援服務。如果有可用的行動網路，手機就會重新連線。"</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g>可能需要比較長的時間才會送達，而且這項功能僅支援部分地區。天氣和特定結構可能會影響衛星連線的品質。系統不支援衛星電話，但你仍可撥打緊急電話。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"手機連線後，你可以傳送訊息給任何人，包括緊急救援服務。"</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"衛星連線可能較緩慢，而且這項功能僅支援部分地區。天氣和特定結構可能會影響連線品質。系統不支援衛星電話，但你仍可撥打緊急電話。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"進一步瞭解<xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"無法開啟<xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"如要開啟<xliff:g id="FUNCTION">%1$s</xliff:g>，請先中斷衛星連線"</string>

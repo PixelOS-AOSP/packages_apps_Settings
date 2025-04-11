@@ -4875,17 +4875,21 @@
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Šaljite i primajte tekstualne poruke preko satelita. Nije obuhvaćeno nalogom."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"razmena poruka preko satelita, satelitska veza"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Više informacija o: <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="9212860038048311345">"Ako kod mobilnog operatera <xliff:g id="CARRIER_NAME">%1$s</xliff:g> imate nalog koji ispunjava uslove, možete da šaljete i primate tekstualne poruke preko satelita."</string>
-    <string name="category_title_your_satellite_plan" msgid="3017895097366691841">"Paket kod mobilnog operatera <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"Razmena poruka je obuhvaćena nalogom"</string>
+    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Možete da šaljete i primate poruke preko satelita ako imate <xliff:g id="CARRIER_NAME">%1$s</xliff:g> nalog koji ispunjava uslove"</string>
+    <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> nalog"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"Satelitska razmena poruka je obuhvaćena nalogom"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Satelitska razmena poruka nije obuhvaćena nalogom"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Saznajte više"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Princip rada"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"Kad nemate pristup mobilnoj mreži"</string>
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"Pošaljite poruku na broj telefona"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"Telefon će se automatski povezati na satelit. Za najbolji kvalitet veze, uverite se da vam ništa ne zaklanja pogled na nebo."</string>
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"Ako nemate mobilnu mrežu, videćete opciju da koristite razmenu poruka preko satelita."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"Kad se telefon poveže na satelit"</string>
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Pratite korake da biste se povezali sa satelitom"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Možete da šaljete poruke bilo kome, uključujući hitne službe. Telefon će se ponovo povezati na mobilnu mrežu kada bude dostupna."</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> može da traje duže i dostupna je samo u određenim oblastima. Vremenski uslovi i određene strukture mogu da utiču na satelitsku vezu. Pozivanje putem satelita nije dostupno. Hitni pozivi i dalje mogu da se obave.\n\nMože da prođe neko vreme pre nego što se promene naloga prikažu u Podešavanjima. Obratite se mobilnom operateru <xliff:g id="CARRIER_NAME">%1$s</xliff:g> za više detalja."</string>
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Kada se telefon poveže, možete da šaljete poruke bilo kome, uključujući hitne službe."</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Satelitska veza može da bude sporija i dostupna je samo u nekim oblastima. Vremenski uslovi i određene strukture mogu da utiču na vezu. Pozivanje putem satelita nije dostupno. Hitni pozivi i dalje mogu da se obave.\n\nMože da prođe neko vreme pre nego što se promene naloga prikažu u Podešavanjima. Obratite se mobilnom operateru <xliff:g id="CARRIER_NAME">%1$s</xliff:g> za više detalja."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Više o: <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Ne može da se uključi <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Da biste uključili <xliff:g id="FUNCTION">%1$s</xliff:g>, prvo završite satelitsku vezu"</string>
