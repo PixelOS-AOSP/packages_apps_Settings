@@ -227,7 +227,7 @@ public class FingerprintSettings extends SubSettings {
                 }
             }
             if (!isUdfps && context.getResources().getBoolean(
-                    com.android.platform.internal.R.bool.config_fingerprintWakeAndUnlock)) {
+                    com.android.internal.R.bool.config_fingerprintWakeAndUnlock)) {
                 controllers.add(
                         new FingerprintUnlockCategoryController(
                                 context,
